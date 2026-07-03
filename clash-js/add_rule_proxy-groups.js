@@ -8,7 +8,11 @@ const NEW_RULES = [
   "DOMAIN-SUFFIX,store.cdn.queniuqe.com,DIRECT",
   "DOMAIN-SUFFIX,steamserver.net,DIRECT",
 ];
-
+// 在 `PROXY_GROUPS` 中定义一个或多个代理组。
+//     - 每个组可直接列出 proxies（精确名称）
+//     - 或用 `match` 定义一个正则（自动匹配所有代理名）
+// 模糊匹配示例：
+//     match: /(香港|台湾|新加坡)/   → 自动匹配所有包含这些词的代理
 // 新增自定义范围的代理组
 const PROXY_GROUPS = [
   {
