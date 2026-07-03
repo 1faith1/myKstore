@@ -4,6 +4,7 @@ const NEW_RULES = [
   "DOMAIN-SUFFIX,bing.com,DIRECT",
   "DOMAIN-SUFFIX,csdn.net,DIRECT",
   "DOMAIN-SUFFIX,xdgame.com,DIRECT",
+  "DOMAIN-SUFFIX,test.com,DIRECT",
 ];
 
 // ======= 核心逻辑 =======
