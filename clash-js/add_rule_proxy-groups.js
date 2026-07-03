@@ -26,6 +26,7 @@ const PROXY_GROUPS = [
     url: "http://www.gstatic.com/generate_204",
   },
   // === 多区域组合 - 分组创建 示例 - 不会自动进行延迟测试
+  // 使用此模式match对应地址进行模糊搜索，即使没有也不影响使用
   //{
   //  name: "【日港湾】",
   //  type: "select",
