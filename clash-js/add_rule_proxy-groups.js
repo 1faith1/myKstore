@@ -16,11 +16,6 @@ const NEW_RULES = [
 // 新增自定义范围的代理组
 const PROXY_GROUPS = [
   {
-    name: "【日港湾】",
-    type: "select",
-    match: /(日本|香港|台湾)/,
-  },
-  {
     name: "【日本-自动更新】",
     match: /(日本)/,
 	// 添加自动测速功能
@@ -28,14 +23,21 @@ const PROXY_GROUPS = [
 	type: "url-test",
     url: "http://www.gstatic.com/generate_204",
   },
-  {
-    name: "【精确香港】",
-    type: "select",
-    proxies: [
-      "🇭🇰香港 01 | 高级专线",
-      "🇭🇰香港 02 | 高级专线",
-    ],
-  },
+  // === 多区域组合 - 分组创建 示例 - 不会自动进行延迟测试
+  //{
+  //  name: "【日港湾】",
+  //  type: "select",
+  //  match: /(日本|香港|台湾)/,
+  //},
+  // === 精确单一地址组合 - 分组创建 示例 - 不会自动进行延迟测试
+  //{
+  //  name: "【精确香港】",
+  //  type: "select",
+  //  proxies: [
+  //    "🇭🇰香港 01 | 高级专线",
+  //    "🇭🇰香港 02 | 高级专线",
+  //  ],
+  //},
 ];
 // ======= 用户配置区 END =======
 
