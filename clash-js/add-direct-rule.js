@@ -24,7 +24,7 @@ const main = (config) => {
   const rules = config.rules;
   const upperRules = rules.map(r => r.toUpperCase().trim());
 
-  // // 插入点：第一个 MATCH / FINAL(会在最后面添加，如果默认规则中涵盖新添加的规则会不生效)
+  // // 插入点：第一个 MATCH / FINAL(会在rules:规则的最后面添加，如果默认规则中涵盖新添加的规则会不生效)
   // let insertIndex = rules.findIndex(r => {
   //   const u = r.toUpperCase();
   //   return u.startsWith("MATCH") || u.startsWith("FINAL");
