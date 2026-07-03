@@ -1,4 +1,4 @@
-// ======= 用户配置区 start =======
+// ======= 用户配置区 START =======
 // 新追加的直连地址,开启规则后下面的所有都走本地直连，不用梯子进行访问
 const NEW_RULES = [
   "DOMAIN-SUFFIX,bing.com,DIRECT",
@@ -20,10 +20,11 @@ const PROXY_GROUPS = [
   {
     name: "【日本-自动更新】",
     match: /(日本)/,
-	// 添加自动测速功能
+	//  === 添加自动测速功能 START ===
 	interval: 3600, // 1小时测速一次
 	type: "url-test",
     url: "http://www.gstatic.com/generate_204",
+	//  === 添加自动测速功能 END ===
   },
   // === 多区域组合 - 分组创建 示例 - 不会自动进行延迟测试
   // 使用此模式match对应地址进行模糊搜索，即使没有也不影响使用
