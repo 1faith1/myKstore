@@ -8,12 +8,7 @@ const NEW_RULES = [
   "DOMAIN-SUFFIX,store.cdn.queniuqe.com,DIRECT",
   "DOMAIN-SUFFIX,steamserver.net,DIRECT",
 ];
-// 在 `PROXY_GROUPS` 中定义一个或多个代理组。
-//     - 每个组可直接列出 proxies（精确名称）
-//     - 或用 `match` 定义一个正则（自动匹配所有代理名）
-// 模糊匹配示例：
-//     match: /(香港|台湾|新加坡)/   → 自动匹配所有包含这些词的代理
-// 新增自定义范围的代理组
+
 const PROXY_GROUPS = [
   // === 单/多区域组合 - 分组创建 示例 - 自动进行延迟测试
   // 使用此模式match对应地址进行模糊搜索，即使没有也不影响使用
@@ -26,23 +21,6 @@ const PROXY_GROUPS = [
     url: "http://www.gstatic.com/generate_204",
 	//  === 添加自动测速功能 END ===
   },
-  // === 多区域组合 - 分组创建 示例 - 不会自动进行延迟测试
-  // 使用此模式match对应地址进行模糊搜索，即使没有也不影响使用
-  //{
-  //  name: "【日港湾】",
-  //  type: "select",
-  //  match: /(日本|香港|台湾)/,
-  //},
-  // === 精确单一地址组合 - 分组创建 示例 - 不会自动进行延迟测试
-  // 注意：使用此模式必须对应上当前有的地址，否则整体脚本不可用
-  //{
-  //  name: "【精确香港】",
-  //  type: "select",
-  //  proxies: [
-  //    "🇭🇰香港 01 | 高级专线",
-  //    "🇭🇰香港 02 | 高级专线",
-  //  ],
-  //},
 ];
 // ======= 用户配置区 END =======
 
