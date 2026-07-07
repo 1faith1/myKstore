@@ -1,10 +1,10 @@
 [
     {
-        "api": "http://www.饭太硬.cc/tv",
+        "api": "http://www.饭太硬.cc/tv/api.php/provide/vod",
         "name": "🌟饭太硬🌟"
     },
     {
-        "api": "http://new.王二小放牛娃.top",
+        "api": "http://new.王二小放牛娃.top/api.php/provide/vod",
         "name": "🌟牛二(新接口0)🌟"
     }
 ]
