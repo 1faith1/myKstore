@@ -7,6 +7,7 @@ const NEW_RULES = [
   "DOMAIN-SUFFIX,steamstatic.com,DIRECT",
   "DOMAIN-SUFFIX,store.cdn.queniuqe.com,DIRECT",
   "DOMAIN-SUFFIX,steamserver.net,DIRECT",
+  "IP-CIDR,154.44.20.0/24,DIRECT",
 ];
 
 const PROXY_GROUPS = [
@@ -21,6 +22,38 @@ const PROXY_GROUPS = [
     url: "http://www.gstatic.com/generate_204",
 	//  === 添加自动测速功能 END ===
   },
+  {
+    name: "【美泰德-自动更新】",
+    match: /(美国|泰国|德国)/,
+	   // 添加自动测速功能
+	   interval: 6, // 6秒测速一次
+	   type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },
+  {
+    name: "【新加坡-自动更新】",
+    match: /(新加坡)/,
+	   // 添加自动测速功能
+	   interval: 6, // 6秒测速一次
+	   type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },
+  {
+    name: "【台湾-自动更新】",
+    match: /(台湾)/,
+	   // 添加自动测速功能
+	   interval: 6, // 6秒测速一次
+	   type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },  
+  {
+    name: "【香港-自动更新】",
+    match: /(香港)/,
+	   // 添加自动测速功能
+	   interval: 6, // 6秒测速一次
+	   type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  }, 	
 ];
 // ======= 用户配置区 END =======
 
