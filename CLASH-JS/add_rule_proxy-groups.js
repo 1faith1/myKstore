@@ -16,16 +16,13 @@ const PROXY_GROUPS = [
   {
     name: "AAA - [日本-自动更新]",
     match: /(日本)/,
-    //  === 添加自动测速功能 START ===
     interval: 3600, // 1小时测速一次
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-    //  === 添加自动测速功能 END ===
   },
   {
     name: "AAA - [美泰德-自动更新]",
     match: /(美国|泰国|德国)/,
-    // 添加自动测速功能
     interval: 60,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
@@ -33,7 +30,6 @@ const PROXY_GROUPS = [
   {
     name: "AAA - [新加坡-自动更新]",
     match: /(新加坡)/,
-    // 添加自动测速功能
     interval: 60,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
@@ -41,7 +37,6 @@ const PROXY_GROUPS = [
   {
     name: "AAA - [台湾-自动更新]",
     match: /(台湾)/,
-    // 添加自动测速功能
     interval: 60,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
@@ -49,7 +44,6 @@ const PROXY_GROUPS = [
   {
     name: "AAA - [香港-自动更新]",
     match: /(香港)/,
-    // 添加自动测速功能
     interval: 60,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
