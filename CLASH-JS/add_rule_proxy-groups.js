@@ -21,19 +21,19 @@ const PROXY_GROUPS = [
     url: "http://www.gstatic.com/generate_204",
   },
   {
-    name: "AAA - [美泰德-自动更新]",
-    match: /(美国|泰国|德国)/,
-    interval: 3600,
-    type: "url-test",
-    url: "http://www.gstatic.com/generate_204",
-  },
-  {
     name: "AAA - [新加坡-自动更新]",
     match: /(新加坡)/,
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
   },
+  {
+    name: "AAA - [香港-自动更新]",
+    match: /(香港)/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },   
   {
     name: "AAA - [台湾-自动更新]",
     match: /(台湾)/,
@@ -42,12 +42,12 @@ const PROXY_GROUPS = [
     url: "http://www.gstatic.com/generate_204",
   },  
   {
-    name: "AAA - [香港-自动更新]",
-    match: /(香港)/,
+    name: "AAA - [美泰德-自动更新]",
+    match: /(美国|泰国|德国)/,
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  }, 	
+  },
 ];
 // ======= 用户配置区 END =======
 
