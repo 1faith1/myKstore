@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz"
-#EXTINF:-1 group-title="🔥INFO" tvg-name="" tvg-logo="" epg-url="",更新时间2026.07.17
+#EXTINF:-1 group-title="🔥INFO" tvg-name="" tvg-logo="" epg-url="",更新时间2026.07.18
 #============================================
 #EXTINF:-1 tvg-logo="https://img.icons8.com/color/48/000000/live.png" group-title="新西兰国家联赛",惠灵顿圣徒 VS 怀伊
 https://sgpulltc.vfqgmxh.cn/live/c7902f8f0d4245fe90b15854864a424f.m3u8?txSecret=fd4440ce2d51435d34659322e5512360&txTime=6A5DB7F8
