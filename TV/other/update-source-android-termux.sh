@@ -58,7 +58,7 @@ custom_yangweishi(){
     rm -f ${NEWFILE_2}*
   fi
   # 获取全部ys/ws的group-title并且去重
-  GET_ALL_YANGWEISHI_GROUPTITLE=$(grep -i cctv ${NEW_SOURCE_FILE_NAME} |grep -E -o "group-title=.*\,"|sed 's/,//g'|sort|uniq)
+  GET_ALL_YANGWEISHI_GROUPTITLE=$(grep -i cctv ${NEW_SOURCE_FILE_NAME} |grep -E -o "group-title=.*\,"|sed 's/,//g'|sort|uniq|grep -v "体育")
 
   # // 处理文件：根据上面GET_ALL_YANGWEISHI_GROUPTITLE进行遍历获取需要的ys/ws到NEWFILE_1文件
   for group_title in ${GET_ALL_YANGWEISHI_GROUPTITLE[@]}
