@@ -1,5 +1,5 @@
 
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 
 local_chuli_yuan_source(){
   #NEW_DATE=$(date +%Y.%m.%d)
