@@ -1,7 +1,7 @@
 #!/bin/bash
 
 local_chuli_yuan_source(){
-  NEW_DATE=$(date +%Y.%m.%d)
+  #NEW_DATE=$(date +%Y.%m.%d)
   #MY_SOURCE_ADD='https://gh-proxy.org/https://raw.githubusercontent.com/YONGHU01/myREPO/refs/heads/main/TV/test.txt'
   #NEW_SOURCE_ADD='https://live.152319.xyz/live.m3u'
   #MY_SOURCE_FILE_NAME=$( echo ${MY_SOURCE_ADD} |awk -F "/" '{print $NF}')
@@ -46,6 +46,44 @@ local_chuli_yuan_source(){
   sed -i "${FIND_ME_FILE_ONE_NUM}r ${NEW_SOURCE_FILE_NAME}" ${MY_SOURCE_FILE_NAME}
   echo '更新我的文件中时间信息'
   sed -i "s/更新时间.*/更新时间${NEW_DATE}/g" ${MY_SOURCE_FILE_NAME}
+}
+
+custom_yangweishi(){
+  # 确保两个文件为空
+  rm -f ${NEWFILE_1} ${NEWFILE_2}
+  # 获取全部ys/ws的group-title并且去重
+  GET_ALL_YANGWEISHI_GROUPTITLE=$(grep -i cctv ${FILE} |grep -E -o "group-title=.*\,"|sed 's/,//g'|sort|uniq)
+
+  # // 处理文件：根据上面GET_ALL_YANGWEISHI_GROUPTITLE进行遍历获取需要的ys/ws到NEWFILE_1文件
+  for group_title in ${GET_ALL_YANGWEISHI_GROUPTITLE[@]}
+  do
+    echo ${group_title}
+    GET_GROUP_TATLE_VALUE=$(echo ${group_title}|awk -F "\"" '{print $2}')
+    grep -A 1 ${GET_GROUP_TATLE_VALUE}  ${FILE} >>${NEWFILE_1}
+  done
+
+  # // 处理文件：将NEWFILE_1文件中的ys/ws先放在NEWFILE_2文件中
+  grep -Ei  ",cctv|卫视" -A 1 ${NEWFILE_1}|sed "/^--/d" >> ${NEWFILE_2}
+  # 在NEWFILE_2文件中转换所有带中文的ys名字为统一的ys名
+  # 获取NEWFILE_2中所有ys除带欧美的名字
+  GET_CCTV_CHINESE=$(awk -F "," '{print $NF}' ${NEWFILE_2} |grep -Ev "^http"|grep -i "cctv"|grep -Ev "欧|美"|sort|uniq)
+  for ONLY_CCTV_CHINESE in ${GET_CCTV_CHINESE[@]}
+  do
+    # 将ys的英文名字全部变为大写字母
+    UP_CCTV_CHINESE=$(echo ${ONLY_CCTV_CHINESE}|grep -Eio "[a-z]+[0-9]{1,2}|[a-z]+[0-9]{1,2}\+"|tr '[:lower:]' '[:upper:]')
+    sed -i  "s/,${ONLY_CCTV_CHINESE}/,${UP_CCTV_CHINESE}/g" ${NEWFILE_2}
+  done
+  # # // 处理文件：将根据GET_ALL_YANGWEISHI_GROUPTITLE找到的所有pd，除上面ys/ws外所有pd追加到NEWFILE_2文件
+  awk -v IGNORECASE=1 '(index(tolower($0),",cctv")>0)||(index($0,"卫视")>0){skip=1;next}skip==1{skip=0;next}1' ${NEWFILE_1} >> ${NEWFILE_2}
+  # 修改/group-title为自定义的group-title
+  sed -i "s/group-title=.*\,/group-title=\"TV汇总-${NEW_DATE}\"\,/g" ${NEWFILE_2}
+
+  # // 添加处理好的文件到kl文本中的第一行
+  # 查找文本中"#============="所在行数
+  FIND_ME_FILE_ONE_NUM=$(grep -En "#=====+" ${MY_SOURCE_FILE_NAME} |head -1|awk -F ":" '{print $1}')
+  # ====
+  echo '添加其他源到文件中'
+  sed -i "${FIND_ME_FILE_ONE_NUM}r ${NEWFILE_2}" ${MY_SOURCE_FILE_NAME}
 }
 
 upload_migu_to_github(){
@@ -109,8 +147,11 @@ upload_migu_to_github(){
   echo "完成上传"
 }
 # =================================================================
+NEW_DATE=$(date +%Y.%m.%d)
 # 下载源文件到本地处理的目录
 LOCAL_SOURCE_FILE_DIR=/tmp/localSource
+NEWFILE_1="${LOCAL_SOURCE_FILE_DIR}/tvall.1.m3u"
+NEWFILE_2="${LOCAL_SOURCE_FILE_DIR}/tvall.2.m3u"
 # github下载项目目录地址
 GITHUB_SOURCE_FILE_DIR=/tmp/githubSource
 # 我得源，下载到本地后进行处理内容
@@ -134,6 +175,7 @@ mkdir -p ${LOCAL_SOURCE_FILE_DIR}
 mkdir -p ${GITHUB_SOURCE_FILE_DIR}
 
 cd ${LOCAL_SOURCE_FILE_DIR}
+
 local_chuli_yuan_source
 cd ${GITHUB_SOURCE_FILE_DIR}
 upload_migu_to_github
