@@ -50,7 +50,12 @@ local_chuli_yuan_source(){
 
 custom_yangweishi(){
   # 确保两个文件为空
-  rm -f ${NEWFILE_1} ${NEWFILE_2}
+  if [ -f ${NEWFILE_1} ];then
+     rm -f ${NEWFILE_1}*
+  fi
+  if [ -f ${NEWFILE_2} ];then
+    rm -f ${NEWFILE_2}*
+  fi
   # 获取全部ys/ws的group-title并且去重
   GET_ALL_YANGWEISHI_GROUPTITLE=$(grep -i cctv ${NEW_SOURCE_FILE_NAME} |grep -E -o "group-title=.*\,"|sed 's/,//g'|sort|uniq)
 
