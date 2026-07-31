@@ -180,7 +180,8 @@ mkdir -p ${LOCAL_SOURCE_FILE_DIR}
 mkdir -p ${GITHUB_SOURCE_FILE_DIR}
 
 cd ${LOCAL_SOURCE_FILE_DIR}
-
 local_chuli_yuan_source
+custom_yangweishi
+
 cd ${GITHUB_SOURCE_FILE_DIR}
 upload_migu_to_github
