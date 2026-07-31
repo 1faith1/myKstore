@@ -1,6 +1,570 @@
 #EXTM3U x-tvg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz"
 #EXTINF:-1 group-title="🔥INFO" tvg-name="" tvg-logo="" epg-url="",更新时间2026.07.31
 #============================================
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="TV汇总-2026.07.31",CCTV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000004000002226&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="TV汇总-2026.07.31",CCTV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000030810&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="TV汇总-2026.07.31",CCTV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000018602&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="TV汇总-2026.07.31",CCTV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000021973&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="TV汇总-2026.07.31",CCTV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="TV汇总-2026.07.31",CCTV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=reallive-cctv1&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="TV汇总-2026.07.31",CCTV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000001000004953&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="TV汇总-2026.07.31",CCTV1
+http://111.29.9.35:6610/000000001000/1000000001000018602/index.m3u8?channel-id=ystenlive&Contentid=1000000001000018602&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="TV汇总-2026.07.31",CCTV2
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000005000031113&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="TV汇总-2026.07.31",CCTV2
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000011000031101&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="TV汇总-2026.07.31",CCTV2
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000012442&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="TV汇总-2026.07.31",CCTV2
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000023315&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="TV汇总-2026.07.31",CCTV2
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265002&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="TV汇总-2026.07.31",CCTV2
+http://111.29.9.34:6610/000000001000/1000000001000012442/index.m3u8?channel-id=ystenlive&Contentid=1000000001000012442&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="TV汇总-2026.07.31",CCTV3
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000002000020548&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="TV汇总-2026.07.31",CCTV3
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000011218&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="TV汇总-2026.07.31",CCTV3
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265003&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="TV汇总-2026.07.31",CCTV3
+http://111.29.9.38:6610/000000001000/1000000001000011218/index.m3u8?channel-id=ystenlive&Contentid=1000000001000011218&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="TV汇总-2026.07.31",CCTV4
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000005000030093&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="TV汇总-2026.07.31",CCTV4
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000011000031102&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="TV汇总-2026.07.31",CCTV4
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000002000031664&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="TV汇总-2026.07.31",CCTV4
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265004&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="TV汇总-2026.07.31",CCTV4
+http://111.29.9.40:6610/000000001000/5000000005000030093/index.m3u8?channel-id=bestzb&Contentid=5000000005000030093&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="TV汇总-2026.07.31",CCTV5
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000016619&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="TV汇总-2026.07.31",CCTV5
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000004794&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="TV汇总-2026.07.31",CCTV5
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265005&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5%2B.png" group-title="TV汇总-2026.07.31",CCTV5+
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000018504&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5%2B.png" group-title="TV汇总-2026.07.31",CCTV5+
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000020505&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5%2B.png" group-title="TV汇总-2026.07.31",CCTV5+
+http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="TV汇总-2026.07.31",CCTV6
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000018433&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="TV汇总-2026.07.31",CCTV6
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000016466&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="TV汇总-2026.07.31",CCTV6
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265006&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="TV汇总-2026.07.31",CCTV6
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=6117099895556651277&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="TV汇总-2026.07.31",CCTV7
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000005000026715&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="TV汇总-2026.07.31",CCTV7
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000011000031104&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="TV汇总-2026.07.31",CCTV7
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000017218&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="TV汇总-2026.07.31",CCTV7
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000024341&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="TV汇总-2026.07.31",CCTV7
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265007&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="TV汇总-2026.07.31",CCTV7
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=3000000010000011518&livemode=1&stbId=yu&mode=1&$5M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="TV汇总-2026.07.31",CCTV7
+http://111.29.9.40:6610/000000001000/1000000001000017218/index.m3u8?channel-id=ystenlive&Contentid=1000000001000017218&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="TV汇总-2026.07.31",CCTV8
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000003736&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="TV汇总-2026.07.31",CCTV8
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265008&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="TV汇总-2026.07.31",CCTV9
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000018384&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="TV汇总-2026.07.31",CCTV9
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000011000288020&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="TV汇总-2026.07.31",CCTV9
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014583&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="TV汇总-2026.07.31",CCTV9
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000028286&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="TV汇总-2026.07.31",CCTV9
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265009&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="TV汇总-2026.07.31",CCTV9
+http://111.29.9.33:6610/000000001000/1000000001000028286/index.m3u8?channel-id=ystenlive&Contentid=1000000001000028286&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="TV汇总-2026.07.31",CCTV10
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000004000012827&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="TV汇总-2026.07.31",CCTV10
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000016738&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="TV汇总-2026.07.31",CCTV10
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000023734&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="TV汇总-2026.07.31",CCTV10
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000026367&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="TV汇总-2026.07.31",CCTV10
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265010&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="TV汇总-2026.07.31",CCTV10
+http://111.29.9.38:6610/000000001000/1000000001000023734/index.m3u8?channel-id=ystenlive&Contentid=1000000001000023734&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="TV汇总-2026.07.31",CCTV11
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000006000040011&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="TV汇总-2026.07.31",CCTV11
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000011000031106&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="TV汇总-2026.07.31",CCTV11
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000002000019789&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="TV汇总-2026.07.31",CCTV11
+http://111.29.9.37:6610/000000001000/1000000002000019789/index.m3u8?stbId=3&livemode=1&IASHttpSessionId=OTT
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="TV汇总-2026.07.31",CCTV12
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000006000040012&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="TV汇总-2026.07.31",CCTV12
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000011000031107&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="TV汇总-2026.07.31",CCTV12
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000001640&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="TV汇总-2026.07.31",CCTV12
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000032494&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="TV汇总-2026.07.31",CCTV12
+http://111.29.9.39:6610/000000001000/1000000001000032494/index.m3u8?channel-id=ystenlive&Contentid=1000000001000032494&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="TV汇总-2026.07.31",CCTV13
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000005000001827&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="TV汇总-2026.07.31",CCTV13
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000011000031108&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="TV汇总-2026.07.31",CCTV13
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000002000021303&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="TV汇总-2026.07.31",CCTV13
+http://111.29.9.35:6610/000000001000/1000000002000021303/index.m3u8?channel-id=ystenlive&Contentid=1000000002000021303&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="TV汇总-2026.07.31",CCTV14
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000004000006673&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="TV汇总-2026.07.31",CCTV14
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000023358&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="TV汇总-2026.07.31",CCTV14
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000008170&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="TV汇总-2026.07.31",CCTV14
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000021349&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="TV汇总-2026.07.31",CCTV14
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000000172&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="TV汇总-2026.07.31",CCTV14
+http://111.29.9.36:6610/000000001000/5000000004000006673/index.m3u8?channel-id=bestzb&Contentid=5000000004000006673&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="TV汇总-2026.07.31",CCTV15
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000005000018417&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="TV汇总-2026.07.31",CCTV15
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000011000031109&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="TV汇总-2026.07.31",CCTV15
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000002000008163&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="TV汇总-2026.07.31",CCTV15
+http://111.29.9.36:6610/000000001000/1000000002000008163/index.m3u8?channel-id=ystenlive&Contentid=1000000002000008163&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="TV汇总-2026.07.31",CCTV16
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000006000233001&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="TV汇总-2026.07.31",CCTV16
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000006000233002&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="TV汇总-2026.07.31",CCTV17
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000011000288014&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="TV汇总-2026.07.31",CCTV17
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000056836&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="TV汇总-2026.07.31",CCTV17
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000006000268004&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV%E9%A3%8E%E4%BA%91%E8%B6%B3%E7%90%83.png" group-title="TV汇总-2026.07.31",
+http://111.61.236.247:9081/hls/58/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV%E9%A3%8E%E4%BA%91%E8%B6%B3%E7%90%83.png" group-title="TV汇总-2026.07.31",
+https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae4144e3fcc4b0a198dd420f911.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%864K.png" group-title="TV汇总-2026.07.31",湖南卫视4K
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%864K.png" group-title="TV汇总-2026.07.31",东方卫视4K
+http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000020424&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000012807&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000016568&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000027763&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=7347081113971056899&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山东卫视
+http://111.29.9.37:6610/000000001000/1000000001000012807/index.m3u8?channel-id=ystenlive&Contentid=1000000001000012807&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009115&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000032695&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265024&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=6954818217931477266&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000006692&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000010000030452&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000007275&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000017320&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009806&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014260&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=7889730693553663314&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8?#http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+http://ali-m-l.cztv.com/channels/lantian/channel001/720p.m3u8$1甘电HD直
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8$2甘电FD直
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$3甘电FD直
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江苏卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000004684&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江苏卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=4796340999304424198&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江苏卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000019351&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江苏卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000010000018509&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江苏卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000001828&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江苏卫视
+http://111.29.9.42:6610/000000001000/5000000004000019351/index.m3u8?channel-id=bestzb&Contentid=5000000004000019351&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东方卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000005866&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东方卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000030202&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东方卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=6081477947334326291&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东方卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000014098&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东方卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000010000032246&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",北京卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000031556&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",北京卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000011502&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",北京卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000017156&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",北京卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000021288&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",北京卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265027&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",北京卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=8186688740528366039&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",北京卫视
+http://111.29.9.42:6610/000000001000/1000000001000017156/index.m3u8?channel-id=ystenlive&Contentid=1000000001000017156&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",辽宁卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000011671&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",辽宁卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000001945&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",辽宁卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000024033&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",辽宁卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000001000008940&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",吉林卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000031117&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",吉林卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6042486520432105075&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",吉林卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000006000040013&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",贵州卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000025843&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",贵州卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000002000003169&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",贵州卫视
+http://111.29.9.44:6610/000000001000/5000000004000025843/index.m3u8?channel-id=bestzb&Contentid=5000000004000025843&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",安徽卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000023002&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",安徽卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000020780&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",安徽卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000030159&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",安徽卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000001000027288&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",安徽卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265025&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",安徽卫视
+http://111.29.9.34:6610/000000001000/1000000001000020780/index.m3u8?channel-id=ystenlive&Contentid=1000000001000020780&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",黑龙江卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000025203&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",黑龙江卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000001925&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",黑龙江卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000031107&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",黑龙江卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009082&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",黑龙江卫视
+https://idclive.hljtv.com:4430/live/hljws_own.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河北卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000006000040016&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河北卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000017118&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河北卫视
+http://111.29.9.37:6610/000000001000/1000000002000017118/index.m3u8?stbId=3&livemode=1&IASHttpSessionId=OTT
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",四川卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000006119&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",四川卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000016825&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",四川卫视
+http://111.29.9.37:6610/000000001000/1000000002000016825/index.m3u8?stbId=3&livemode=1&IASHttpSessionId=OTT
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",海南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000006211&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",海南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=7899627377857656087&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",天津卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000001000030788&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",天津卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000006827&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",天津卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000000831&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",天津卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000003475&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",天津卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265026&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",天津卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=6707942579111517572&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",天津卫视
+http://111.29.9.38:6610/000000001000/5000000004000006827/index.m3u8?channel-id=bestzb&Contentid=5000000004000006827&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖北卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000014954&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖北卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000022140&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖北卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000010355&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖北卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000024621&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖北卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265023&livemode=1&stbId=yu&mode=1&$6M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=5616881981321254555&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000030417&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000014694&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000014176&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广东卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000028357&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广东卫视
+http://111.29.9.36:6610/000000001000/1000000001000028357/index.m3u8?channel-id=ystenlive&Contentid=1000000001000028357&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",重庆卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000025797&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",重庆卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000001096&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",重庆卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000018937&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",云南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000031120&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",云南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000006000040019&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",云南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000002000024694&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",云南卫视
+http://111.29.9.37:6610/000000001000/1000000002000024694/index.m3u8?stbId=3&livemode=1&IASHttpSessionId=OTT
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",云南卫视
+http://111.43.126.240:9003/hls/60/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000011210&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000013731&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000006000268001&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000001000032154&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江西卫视
+http://111.29.9.39:6610/000000001000/5000000004000011210/index.m3u8?channel-id=bestzb&Contentid=5000000004000011210&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",兵团卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000005000266005&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%85%B5%E5%9B%A2%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",兵团卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000006000040020&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",甘肃卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000031121&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",甘肃卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000017827&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",甘肃卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000006000040021&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",甘肃卫视
+http://111.29.9.37:6610/000000001000/1000000002000017827/index.m3u8?stbId=3&livemode=1&IASHttpSessionId=OTT
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",深圳卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000024026&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",深圳卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000007410&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",深圳卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000009227&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",深圳卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000011645&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",深圳卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=5352218613763113657&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",深圳卫视
+http://111.29.9.38:6610/000000001000/1000000001000009227/index.m3u8?channel-id=ystenlive&Contentid=1000000001000009227&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000004000010584&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000001000005829&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000002000009263&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东南卫视
+http://111.29.9.37:6610/000000001000/1000000002000009263/index.m3u8?stbId=3&livemode=1&IASHttpSessionId=OTT
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000031118&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000006000040014&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000002000019837&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广西卫视
+http://111.29.9.37:6610/000000001000/1000000002000019837/index.m3u8?stbId=3&livemode=1&IASHttpSessionId=OTT
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000005000017925&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河南卫视
+http://1.94.31.214/php/hntv.php?id=hnws
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000031119&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河南卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=7304224304099543804&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河南卫视
+http://1.94.31.214/php/hntv.php?id=hnws
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",青海卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000006000040015&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",青海卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000013359&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",陕西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000007495&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%99%95%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",陕西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000006000040017&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",内蒙古卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000014080&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",内蒙古卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=7331079758781182663&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000006000040023&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山西卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000021220&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",宁夏卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000031451&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",宁夏卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000006000040022&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%BB%B6%E8%BE%B9%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",延边卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000005000266008&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%BA%B7%E5%B7%B4%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",康巴卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000005000266002&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A7%E6%B9%BE%E5%8C%BA%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",大湾区卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000011619&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A7%E6%B9%BE%E5%8C%BA%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",大湾区卫视
+http://gslbserv.itv.cmvideo.cn:80/5000000011000265001/1.m3u8?channel-id=ystenlive&Contentid=1000000002000011619&livemode=1&stbId=toShengfen&mode=1&$4M-ystenlive
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8E%A6%E9%97%A8%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",厦门卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000005000266006&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%89%E5%A4%9A%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",安多卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000006000022124&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%86%9C%E6%9E%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",农林卫视
+http://8.138.7.223/%E3%80%90%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%9A%E6%A6%B4%E8%8A%92%E7%94%B5%E8%A7%86%E3%80%91/%E5%86%9C%E6%9E%97%E5%8D%AB%E8%A7%86.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",三沙卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000288016&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%B7%E5%B3%A1%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",海峡卫视
+http://hlsbkmgsplive.miguvideo.com/migu/kailu/haixiaws/57/20230724/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",新疆卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000006000040018&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",新疆卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000029441&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",西藏卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5381760837640571168&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%A5%BF%E8%97%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",西藏卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6603041244077933770&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%97%8F%E8%AF%AD%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",藏语卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=7134589828528695864&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%97%8F%E8%AF%AD%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",藏语卫视
+http://php.jdshipin.com:8880/xztv.php?id=zy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E4%B8%9C%E6%95%99%E8%82%B2%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山东教育卫视
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000004097&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="TV汇总-2026.07.31",CCTV1
+http://111.29.9.33:6610/000000001000/1000000001000021973/index.m3u8?channel-id=bestzb&Contentid=1000000001000021973&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="TV汇总-2026.07.31",CCTV2
+http://111.29.9.33:6610/000000001000/1000000001000012442/index.m3u8?channel-id=bestzb&Contentid=1000000001000012442&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="TV汇总-2026.07.31",CCTV3
+http://111.29.9.33:6610/000000001000/1000000001000011218/index.m3u8?channel-id=bestzb&Contentid=1000000001000011218&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="TV汇总-2026.07.31",CCTV4
+http://111.29.9.33:6610/000000001000/1000000002000031664/index.m3u8?channel-id=bestzb&Contentid=1000000002000031664&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5%2B.png" group-title="TV汇总-2026.07.31",CCTV5+
+http://111.29.9.33:6610/000000001000/1000000001000020505/index.m3u8?channel-id=bestzb&Contentid=1000000001000020505&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="TV汇总-2026.07.31",CCTV5
+http://111.29.9.33:6610/000000001000/1000000001000004794/index.m3u8?channel-id=bestzb&Contentid=1000000001000004794&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="TV汇总-2026.07.31",CCTV6
+http://111.29.9.33:6610/000000001000/1000000001000016466/index.m3u8?channel-id=bestzb&Contentid=1000000001000016466&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="TV汇总-2026.07.31",CCTV7
+http://111.29.9.33:6610/000000001000/1000000001000017218/index.m3u8?channel-id=bestzb&Contentid=1000000001000017218&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="TV汇总-2026.07.31",CCTV8
+http://111.29.9.33:6610/000000001000/1000000001000003736/index.m3u8?channel-id=bestzb&Contentid=1000000001000003736&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="TV汇总-2026.07.31",CCTV9
+http://111.29.9.33:6610/000000001000/1000000001000014583/index.m3u8?channel-id=bestzb&Contentid=1000000001000014583&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="TV汇总-2026.07.31",CCTV10
+http://111.29.9.33:6610/000000001000/1000000001000023734/index.m3u8?channel-id=bestzb&Contentid=1000000001000023734&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="TV汇总-2026.07.31",CCTV11
+http://111.29.9.33:6610/000000001000/1000000002000019789/index.m3u8?channel-id=bestzb&Contentid=1000000002000019789&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="TV汇总-2026.07.31",CCTV12
+http://111.29.9.33:6610/000000001000/1000000001000001640/index.m3u8?channel-id=bestzb&Contentid=1000000001000001640&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="TV汇总-2026.07.31",CCTV13
+http://111.29.9.33:6610/000000001000/1000000002000021303/index.m3u8?channel-id=bestzb&Contentid=1000000002000021303&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="TV汇总-2026.07.31",CCTV14
+http://111.29.9.33:6610/000000001000/1000000001000008170/index.m3u8?channel-id=bestzb&Contentid=1000000001000008170&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="TV汇总-2026.07.31",CCTV15
+http://111.29.9.33:6610/000000001000/1000000002000008163/index.m3u8?channel-id=bestzb&Contentid=1000000002000008163&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="TV汇总-2026.07.31",CCTV17
+http://111.29.9.33:6610/000000001000/1000000005000056836/index.m3u8?channel-id=bestzb&Contentid=1000000005000056836&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",黑龙江卫视
+http://111.29.9.33:6610/000000001000/1000000001000001925/index.m3u8?channel-id=bestzb&Contentid=1000000001000001925&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%B4%B5%E5%B7%9E%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",贵州卫视
+http://111.29.9.33:6610/000000001000/1000000002000003169/index.m3u8?channel-id=bestzb&Contentid=1000000002000003169&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河北卫视
+http://111.29.9.33:6610/000000001000/1000000002000017118/index.m3u8?channel-id=bestzb&Contentid=1000000002000017118&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",北京卫视
+http://111.29.9.33:6610/000000001000/1000000001000017156/index.m3u8?channel-id=bestzb&Contentid=1000000001000017156&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东方卫视
+http://111.29.9.33:6610/000000001000/1000000001000005866/index.m3u8?channel-id=bestzb&Contentid=1000000001000005866&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",天津卫视
+http://111.29.9.33:6610/000000001000/1000000001000000831/index.m3u8?channel-id=bestzb&Contentid=1000000001000000831&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%8D%E5%BA%86%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",重庆卫视
+http://111.29.9.33:6610/000000001000/1000000001000001096/index.m3u8?channel-id=bestzb&Contentid=1000000001000001096&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖南卫视
+http://111.29.9.33:6610/000000001000/1000000001000009115/index.m3u8?channel-id=bestzb&Contentid=1000000001000009115&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",浙江卫视
+http://111.29.9.33:6610/000000001000/1000000001000009806/index.m3u8?channel-id=bestzb&Contentid=1000000001000009806&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",深圳卫视
+http://111.29.9.33:6610/000000001000/1000000001000009227/index.m3u8?channel-id=bestzb&Contentid=1000000001000009227&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",河南卫视
+http://111.29.9.33:6610/000000001000/5000000011000031119/index.m3u8?channel-id=bestzb&Contentid=5000000011000031119&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",山东卫视
+http://111.29.9.33:6610/000000001000/1000000001000012807/index.m3u8?channel-id=bestzb&Contentid=1000000001000012807&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",湖北卫视
+http://111.29.9.33:6610/000000001000/1000000001000010355/index.m3u8?channel-id=bestzb&Contentid=1000000001000010355&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",安徽卫视
+http://111.29.9.33:6610/000000001000/1000000001000020780/index.m3u8?channel-id=bestzb&Contentid=1000000001000020780&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江苏卫视
+http://111.29.9.33:6610/000000001000/1000000001000001828/index.m3u8?channel-id=bestzb&Contentid=1000000001000001828&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B1%9F%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",江西卫视
+http://111.29.9.33:6610/000000001000/1000000001000013731/index.m3u8?channel-id=bestzb&Contentid=1000000001000013731&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广西卫视
+http://111.29.9.33:6610/000000001000/1000000002000019837/index.m3u8?channel-id=bestzb&Contentid=1000000002000019837&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",广东卫视
+http://111.29.9.33:6610/000000001000/1000000001000014176/index.m3u8?channel-id=bestzb&Contentid=1000000001000014176&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",辽宁卫视
+http://111.29.9.33:6610/000000001000/1000000001000001945/index.m3u8?channel-id=bestzb&Contentid=1000000001000001945&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",吉林卫视
+http://111.29.9.33:6610/000000001000/5000000011000031117/index.m3u8?channel-id=bestzb&Contentid=5000000011000031117&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",四川卫视
+http://111.29.9.33:6610/000000001000/1000000002000016825/index.m3u8?channel-id=bestzb&Contentid=1000000002000016825&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%BA%91%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",云南卫视
+http://111.29.9.33:6610/000000001000/1000000002000024694/index.m3u8?channel-id=bestzb&Contentid=1000000002000024694&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",甘肃卫视
+http://111.29.9.33:6610/000000001000/1000000002000017827/index.m3u8?channel-id=bestzb&Contentid=1000000002000017827&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",青海卫视
+http://111.29.9.33:6610/000000001000/1000000002000013359/index.m3u8?channel-id=bestzb&Contentid=1000000002000013359&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",东南卫视
+http://111.29.9.33:6610/000000001000/1000000002000009263/index.m3u8?channel-id=bestzb&Contentid=1000000002000009263&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%B7%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",海南卫视
+http://111.29.9.33:6610/000000001000/5000000004000006211/index.m3u8?channel-id=bestzb&Contentid=5000000004000006211&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%81%E5%A4%8F%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",宁夏卫视
+http://111.29.9.33:6610/000000001000/1000000002000031451/index.m3u8?channel-id=bestzb&Contentid=1000000002000031451&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%96%B0%E7%96%86%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",新疆卫视
+http://111.29.9.33:6610/000000001000/1000000002000029441/index.m3u8?channel-id=bestzb&Contentid=1000000002000029441&livemode=1&stbId=3
 #EXTINF:-1 tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="TV汇总-2026.07.31",CCTV1
 http://wfenf.x3322.net:7788/608807420
 #EXTINF:-1 tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="TV汇总-2026.07.31",CCTV2
@@ -205,6 +769,110 @@ http://47.104.178.59:3566/738910535
 http://47.104.178.59:3566/738910914
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86.png" group-title="TV汇总-2026.07.31",三沙卫视
 http://47.104.178.59:3566/961023778
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN.png" group-title="TV汇总-2026.07.31",CGTN
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=4810873738577663591&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN.png" group-title="TV汇总-2026.07.31",CGTN
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000002000009569&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN.png" group-title="TV汇总-2026.07.31",CGTN
+https://0472.org/hls/cgtn.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E9%98%BF%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN阿语
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000006000280001&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E9%98%BF%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN阿语
+https://0472.org/hls/cgtna.m3u8?3.24.160:5140
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E9%98%BF%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN阿语
+https://0472.org/hls/cgtna.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E8%A5%BF%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN西语
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000006000280002&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E8%A5%BF%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN西语
+https://0472.org/hls/cgtnx.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E6%B3%95%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN法语
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000006000280003&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E6%B3%95%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN法语
+https://0472.org/hls/cgtnf.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E6%B3%95%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN法语
+http://zqh2333.top:2222/rtp/239.93.55.50:5140
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E6%B3%95%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN法语
+https://0472.org/hls/cgtnf.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E4%BF%84%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN俄语
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000006000280004&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E4%BF%84%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN俄语
+https://0472.org/hls/cgtne.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E4%BF%84%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN俄语
+https://0472.org/hls/cgtne.m3u8?3.24.170:5140
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E4%BF%84%E8%AF%AD.png" group-title="TV汇总-2026.07.31",CGTN俄语
+https://0472.org/hls/cgtne.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E8%AE%B0%E5%BD%95.png" group-title="TV汇总-2026.07.31",CGTN记录
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=8428799834696888424&livemode=1&stbId=yu&mode=1&$2M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E8%AE%B0%E5%BD%95.png" group-title="TV汇总-2026.07.31",CGTN记录
+https://0472.org/hls/cgtnd.m3u8?3.24.120:5140
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E8%AE%B0%E5%BD%95.png" group-title="TV汇总-2026.07.31",CGTN记录
+https://0472.org/hls/cgtnd.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV1.png" group-title="TV汇总-2026.07.31",CETV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000002000027253&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV1.png" group-title="TV汇总-2026.07.31",CETV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000288015&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV1.png" group-title="TV汇总-2026.07.31",CETV1
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000002000002652&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV2.png" group-title="TV汇总-2026.07.31",CETV2
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000288017&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV2.png" group-title="TV汇总-2026.07.31",CETV2
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000005000266004&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV2.png" group-title="TV汇总-2026.07.31",CETV2
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000031201&livemode=1&stbId=yu&mode=1&$3M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV4.png" group-title="TV汇总-2026.07.31",CETV4
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000031126&livemode=1&stbId=yu&mode=1&$8M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV4.png" group-title="TV汇总-2026.07.31",CETV4
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000005000025333&livemode=1&stbId=yu&mode=1&$4M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CETV4.png" group-title="TV汇总-2026.07.31",CETV4
+http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000006000012123&livemode=1&stbId=yu&mode=1&$3M
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CEC%E6%B1%89%E8%AF%AD%E6%96%87%E5%8C%96.png" group-title="TV汇总-2026.07.31",CEC汉语文化
+http://play.cec-tv.com.cn/channel/cec-tv1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CEC%E5%9B%BD%E9%99%85%E6%97%85%E6%B8%B8.png" group-title="TV汇总-2026.07.31",CEC国际旅游
+http://play.cec-tv.com.cn/channel/cec-tv2.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CEC%E5%9B%BD%E9%99%85%E6%95%99%E8%82%B2.png" group-title="TV汇总-2026.07.31",CEC国际教育
+http://play.cec-tv.com.cn/channel/cec-tv3.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CEC%E5%9B%BD%E9%99%85%E5%81%A5%E5%BA%B7.png" group-title="TV汇总-2026.07.31",CEC国际健康
+http://play.cec-tv.com.cn/channel/cec-tv4.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B21%E5%8F%B0.png" group-title="TV汇总-2026.07.31",中国教育1台
+http://111.29.9.33:6610/000000001000/5000000002000002652/index.m3u8?channel-id=bestzb&Contentid=5000000002000002652&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B24%E5%8F%B0.png" group-title="TV汇总-2026.07.31",中国教育4台
+http://111.29.9.33:6610/000000001000/5000000011000031126/index.m3u8?channel-id=bestzb&Contentid=5000000011000031126&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%B6%85%E7%BA%A7%E7%94%B5%E8%A7%86%E5%89%A7.png" group-title="TV汇总-2026.07.31",超级电视剧
+http://111.29.9.33:6610/000000001000/1000000001000008139/index.m3u8?channel-id=bestzb&Contentid=1000000001000008139&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8C%97%E4%BA%AC%E7%BA%AA%E5%AE%9E%E7%A7%91%E6%95%99.png" group-title="TV汇总-2026.07.31",北京纪实科教
+http://111.29.9.33:6610/000000001000/1000000001000028380/index.m3u8?channel-id=bestzb&Contentid=1000000001000028380&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E.png" group-title="TV汇总-2026.07.31",金鹰纪实
+http://111.29.9.33:6610/000000001000/5000000011000031203/index.m3u8?channel-id=bestzb&Contentid=5000000011000031203&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%91%E8%8E%93%E7%94%B5%E5%BD%B1.png" group-title="TV汇总-2026.07.31",黑莓电影
+http://111.29.9.33:6610/000000001000/1000000004000019624/index.m3u8?channel-id=bestzb&Contentid=1000000004000019624&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%B6%85%E7%BA%A7%E7%94%B5%E5%BD%B1.png" group-title="TV汇总-2026.07.31",超级电影
+http://111.29.9.33:6610/000000001000/1000000001000012884/index.m3u8?channel-id=bestzb&Contentid=1000000001000012884&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%AE%B6%E5%BA%AD%E5%89%A7%E5%9C%BA.png" group-title="TV汇总-2026.07.31",家庭剧场
+http://111.29.9.33:6610/000000001000/1000000004000008284/index.m3u8?channel-id=bestzb&Contentid=1000000004000008284&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%83%8A%E6%82%9A%E6%82%AC%E7%96%91.png" group-title="TV汇总-2026.07.31",惊悚悬疑
+http://111.29.9.33:6610/000000001000/1000000004000024282/index.m3u8?channel-id=bestzb&Contentid=1000000004000024282&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%B2%BE%E5%93%81%E5%A4%A7%E5%89%A7.png" group-title="TV汇总-2026.07.31",精品大剧
+http://111.29.9.33:6610/000000001000/1000000004000013968/index.m3u8?channel-id=bestzb&Contentid=1000000004000013968&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%98%8E%E6%98%9F%E5%A4%A7%E7%89%87.png" group-title="TV汇总-2026.07.31",明星大片
+http://111.29.9.33:6610/000000001000/1000000004000019008/index.m3u8?channel-id=bestzb&Contentid=1000000004000019008&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%B6%85%E7%BA%A7%E4%BD%93%E8%82%B2.png" group-title="TV汇总-2026.07.31",超级体育
+http://111.29.9.33:6610/000000001000/1000000004000007755/index.m3u8?channel-id=bestzb&Contentid=1000000004000007755&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%B6%85%E7%BA%A7%E7%BB%BC%E8%89%BA.png" group-title="TV汇总-2026.07.31",超级综艺
+http://111.29.9.33:6610/000000001000/1000000004000023658/index.m3u8?channel-id=bestzb&Contentid=1000000004000023658&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%91%E7%89%8C%E7%BB%BC%E8%89%BA.png" group-title="TV汇总-2026.07.31",金牌综艺
+http://111.29.9.33:6610/000000001000/1000000004000026167/index.m3u8?channel-id=bestzb&Contentid=1000000004000026167&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%82%AB%E8%88%9E%E6%9C%AA%E6%9D%A5.png" group-title="TV汇总-2026.07.31",炫舞未来
+http://111.29.9.33:6610/000000001000/1000000001000000515/index.m3u8?channel-id=bestzb&Contentid=1000000001000000515&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%91%E9%B9%B0%E5%8D%A1%E9%80%9A.png" group-title="TV汇总-2026.07.31",金鹰卡通
+http://111.29.9.33:6610/000000001000/5000000006000040024/index.m3u8?channel-id=bestzb&Contentid=5000000006000040024&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%93%88%E5%93%88%E7%82%AB%E5%8A%A8.png" group-title="TV汇总-2026.07.31",哈哈炫动
+http://111.29.9.33:6610/000000001000/5000000011000031123/index.m3u8?channel-id=bestzb&Contentid=5000000011000031123&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%98%89%E4%BD%B3%E5%8D%A1%E9%80%9A.png" group-title="TV汇总-2026.07.31",嘉佳卡通
+http://111.29.9.33:6610/000000001000/1000000002000025964/index.m3u8?channel-id=bestzb&Contentid=1000000002000025964&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%91%E8%8E%93%E5%8A%A8%E7%94%BB.png" group-title="TV汇总-2026.07.31",黑莓动画
+http://111.29.9.33:6610/000000001000/1000000004000021734/index.m3u8?channel-id=bestzb&Contentid=1000000004000021734&livemode=1&stbId=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BA%AF%E4%BA%AB4K.png" group-title="TV汇总-2026.07.31",纯享4K
+http://111.29.9.33:6610/000000001000/1000000004000011651/index.m3u8?channel-id=bestzb&Contentid=1000000004000011651&livemode=1&stbId=3
 #EXTINF:-1 tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/356/202502251602_1740470541608_H32_1080.webp" group-title="TV汇总-2026.07.31",CGTN外语纪录
 http://wfenf.x3322.net:7788/609006487
 #EXTINF:-1 tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp" group-title="TV汇总-2026.07.31",CGTN阿拉伯语
@@ -809,46 +1477,42 @@ http://wfenf.x3322.net:7788/966454288
 http://wfenf.x3322.net:7788/966454307
 #EXTINF:-1 tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/3/31/1000000002391064d391.png" group-title="体育-明天08-01",UFC格斗之夜 UFC格斗之夜：梅迪茨迎战匪帮D罗 智能字幕 21:55
 http://wfenf.x3322.net:7788/966474258
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png" group-title="WNBA",🏀 王牌 vs 自由人 24-20 [直播2]
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png" group-title="WNBA",🏀 王牌 vs 自由人 40-35 [直播2]
 https://live.666666.zip/live/3909068.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png" group-title="WNBA",🏀 王牌 vs 自由人 24-20 [直播2] (原声线路)
-https://pul-tenm.gkykp.com/live/hd-en-2-3909068.m3u8?txSecret=ae0fc78ab98a122e1e42ff6c3aafea6f&txTime=6A6D57D1
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/5b7e2bd8e447df96759bba3e225960ea.png" group-title="南球杯",⚽ 奥伊金斯 vs 博卡青年 1-0 [直播9]
-https://live.666666.zip/live/4546917.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/5b7e2bd8e447df96759bba3e225960ea.png" group-title="南球杯",⚽ 奥伊金斯 vs 博卡青年 1-0 [直播9] (原声线路)
-https://pul-tenm.gkykp.com/live/sd-1-4546917.m3u8?txSecret=4f39d7235483c33c20d745d995932495&txTime=6A6D57D1
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/70c92764e181ce7abe6176c411a93fe3.png" group-title="哥伦甲",⚽ 布卡拉曼加 vs 拉尼洛斯 1-0 [直播11]
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png" group-title="WNBA",🏀 王牌 vs 自由人 40-35 [直播2] (原声线路)
+https://pul-tenm.gkykp.com/live/hd-en-2-3909068.m3u8?txSecret=9fe32746ccfefc3bb74b0e8cb0ecab24&txTime=6A6D5CF8
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/70c92764e181ce7abe6176c411a93fe3.png" group-title="哥伦甲",⚽ 布卡拉曼加 vs 拉尼洛斯 1-1 [直播11]
 https://live.666666.zip/live/4569207.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/70c92764e181ce7abe6176c411a93fe3.png" group-title="哥伦甲",⚽ 布卡拉曼加 vs 拉尼洛斯 1-0 [直播11] (原声线路)
-https://pul-tenm.gkykp.com/live/sd-1-4569207.m3u8?txSecret=cf054b67aaac8ea5e9a523f5b746d3bf&txTime=6A6D57D1
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/725eb4c2c8cb583f3aca5cab94d96080.png" group-title="墨联",⚽ 热浪 vs 蜜蜂 40-32 [直播16]
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/70c92764e181ce7abe6176c411a93fe3.png" group-title="哥伦甲",⚽ 布卡拉曼加 vs 拉尼洛斯 1-1 [直播11] (原声线路)
+https://pul-tenm.gkykp.com/live/sd-1-4569207.m3u8?txSecret=393a4be61c6399f4106214bcb2bf172e&txTime=6A6D5CF8
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/29ef62eeae45912c86e4641ea1dfd7b4.png" group-title="墨联",⚽ 黑豹 vs 皇家部队 7-13 [直播4]
+https://live.666666.zip/live/3924038.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/29ef62eeae45912c86e4641ea1dfd7b4.png" group-title="墨联",⚽ 黑豹 vs 皇家部队 7-13 [直播4] (原声线路)
+https://pul-tenm.gkykp.com/live/sd-2-3924038.m3u8?txSecret=2b03a6ba0de67367953e46e97d374594&txTime=6A6D5CF8
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/725eb4c2c8cb583f3aca5cab94d96080.png" group-title="墨联",⚽ 热浪 vs 蜜蜂 54-51 [直播16]
 https://live.666666.zip/live/3923885.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/725eb4c2c8cb583f3aca5cab94d96080.png" group-title="墨联",⚽ 热浪 vs 蜜蜂 40-32 [直播16] (原声线路)
-https://pul-tenm.gkykp.com/live/sd-2-3923885.m3u8?txSecret=9560a77dd55ac0841fe6a2bcfea20010&txTime=6A6D57D1
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/725eb4c2c8cb583f3aca5cab94d96080.png" group-title="墨联",⚽ 热浪 vs 蜜蜂 54-51 [直播16] (原声线路)
+https://pul-tenm.gkykp.com/live/sd-2-3923885.m3u8?txSecret=9dc0d1b9279dfc10e2f67dd0dec95bc1&txTime=6A6D5CF8
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/96f56d32d59119eb9bf3cab69e9a19f8.png" group-title="墨西乙",⚽ 阿莱布里赫 vs 黄金河虎 0-2 [直播12]
 https://live.666666.zip/live/4578782.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/96f56d32d59119eb9bf3cab69e9a19f8.png" group-title="墨西乙",⚽ 阿莱布里赫 vs 黄金河虎 0-2 [直播12] (原声线路)
-https://pul-tenm.gkykp.com/live/sd-1-4578782.m3u8?txSecret=5d68a37a58735cd9d18a0b09581e7128&txTime=6A6D57D1
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/4f7a0095b9a3a4756318efd55451badb.png" group-title="巴西甲",⚽ 科里蒂巴 vs 克鲁塞罗 0-1 [直播8]
-https://live.666666.zip/live/4465859.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/4f7a0095b9a3a4756318efd55451badb.png" group-title="巴西甲",⚽ 科里蒂巴 vs 克鲁塞罗 0-1 [直播8] (原声线路)
-https://pul-tenm.gkykp.com/live/sd-1-4465859.m3u8?txSecret=4586b2cd14a627f49cada73adb6345be&txTime=6A6D57D1
+https://pul-tenm.gkykp.com/live/sd-1-4578782.m3u8?txSecret=42459bc26899026438f48ecc0d03877e&txTime=6A6D5CF8
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/3653cce234494bfbd33e077f4a028f66.png" group-title="美青杯",⚽ 墨西哥U20 vs 危地马拉U20 3-0 [直播20]
 https://live.666666.zip/live/4589450.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/3653cce234494bfbd33e077f4a028f66.png" group-title="美青杯",⚽ 墨西哥U20 vs 危地马拉U20 3-0 [直播20] (原声线路)
-https://pul-tenm.gkykp.com/live/sd-1-4589450.m3u8?txSecret=dde47ad3e791e04ebcdb410cd626e47f&txTime=6A6D57D1
+https://pul-tenm.gkykp.com/live/sd-1-4589450.m3u8?txSecret=2a3b1890ce5b912d44f3071a70c46730&txTime=6A6D5CF8
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/957bdc50c307e2a9b526b34b3792da1a.png" group-title="⚽ 足球回放",⚽ [回放] 桑德兰 vs 利兹联 0-1 2026-07-31 07:30
 https://live.666666.zip/video/64664c68vodsgp1386416388/36b7b8e65001834814167793554/playlist_eof.m3u8?t=6a6c4917&us=a59f8c5a86&sign=942c6528fe05d93aa7502bf01cd93830
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/aa4d61da1df31972e52e1e62f90ec558.png" group-title="⚽ 足球回放",⚽ [回放] 科林蒂安 vs 巴拉纳竞技 0-0 2026-07-31 06:30
 https://live.666666.zip/video/64664c68vodsgp1386416388/446fc41b5001834814171047736/playlist_eof.m3u8?t=6a6c498f&us=2937d6d07d&sign=220959b8e371e72bd76beff06c6f4b22
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png" group-title="⚽ 足球回放",⚽ [回放] 哥斯达黎加U20 vs 安提瓜和巴布达U20 4-1 2026-07-31 06:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/ce5709895001834814169693538/playlist_eof.m3u8?t=6a6c4033&us=1a8b9f1883&sign=33723cd3fe57914d61207d383ffb3106
+https://live.666666.zip/video/64664c68vodsgp1386416388/ce5709895001834814169693538/playlist_eof.m3u8?t=6a6c4f54&us=4c2232eb33&sign=9e2d32ee8c951f3baae2a27a5e6e35b2
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/44cb6b8a76b2194e16849eace4743e54.png" group-title="⚽ 足球回放",⚽ [回放] 塔勒瑞斯 vs 萨斯菲尔德 1-3 2026-07-31 06:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/b4fe90565001834814121622395/playlist_eof.m3u8?t=6a6c41d4&us=14e0e5e471&sign=179c5fd177815748fbb8ac27afdd3dfe
+https://live.666666.zip/video/64664c68vodsgp1386416388/b4fe90565001834814121622395/playlist_eof.m3u8?t=6a6c505a&us=8b7d2f42d4&sign=b61cf7a3abb02a92bf631ec78bc81893
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/7e779bba58b944c8cfa786d857430383.png" group-title="⚽ 足球回放",⚽ [回放] 门多萨独立 vs 飓风队 2-1 2026-07-31 06:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/a52702755001834814162045354/playlist_eof.m3u8?t=6a6c4254&us=ff4a127e42&sign=d8a06b8ba17a0c630bf942af6626fdb5
+https://live.666666.zip/video/64664c68vodsgp1386416388/a52702755001834814162045354/playlist_eof.m3u8?t=6a6c5100&us=2b5a7380a6&sign=649531c4ad0660617dd09743afc2863c
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/e1f593199d4ee1d98b2db8a9522b605f.png" group-title="⚽ 足球回放",⚽ [回放] 格雷米奥 vs 玻利瓦尔 0-1 2026-07-31 06:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/bfdcb4dd5001834814169029560/playlist_eof.m3u8?t=6a6c4246&us=d772608e18&sign=2524d7e389c11f16a3d3ecd41a36edd4
+https://live.666666.zip/video/64664c68vodsgp1386416388/bfdcb4dd5001834814169029560/playlist_eof.m3u8?t=6a6c5100&us=2b5a7380a6&sign=bc814bca6b8c6c09eb374ffd4d567439
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/a82c9684d567971fb6a08d24d027892a.png" group-title="⚽ 足球回放",⚽ [回放] 亚松森自由 vs 雷科莱塔 4-1 2026-07-31 05:30
 https://live.666666.zip/video/64664c68vodsgp1386416388/779b12fb5001834814168232707/playlist_eof.m3u8?t=6a6c49b0&us=821a53e33b&sign=8f73a7835a0a3f1ad48f8c6fad357e30
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/489f996b5ad720c508e1df7b86a33ccb.png" group-title="⚽ 足球回放",⚽ [回放] 竞技足球会 vs 波图维耶霍 1-0 2026-07-31 04:30
@@ -856,21 +1520,21 @@ https://live.666666.zip/video/64664c68vodsgp1386416388/efc6bb3b50018348141259099
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/d53d8c2e307894416c0b1989482fd022.png" group-title="⚽ 足球回放",⚽ [回放] 恩维加多 vs 云斯卡尔达斯 0-3 2026-07-31 04:30
 https://live.666666.zip/video/64664c68vodsgp1386416388/b27b90395001834814155842630/playlist_eof.m3u8?t=6a6c49de&us=cfb93d0a69&sign=c9cb031fc3b56179f9aa8b3e4da7c8ec
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/12657f205241bc10dffe368aa05fc734.png" group-title="⚽ 足球回放",⚽ [回放] 希伯尼安 vs 马利舍瓦 4-1 2026-07-31 03:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/04a7e2d15001834814122771312/playlist_eof.m3u8?t=6a6c4393&us=93f909453b&sign=94370fe543942f65590ae98c469041a2
+https://live.666666.zip/video/64664c68vodsgp1386416388/04a7e2d15001834814122771312/playlist_eof.m3u8?t=6a6c51ce&us=a3f72dafaf&sign=d66790400643ebd93659536bbdc477c8
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/1fe75f826dab40e6e89cbe961c7e9116.png" group-title="⚽ 足球回放",⚽ [回放] 布拉加 vs 潘切沃泽勒 4-0 2026-07-31 03:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/f329bd045001834814108497871/playlist_eof.m3u8?t=6a6c42ef&us=46c308b9dd&sign=c8bc541020a2220d3bbff6af536c203c
+https://live.666666.zip/video/64664c68vodsgp1386416388/f329bd045001834814108497871/playlist_eof.m3u8?t=6a6c5100&us=2b5a7380a6&sign=ae36d5ce1a0664b547f1c5c461ac3438
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/ed26535c0328426c282e320d201c18e6.png" group-title="⚽ 足球回放",⚽ [回放] 圣洛伦佐体育会 vs 亚松森瓜拉尼 0-1 2026-07-31 03:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/75639c7a5001834814049151267/playlist_eof.m3u8?t=6a6c4376&us=f2ffb3607a&sign=0a8bbcb707017205d4d994913419c32f
+https://live.666666.zip/video/64664c68vodsgp1386416388/75639c7a5001834814049151267/playlist_eof.m3u8?t=6a6c5213&us=255131a731&sign=0dbf3499667824dd2a82d63e38781c53
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/de0b90b1c49a62ed9dcca91f67ac5c90.png" group-title="⚽ 足球回放",⚽ [回放] 迪纳摩城 vs 亚穆尼积 3-0 2026-07-31 03:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/6e30ae345001834814110083466/playlist_eof.m3u8?t=6a6c41c4&us=23ca880142&sign=84d758d773ba06b27009c7c410031bc6
+https://live.666666.zip/video/64664c68vodsgp1386416388/6e30ae345001834814110083466/playlist_eof.m3u8?t=6a6c5047&us=b0179c8334&sign=66fcbda49ef5f79382e8745011f2a120
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/1ea6e8445fd90988fff26192b355c9db.png" group-title="⚽ 足球回放",⚽ [回放] 尼克希奇 vs ML麦克斯林 1-2 2026-07-31 03:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/82c2227d5001834813973225137/playlist_eof.m3u8?t=6a6c4187&us=fc3673a200&sign=56a581455bb89daf1eb89aa31ada0323
+https://live.666666.zip/video/64664c68vodsgp1386416388/82c2227d5001834813973225137/playlist_eof.m3u8?t=6a6c50c4&us=5fd956ec7f&sign=6e78a06d8ac197ae3fa3b6bc416cc1e0
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/78360445c12fa3fdc8b489486fff4eb6.png" group-title="⚽ 足球回放",⚽ [回放] 本菲卡 vs 圣加仑 5-0 2026-07-31 03:00
 https://live.666666.zip/video/64664c68vodsgp1386416388/a39e15fd5001834814148413719/playlist_eof.m3u8?t=6a6c439f&us=f14b477915&sign=4e8dea0fe53ef6f8f41ffd5175596e12
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/e62d9ac93919ce609ccc531a44c69bee.png" group-title="⚽ 足球回放",⚽ [回放] 科佩尔 vs NSI鲁纳维克 0-2 2026-07-31 02:45
 https://live.666666.zip/video/64664c68vodsgp1386416388/3c1e9a365001834814157147231/playlist_eof.m3u8?t=6a6c4ab4&us=1f019c7134&sign=03c740533ba9067a9bd8aa36038acbbe
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/af38ebe6dc3801e845274974a444b990.png" group-title="⚽ 足球回放",⚽ [回放] 科尔雷恩 vs 赫尔辛基 0-3 2026-07-31 02:45
-https://live.666666.zip/video/64664c68vodsgp1386416388/a58178fd5001834813970673331/playlist_eof.m3u8?t=6a6c414e&us=89c512a4b6&sign=257802fde83f660df0cb8f7b4f9feb68
+https://live.666666.zip/video/64664c68vodsgp1386416388/a58178fd5001834813970673331/playlist_eof.m3u8?t=6a6c4fe2&us=f7336df233&sign=0fb799f61d02af34f41705c2956a5d7f
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/6f927eb040bdd5c972a9343fd9c8b873.png" group-title="⚽ 足球回放",⚽ [回放] 克卢日 vs 艾拉斯克特 3-0 2026-07-31 02:30
 https://live.666666.zip/video/64664c68vodsgp1386416388/76b52e825001834814144714895/playlist_eof.m3u8?t=6a6c4c57&us=6de2112f38&sign=0db9a02513bb9519eb1dc1b6160562cc
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/eb9b870a25645ded21a7d5e41c207b0a.png" group-title="⚽ 足球回放",⚽ [回放] GKS卡托威斯 vs 日利纳 3-1 2026-07-31 02:30
@@ -894,17 +1558,17 @@ https://live.666666.zip/video/64664c68vodsgp1386416388/574c1ad350018348141542127
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/187929503752357480bce47813a9741f.png" group-title="⚽ 足球回放",⚽ [回放] 阿贾克斯 vs 伏伊伏丁那 4-1 2026-07-31 02:00
 https://live.666666.zip/video/64664c68vodsgp1386416388/166823235001834814153772199/playlist_eof.m3u8?t=6a6c44ac&us=31ce952b1f&sign=f8d76078cb302f1c8cf5e66175ec09cd
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/932090784a693acf21c043cd96b56740.png" group-title="⚽ 足球回放",⚽ [回放] 斯肯迪亚 vs ASK布拉沃 3-1 2026-07-31 02:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/27ae191c5001834814143654419/playlist_eof.m3u8?t=6a6c4350&us=b5b5254294&sign=5181a4ec194ca571de54827870d9a051
+https://live.666666.zip/video/64664c68vodsgp1386416388/27ae191c5001834814143654419/playlist_eof.m3u8?t=6a6c51a0&us=f7287aec4c&sign=70c500f8f65355d999cca2f1bc89eaaf
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/53d01552b4243dd02f7d72cb9a33c42b.png" group-title="⚽ 足球回放",⚽ [回放] 巴尔干尼 vs 波希米亚人 3-2 2026-07-31 02:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/a47d189f5001834814155243299/playlist_eof.m3u8?t=6a6c3ee1&us=23e6aa59e1&sign=f0689b2ed0f80359c6238c775e2c0473
+https://live.666666.zip/video/64664c68vodsgp1386416388/a47d189f5001834814155243299/playlist_eof.m3u8?t=6a6c4d3f&us=2271ed68e4&sign=3e8e63e4a23508c8a07ec684d89fc318
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/0ad622f45edd4fda12f1d7c038d5d36a.png" group-title="⚽ 足球回放",⚽ [回放] 维斯特里 vs 里加足球学院 1-1 2026-07-31 02:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/8288196b5001834813966489119/playlist_eof.m3u8?t=6a6c41bb&us=8f4d5a9e02&sign=bad6c0387e2debd5e4fa9050012e288f
+https://live.666666.zip/video/64664c68vodsgp1386416388/8288196b5001834813966489119/playlist_eof.m3u8?t=6a6c509b&us=ef401bae91&sign=cc11accb2e1f08c2677af3da10a70cdc
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/3cd0dc57966a8b1f8536dd0016179664.png" group-title="⚽ 足球回放",⚽ [回放] 卢多格雷茨 vs 特拉维夫夏普尔 2-2 2026-07-31 02:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/647226305001834813969239938/playlist_eof.m3u8?t=6a6c4377&us=09d206bf58&sign=508f533fcd768bd4570b4209d195f558
+https://live.666666.zip/video/64664c68vodsgp1386416388/647226305001834813969239938/playlist_eof.m3u8?t=6a6c5207&us=f2905036d0&sign=20b76b912e8433c3f39b349a280d96f7
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/3b19cae478679881554914e45d318742.png" group-title="⚽ 足球回放",⚽ [回放] 索非亚中央陆军 vs 卡拉巴克 0-0 2026-07-31 02:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/54f91f185001834814154116636/playlist_eof.m3u8?t=6a6c40f0&us=3ee71d6890&sign=34903fe34478929237bf455ed540d6ed
+https://live.666666.zip/video/64664c68vodsgp1386416388/54f91f185001834814154116636/playlist_eof.m3u8?t=6a6c4f8c&us=838f69ce2b&sign=45b049b8984ed1f60cefe1a69e13c69b
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/4d15f8d9d3cdbbe522ac63ff1dff3b3b.png" group-title="⚽ 足球回放",⚽ [回放] 塞萨洛尼基 vs 基辅迪纳摩 2-0 2026-07-31 01:45
-https://live.666666.zip/video/64664c68vodsgp1386416388/ce2bfd1c5001834814152985340/playlist_eof.m3u8?t=6a6c4142&us=d0f815d80e&sign=7a887f674dfa6ecaefb8d9517e181065
+https://live.666666.zip/video/64664c68vodsgp1386416388/ce2bfd1c5001834814152985340/playlist_eof.m3u8?t=6a6c4fbb&us=f999bedf7d&sign=2fa33db4b2836a83b0913fce2403ffe3
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/1fdb25b1b1cf8b92138ba7c5c9fff621.png" group-title="⚽ 足球回放",⚽ [回放] 德里城 vs 里耶卡 0-1 2026-07-31 01:30
 https://live.666666.zip/video/64664c68vodsgp1386416388/704e8db45001834814151208552/playlist_eof.m3u8?t=6a6c4b3a&us=f0be2de77f&sign=b50741a55e687e08392dd1ff0b1894d8
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/07a09b51edea4a078499cf5efc431d49.png" group-title="⚽ 足球回放",⚽ [回放] 新圣徒 vs 塔林弗洛拉 1-0 2026-07-31 01:30
@@ -915,82 +1579,94 @@ https://live.666666.zip/video/64664c68vodsgp1386416388/19b696c250018348139683219
 https://live.666666.zip/video/64664c68vodsgp1386416388/80e9fb595001834814151946710/playlist_eof.m3u8?t=6a6c4985&us=fc94d6d656&sign=6f2fd2603aeeb19828bd156e73a30604
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/9b106dd7dee4c4f46160a74303be6e15.png" group-title="⚽ 足球回放",⚽ [回放] FC 10 vs 希姆基宇宙 3-2 2026-07-31 01:00
 https://live.666666.zip/video/64664c68vodsgp1386416388/d7c0ad8e5001834814101416334/playlist_eof.m3u8?t=6a6c46a7&us=12195eca7c&sign=898c4ba0d0867b7e64b3893cfc9c9f72
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/9c7c68ee0cad47be69a9d57e43261484.png" group-title="⚽ 足球回放",⚽ [回放] 马拉加 vs 吉达联合 2-2 2026-07-31 01:00
-https://live.666666.zip/video/64664c68vodsgp1386416388/279fc6555001834814102594504/playlist_eof.m3u8?t=6a6c44ac&us=31ce952b1f&sign=14c7ae4d9c4afa7b895b55181711f7ff
-#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_paypay-320x180.jpg" group-title="🔥GTA直播",paypay - Grand Theft Auto V 👀569人
-https://stymei1.pages.dev/paypay.m3u8
-#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_jefe-320x180.jpg" group-title="🔥GTA直播",Jefe - Grand Theft Auto V 👀463人
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/d994ab69186bb52d6b0967e1567a217e.png" group-title="🏀 篮球回放",🏀 [回放] 节奏 vs 山猫 72-104 2026-07-31 08:00
+https://live.666666.zip/video/64664c68vodsgp1386416388/caa348e45001834813991620577/playlist_eof.m3u8?t=6a6c5024&us=006e2eebf4&sign=ef0dafcc4a00737583000e0dd4e60afc
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/d994ab69186bb52d6b0967e1567a217e.png" group-title="🏀 篮球回放",🏀 [回放] 节奏 vs 山猫 72-104 2026-07-31 08:00
+https://live.666666.zip/video/64664c68vodsgp1386416388/e51bc4d95001834814132251578/playlist_eof.m3u8?t=6a6c5024&us=006e2eebf4&sign=ab0f2c258613296cf36a5dd707826230
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_jefe-320x180.jpg" group-title="🔥GTA直播",Jefe - Grand Theft Auto V 👀448人
 https://stymei1.pages.dev/jefe.m3u8
-#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_drizzzzzydre-320x180.jpg" group-title="🔥GTA直播",drizzzzzydre - Grand Theft Auto V 👀107人
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_drizzzzzydre-320x180.jpg" group-title="🔥GTA直播",drizzzzzydre - Grand Theft Auto V 👀143人
 https://stymei1.pages.dev/drizzzzzydre.m3u8
-#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_slizz-320x180.jpg" group-title="🔥GTA直播",Slizz - Grand Theft Auto V 👀91人
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_slizz-320x180.jpg" group-title="🔥GTA直播",Slizz - Grand Theft Auto V 👀56人
 https://stymei1.pages.dev/slizz.m3u8
-#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_yaboikon-320x180.jpg" group-title="🔥GTA直播",YaBoiKon - Grand Theft Auto V 👀27人
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_yaboikon-320x180.jpg" group-title="🔥GTA直播",YaBoiKon - Grand Theft Auto V 👀31人
 https://stymei1.pages.dev/yaboikon.m3u8
-#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_littled_60066y-320x180.jpg" group-title="🔥GTA直播",littled_60066y - Grand Theft Auto V 👀23人
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_kanjean-320x180.jpg" group-title="🔥GTA直播",KanJean - Grand Theft Auto: Vice City 👀28人
+https://stymei1.pages.dev/kanjean.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_littled_60066y-320x180.jpg" group-title="🔥GTA直播",littled_60066y - Grand Theft Auto V 👀24人
 https://stymei1.pages.dev/littled_60066y.m3u8
-#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_noellumenveil-320x180.jpg" group-title="🔥GTA直播",NoelLumenveil - Grand Theft Auto V 👀6人
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_ale_apoka-320x180.jpg" group-title="🔥GTA直播",ale_apoka - Grand Theft Auto: Vice City 👀20人
+https://stymei1.pages.dev/ale_apoka.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_ne0gresco-320x180.jpg" group-title="🔥GTA直播",ne0gresco - Grand Theft Auto V 👀14人
+https://stymei1.pages.dev/ne0gresco.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_thedadtrainer-320x180.jpg" group-title="🔥GTA直播",TheDadTrainer - Grand Theft Auto V 👀12人
+https://stymei1.pages.dev/thedadtrainer.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_eo_bs-320x180.jpg" group-title="🔥GTA直播",eo_bs - Grand Theft Auto V 👀12人
+https://stymei1.pages.dev/eo_bs.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_axelbitw-320x180.jpg" group-title="🔥GTA直播",Axelbitw - Grand Theft Auto: Vice City 👀9人
+https://stymei1.pages.dev/axelbitw.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_ladysugarx2-320x180.jpg" group-title="🔥GTA直播",ladysugarx2 - Grand Theft Auto V 👀5人
+https://stymei1.pages.dev/ladysugarx2.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_lanik727-320x180.jpg" group-title="🔥GTA直播",Lanik727 - Grand Theft Auto: Vice City 👀5人
+https://stymei1.pages.dev/lanik727.m3u8
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_noellumenveil-320x180.jpg" group-title="🔥GTA直播",NoelLumenveil - Grand Theft Auto V 👀5人
 https://stymei1.pages.dev/noellumenveil.m3u8
-#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_sunshinee_sn-320x180.jpg" group-title="🔥GTA直播",sunshinee_sn - Grand Theft Auto V 👀2人
-https://stymei1.pages.dev/sunshinee_sn.m3u8
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/douyin-user-image-file_56e1c9fcabd098dd948415ade8ee913c.jpeg?from=3067671334" group-title="🍿抖音直播",高宇航『九方骏』 - 高宇航『九方骏』正在直播 12921人 合肥
-http://pull-t3.douyincdn.com/thirdgame/stream-696281013408236347_hiquhd5.m3u8?auth_key=1786067541-0-0-7a2c2d7c3f830c9f9c8ac511d0ab3527&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-202607311022208D0993416375CD4AA764-GZwGLw
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_fda5ce228561188a1b59374a9887d5dd.jpeg?from=3067671334" group-title="🍿抖音直播",秀一 - 情感连麦 恋爱脑速归！ 9252人 成都
-http://pull-hls-q26.douyincdn.com/stage/stream-408050083610755900.m3u8?expire=6a75415c&sign=6fa60044667c089bf1063d5b041fe728&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-SnzGl2
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_31e77bf066be653782c4d107e5e2a25c.jpeg?from=3067671334" group-title="🍿抖音直播",遥雾姐姐（姐弟组合） - 遥雾姐姐（姐弟组合）正在直播 4153人
-http://pull-hls-t11.douyincdn.com/thirdgame/stream-408050652826043195.m3u8?expire=1786069340&sign=64a852673a553a2af3bb73e4c7bce7b8&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-q1qkV7
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/98e65e9a8af64a619f02f617390cbd94.jpeg?from=3067671334" group-title="🍿抖音直播",守卫者奥拉夫 - 《2分钟单杀》学会轻松炒饭大师！ 3811人
-http://pull-hls-q13.douyincdn.com/thirdgame/stream-696281155281093438.m3u8?expire=1786069341&sign=ae9e26331e3e14501754ecd482a94a08&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-202607311022208D0993416375CD4AA764-nLi0sG
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_983685e8d92df2e6e5d032e8d480fdfe.jpeg?from=3067671334" group-title="🍿抖音直播",海超人（三角洲行动） - 绝密欧美频道/红狼单三的一个手子 2525人 东莞
-http://pull-hls-q26.douyincdn.com/thirdgame/stream-119819963143029566_hiquhd5.m3u8?expire=6a75415d&sign=b513e940777cc7512446b6dcfe511bc3&major_anchor_level=common&arch_hrchy=h1&exp_hrchy=h1&t_id=037-202607311022208D0993416375CD4AA764-Nrplvq
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_63a8eb2dd793a4068fff8a35582206ba.jpeg?from=3067671334" group-title="🍿抖音直播",火影胃炎（舞自神） - 暖心主播，永不穿三之人，进来看三分钟，输一把随便喷! 1368人
-http://pull-hls-t26.douyincdn.com/thirdgame/stream-408050688594019131.m3u8?expire=6a75415c&sign=1ba060a0d6d9f58258e6b6ec3e2ee09b&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-lBT2X6
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_aebe5675581f5884faca455bc7d87d66.jpeg?from=3067671334" group-title="🍿抖音直播",宇萌🍑 - 爱玩逃出惊魂夜 1351人
-http://pull-q5.douyincdn.com/thirdgame/stream-119820169243525950_hiquhd5/index.m3u8?expire=1786069341&sign=bafc846366aeecb263e9dc63feb66959&volcSecret=bafc846366aeecb263e9dc63feb66959&volcTime=1786069341&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-202607311022208D0993416375CD4AA764-TGAaOP
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_69b7c586e77c244c90d68e62d6e0d52a.jpeg?from=3067671334" group-title="🍿抖音直播",小峰批（逆水寒新世界） - 品品4.1.2！ 1021人
-http://pull-hls-l11.douyincdn.com/thirdgame/stream-408050685104620364_hiquhd5.m3u8?expire=1786069340&sign=98f1745c7b3eb97ef81feba98d2e2489&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-iGaEqa
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_c9a9ebf8d8db941f8784bb85505277b7.jpeg?from=3067671334" group-title="🍿抖音直播",霉比晓晓 - 单双四榜一教你玩转新赛季！开启冲分模式！ 832人
-http://pull-hls-q11.douyincdn.com/thirdgame/stream-408048238385955646.m3u8?expire=1786069340&sign=08f65adcb83404e9a1ecefe0cb5b4d18&arch_hrchy=h1&major_anchor_level=common&exp_hrchy=h1&t_id=037-202607311022198CA1A9A134182E3311D3-cU28Fp
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_415a503a4d8b30b6df522c687ee1586e.jpeg?from=3067671334" group-title="🍿抖音直播",甜甜kiss - 迪丽热了吧~ 733人 沈阳
-http://pull-hls-t1.douyincdn.com/thirdgame/stream-696280935497728827/playlist.m3u8?keeptime=00093a80&wsSecret=619688888a105bc188a8eed8bf583dd8&wsTime=6a6c06dc&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-kSpkOV
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_ogT1ADXIyAF3E6wfAwm2knpf6F9KuAlkEQFCAB.jpeg?from=3067671334" group-title="🍿抖音直播",欲帝🌦️³¹⁰ - 高评巅一，在榜高分，单排冲榜 685人 南昌
-http://pull-hls-t11.douyincdn.com/thirdgame/stream-119820044880315195.m3u8?expire=1786069340&sign=ef71bcbe74fa4d94ce46c01f2d4d83b4&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-202607311022198CA1A9A134182E3311D3-2hmdte
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_oAk9qFhAEIAEwcFW5XfKkAVA9AfUqDncEAxpCg.jpeg?from=3067671334" group-title="🍿抖音直播",诗人 - 武侠游戏，不是单机！点进来看直播不卡~ 630人
-http://pull-q5.douyincdn.com/thirdgame/stream-408050743231644478_hiquhd5/index.m3u8?expire=1786069341&sign=b2952713a5bae8d77b329622e0423476&volcSecret=b2952713a5bae8d77b329622e0423476&volcTime=1786069341&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-202607311022208D0993416375CD4AA764-sl2hnP
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_2028d1c3fd9b9e52115eedf6f126809c.jpeg?from=3067671334" group-title="🍿抖音直播",乔家劲（海豹🦭剑神) - 燕云搜打撤偷袭高手/清晰的偷袭思路/韩老魔下副本/干货小满 605人
-http://pull-hls-t13.douyincdn.com/thirdgame/stream-119819926298690363_hiquhd5.m3u8?expire=1786069341&sign=7667e3bb4e154e0baab20036671f0a40&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-202607311022208D0993416375CD4AA764-q3r0rB
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_d49aac80038f7996f20a6d926e2cc01d.jpeg?from=3067671334" group-title="🍿抖音直播",李小北 - 蛋仔派对揪出捣蛋鬼糕手李小北 384人 郑州
-http://pull-hls-q13.douyincdn.com/thirdgame/stream-408050784834945854_hiquhd5.m3u8?expire=1786069340&sign=4d5930bea31ddd38913db9557fce29a2&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-oAMASr
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_02706e56b79a37dd3a51ebc5dfbfab6a.jpeg?from=3067671334" group-title="🍿抖音直播",💯谢子昂⁹¹⁰💦 - 一首经典老歌，翻开我们尘封的青春 235人
-http://pull-hls-t6.douyincdn.com/third/stream-119820080114041658/index.m3u8?k=eadc949ffe1f5b25&t=1786069340&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-WvcGxz
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_9c442a5810dd19998275f02296dac3d3.jpeg?from=3067671334" group-title="🍿抖音直播",命运 - 11111 215人
-http://pull-hls-q13.douyincdn.com/thirdgame/stream-408048326903595838_hiquhd5.m3u8?expire=1786069340&sign=35703246bfa832d1340a2e0ef15b565b&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-EUBtQb
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_87cc61a7ff4435fcf25a90327a5b927e.jpeg?from=3067671334" group-title="🍿抖音直播",澜 - 大国在榜国1澜/速通传奇百星/绝对刷经济思路 208人
-http://pull-hls-l11.douyincdn.com/thirdgame/stream-119820273924178764_hiquhd5.m3u8?expire=1786069340&sign=c3fe65c7e114d3ad3273e1342aa2aaa0&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-JST0ao
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_cc343db769af463747978e544ec84e80.jpeg?from=3067671334" group-title="🍿抖音直播",茗一（逆水寒新世界） - 玄机加强！品更新内容 189人
-http://pull-hls-l11.douyincdn.com/thirdgame/stream-408050700881757004_hiquhd5.m3u8?expire=1786069340&sign=0e7e5ad2b8bf682e4e8a8e553045557c&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-tPCVfM
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_61eb6651cdfcdf8d4e2adee1cd72abe7.jpeg?from=3067671334" group-title="🍿抖音直播",空空🧊 - 睡着了？起来重睡 174人 昆明
-http://pull-hls-f11.douyincdn.com/thirdgame/stream-119818227910181642.m3u8?expire=1786069340&sign=d6cfbc891ff2f5c95c4688af7a4dd36e&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-YK9oL3
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_ogEC8eCz1Wx4AiwExXCBFgAAN5AfAvxATIA1iP.jpeg?from=3067671334" group-title="🍿抖音直播",惊喜广告(阿煌） - 游戏（精彩进行中） 158人
-http://pull-hls-t26.douyincdn.com/thirdgame/stream-119819458350154555_hiquhd5.m3u8?expire=6a75415c&sign=80e92198961efd8ce4cf8dd1bfefede7&major_anchor_level=common&arch_hrchy=w1&exp_hrchy=w1&t_id=037-202607311022198CA1A9A134182E3311D3-GIGwnk
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_b003cc925eefaa62646c8aea01f86818.jpeg?from=3067671334" group-title="🍿抖音直播",叔pōManIII点唱 - 叔pōMan正在直播！！！ 144人
-http://pull-hls-l6.douyincdn.com/radio/stream-696280213806120995/index.m3u8?k=cf59d3bc85063e92&t=1786069340&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-fEIk0j
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_o0WKiAAtzDAKq9HvCwiigqBKAeAeapAIE9vCN8.jpeg?from=3067671334" group-title="🍿抖音直播",麻将老王 - 别的事我都懒得成功，唯独最爱麻将，速速进来给我擦皮鞋 102人
-http://pull-hls-f1.douyincdn.com/thirdgame/stream-408050665916728074/playlist.m3u8?keeptime=00093a80&wsSecret=5a6fa83e82bf13393d6bab80f0e03da8&wsTime=6a6c06dd&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022208D0993416375CD4AA764-hxXiUb
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_8413fea5f0b0ffa6c35e4411dcfcfcd4.jpeg?from=3067671334" group-title="🍿抖音直播",圣宇电竞（三角洲行动） - 店长在线携手本质嘉豪在线扶贫大兵 79人
-http://pull-hls-f11.douyincdn.com/thirdgame/stream-119820061593305866_hiquhd5.m3u8?expire=1786069341&sign=948c07bc7333eab9640e93396d71921b&arch_hrchy=w1&major_anchor_level=common&exp_hrchy=w1&t_id=037-202607311022208D0993416375CD4AA764-R2d2nV
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_1acc2f2dd23001facb64678bdb6e94a4.jpeg?from=3067671334" group-title="🍿抖音直播",第五人格格局（越努力越心酸版） - 第五人格加页手记教学，共研服国服排名榜一选手，效率流摸金，助眠直播间。 74人 佛山
-http://pull-hls-f1.douyincdn.com/thirdgame/stream-696280926309843722_hiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=364ad5817b9615b4f406d14c83c84e21&wsTime=6a6c06dc&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-68fUP9
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_b36e3b47e9464f1f9dea43eb9df9d003.jpeg?from=3067671334" group-title="🍿抖音直播",大呲花 - 最新版本游戏，热门直播中！ 62人
-http://pull-hls-f1.douyincdn.com/thirdgame/stream-408050784713310986_liquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=e0148632bbc996ad0eb86be6fbab71c9&wsTime=6a6c06dc&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-NVoYtd
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_oYIAcqGAVEmAVw9rjoQABFEE02DeuLAAJf2gke.jpeg?from=3067671334" group-title="🍿抖音直播",星晴续 - 星晴续（娱乐主播） 59人
-http://pull-hls-l11.douyincdn.com/thirdgame/stream-696280674039497548_hiquhd5.m3u8?expire=1786069340&sign=d2042b50ecc3acb07691dae75b134c8c&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-VXOq3R
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_46ade942ce56a60bc40e243dc36a50b7.jpeg?from=3067671334" group-title="🍿抖音直播",清衣（逆水寒版） - 灯牌瀚海无更市 41人 南阳
-http://pull-hls-l11.douyincdn.com/thirdgame/stream-119820189910696780_hiquhd5.m3u8?expire=1786069340&sign=34db50bb23e1e56e4ced167e51e69516&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-jTi863
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_71a0e465ca5cedb1723c49593f57c7c4.jpeg?from=3067671334" group-title="🍿抖音直播",致耀 - 第一次直播不知道说啥 32人 深圳
-http://pull-hls-f11.douyincdn.com/thirdgame/stream-696280679074497290.m3u8?expire=1786069341&sign=ca1e19c21fea39eac70b7eede9235312&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022208D0993416375CD4AA764-hSQFPn
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_8ecf61e4423f6288fec97c236fb47be6.jpeg?from=3067671334" group-title="🍿抖音直播",小也❄️三角洲行动 - 温柔姐姐带你勇闯大坝 26人
-http://pull-hls-f1.douyincdn.com/thirdgame/stream-696280426272260874/playlist.m3u8?keeptime=00093a80&wsSecret=27cc692c1938549de64bdad1b4e12e75&wsTime=6a6c06dc&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311022198CA1A9A134182E3311D3-nNCVbi
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_neeoik-320x180.jpg" group-title="🔥GTA直播",neeoik - Grand Theft Auto: Vice City 👀4人
+https://stymei1.pages.dev/neeoik.m3u8
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_oIn37fIxNIaABABv4E9FGHAEQUDA7EA5wAfeGg.jpeg?from=3067671334" group-title="🍿抖音直播",自习（无畏契约） - 现赋能第一乱c 11579人 嘉兴
+http://pull-hls-q13.douyincdn.com/thirdgame/stream-696281278227678014_hiquhd5.m3u8?expire=1786070613&sign=e218378f0a17ec63d7327e08d7bba7dd&arch_hrchy=s2&exp_hrchy=s1&major_anchor_level=vip&s_anchor=1&t_id=037-202607311043328A769C2E4CB2B33BFCE3-OClI7o
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_31e77bf066be653782c4d107e5e2a25c.jpeg?from=3067671334" group-title="🍿抖音直播",遥雾姐姐（姐弟组合） - 遥雾姐姐（姐弟组合）正在直播 3529人
+http://pull-hls-t1.douyincdn.com/thirdgame/stream-408050652826043195/playlist.m3u8?keeptime=00093a80&wsSecret=4df83d7f45694e0e15230f8748719afa&wsTime=6a6c0bd5&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-WbtEPv
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_69b7c586e77c244c90d68e62d6e0d52a.jpeg?from=3067671334" group-title="🍿抖音直播",小峰批（逆水寒新世界） - 品品4.1.2！ 2072人
+http://pull-hls-l11.douyincdn.com/thirdgame/stream-408050685104620364_hiquhd5.m3u8?expire=1786070613&sign=f56e3f6d58f86acc9f51f31d9908e11b&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-08Jguf
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_63a8eb2dd793a4068fff8a35582206ba.jpeg?from=3067671334" group-title="🍿抖音直播",火影胃炎（舞自神） - 暖心主播，永不穿三之人，进来看三分钟，输一把随便喷! 1927人
+http://pull-hls-t11.douyincdn.com/thirdgame/stream-408050688594019131.m3u8?expire=1786070615&sign=afab21cca2314c7d02b3b4c734a77d8f&major_anchor_level=common&exp_hrchy=h2&arch_hrchy=h1&t_id=037-20260731104334238E09224D0A274A365F-jn2Zsd
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_4a1760ca577a2dc5772e176c2cf4fe1a.jpeg?from=3067671334" group-title="🍿抖音直播",小鱈饼 - 上分不是目的钢枪才是 1384人
+http://pull-q5.douyincdn.com/thirdgame/stream-119820413246636862_hiquhd5/index.m3u8?expire=1786070613&sign=c15b001d014e762faaeaffc27dac81b9&volcSecret=c15b001d014e762faaeaffc27dac81b9&volcTime=1786070613&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-202607311043328A769C2E4CB2B33BFCE3-HKUBoF
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_aebe5675581f5884faca455bc7d87d66.jpeg?from=3067671334" group-title="🍿抖音直播",宇萌🍑 - 爱玩逃出惊魂夜 1360人
+http://pull-q5.douyincdn.com/thirdgame/stream-119820169243525950_hiquhd5/index.m3u8?expire=1786070613&sign=8c27b6099fba0ba1b9a41794b0345f9c&volcSecret=8c27b6099fba0ba1b9a41794b0345f9c&volcTime=1786070613&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-MQrGCL
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_9ffba61589d16d3a6079797c8685c8cb.jpeg?from=3067671334" group-title="🍿抖音直播",局座（三角洲行动） - 机密大坝，日进3000W，百万撤离，超强导师，细节教学。 1047人
+http://pull-q5.douyincdn.com/thirdgame/stream-408050860066603838_hiquhd5/index.m3u8?expire=1786070615&sign=39cdde7db17eb6cced13c67e4986967e&volcSecret=39cdde7db17eb6cced13c67e4986967e&volcTime=1786070615&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-20260731104334238E09224D0A274A365F-MU9WYh
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_c9a9ebf8d8db941f8784bb85505277b7.jpeg?from=3067671334" group-title="🍿抖音直播",霉比晓晓 - 单双四榜一教你玩转新赛季！开启冲分模式！ 917人
+http://pull-hls-q11.douyincdn.com/thirdgame/stream-408048238385955646_hiquhd5.m3u8?expire=1786070613&sign=1614c2c89a23ae92f35ce79ee80a973a&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-RrOwUb
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_ogT1ADXIyAF3E6wfAwm2knpf6F9KuAlkEQFCAB.jpeg?from=3067671334" group-title="🍿抖音直播",欲帝🌦️³¹⁰ - 高评巅一，在榜高分，单排冲榜 778人 南昌
+http://pull-hls-t11.douyincdn.com/thirdgame/stream-119820044880315195_hiquhd5.m3u8?expire=1786070613&sign=3e16ea192260b71ee3c12b6e23295700&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-mh8RxP
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_2028d1c3fd9b9e52115eedf6f126809c.jpeg?from=3067671334" group-title="🍿抖音直播",乔家劲（海豹🦭剑神) - 燕云搜打撤偷袭高手/清晰的偷袭思路/韩老魔下副本/干货小满 585人
+http://pull-hls-t13.douyincdn.com/thirdgame/stream-119819926298690363_hiquhd5.m3u8?expire=1786070613&sign=304011a79d03c8f291e8c7ee90d3f744&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-TDzq8K
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_5822e04d5dfa2b0ef1f58331d35d4c27.jpeg?from=3067671334" group-title="🍿抖音直播",压轴少爷（苏尔南1v4） - 压轴少爷正在直播 479人
+http://pull-hls-q13.douyincdn.com/thirdgame/stream-696281281181516606_hiquhd5.m3u8?expire=1786070613&sign=1655d26d4d165692efc2056a0980beb9&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-uwGLSv
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_oo8H4e9eeAPtGRAQAuOIAHTw9meLICjUAKeEAA.jpeg?from=3067671334" group-title="🍿抖音直播",欣老板 - 欢迎体验四人斗地主，不一样的感觉，值得期待 432人 恩施
+http://pull-q5.douyincdn.com/thirdgame/stream-696281163401528126/index.m3u8?expire=1786070613&sign=37bfd6efdf0e41b367d29ae07ce2d512&volcSecret=37bfd6efdf0e41b367d29ae07ce2d512&volcTime=1786070613&major_anchor_level=common&arch_hrchy=h1&exp_hrchy=h1&t_id=037-202607311043328A769C2E4CB2B33BFCE3-ExZoFu
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_d49aac80038f7996f20a6d926e2cc01d.jpeg?from=3067671334" group-title="🍿抖音直播",李小北 - 蛋仔派对揪出捣蛋鬼糕手李小北 371人 郑州
+http://pull-q5.douyincdn.com/thirdgame/stream-408050784834945854_hiquhd5/index.m3u8?expire=1786070613&sign=ab0d2974c7f4ba9e86d5649f50ac457a&volcSecret=ab0d2974c7f4ba9e86d5649f50ac457a&volcTime=1786070613&major_anchor_level=common&arch_hrchy=h1&exp_hrchy=h1&t_id=037-202607311043328A769C2E4CB2B33BFCE3-NBEdSz
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_51f53cb28ac754e4d5bc16c68014df5b.jpeg?from=3067671334" group-title="🍿抖音直播",梵高只有一个（国服火舞） - 全网最帅青年音，挑战毒号2小时15星失败发两个火舞皮肤/输一局发200 369人
+http://pull-hls-q26.douyincdn.com/thirdgame/stream-696281155211887422_hiquhd5.m3u8?expire=6a754655&sign=b85a16e8ef615d9f60216bedc282baf4&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-S4Uz6t
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_9c442a5810dd19998275f02296dac3d3.jpeg?from=3067671334" group-title="🍿抖音直播",命运 - 11111 241人
+http://pull-hls-q13.douyincdn.com/thirdgame/stream-408048326903595838_hiquhd5.m3u8?expire=1786070613&sign=1b192ad079ec75f1cedea99beff72e97&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-jh087O
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_osQ7fGUAqfgvQa4CDBImoAFASAAEVAfjErBA47.jpeg?from=3067671334" group-title="🍿抖音直播",老王麻将 - ～愙歖～正在直播 220人
+http://pull-hls-l11.douyincdn.com/thirdgame/stream-119819921603429196.m3u8?expire=1786070615&sign=974f0d993eee3de7a3d47102e619c0eb&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-20260731104334238E09224D0A274A365F-lHBTpn
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_61eb6651cdfcdf8d4e2adee1cd72abe7.jpeg?from=3067671334" group-title="🍿抖音直播",空空🧊 - 睡着了？起来重睡 145人 昆明
+http://pull-hls-f1.douyincdn.com/thirdgame/stream-119818227910181642/playlist.m3u8?keeptime=00093a80&wsSecret=c98b4d9c4ef50f546d80d2d7f704ff72&wsTime=6a6c0bd5&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-1Sqix2
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_ogEC8eCz1Wx4AiwExXCBFgAAN5AfAvxATIA1iP.jpeg?from=3067671334" group-title="🍿抖音直播",惊喜广告(阿煌） - 游戏（精彩进行中） 132人
+http://pull-hls-t26.douyincdn.com/thirdgame/stream-119819458350154555_hiquhd5.m3u8?expire=6a754657&sign=1e2fa86d2ffa85cb710c0e8386ff1bff&major_anchor_level=common&exp_hrchy=w1&arch_hrchy=w1&t_id=037-20260731104334238E09224D0A274A365F-zgAr7I
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_02706e56b79a37dd3a51ebc5dfbfab6a.jpeg?from=3067671334" group-title="🍿抖音直播",💯谢子昂⁹¹⁰💦 - 一首经典老歌，翻开我们尘封的青春 131人
+http://pull-hls-t6.douyincdn.com/third/stream-119820080114041658/index.m3u8?k=0b171baf63425e13&t=1786070613&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-tDtj22
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_o0WKiAAtzDAKq9HvCwiigqBKAeAeapAIE9vCN8.jpeg?from=3067671334" group-title="🍿抖音直播",麻将老王 - 别的事我都懒得成功，唯独最爱麻将，速速进来给我擦皮鞋 105人
+http://pull-hls-f1.douyincdn.com/thirdgame/stream-408050665916728074/playlist.m3u8?keeptime=00093a80&wsSecret=9a8ea08e64a1a8dd604408fa0b6a05ed&wsTime=6a6c0bd5&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-CdRy9Q
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_oYIAcqGAVEmAVw9rjoQABFEE02DeuLAAJf2gke.jpeg?from=3067671334" group-title="🍿抖音直播",星晴续 - 星晴续（娱乐主播） 69人
+http://pull-hls-l11.douyincdn.com/thirdgame/stream-696280674039497548_hiquhd5.m3u8?expire=1786070613&sign=2be431d5b73457c291f8074ef67da1f7&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-UZzpUC
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_2b10140f5d97b6818c71c6b138b318b5.jpeg?from=3067671334" group-title="🍿抖音直播",QQ_ - 从来不说脏话的萝莉 68人
+http://pull-hls-f1.douyincdn.com/thirdgame/stream-408050846841963274_hiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=b9e144c0014cd1b41fa3c63c16c8f15a&wsTime=6a6c0bd5&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-Y4kY90
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_352fd8a5404d10ce30c6bff4e5e91e31.jpeg?from=3067671334" group-title="🍿抖音直播",蛋仔派对余阳 - 点关注免费加蛋仔好友！ 62人
+http://pull-hs-f5.flive.douyincdn.com/game/stream-119813765905515294/index.m3u8?expire=1786070615&sign=86cf9f45090672e04a7e2c8bd2cc057e&volcSecret=86cf9f45090672e04a7e2c8bd2cc057e&volcTime=1786070615&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-20260731104334238E09224D0A274A365F-XwuzoS
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_53d07cdfc626593a986e5bf07402e256.jpeg?from=3067671334" group-title="🍿抖音直播",解脱（逆水寒新世界） - 最新团本荣耀挑战开荒组队教学 45人
+http://pull-hls-f1.douyincdn.com/thirdgame/stream-408050668529517322_hiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=5d69b0f5a3deebb4556c1e352bfdac9d&wsTime=6a6c0bd5&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-cQAVkw
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_035475cf4ace456c8b53f76425e8e1b5.jpeg?from=3067671334" group-title="🍿抖音直播",提神（努力努力努力） - 品一品新版本~ 39人
+http://pull-hls-f11.douyincdn.com/thirdgame/stream-408050672623158026.m3u8?expire=1786070615&sign=77a86cafd48cd5d31dcae450aacef3a0&arch_hrchy=w1&major_anchor_level=common&exp_hrchy=w1&t_id=037-20260731104334238E09224D0A274A365F-iWqTeF
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_46ade942ce56a60bc40e243dc36a50b7.jpeg?from=3067671334" group-title="🍿抖音直播",清衣（逆水寒版） - 灯牌瀚海无更市 36人 南阳
+http://pull-hls-l11.douyincdn.com/thirdgame/stream-119820189910696780_hiquhd5.m3u8?expire=1786070613&sign=1997958f5f4f61d7bac0caf174250bbf&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202607311043328A769C2E4CB2B33BFCE3-gBy3As
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_3df873463371d20644eea55cecf5dc1e.jpeg?from=3067671334" group-title="🍿抖音直播",思羽电竞俱乐部（128保888） - 三角洲全民考核 31人
+http://pull-hls-f11.douyincdn.com/thirdgame/stream-408050910591976202_hiquhd5.m3u8?expire=1786070615&sign=ecf3f114ba329598f0f09e6bb2cecb18&major_anchor_level=common&arch_hrchy=w1&exp_hrchy=w1&t_id=037-20260731104334238E09224D0A274A365F-P2frJM
 #EXTINF:-1 tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="🇨🇳央视频道",CCTV1综合
 http://wfenf.x3322.net:7788/608807420
 #EXTINF:-1 tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="🇨🇳央视频道",CCTV2财经
