@@ -64,7 +64,7 @@ custom_yangweishi(){
   do
     echo ${group_title}
     GET_GROUP_TATLE_VALUE=$(echo ${group_title}|awk -F "\"" '{print $2}')
-    grep -A 1 ${GET_GROUP_TATLE_VALUE}  ${NEW_SOURCE_FILE_NAME} >>${NEWFILE_1}
+    grep -A 1 -F -- ${GET_GROUP_TATLE_VALUE}  ${NEW_SOURCE_FILE_NAME} >>${NEWFILE_1}
   done
 
   # // 处理文件：将NEWFILE_1文件中的ys/ws先放在NEWFILE_2文件中
