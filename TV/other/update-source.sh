@@ -156,11 +156,14 @@ upload_migu_to_github(){
 # =================================================================
 NEW_DATE=$(date +%Y.%m.%d)
 # 下载源文件到本地处理的目录
-LOCAL_SOURCE_FILE_DIR=/tmp/localSource
+FILE_DIR_ADD=$(cd $(dirname "$0") ; pwd)
+#LOCAL_SOURCE_FILE_DIR=/tmp/localSource
+LOCAL_SOURCE_FILE_DIR=${FILE_DIR_ADD}/localSource
 NEWFILE_1="${LOCAL_SOURCE_FILE_DIR}/tvall.1.m3u"
 NEWFILE_2="${LOCAL_SOURCE_FILE_DIR}/tvall.2.m3u"
 # github下载项目目录地址
-GITHUB_SOURCE_FILE_DIR=/tmp/githubSource
+#GITHUB_SOURCE_FILE_DIR=/tmp/githubSource
+GITHUB_SOURCE_FILE_DIR=${FILE_DIR_ADD}/githubSource
 # 我得源，下载到本地后进行处理内容
 MY_SOURCE_ADD='https://gh-proxy.org/https://raw.githubusercontent.com/1faith1/myKstore/refs/heads/main/TV/kl.txt'
 # 截断文件名（test.txt）
