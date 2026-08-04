@@ -70,7 +70,7 @@ custom_yangweishi(){
   done
 
   # // 处理文件：将NEWFILE_1文件中的ys/ws先放在NEWFILE_2文件中
-  grep -Ei  ",cctv" -A 1 ${NEWFILE_1}|sed "/^--/d" >> ${NEWFILE_2}
+  grep -Ei  ",.*cctv" -A 1 ${NEWFILE_1}|sed "/^--/d" >> ${NEWFILE_2}
   grep -Ei  ",.*卫视" -A 1 ${NEWFILE_1}|sed "/^--/d" >> ${NEWFILE_2}
   # 在NEWFILE_2文件中转换所有带中文的ys名字为统一的ys名
   # 获取NEWFILE_2中所有ys除带欧美的名字
