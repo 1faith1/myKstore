@@ -84,7 +84,7 @@ custom_yangweishi(){
   # # // 处理文件：将根据GET_ALL_YANGWEISHI_GROUPTITLE找到的所有pd，除上面ys/ws外所有pd追加到NEWFILE_2文件
   awk -v IGNORECASE=1 '(index(tolower($0),",cctv")>0)||(index($0,"卫视")>0){skip=1;next}skip==1{skip=0;next}1' ${NEWFILE_1} >> ${NEWFILE_2}
   # 修改/group-title为自定义的group-title
-  sed -i "s/group-title=.*\,/group-title=\"TV汇总-${NEW_DATE}\"\,/g" ${NEWFILE_2}
+  sed -i "s/group-title=.*\,/group-title=\"TV汇总-${SIM_DATE}\"\,/g" ${NEWFILE_2}
 
   # // 添加处理好的文件到kl文本中的第一行
   # 查找文本中"#============="所在行数
@@ -156,6 +156,7 @@ upload_migu_to_github(){
 }
 # =================================================================
 NEW_DATE=$(date +%Y.%m.%d)
+SIM_DATE=$(date +%y.%m.%d)
 # 下载源文件到本地处理的目录
 DIR_1=$(pwd)
 LOCAL_SOURCE_FILE_DIR=${DIR_1}/localSource
