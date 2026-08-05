@@ -1,5 +1,47 @@
 #!/bin/bash
 
+remove_group_title (){
+  REMOVE_GROUP_TITLE=(\
+     奥地利直播       \
+     孟加拉国直播     \
+     智利直播         \
+     哥斯达黎加直播   \
+     埃及直播         \
+     西班牙直播       \
+     芬兰直播         \
+     印度尼西亚直播   \
+     印度直播         \
+     日本直播         \
+     韩国直播         \
+     老挝直播         \
+     斯里兰卡直播     \
+     墨西哥           \
+     马来直播         \
+     尼日利亚直播     \
+     荷兰直播         \
+     卡塔尔直播       \
+     俄罗斯直播       \
+     新加坡直播       \
+     泰国直播         \
+     塔吉克斯坦直播   \
+     土耳其直播       \
+     美国直播         \
+     乌兹别克斯坦直播 \
+     南非直播         \
+  )
+
+  for ONLY_GROUP_TITLE in ${REMOVE_GROUP_TITLE[@]}
+  do
+    FIND_DEL_GROUP_TITLE_ONE_NUM=$(grep -En "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME} |head -1|awk -F ":" '{print $1}')
+    FIND_DEL_GROUP_TITLE_TWO_NUM=$(grep -En "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME} |tail -1|awk -F ":" '{print $1}')
+    DEL_ONE_NUM_GROUP_TITLE=${FIND_DEL_GROUP_TITLE_ONE_NUM}
+    DEL_TWO_NUM_GROUP_TITLE=`echo $((${FIND_DEL_GROUP_TITLE_TWO_NUM} + 1))`
+    echo ${DEL_ONE_NUM_GROUP_TITLE}
+    echo ${DEL_TWO_NUM_GROUP_TITLE}
+    sed -i "${DEL_ONE_NUM_GROUP_TITLE},${DEL_TWO_NUM_GROUP_TITLE}d" ${MY_SOURCE_FILE_NAME}
+  done
+}
+
 local_chuli_yuan_source(){
   #NEW_DATE=$(date +%Y.%m.%d)
   #MY_SOURCE_ADD='https://gh-proxy.org/https://raw.githubusercontent.com/YONGHU01/myREPO/refs/heads/main/TV/test.txt'
