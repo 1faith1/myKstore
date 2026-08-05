@@ -37,8 +37,6 @@ remove_group_title (){
     FIND_DEL_GROUP_TITLE_TWO_NUM=$(grep -En "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME} |tail -1|awk -F ":" '{print $1}')
     DEL_ONE_NUM_GROUP_TITLE=${FIND_DEL_GROUP_TITLE_ONE_NUM}
     DEL_TWO_NUM_GROUP_TITLE=`echo $((${FIND_DEL_GROUP_TITLE_TWO_NUM} + 1))`
-    echo ${DEL_ONE_NUM_GROUP_TITLE}
-    echo ${DEL_TWO_NUM_GROUP_TITLE}
     sed -i "${DEL_ONE_NUM_GROUP_TITLE},${DEL_TWO_NUM_GROUP_TITLE}d" ${MY_SOURCE_FILE_NAME}
   done
 }
