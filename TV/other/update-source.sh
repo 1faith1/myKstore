@@ -135,7 +135,7 @@ custom_yangweishi(){
   # 查找文本中"#============="所在行数
   FIND_ME_FILE_ONE_NUM=$(grep -En "#=====+" ${MY_SOURCE_FILE_NAME} |head -1|awk -F ":" '{print $1}')
   # ====
-  echo '添加其他源到文件中'
+  echo '添加其他源到文件中...'
   sed -i "${FIND_ME_FILE_ONE_NUM}r ${NEWFILE_2}" ${MY_SOURCE_FILE_NAME}
 }
 
