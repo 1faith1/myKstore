@@ -42,7 +42,9 @@ remove_group_title (){
       SED_COMMAND_ENV+=" -e ${ONLY_DEL_GROUP_TITLE_NUM},${DEL_GROUP_TITLE_TO_ADDRESS_NUM}d"
     done
   done
-  sed -i ${SED_COMMAND_ENV} ${MY_SOURCE_FILE_NAME}
+  if [ ! -z $ADDR ];then
+    sed -i ${SED_COMMAND_ENV} ${MY_SOURCE_FILE_NAME}
+  fi
 }
 
 # 作用：下载需要的文件并处理(合并成我需要的样式)
