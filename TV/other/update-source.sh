@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# 作用：删除一个或多个group_title的所有资源
 remove_group_title (){
   REMOVE_GROUP_TITLE=(\
      奥地利直播       \
@@ -30,16 +31,20 @@ remove_group_title (){
      南非直播         \
   )
 
+  SED_COMMAND_ENV=""
   for ONLY_GROUP_TITLE in ${REMOVE_GROUP_TITLE[@]}
   do
-    FIND_DEL_GROUP_TITLE_ONE_NUM=$(grep -En "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME} |head -1|awk -F ":" '{print $1}')
-    FIND_DEL_GROUP_TITLE_TWO_NUM=$(grep -En "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME} |tail -1|awk -F ":" '{print $1}')
-    DEL_ONE_NUM_GROUP_TITLE=${FIND_DEL_GROUP_TITLE_ONE_NUM}
-    DEL_TWO_NUM_GROUP_TITLE=`echo $((${FIND_DEL_GROUP_TITLE_TWO_NUM} + 1))`
-    sed -i "${DEL_ONE_NUM_GROUP_TITLE},${DEL_TWO_NUM_GROUP_TITLE}d" ${MY_SOURCE_FILE_NAME}
+    ALL_DEL_GROUP_TITLE_NUM=$(grep -En "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME}|awk -F ":" '{print $1}')
+    for ONLY_DEL_GROUP_TITLE_NUM in ${ALL_DEL_GROUP_TITLE_NUM[@]}
+    do
+      DEL_GROUP_TITLE_TO_ADDRESS_NUM=`echo $((${ONLY_DEL_GROUP_TITLE_NUM} + 1))`
+      SED_COMMAND_ENV+=" -e ${ONLY_DEL_GROUP_TITLE_NUM},${DEL_GROUP_TITLE_TO_ADDRESS_NUM}d"
+    done
   done
+  sed -i ${SED_COMMAND_ENV} ${MY_SOURCE_FILE_NAME}
 }
 
+# 作用：下载需要的文件并处理(合并成我需要的样式)
 local_chuli_yuan_source(){
   #NEW_DATE=$(date +%Y.%m.%d)
   #MY_SOURCE_ADD='https://gh-proxy.org/https://raw.githubusercontent.com/YONGHU01/myREPO/refs/heads/main/TV/test.txt'
@@ -88,6 +93,7 @@ local_chuli_yuan_source(){
   sed -i "s/更新时间.*/更新时间${NEW_DATE}/g" ${MY_SOURCE_FILE_NAME}
 }
 
+# 作用：单独添加一个我需要的group_title
 custom_yangweishi(){
   # 确保两个文件为空
   if [ -f ${NEWFILE_1} ];then
@@ -133,6 +139,7 @@ custom_yangweishi(){
   sed -i "${FIND_ME_FILE_ONE_NUM}r ${NEWFILE_2}" ${MY_SOURCE_FILE_NAME}
 }
 
+# 作用：上传本次修改好的文件
 upload_migu_to_github(){
   set -e
   # ====== 配置区 ======
