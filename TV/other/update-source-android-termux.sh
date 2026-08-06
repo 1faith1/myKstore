@@ -207,6 +207,7 @@ SIM_DATE=$(date +%m.%d)
 # 下载源文件到本地处理的目录
 DIR_1=$(cd $(dirname "$0") ; pwd)
 LOCAL_SOURCE_FILE_DIR=${DIR_1}/localSource
+#LOCAL_SOURCE_FILE_DIR=/tmp/localSource
 NEWFILE_1="${LOCAL_SOURCE_FILE_DIR}/tvall.1.m3u"
 NEWFILE_2="${LOCAL_SOURCE_FILE_DIR}/tvall.2.m3u"
 # github下载项目目录地址
@@ -227,7 +228,7 @@ REPO_NAME='myKstore'
 BRANCH="main"
 LOCAL_REPO_DIR="${GITHUB_SOURCE_FILE_DIR}"
 TV_DIR=${LOCAL_REPO_DIR}/TV
-
+# =================================================================
 mkdir -p ${LOCAL_SOURCE_FILE_DIR}
 mkdir -p ${GITHUB_SOURCE_FILE_DIR}
 
