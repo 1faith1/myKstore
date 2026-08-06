@@ -201,40 +201,52 @@ upload_migu_to_github(){
 
   echo "完成上传"
 }
-# =================================================================
-NEW_DATE=$(date +%Y.%m.%d)
-SIM_DATE=$(date +%m.%d)
-# 下载源文件到本地处理的目录
-DIR_1=$(cd $(dirname "$0") ; pwd)
-LOCAL_SOURCE_FILE_DIR=${DIR_1}/localSource
-#LOCAL_SOURCE_FILE_DIR=/tmp/localSource
-NEWFILE_1="${LOCAL_SOURCE_FILE_DIR}/tvall.1.m3u"
-NEWFILE_2="${LOCAL_SOURCE_FILE_DIR}/tvall.2.m3u"
-# github下载项目目录地址
-GITHUB_SOURCE_FILE_DIR=${DIR_1}/githubSource
-# 我得源，下载到本地后进行处理内容
-MY_SOURCE_ADD='https://gh-proxy.org/https://raw.githubusercontent.com/1faith1/myKstore/refs/heads/main/TV/kl.txt'
-# 截断文件名（test.txt）
-MY_SOURCE_FILE_NAME=$( echo ${MY_SOURCE_ADD} |awk -F "/" '{print $NF}')
-# 官方源，下载到本地后处理内容
-NEW_SOURCE_ADD='https://live.445569.xyz/live.m3u'
-# 截断文件名（live.m3u）
-NEW_SOURCE_FILE_NAME=$(echo ${NEW_SOURCE_ADD}|awk -F "/" '{print $NF}')
-# github用户名
-USER_NAME='1faith1'
-# 仓库名
-REPO_NAME='myKstore'
-# 分支名
-BRANCH="main"
-LOCAL_REPO_DIR="${GITHUB_SOURCE_FILE_DIR}"
-TV_DIR=${LOCAL_REPO_DIR}/TV
-# =================================================================
-mkdir -p ${LOCAL_SOURCE_FILE_DIR}
-mkdir -p ${GITHUB_SOURCE_FILE_DIR}
 
-cd ${LOCAL_SOURCE_FILE_DIR}
-local_chuli_yuan_source
-remove_group_title
+env_load (){
+  NEW_DATE=$(date +%Y.%m.%d)
+  SIM_DATE=$(date +%m.%d)
+  # 下载源文件到本地处理的目录
+  FILE_DIR_ADD=$(cd $(dirname "$0") ; pwd)
+  LOCAL_SOURCE_FILE_DIR=${FILE_DIR_ADD}/localSource
+  #LOCAL_SOURCE_FILE_DIR=/tmp/localSource
+  NEWFILE_1="${LOCAL_SOURCE_FILE_DIR}/tvall.1.m3u"
+  NEWFILE_2="${LOCAL_SOURCE_FILE_DIR}/tvall.2.m3u"
+  # github下载项目目录地址
+  #GITHUB_SOURCE_FILE_DIR=/tmp/githubSource
+  GITHUB_SOURCE_FILE_DIR=${FILE_DIR_ADD}/githubSource
+  # 我的源，下载到本地后进行处理内容
+  MY_SOURCE_ADD='https://gh-proxy.org/https://raw.githubusercontent.com/1faith1/myKstore/refs/heads/main/TV/kl.txt'
+  # 截断文件名（test.txt）
+  MY_SOURCE_FILE_NAME=$( echo ${MY_SOURCE_ADD} |awk -F "/" '{print $NF}')
+  # 官方源，下载到本地后处理内容
+  NEW_SOURCE_ADD='https://live.445569.xyz/live.m3u'
+  # 截断文件名（live.m3u）
+  NEW_SOURCE_FILE_NAME=$(echo ${NEW_SOURCE_ADD}|awk -F "/" '{print $NF}')
+  # github用户名
+  USER_NAME='1faith1'
+  # 仓库名
+  REPO_NAME='myKstore'
+  # 分支名
+  BRANCH="main"
+  LOCAL_REPO_DIR="${GITHUB_SOURCE_FILE_DIR}"
+  TV_DIR=${LOCAL_REPO_DIR}/TV
+}
+
+main (){
+  env_load
+  mkdir -p ${LOCAL_SOURCE_FILE_DIR}
+  mkdir -p ${GITHUB_SOURCE_FILE_DIR}
+  
+  cd ${LOCAL_SOURCE_FILE_DIR}
+  local_chuli_yuan_source
+  remove_group_title
+  custom_yangweishi
+  
+  cd ${GITHUB_SOURCE_FILE_DIR}
+  upload_migu_to_github
+}
+# =================================================================
+main
 custom_yangweishi
 cd ${GITHUB_SOURCE_FILE_DIR}
 upload_migu_to_github
