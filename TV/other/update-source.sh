@@ -88,7 +88,7 @@ local_chuli_yuan_source(){
 
   # ==================== 处理${NEW_SOURCE_FILE_NAME}文件数据
   NEW_FILE_NUM=$(grep -En  "TG频道" ${NEW_SOURCE_FILE_NAME}|grep "官网地址"|awk -F ":" '{print $1}')
-  echo '处理其他源文件中数据，删除TG等无关信息'
+  echo "处理${NEW_SOURCE_FILE_NAME}文件中数据，删除TG等无关信息"
   sed -i "1d;${NEW_FILE_NUM},`echo $((${NEW_FILE_NUM} + 1))`d" ${NEW_SOURCE_FILE_NAME}
 
 
