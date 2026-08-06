@@ -43,7 +43,10 @@ remove_group_title (){
     done
   done
   if [ ! -z $ADDR ];then
+    echo "删除不需要的group-title."
     sed -i ${SED_COMMAND_ENV} ${MY_SOURCE_FILE_NAME}
+  else
+    echo "本次没有匹配到需要删除的group-title."
   fi
 }
 
