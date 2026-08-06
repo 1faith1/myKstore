@@ -195,7 +195,7 @@ upload_migu_to_github(){
 }
 # =================================================================
 NEW_DATE=$(date +%Y.%m.%d)
-SIM_DATE=$(date %m.%d)
+SIM_DATE=$(date +%m.%d)
 # 下载源文件到本地处理的目录
 FILE_DIR_ADD=$(cd $(dirname "$0") ; pwd)
 #LOCAL_SOURCE_FILE_DIR=/tmp/localSource
