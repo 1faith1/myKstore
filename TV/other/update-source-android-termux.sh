@@ -1,4 +1,3 @@
-
 #!/data/data/com.termux/files/usr/bin/bash
 
 # 作用：删除一个或多个group_title的所有资源
