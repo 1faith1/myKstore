@@ -91,9 +91,8 @@ local_chuli_yuan_source(){
   echo "处理${NEW_SOURCE_FILE_NAME}文件中数据，删除TG等无关信息"
   sed -i "1d;${NEW_FILE_NUM},`echo $((${NEW_FILE_NUM} + 1))`d" ${NEW_SOURCE_FILE_NAME}
 
-
   # ====
-  echo '添加其他源到文件中'
+  echo "添加处理完成${NEW_SOURCE_FILE_NAME}中源到${MY_SOURCE_FILE_NAME}文件中"
   sed -i "${FIND_ME_FILE_ONE_NUM}r ${NEW_SOURCE_FILE_NAME}" ${MY_SOURCE_FILE_NAME}
   echo '更新我的文件中时间信息'
   sed -i "s/更新时间.*/更新时间${NEW_DATE}/g" ${MY_SOURCE_FILE_NAME}
