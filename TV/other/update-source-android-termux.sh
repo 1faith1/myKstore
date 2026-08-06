@@ -248,6 +248,4 @@ main (){
 }
 # =================================================================
 main
-custom_yangweishi
-cd ${GITHUB_SOURCE_FILE_DIR}
-upload_migu_to_github
+
