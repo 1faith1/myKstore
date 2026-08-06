@@ -41,7 +41,7 @@ remove_group_title (){
       SED_COMMAND_ENV+=" -e ${ONLY_DEL_GROUP_TITLE_NUM},${DEL_GROUP_TITLE_TO_ADDRESS_NUM}d"
     done
   done
-  if [ ! -z $ADDR ];then
+  if [ ! -z ${SED_COMMAND_ENV} ];then
     echo "删除不需要的group-title."
     sed -i ${SED_COMMAND_ENV} ${MY_SOURCE_FILE_NAME}
   else
