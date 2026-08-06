@@ -202,6 +202,7 @@ upload_migu_to_github(){
   echo "完成上传"
 }
 
+# 作用：全局变量
 env_load (){
   NEW_DATE=$(date +%Y.%m.%d)
   SIM_DATE=$(date +%m.%d)
