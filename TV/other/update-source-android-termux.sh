@@ -102,6 +102,10 @@ local_chuli_yuan_source(){
 
 # 作用：单独添加一个我需要的group_title
 custom_yangweishi(){
+  ADD_MY_ZIDINGYI_GROUP_TITLE=$1
+  if [[ -z $ADD_MY_ZIDINGYI_GROUP_TITLE ]];then
+    echo '缺失自定组名参数，用法错误' && exit 4
+  fi
   # 确保两个文件为空
   if [ -f ${NEWFILE_1} ];then
      rm -f ${NEWFILE_1}*
@@ -136,7 +140,7 @@ custom_yangweishi(){
   # # // 处理文件：将根据GET_ALL_YANGWEISHI_GROUPTITLE找到的所有pd，除上面ys/ws外所有pd追加到NEWFILE_2文件
   sed -e "$(grep -nEi ",.*CCTV|,.*卫视" ${NEWFILE_1} | cut -d: -f1 | awk '{printf "%dd;%dd;",$0,$0+1}')" ${NEWFILE_1}  >> ${NEWFILE_2}
   # 修改/group-title为自定义的group-title
-  sed -i "s/group-title=.*\,/group-title=\"🔥TV汇总-${SIM_DATE}\"\,/g" ${NEWFILE_2}
+  sed -i "s/group-title=.*\,/group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"\,/g" ${NEWFILE_2}
 
   # // 添加处理好的文件到kl文本中的第一行
   # 查找文本中"#============="所在行数
@@ -237,6 +241,8 @@ env_load (){
   BRANCH="main"
   LOCAL_REPO_DIR="${GITHUB_SOURCE_FILE_DIR}"
   TV_DIR=${LOCAL_REPO_DIR}/TV
+  # 我自定义的新加组名称
+  ADD_MY_ZIDINGYI_GROUP_TITLE_1="🔥TV汇总-${SIM_DATE}"
 }
 
 main (){
@@ -247,7 +253,7 @@ main (){
   cd ${LOCAL_SOURCE_FILE_DIR}
   local_chuli_yuan_source
   remove_group_title
-  custom_yangweishi
+  custom_yangweishi ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   
   cd ${GITHUB_SOURCE_FILE_DIR}
   upload_migu_to_github
