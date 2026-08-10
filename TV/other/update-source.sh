@@ -254,7 +254,7 @@ main (){
   cd ${LOCAL_SOURCE_FILE_DIR}
   local_chuli_yuan_source
   remove_group_title
-  custom_yangweishi
+  custom_yangweishi ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   
   cd ${GITHUB_SOURCE_FILE_DIR}
   upload_migu_to_github
