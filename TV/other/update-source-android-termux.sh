@@ -134,7 +134,6 @@ custom_yangweishi(){
     sed -i  "s/,${ONLY_CCTV_CHINESE}/,${UP_CCTV_CHINESE}/g" ${NEWFILE_2}
   done
   # # // 处理文件：将根据GET_ALL_YANGWEISHI_GROUPTITLE找到的所有pd，除上面ys/ws外所有pd追加到NEWFILE_2文件
-  #awk -v IGNORECASE=1 '(index(tolower($0),",cctv")>0)||(index($0,"卫视")>0){skip=1;next}skip==1{skip=0;next}1' ${NEWFILE_1} >> ${NEWFILE_2}
   sed -e "$(grep -nEi ",.*CCTV|,.*卫视" ${NEWFILE_1} | cut -d: -f1 | awk '{printf "%dd;%dd;",$0,$0+1}')" ${NEWFILE_1}  >> ${NEWFILE_2}
   # 修改/group-title为自定义的group-title
   sed -i "s/group-title=.*\,/group-title=\"🔥TV汇总-${SIM_DATE}\"\,/g" ${NEWFILE_2}
