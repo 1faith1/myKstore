@@ -32,7 +32,7 @@ remove_group_title (){
      马来西亚直播     \
      伊拉克直播       \
   )
-
+  echo "删除不需要的group-title..."
   SED_COMMAND_ENV=""
   for ONLY_GROUP_TITLE in ${REMOVE_GROUP_TITLE[@]}
   do
@@ -44,7 +44,6 @@ remove_group_title (){
     done
   done
   if [[ ! -z ${SED_COMMAND_ENV} ]];then
-    echo "删除不需要的group-title."
     sed -i ${SED_COMMAND_ENV} ${MY_SOURCE_FILE_NAME}
   else
     echo "本次没有匹配到需要删除的group-title."
@@ -52,7 +51,7 @@ remove_group_title (){
 }
 
 # 单独添加某一个/多个喜欢的节目到某一个group-title里面(在选定group-title最下面添加)
-add_tv_to_group-title (){
+add_tv_to_group_title (){
   ADD_MY_ZIDINGYI_GROUP_TITLE=$1
   if [[ -z $ADD_MY_ZIDINGYI_GROUP_TITLE ]];then
     echo '缺失添加喜欢节目到自定组名参数，用法错误' && exit 4
@@ -288,7 +287,7 @@ main (){
   local_chuli_yuan_source
   remove_group_title
   custom_yangweishi ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
-  add_tv_to_group-title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
+  add_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   
   cd ${GITHUB_SOURCE_FILE_DIR}
   upload_migu_to_github
