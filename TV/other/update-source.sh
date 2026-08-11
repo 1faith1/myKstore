@@ -127,12 +127,12 @@ add_tv_to_group_title (){
              grep -E ",.*卫视" |tail -1|awk -F ":" '{print $1}')
   HANG_NUM_ADD_1=`echo $((${HANG_NUM} + 1))`
   ADD_LOVE_TV_LIST=(   \
-      ,.*CHC家庭影院    \
-      ,.*CHC动作电影    \
-      ,.*CHC影迷电影    \
-      ,.*凤凰中文       \
-      ,.*凤凰香港       \
-      ,.*凤凰资讯       \
+      ,CHC家庭影院    \
+      ,CHC动作电影    \
+      ,CHC影迷电影    \
+      ,凤凰中文       \
+      ,凤凰香港       \
+      ,凤凰资讯       \
   )
   # 确保此文件为空
   if [ -f ${MYLOVETV_1} ];then
