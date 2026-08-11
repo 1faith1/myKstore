@@ -54,6 +54,54 @@ remove_group_title (){
   fi
 }
 
+# 单独删除某一个/多个喜欢的节(某一个group-title里面)
+del_tv_to_group_title (){
+  DEL_MY_ZIDINGYI_GROUP_TITLE=$1
+  if [[ -z $DEL_MY_ZIDINGYI_GROUP_TITLE ]];then
+    echo '缺失删除自定义group-title不喜欢节目参数 ${自定义group-title}，用法错误' && exit 4
+  fi
+  DEL_NOT_LOVE_TV_LIST=(\
+      ,.*熊猫频道.*     \
+      ,上视东方影视     \
+      ,.*频道           \
+      ,中学生           \
+      ,.*综合           \
+      ,CGTN.*           \
+      ,山东教育         \
+      ,和美乡途轮播台   \
+      ,快乐垂钓         \
+      ,上海第一财经     \
+      ,四海钓鱼         \
+      ,江苏教育         \
+      ,赛事最经典       \
+      ,体坛名栏汇       \
+      ,南方影视         \
+      ,第一财经         \
+      ,五星体育         \
+  )
+  echo "单独在我自定义的group-title中删除不喜欢的节目..."
+  SED_DEL_COMMAND_ENV=""
+  for ONLY_DELE_NOT_LOVE_TV in ${DEL_NOT_LOVE_TV_LIST[@]}
+  do
+    DELE_TV_ALL_INFO=$(grep -En "group-title=\"${DEL_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}|grep -E "${ONLY_DELE_NOT_LOVE_TV}"|awk -F "," '{print $NF}'|sort|uniq)
+    for DELE_TV_INFO in ${DELE_TV_ALL_INFO[@]}
+    do
+        if [[ ! -z ${DELE_TV_INFO} ]];then
+            echo "      删除频道 ${DELE_TV_INFO}"
+        fi
+    done
+    GET_DEL_ALL_TV_NUM=$(grep -En "group-title=\"${DEL_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}|grep -E "${ONLY_DELE_NOT_LOVE_TV}"|awk -F ":" '{print $1}')
+    for DEL_TV_NUM in ${GET_DEL_ALL_TV_NUM[@]}
+    do
+      if [[ ! -z ${DEL_TV_NUM} ]];then
+          DEL_TV_NUM_ADD_1=`echo $((${DEL_TV_NUM} + 1))`
+          SED_DEL_COMMAND_ENV+=" -e ${DEL_TV_NUM},${DEL_TV_NUM_ADD_1}d"
+      fi
+    done
+  done
+  sed  -i ${SED_DEL_COMMAND_ENV} ${MY_SOURCE_FILE_NAME}
+}
+
 # 单独添加某一个/多个喜欢的节目到某一个group-title里面(在选定group-title最下面添加)
 add_tv_to_group_title (){
   ADD_MY_ZIDINGYI_GROUP_TITLE=$1
@@ -295,7 +343,8 @@ main (){
   cd ${LOCAL_SOURCE_FILE_DIR}
   local_chuli_yuan_source
   remove_group_title
-  custom_yangweishi ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
+  custom_yangweishi     ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
+  del_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   add_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   
   cd ${GITHUB_SOURCE_FILE_DIR}
