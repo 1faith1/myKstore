@@ -113,9 +113,10 @@ add_tv_to_group_title (){
   # 获取kl.txt我的自定义组中最后一个卫视的行号
   HANG_NUM=$(grep -En "group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}|grep -E ",.*卫视" |tail -1|awk -F ":" '{print $1}')
   HANG_NUM_ADD_1=`echo $((${HANG_NUM} + 1))`
-  ADD_LOVE_TV_LIST=(  \
+  ADD_LOVE_TV_LIST=(   \
       ,.*CHC家庭影院    \
       ,.*CHC动作电影    \
+      ,.*CHC影迷电影    \
   )
   # 确保此文件为空
   if [ -f ${MYLOVETV_1} ];then
