@@ -61,12 +61,12 @@ del_tv_to_group_title (){
     echo '缺失删除自定义group-title不喜欢节目参数 ${自定义group-title}，用法错误' && exit 4
   fi
   DEL_NOT_LOVE_TV_LIST=(\
-      ,.*熊猫频道.*     \
-      ,上视东方影视     \
       ,.*频道           \
+      ,.*综合           \      
+      ,上视东方影视     \
       ,中学生           \
-      ,.*综合           \
       ,CGTN.*           \
+      ,CETV.*          \
       ,山东教育         \
       ,和美乡途轮播台   \
       ,快乐垂钓         \
