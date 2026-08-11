@@ -51,6 +51,38 @@ remove_group_title (){
   fi
 }
 
+# 单独添加某一个/多个喜欢的节目到某一个group-title里面(在选定group-title最下面添加)
+add_tv_to_group-title (){
+  ADD_MY_ZIDINGYI_GROUP_TITLE=$1
+  if [[ -z $ADD_MY_ZIDINGYI_GROUP_TITLE ]];then
+    echo '缺失添加喜欢节目到自定组名参数，用法错误' && exit 4
+  fi
+  # 获取kl.txt我的自定义组中最后一个卫视的行号
+  HANG_NUM=$(grep -En "group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}|grep -E ",.*卫视" |tail -1|awk -F ":" '{print $1}')
+  HANG_NUM_ADD_1=`echo $((${HANG_NUM} + 1))`
+  ADD_LOVE_TV_LIST=(  \
+      ,.*CHC家庭影院    \
+      ,.*CHC动作电影    \
+  )
+  # 确保此文件为空
+  if [ -f ${MYLOVETV_1} ];then
+     rm -f ${MYLOVETV_1}*
+  fi
+  for ONLY_LOVE_TV in ${ADD_LOVE_TV_LIST[@]}
+  do
+      for GUOLV_HTTP_ADDRESS in $(grep -EA 1 "${ONLY_LOVE_TV}" ${NEW_SOURCE_FILE_NAME}|sed "/^--/d"|grep -E "^http")
+      do
+          if [[ $(grep ${GUOLV_HTTP_ADDRESS} ${NEWFILE_2}|wc -l) == 0 ]];then
+              grep -EA 1 "${ONLY_LOVE_TV}" ${NEW_SOURCE_FILE_NAME}|sed "/^--/d" >> ${MYLOVETV_1}
+          fi
+      done
+  done
+  # 修改group-title为自定义的group-title
+  sed -i "s/group-title=.*\,/group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"\,/g" ${MYLOVETV_1}
+  echo "单独添加喜欢的节目${MY_SOURCE_FILE_NAME}文件中..."
+  sed -i "${HANG_NUM_ADD_1}r ${MYLOVETV_1}" ${MY_SOURCE_FILE_NAME}
+}
+
 # 作用：下载需要的文件并处理(合并成我需要的样式)
 local_chuli_yuan_source(){
   #NEW_DATE=$(date +%Y.%m.%d)
@@ -222,6 +254,8 @@ env_load (){
   #LOCAL_SOURCE_FILE_DIR=/tmp/localSource
   NEWFILE_1="${LOCAL_SOURCE_FILE_DIR}/tvall.1.m3u"
   NEWFILE_2="${LOCAL_SOURCE_FILE_DIR}/tvall.2.m3u"
+  # 我喜欢的节目过滤出来后存放的目录
+  MYLOVETV_1="${LOCAL_SOURCE_FILE_DIR}/mylove.1.m3u"
   # github下载项目目录地址
   #GITHUB_SOURCE_FILE_DIR=/tmp/githubSource
   GITHUB_SOURCE_FILE_DIR=${FILE_DIR_ADD}/githubSource
@@ -254,6 +288,7 @@ main (){
   local_chuli_yuan_source
   remove_group_title
   custom_yangweishi ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
+  add_tv_to_group-title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   
   cd ${GITHUB_SOURCE_FILE_DIR}
   upload_migu_to_github
