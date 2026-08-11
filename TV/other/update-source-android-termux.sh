@@ -93,14 +93,16 @@ del_tv_to_group_title (){
   SED_DEL_COMMAND_ENV=""
   for ONLY_DELE_NOT_LOVE_TV in ${DEL_NOT_LOVE_TV_LIST[@]}
   do
-    DELE_TV_ALL_INFO=$(grep -En "group-title=\"${DEL_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}|grep -E "${ONLY_DELE_NOT_LOVE_TV}"|awk -F "," '{print $NF}'|sort|uniq)
+    DELE_TV_ALL_INFO=$(grep -En "group-title=\"${DEL_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}| \
+                       grep -E "${ONLY_DELE_NOT_LOVE_TV}"|awk -F "," '{print $NF}'|sort|uniq)
     for DELE_TV_INFO in ${DELE_TV_ALL_INFO[@]}
     do
         if [[ ! -z ${DELE_TV_INFO} ]];then
             echo "      删除频道 ${DELE_TV_INFO}"
         fi
     done
-    GET_DEL_ALL_TV_NUM=$(grep -En "group-title=\"${DEL_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}|grep -E "${ONLY_DELE_NOT_LOVE_TV}"|awk -F ":" '{print $1}')
+    GET_DEL_ALL_TV_NUM=$(grep -En "group-title=\"${DEL_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}| \
+                         grep -E "${ONLY_DELE_NOT_LOVE_TV}"|awk -F ":" '{print $1}')
     for DEL_TV_NUM in ${GET_DEL_ALL_TV_NUM[@]}
     do
       if [[ ! -z ${DEL_TV_NUM} ]];then
@@ -119,12 +121,16 @@ add_tv_to_group_title (){
     echo '缺失添加喜欢节目到自定组名参数，用法错误' && exit 4
   fi
   # 获取kl.txt我的自定义组中最后一个卫视的行号
-  HANG_NUM=$(grep -En "group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}|grep -E ",.*卫视" |tail -1|awk -F ":" '{print $1}')
+  HANG_NUM=$(grep -En "group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME}| \
+             grep -E ",.*卫视" |tail -1|awk -F ":" '{print $1}')
   HANG_NUM_ADD_1=`echo $((${HANG_NUM} + 1))`
   ADD_LOVE_TV_LIST=(   \
       ,.*CHC家庭影院    \
       ,.*CHC动作电影    \
       ,.*CHC影迷电影    \
+      ,.*凤凰中文       \
+      ,.*凤凰香港       \
+      ,.*凤凰资讯       \
   )
   # 确保此文件为空
   if [ -f ${MYLOVETV_1} ];then
