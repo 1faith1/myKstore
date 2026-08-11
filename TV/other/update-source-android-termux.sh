@@ -361,8 +361,8 @@ main (){
   local_chuli_yuan_source
   remove_group_title
   custom_yangweishi     ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
+  add_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}  
   del_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
-  add_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   
   cd ${GITHUB_SOURCE_FILE_DIR}
   upload_migu_to_github
