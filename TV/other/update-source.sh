@@ -73,8 +73,13 @@ add_tv_to_group_title (){
   if [ -f ${MYLOVETV_1} ];then
      rm -f ${MYLOVETV_1}*
   fi
+  echo "单独添加喜欢的节目到我自定义的group-title中..."
   for ONLY_LOVE_TV in ${ADD_LOVE_TV_LIST[@]}
   do
+      NEW_ADD_TV_INFO=$(grep -Eo "${ONLY_LOVE_TV}" ${NEW_SOURCE_FILE_NAME} |sort |uniq|awk -F "," '{print $2}')
+      if [[ ! -z ${NEW_ADD_TV_INFO} ]];then
+         echo "      新增节目 ${NEW_ADD_TV_INFO}"
+      fi
       for GUOLV_HTTP_ADDRESS in $(grep -EA 1 "${ONLY_LOVE_TV}" ${NEW_SOURCE_FILE_NAME}|sed "/^--/d"|grep -E "^http")
       do
           if [[ $(grep ${GUOLV_HTTP_ADDRESS} ${NEWFILE_2}|wc -l) == 0 ]];then
@@ -84,7 +89,7 @@ add_tv_to_group_title (){
   done
   # 修改group-title为自定义的group-title
   sed -i "s/group-title=.*\,/group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"\,/g" ${MYLOVETV_1}
-  echo "单独添加喜欢的节目${MY_SOURCE_FILE_NAME}文件中..."
+  # 将喜欢的节目加入到kl.txt中
   sed -i "${HANG_NUM_ADD_1}r ${MYLOVETV_1}" ${MY_SOURCE_FILE_NAME}
 }
 
