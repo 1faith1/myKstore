@@ -37,6 +37,10 @@ remove_group_title (){
   SED_COMMAND_ENV=""
   for ONLY_GROUP_TITLE in ${REMOVE_GROUP_TITLE[@]}
   do
+    GET_COMPLETE_GROUP_TITLE_INFO=$(grep -Eo "group-title=\".*${ONLY_GROUP_TITLE}\"" ${MY_SOURCE_FILE_NAME} |sort|uniq)
+    if [[ ! -z ${GET_COMPLETE_GROUP_TITLE_INFO} ]];then
+       echo "      删除 ${GET_COMPLETE_GROUP_TITLE_INFO}"
+    fi
     ALL_DEL_GROUP_TITLE_NUM=$(grep -En "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME}|awk -F ":" '{print $1}')
     for ONLY_DEL_GROUP_TITLE_NUM in ${ALL_DEL_GROUP_TITLE_NUM[@]}
     do
