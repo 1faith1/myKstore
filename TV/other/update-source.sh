@@ -148,7 +148,7 @@ add_tv_to_group_title (){
       for GUOLV_HTTP_ADDRESS in $(grep -EA 1 "${ONLY_LOVE_TV}" ${NEW_SOURCE_FILE_NAME}|sed "/^--/d"|grep -E "^http")
       do
           if [[ $(grep ${GUOLV_HTTP_ADDRESS} ${NEWFILE_2}|wc -l) == 0 ]];then
-              grep -EB 1 "${GUOLV_HTTP_ADDRESS}" ${NEW_SOURCE_FILE_NAME}|sed "/^--/d" >> ${MYLOVETV_1}
+              grep -B 1 "${GUOLV_HTTP_ADDRESS}" ${NEW_SOURCE_FILE_NAME}|sed "/^--/d" >> ${MYLOVETV_1}
           fi
       done
   done
