@@ -62,6 +62,13 @@ const PROXY_GROUPS = [
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
   },
+  {
+    name: "AAA - [马来西亚-自动更新]",
+    match: /(马来西亚)/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },  
 ];
 // ======= 用户配置区 END =======
 
