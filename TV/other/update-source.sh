@@ -339,7 +339,7 @@ env_load (){
   # 截断文件名（test.txt）
   MY_SOURCE_FILE_NAME=$( echo ${MY_SOURCE_ADD} |awk -F "/" '{print $NF}')
   # 官方源，下载到本地后处理内容
-  NEW_SOURCE_ADD='https://live.445569.xyz/live.m3u'
+  NEW_SOURCE_ADD='https://iptv.445569.xyz/live.m3u'
   # 截断文件名（live.m3u）
   NEW_SOURCE_FILE_NAME=$(echo ${NEW_SOURCE_ADD}|awk -F "/" '{print $NF}')
   # github用户名
