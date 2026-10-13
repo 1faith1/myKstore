@@ -298,7 +298,90 @@ cat ${TMP_A_DIR} >> ${TMP_ALL_Q_A}
 
 #终端输出完整试卷
 cat  ${TMP_ALL_Q_A}
+# 作用：上传本次修改好的文件
+upload_migu_to_github(){
+  set -e
+  # ====== 配置区 ======
+  #USER_NAME='YONGHU01'
+  # 仓库名
+  #REPO_NAME='myREPO'
+  #LOCAL_UPLOAD_FILE_NAME="test.txt"
+  LOCAL_UPLOAD_FILE_NAME="${MY_SOURCE_FILE_NAME}"
+  #LOCAL_UPLOAD_FILE_ADD="${LOCAL_SOURCE_FILE_DIR}/test.txt"
+  LOCAL_UPLOAD_FILE_ADD="${LOCAL_SOURCE_FILE_DIR}/${MY_SOURCE_FILE_NAME}"
+  #BRANCH="main"
+  #LOCAL_REPO_DIR="${GITHUB_SOURCE_FILE_DIR}"
+  TV_DIR=${LOCAL_REPO_DIR}/TEST
+  # 仓库地址
+  REPO_URL="https://github.com/${USER_NAME}/${REPO_NAME}.git"
+  ## ======= 使用公钥连接github地址
+  ## 本地生成ssh-key，执行ssh-keygen命令
+  ## github设置公钥模式允许本地机器访问
+  ##    公钥上传地址https://github.com/settings/keys
+  ##    点击New SSH keys 填入本地/root/.ssh/id_rsa.pub中内容,名称任意填写直接add
+  ##    添加完成后再本地机器上测试,执行命令：ssh -T git@github.com
+  REMOTE_ADD="git@github.com:${USER_NAME}/${REPO_NAME}.git"
+  # ====================
+  echo "1. 检查源文件..."
+  if [ ! -f "$LOCAL_UPLOAD_FILE_ADD" ]; then
+    echo "文件不存在: $LOCAL_UPLOAD_FILE_ADD"
+    exit 1
+  fi
 
+  echo "2. 初始化或更新仓库..."
+
+  if [ ! -d "$LOCAL_REPO_DIR/.git" ]; then
+    rm -rf "${LOCAL_REPO_DIR}/*"
+    git clone "$REPO_URL" "$LOCAL_REPO_DIR"
+  else
+    cd "$LOCAL_REPO_DIR"
+    git fetch origin
+    git reset --hard origin/$BRANCH
+  fi
+  cd "$LOCAL_REPO_DIR"
+  echo "3. 覆盖文件..."
+  \cp -f "$LOCAL_UPLOAD_FILE_ADD" "$TV_DIR/$LOCAL_UPLOAD_FILE_NAME"
+
+  echo "4. 提交变更..."
+  git add "${TV_DIR}/${LOCAL_UPLOAD_FILE_NAME}"
+
+  # 判断是否有变化（避免空提交报错）
+  if git diff --cached --quiet; then
+    echo "无变化，跳过提交"
+    exit 0
+  fi
+
+  git commit -m "update mg.txt $(date '+%F %T')"
+
+  echo "5. 推送到GitHub（覆盖远端）..."
+  git remote set-url origin ${REMOTE_ADD}
+  git push origin $BRANCH
+
+  echo "完成上传"
+}
+# 作用：全局变量
+env_load (){
+  NEW_DATE=$(date +%Y.%m.%d)
+  SIM_DATE=$(date +%m.%d)
+  # 下载源文件到本地处理的目录
+  FILE_DIR_ADD=$(cd $(dirname "$0") ; pwd)
+  LOCAL_SOURCE_FILE_DIR=${FILE_DIR_ADD}/localSource
+  # github下载项目目录地址
+  #GITHUB_SOURCE_FILE_DIR=/tmp/githubSource
+  GITHUB_SOURCE_FILE_DIR=${FILE_DIR_ADD}/githubSource
+  # 截断文件名（test.txt）
+  MY_SOURCE_FILE_NAME=ALL_A_Q.txt
+  # github用户名
+  USER_NAME='1faith1'
+  # 仓库名
+  REPO_NAME='myKstore'
+  # 分支名
+  BRANCH="main"
+  LOCAL_REPO_DIR="${GITHUB_SOURCE_FILE_DIR}"
+  TV_DIR=${LOCAL_REPO_DIR}/TEST
+}
+env_load
+upload_migu_to_github
 #清理临时文件，保留最终ALL_A_Q.txt
 rm -f ${TMP_Q_DIR} ${TMP_A_DIR}
 echo ""
