@@ -323,6 +323,7 @@ upload_migu_to_github(){
   REMOTE_ADD="git@github.com:${USER_NAME}/${REPO_NAME}.git"
   # ====================
   echo "1. 检查源文件..."
+  echo "" > $LOCAL_UPLOAD_FILE_ADD
   if [ ! -f "$LOCAL_UPLOAD_FILE_ADD" ]; then
     echo "文件不存在: $LOCAL_UPLOAD_FILE_ADD"
     exit 1
