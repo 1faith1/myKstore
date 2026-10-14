@@ -271,35 +271,6 @@ SHUSHI (){
         echo "$line" >> ${TMP_A_DIR}
     fi
 }
-
-# 先清空旧临时文件
-> ${TMP_Q_DIR}
-> ${TMP_A_DIR}
-> ${TMP_ALL_Q_A}
-
-#一、口算(每天20道)
-KS_CHENGCHUFA '20'
-printf '\n%.0s' {1..2} >>${TMP_Q_DIR}
-printf '\n%.0s' {1..2} >>${TMP_A_DIR}
-
-#二、脱式(每天2道)
-TUOSHI '2'
-printf '\n%.0s' {1..2} >>${TMP_Q_DIR}
-printf '\n%.0s' {1..2} >>${TMP_A_DIR}
-
-#三、竖式(每天10道)
-SHUSHI '10'
-
-#合并输出
-cat ${TMP_Q_DIR} >> ${TMP_ALL_Q_A}
-printf '\n%.0s' {1..10} >> ${TMP_ALL_Q_A}
-echo "==================================【答案】==================================" >> ${TMP_ALL_Q_A}
-cat ${TMP_A_DIR} >> ${TMP_ALL_Q_A}
-
-#终端输出完整试卷
-cat  ${TMP_ALL_Q_A}
-
-# ================================================================================================
 # 作用：上传本次修改好的文件
 upload_migu_to_github(){
   set -e
@@ -369,6 +340,35 @@ env_load (){
   LOCAL_REPO_DIR="${GITHUB_SOURCE_FILE_DIR}"
   TV_DIR=${LOCAL_REPO_DIR}/TEST
 }
+# ================================================================================================
+# 先清空旧临时文件
+> ${TMP_Q_DIR}
+> ${TMP_A_DIR}
+> ${TMP_ALL_Q_A}
+
+#一、口算(每天20道)
+KS_CHENGCHUFA '20'
+printf '\n%.0s' {1..2} >>${TMP_Q_DIR}
+printf '\n%.0s' {1..2} >>${TMP_A_DIR}
+
+#二、脱式(每天2道)
+TUOSHI '2'
+printf '\n%.0s' {1..2} >>${TMP_Q_DIR}
+printf '\n%.0s' {1..2} >>${TMP_A_DIR}
+
+#三、竖式(每天10道)
+SHUSHI '10'
+
+#合并输出
+cat ${TMP_Q_DIR} >> ${TMP_ALL_Q_A}
+printf '\n%.0s' {1..10} >> ${TMP_ALL_Q_A}
+echo "==================================【答案】==================================" >> ${TMP_ALL_Q_A}
+cat ${TMP_A_DIR} >> ${TMP_ALL_Q_A}
+
+#终端输出完整试卷
+cat  ${TMP_ALL_Q_A}
+
+# ================================================================================================
 env_load
 upload_migu_to_github
 # ================================================================================================
