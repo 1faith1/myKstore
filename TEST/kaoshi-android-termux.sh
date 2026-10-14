@@ -3,9 +3,9 @@ TMP_Q_DIR=Q.txt
 TMP_A_DIR=A.txt
 TMP_ALL_Q_A=ALL_A_Q.txt
 # 口算题数
-KOUSUAN_NUM="10"
+KOUSUAN_NUM="20"
 # 脱式题述
-TUOSHI_NUM="2"
+TUOSHI_NUM="8"
 # 竖式题数
 SHUSHI_NUM="6"
 # ================================================================================================
@@ -367,7 +367,7 @@ SHUSHI "${SHUSHI_NUM}"
 
 #合并输出
 cat ${TMP_Q_DIR} >> ${TMP_ALL_Q_A}
-printf '\n%.0s' {1..10} >> ${TMP_ALL_Q_A}
+printf '\n%.0s' {1..20} >> ${TMP_ALL_Q_A}
 echo "==================================【答案】==================================" >> ${TMP_ALL_Q_A}
 cat ${TMP_A_DIR} >> ${TMP_ALL_Q_A}
 
