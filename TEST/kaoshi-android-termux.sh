@@ -2,7 +2,13 @@
 TMP_Q_DIR=Q.txt
 TMP_A_DIR=A.txt
 TMP_ALL_Q_A=ALL_A_Q.txt
-
+# 口算题数
+KOUSUAN_NUM="10"
+# 脱式题述
+TUOSHI_NUM="2"
+# 竖式题数
+SHUSHI_NUM="6"
+# ================================================================================================
 KS_CHENGCHUFA (){
     local total=$1
     local i=0
@@ -347,17 +353,17 @@ env_load (){
 > ${TMP_ALL_Q_A}
 
 #一、口算(每天20道)
-KS_CHENGCHUFA '20'
+KS_CHENGCHUFA "${KOUSUAN_NUM}"
 printf '\n%.0s' {1..2} >>${TMP_Q_DIR}
 printf '\n%.0s' {1..2} >>${TMP_A_DIR}
 
 #二、脱式(每天2道)
-TUOSHI '2'
+TUOSHI "${TUOSHI_NUM}"
 printf '\n%.0s' {1..2} >>${TMP_Q_DIR}
 printf '\n%.0s' {1..2} >>${TMP_A_DIR}
 
 #三、竖式(每天10道)
-SHUSHI '10'
+SHUSHI "${SHUSHI_NUM}"
 
 #合并输出
 cat ${TMP_Q_DIR} >> ${TMP_ALL_Q_A}
@@ -376,4 +382,4 @@ upload_migu_to_github
 #清理临时文件，保留最终ALL_A_Q.txt
 rm -f ${TMP_Q_DIR} ${TMP_A_DIR} ${TMP_ALL_Q_A}
 echo ""
-echo "生成完成，文件保存为: ALL_A_Q.txt"
+echo "生成完成，文件保存为: ${TMP_ALL_Q_A}"
