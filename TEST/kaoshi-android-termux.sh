@@ -298,32 +298,19 @@ cat ${TMP_A_DIR} >> ${TMP_ALL_Q_A}
 
 #终端输出完整试卷
 cat  ${TMP_ALL_Q_A}
+
+# ================================================================================================
 # 作用：上传本次修改好的文件
 upload_migu_to_github(){
   set -e
   # ====== 配置区 ======
-  #USER_NAME='YONGHU01'
-  # 仓库名
-  #REPO_NAME='myREPO'
-  #LOCAL_UPLOAD_FILE_NAME="test.txt"
   LOCAL_UPLOAD_FILE_NAME="${MY_SOURCE_FILE_NAME}"
-  #LOCAL_UPLOAD_FILE_ADD="${LOCAL_SOURCE_FILE_DIR}/test.txt"
   LOCAL_UPLOAD_FILE_ADD="${LOCAL_SOURCE_FILE_DIR}/${MY_SOURCE_FILE_NAME}"
-  #BRANCH="main"
-  #LOCAL_REPO_DIR="${GITHUB_SOURCE_FILE_DIR}"
   TV_DIR=${LOCAL_REPO_DIR}/TEST
-  # 仓库地址
   REPO_URL="https://github.com/${USER_NAME}/${REPO_NAME}.git"
-  ## ======= 使用公钥连接github地址
-  ## 本地生成ssh-key，执行ssh-keygen命令
-  ## github设置公钥模式允许本地机器访问
-  ##    公钥上传地址https://github.com/settings/keys
-  ##    点击New SSH keys 填入本地/root/.ssh/id_rsa.pub中内容,名称任意填写直接add
-  ##    添加完成后再本地机器上测试,执行命令：ssh -T git@github.com
   REMOTE_ADD="git@github.com:${USER_NAME}/${REPO_NAME}.git"
   # ====================
   echo "1. 检查源文件..."
-  echo "" > $LOCAL_UPLOAD_FILE_ADD
   if [ ! -f "$LOCAL_UPLOAD_FILE_ADD" ]; then
     echo "文件不存在: $LOCAL_UPLOAD_FILE_ADD"
     exit 1
@@ -359,19 +346,20 @@ upload_migu_to_github(){
   git push origin $BRANCH
 
   echo "完成上传"
+  cd ${FILE_DIR_ADD}
 }
+
 # 作用：全局变量
 env_load (){
   NEW_DATE=$(date +%Y.%m.%d)
   SIM_DATE=$(date +%m.%d)
   # 下载源文件到本地处理的目录
   FILE_DIR_ADD=$(cd $(dirname "$0") ; pwd)
-  LOCAL_SOURCE_FILE_DIR=${FILE_DIR_ADD}/localSource
+  LOCAL_SOURCE_FILE_DIR=${FILE_DIR_ADD}
   # github下载项目目录地址
-  #GITHUB_SOURCE_FILE_DIR=/tmp/githubSource
   GITHUB_SOURCE_FILE_DIR=${FILE_DIR_ADD}/githubSource
   # 截断文件名（test.txt）
-  MY_SOURCE_FILE_NAME=ALL_A_Q.txt
+  MY_SOURCE_FILE_NAME=${TMP_ALL_Q_A}
   # github用户名
   USER_NAME='1faith1'
   # 仓库名
@@ -383,8 +371,9 @@ env_load (){
 }
 env_load
 upload_migu_to_github
+# ================================================================================================
+
 #清理临时文件，保留最终ALL_A_Q.txt
-rm -f ${TMP_Q_DIR} ${TMP_A_DIR}
+rm -f ${TMP_Q_DIR} ${TMP_A_DIR} ${TMP_ALL_Q_A}
 echo ""
 echo "生成完成，文件保存为: ALL_A_Q.txt"
-
