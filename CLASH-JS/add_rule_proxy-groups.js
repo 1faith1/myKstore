@@ -71,7 +71,7 @@ const PROXY_GROUPS = [
   },  
     {
     name: "AAA - [全部-自动更新]",
-    match: /(*)/,
+    match: /.*/,
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
