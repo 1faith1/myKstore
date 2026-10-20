@@ -69,6 +69,13 @@ const PROXY_GROUPS = [
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
   },  
+    {
+    name: "AAA - [全部-自动更新]",
+    match: /(*)/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },  
 ];
 // ======= 用户配置区 END =======
 
