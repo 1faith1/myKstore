@@ -1,7 +1,7 @@
 #!/bin/bash
 # dingtalk_webhook.sh
 if [ $# -lt 1 ];then
-    echo "用法: $0 消息内容"
+    echo "用法: sh $0 消息内容"
     exit 1
 fi
 MSG="$1"
