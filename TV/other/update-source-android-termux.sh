@@ -47,6 +47,13 @@ remove_group_title (){
      牙买加直播       \
      佛得角直播       \
      津巴布韦直播       \
+     Twitch直播       \
+     TikTok直播      \
+     中女甲          \
+     印班超       \
+     来疯直播    \
+     酷狗直播    \
+     Ai直播   \
   )
   echo "删除不需要的group-title..."
   SED_COMMAND_ENV=""
