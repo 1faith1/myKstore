@@ -195,179 +195,181 @@ https://cdn.qd.je/163189/fhzx
 http://61.138.99.166:10089/hls/67/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8A%A8%E4%BD%9C%E5%BD%B1%E9%99%A2.png" group-title="🔥TV汇总-10.26",动作影院
 http://61.138.99.166:10089/hls/113/index.m3u8
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/mosaic-legacy_db590012c3de989ce61b.jpeg?from=3067671334" group-title="抖音直播",凡人（三角洲行动） - 凡人正在直播
-http://pull-hls-l11.douyincdn.com/thirdgame/stream-408555323098923852_hiquhd5.m3u8?expire=1793587872&sign=28eb4171d9df1fa96031f2d095001bb3&arch_hrchy=c1&exp_hrchy=c1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-qxbA2I
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_o8agNAL4yEjPF6IAcM4inhzsBvnyDAiLA1dA3.jpeg?from=3067671334" group-title="抖音直播",财神 - 财神正在直播
-http://pull-hls-t11.douyincdn.com/stage/stream-120324693074117431.m3u8?expire=1793587872&sign=0175931ea0ad34f5bf6cef9632ce44c8&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-E27VN7
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-c9aec8xkvj_315ad80d0e6547e6a63fb93a9c375532.jpeg?from=3067671334" group-title="抖音直播",蒋豆豆（金铲铲） - S18赛季千分王者的顶级教学
-http://pull-x3-e5-hls.douyincdn.com/thirdgame/stream-408554927825879936_uiquhd5/index.m3u8?expire=1793587872&sign=72eed667b60fe7e6750ad817f4742c87&volcSecret=72eed667b60fe7e6750ad817f4742c87&volcTime=1793587872&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-cPZZDI
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_okEAiFpwkCADAmDVIfmCANAgEXSLzofVACnA9d.jpeg?from=3067671334" group-title="抖音直播",醉猫4V1 - 装人机钓鱼
-http://pull-t3.douyincdn.com/thirdgame/stream-120324850922292027_hiquhd5.m3u8?auth_key=1793586072-0-0-80524f0a8bc706e2e1b30f00100086e3&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-tooEMj
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_872209603475822ae33191cb3a71763c.jpeg?from=3067671334" group-title="抖音直播",仲基（三角洲） - 三角洲撞车！点亮收藏室！撞大红！收集者！扑克牌 权杖鱼3x3任务 鱼仗
-http://pull-q5.douyincdn.com/thirdgame/stream-696782641029186366_hiquhd5/index.m3u8?expire=1793587872&sign=c603ab202774dc6c8e487bbe0e2efa95&volcSecret=c603ab202774dc6c8e487bbe0e2efa95&volcTime=1793587872&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-dYeVir
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_3be6f2e1f3b7b5e19b345cc06e55345f.jpeg?from=3067671334" group-title="抖音直播",pp7（早10：30晚21小号） - 前EDG职业AD韩服千分，接单日记
-http://pull-hls-q13.douyincdn.com/thirdgame/stream-696785730991031102_hiquhd5.m3u8?expire=1793587872&sign=b461f96197f96ab2e12b41f56e014ca7&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-scoPfN
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_79a580282b3cd58d690ef5fe135e1071.jpeg?from=3067671334" group-title="抖音直播",雨墓 - 三角洲欧美炼金王，藏品第一人，疯狂欧美炼金
-http://pull-hls-q26.douyincdn.com/thirdgame/stream-408555225659999038_hiquhd5.m3u8?expire=6ae7faa0&sign=b86b5c719becb4094486fa7d0e73c873&arch_hrchy=h1&major_anchor_level=common&exp_hrchy=h1&t_id=037-202610261051116CF2A54791C2020A5896-anFcbB
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_oAkAVfspA5ABrRGV7EAEBKeeCQQXIAWyAEAM8M.jpeg?from=3067671334" group-title="抖音直播",暮雨（王者万象棋） - 万爆守约一枪清屏/冲击10冠王
-http://pull-hls-q11.douyincdn.com/thirdgame/stream-408555228282487614_uiquhd5.m3u8?expire=1793587872&sign=b0afc0a9d051b9b6dda98a1006b26826&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-202610261051116CF2A54791C2020A5896-apNEav
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_52c85f4a94a697af2474cd933ff2fb87.jpeg?from=3067671334" group-title="抖音直播",云顶小野鱼 - 左手阿狸，右手魔女，反手九五，学会三天上大师！
-http://pull-hls-l11.douyincdn.com/thirdgame/stream-120324641998766924.m3u8?expire=1793587872&sign=5e18e71eea7b2c8a0ee9e4cddb91be87&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-HksYVH
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_o4MicACGEveNDBAeIPx8RIJ3zPAIdBhw6AigAA.jpeg?from=3067671334" group-title="抖音直播",惊喜 广听歌（墨墨） - 游戏进行中.大家一起交流 爬*楼
-http://pull-hls-q11.douyincdn.com/third/stream-696784179430425405_uhd5.m3u8?expire=1793587872&sign=e23e17c2639bde82ab30495f2041a1ea&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-9HVpuO
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_eeb9dd49fb69cb9891cc156a95e6ff20.jpeg?from=3067671334" group-title="抖音直播",Gus - 规矩先立住，玩暮蝶不烧心
-http://pull-q5.douyincdn.com/thirdgame/stream-696785239146234686_hiquhd5/index.m3u8?expire=1793587872&sign=9a89e610b311b7786b2d009ef9d0d8c1&volcSecret=9a89e610b311b7786b2d009ef9d0d8c1&volcTime=1793587872&s_anchor=1&arch_hrchy=s2&exp_hrchy=s1&major_anchor_level=vip&t_id=037-202610261051116CF2A54791C2020A5896-wdW1lb
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_oQCDAC8ToFBA6AgAEpEDydfKIAEcwnAfEnORU9.jpeg?from=3067671334" group-title="抖音直播",拉丁鱼（王者万象棋） - 学万象鱼我只看拉丁棋
-http://pull-hls-q11.douyincdn.com/thirdgame/stream-696785108351845182_uiquhd5.m3u8?expire=1793587872&sign=66b35bfc9ad4b2f68395188d4bb99f71&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-GDQzV8
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_oUv91HEATAQJsdNpAsablFgEDfA6FAAfuCAqZI.jpeg?from=3067671334" group-title="抖音直播",清（国一狄仁杰） - 新赛季狄仁杰出装铭文
-http://pull-hls-q13.douyincdn.com/thirdgame/stream-408555045200331582_hiquhd5.m3u8?expire=1793587872&sign=be84dab8bac26289ef44cd7c4a3bcd42&exp_hrchy=h2&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-bwA8hI
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_aab94e732eb35a5ba50f8656e90f96fd.jpeg?from=3067671334" group-title="抖音直播",CF顾辰（巅峰赛前百🏆） - 阜南第一狙/排位小魔王
-http://pull-cold-f5.douyincdn.com/thirdgame/stream-696785440674939753/index.m3u8?expire=1793587872&sign=a22348f923dcb83838abca4fa067c3d3&volcSecret=a22348f923dcb83838abca4fa067c3d3&volcTime=1793587872&exp_hrchy=c1&arch_hrchy=c1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-xpDFX1
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_5e92b8011e4b0e7726e610904f2b118c.jpeg?from=3067671334" group-title="抖音直播",天霸一霖（三角洲行动） - 红鼻子摩尔，航天修脚王，冠军指挥！
-http://pull-hls-f26.douyinliving.com/thirdgame/stream-408555042443363137_hiquhd5.m3u8?expire=6ae7faa0&sign=3b0c4cd651d7218db31231590bfe11c5&s_anchor=1&arch_hrchy=s2&exp_hrchy=s1&major_anchor_level=vip&t_id=037-202610261051116CF2A54791C2020A5896-zrlIwF
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_1379fe73be07d3fe92b698bb790d2cde.jpeg?from=3067671334" group-title="抖音直播",卡圣（三角洲行动） - 长弓专属大红咖啡机批发商摸卡
-http://pull-hls-e11.douyincdn.com/thirdgame/stream-696785175862838144_hiquhd5.m3u8?expire=1793587872&sign=c99003b481293af5592802539ddf3688&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-D8CIrE
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_07fe3c57cc29167541d0b1a3505b049d.jpeg?from=3067671334" group-title="抖音直播",金铲铲泽神（阵容教学天花板） - S18巨大加强800层魔女九五、大师局把把三星五费！
-http://pull-hls-q1.douyincdn.com/thirdgame/stream-120324555898356542_uiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=071c53c9d07e9d123411cc00d11f33cb&wsTime=6adec020&major_anchor_level=common&arch_hrchy=h1&exp_hrchy=h2&t_id=037-202610261051116CF2A54791C2020A5896-doprmp
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_o89C4AyGENAplEInCuFfACgm1TKAweEh9ADkAq.jpeg?from=3067671334" group-title="抖音直播",九权（和平精英） - 宁夏淘汰榜一/9000淘汰分选手/纯经典海岛/高端局/国服雷神
-http://pull-hls-t13.douyincdn.com/thirdgame/stream-696783338491085627_hiquhd5.m3u8?expire=1793587872&sign=d7b4771760817c4fac6092d535366d67&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-202610261051116CF2A54791C2020A5896-ibk4wj
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_09b643d248f02360c3f4326b1cb52585.jpeg?from=3067671334" group-title="抖音直播",Ruii（无畏契约） - 你家的哨位我学了不烧心（上分局）
-http://pull-hls-t11.douyincdn.com/thirdgame/stream-696785707231085371_hiquhd5.m3u8?expire=1793587872&sign=a7aa26c43674b18163e3c13ec8080772&arch_hrchy=h1&major_anchor_level=common&exp_hrchy=h1&t_id=037-202610261051116CF2A54791C2020A5896-q0q2oP
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_465c00401dc43ef25825712b5d659a5d.jpeg?from=3067671334" group-title="抖音直播",万一 （只玩伞海月） - 阿狸伞海月 冲5000分，新手学会轻松王者千分！
-http://pull-hls-q26.douyincdn.com/thirdgame/stream-408553831733396286.m3u8?expire=6ae7faa0&sign=3fac4ec88b68570aa0794602d6109d1c&arch_hrchy=h1&major_anchor_level=common&exp_hrchy=h1&t_id=037-202610261051116CF2A54791C2020A5896-E842iO
-#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_06e01b4ff22fd8faa5d6c33d9c010568.jpeg?from=3067671334" group-title="抖音直播",贪吃小欣（三角洲手游测评） - 自费20w真实暗测体验各大俱乐部
-http://pull-hls-l11.douyincdn.com/thirdgame/stream-120324936808268620_hiquhd5.m3u8?expire=1793587873&sign=1c95d7853a7924b637ee2a90d174d53c&major_anchor_level=common&arch_hrchy=w1&exp_hrchy=w1&t_id=037-202610261051133B8B7B4E670E34DDFE7E-6ixHhI
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_66e712a743df5231753201aa993b22bd.jpeg?from=3067671334" group-title="抖音直播",阿强（金铲铲） - s18重生归来之在金铲铲玩牛马牛狼，学会轻松上王者，速进直播间!
-http://pull-hls-t11.douyincdn.com/thirdgame/stream-696785299679740731_uiquhd5.m3u8?expire=1793587873&sign=a34a8adc1c8d31e85c5477ecb982cb5b&exp_hrchy=w1&major_anchor_level=common&arch_hrchy=w1&t_id=037-202610261051133B8B7B4E670E34DDFE7E-nJ1DYJ
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/mosaic-legacy_db590012c3de989ce61b.jpeg?from=3067671334" group-title="抖音直播",凡人（三角洲行动） - 凡人正在直播
+http://pull-hls-l11.douyincdn.com/thirdgame/stream-408555323098923852_hiquhd5.m3u8?expire=1793587942&sign=1bed5bf05244b2d7bc7614058109ef46&exp_hrchy=c1&arch_hrchy=c1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-Mz9kkk
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_o8agNAL4yEjPF6IAcM4inhzsBvnyDAiLA1dA3.jpeg?from=3067671334" group-title="抖音直播",财神 - 财神正在直播
+http://pull-hls-t13.douyincdn.com/stage/stream-120324693074117431.m3u8?expire=1793587942&sign=14ab98e9530b0d50aa37598877414094&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-auxU6X
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_646dc0717c3d1bed8f3d18660cee1c9b.jpeg?from=3067671334" group-title="抖音直播",酒酒-（眼镜 ）王者万象棋 - 冲前十上分
+http://pull-hls-q26.douyincdn.com/thirdgame/stream-696783539011060542.m3u8?expire=6ae7fae6&sign=ecdd28eaddf303ddcfd5ee7880e185a4&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-HvCXu8
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_66e712a743df5231753201aa993b22bd.jpeg?from=3067671334" group-title="抖音直播",阿强（金铲铲） - s18重生归来之在金铲铲玩牛马牛狼，学会轻松上王者，速进直播间!
+http://pull-hls-t11.douyincdn.com/thirdgame/stream-696785299679740731_uiquhd5.m3u8?expire=1793587942&sign=3e0cd8e782e091ded136d006aff0ed83&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-pN1Kd5
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_okEAiFpwkCADAmDVIfmCANAgEXSLzofVACnA9d.jpeg?from=3067671334" group-title="抖音直播",醉猫4V1 - 装人机钓鱼
+http://pull-hls-t1.douyincdn.com/thirdgame/stream-120324850922292027_hiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=bfa514529258e39d7e3428bb17674182&wsTime=6adec066&major_anchor_level=common&arch_hrchy=h1&exp_hrchy=h1&t_id=037-202610261052215B766AF1638C4E5980C3-Y79rWD
 #EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_ad38541c91023c48d205dabc95d72f5e.jpeg?from=3067671334" group-title="抖音直播",小柴（s16韩服第一剑魔克烈） - 韩服历史最高分剑魔克烈，单杀过theshy，kiin。bin极致对线魔
-http://pull-q5.douyincdn.com/thirdgame/stream-120324972914934590_hiquhd5/index.m3u8?expire=1793587873&sign=66e1c293876aa9f205e78d00ddd8e0df&volcSecret=66e1c293876aa9f205e78d00ddd8e0df&volcTime=1793587873&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-202610261051133B8B7B4E670E34DDFE7E-CM1kDH
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_oEJXA2PmwLGAvDdAQhIGQfeUgAfnAvYhT4Zf42.jpeg?from=3067671334" group-title="抖音直播",糖心蛋电竞 - 在线考核独家明星，寻找断档之人，全民赛制人人皆可挑战，横屏看完整画面
-http://pull-hls-q11.douyincdn.com/thirdgame/stream-120324715421631294_hiquhd5.m3u8?expire=1793587873&sign=cd0d9080de2c535fb930864c4776ea0b&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261051133B8B7B4E670E34DDFE7E-KKXWgO
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_ocfXgtnAfAAhW0C5wYewfEgZeCCAfAgEAfi74fw.jpeg?from=3067671334" group-title="抖音直播",大大怪（云顶之弈） - 多赛季千分王者全阵容丝滑运营过度教学，定阵变阵全方位思路讲解，有问必答
-http://pull-hls-q13.douyincdn.com/thirdgame/stream-696785111174349630.m3u8?expire=1793587873&sign=372fd80bf1fcff99843f844e56f151e5&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261051133B8B7B4E670E34DDFE7E-b9UUMU
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_osebGAe7vEAtRHQJHx52BEAx6fTAtkIa7APrB2.jpeg?from=3067671334" group-title="抖音直播",歾璃殇 - 听雨入眠
-http://pull-hls-l11.douyincdn.com/thirdgame/stream-120321384744223564.m3u8?expire=1793587873&sign=6e5c31537dddd19b53e3cd42a62cefc7&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202610261051133B8B7B4E670E34DDFE7E-gZCJw9
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_952b76786b061a49ea433a126a3397a9.jpeg?from=3067671334" group-title="抖音直播",坏天气 - 航天杀人士
-http://pull-hls-q11.douyincdn.com/thirdgame/stream-408555147335303998_hiquhd5.m3u8?expire=1793587873&sign=fb95b4cb2059f56e02d66b67c5664a91&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261051133B8B7B4E670E34DDFE7E-ghTiIU
-#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_1996a55fb5d34c689edda725a07e9721.jpeg?from=3067671334" group-title="抖音直播",小姜（三角洲行动） - 单三清图流/绝巴万场思路讲解/点位教学/巴一麦
-http://pull-hls-f1.douyincdn.com/thirdgame/stream-408555214851015434_hiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=92d28649f74415a77be4533a6531ca85&wsTime=6adec021&exp_hrchy=w1&major_anchor_level=common&arch_hrchy=w1&t_id=037-202610261051133B8B7B4E670E34DDFE7E-kiahbF
-#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_ogI61iLTAnYjrQTBITaiPVINEA5AFx0B9APAS.jpeg?from=3067671334" group-title="抖音直播",阿炎(王者万象棋) - 万战阿离有感觉吗？新版本加强！
-http://pull-hls-f1.douyincdn.com/thirdgame/stream-696785348204692234/playlist.m3u8?keeptime=00093a80&wsSecret=332a4e06ca3ec1786fdc3a5f126c0f99&wsTime=6adec021&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202610261051133B8B7B4E670E34DDFE7E-YrUrT0
+http://pull-q5.douyincdn.com/thirdgame/stream-120324972914934590_hiquhd5/index.m3u8?expire=1793587942&sign=086598b4edebda6aff842bca8929bcc7&volcSecret=086598b4edebda6aff842bca8929bcc7&volcTime=1793587942&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-8YUlFC
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_oQCDAC8ToFBA6AgAEpEDydfKIAEcwnAfEnORU9.jpeg?from=3067671334" group-title="抖音直播",拉丁鱼（王者万象棋） - 学万象鱼我只看拉丁棋
+http://pull-hls-q11.douyincdn.com/thirdgame/stream-696785108351845182_uiquhd5.m3u8?expire=1793587942&sign=33988ea7dc6af77a938220f6fd391cec&exp_hrchy=h2&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-Yy1QQs
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_06e01b4ff22fd8faa5d6c33d9c010568.jpeg?from=3067671334" group-title="抖音直播",贪吃小欣（三角洲手游测评） - 自费20w真实暗测体验各大俱乐部
+http://pull-hls-l11.douyincdn.com/thirdgame/stream-120324936808268620_hiquhd5.m3u8?expire=1793587942&sign=6d711958947baedb18db453a08665ea4&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-jF3o66
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_52c85f4a94a697af2474cd933ff2fb87.jpeg?from=3067671334" group-title="抖音直播",云顶小野鱼 - 左手阿狸，右手魔女，反手九五，学会三天上大师！
+http://pull-hls-l11.douyincdn.com/thirdgame/stream-120324641998766924.m3u8?expire=1793587942&sign=a8f8d1056cb1977243a1109008b1727e&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-sAJGhP
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_872209603475822ae33191cb3a71763c.jpeg?from=3067671334" group-title="抖音直播",仲基（三角洲） - 三角洲撞车！点亮收藏室！撞大红！收集者！扑克牌 权杖鱼3x3任务 鱼仗
+http://pull-q5.douyincdn.com/thirdgame/stream-696782641029186366_hiquhd5/index.m3u8?expire=1793587942&sign=c5dd9f170b8711eabea788369c033f0a&volcSecret=c5dd9f170b8711eabea788369c033f0a&volcTime=1793587942&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-xDfcSa
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_1379fe73be07d3fe92b698bb790d2cde.jpeg?from=3067671334" group-title="抖音直播",卡圣（三角洲行动） - 长弓专属大红咖啡机批发商摸卡
+http://pull-hls-e13.douyincdn.com/thirdgame/stream-696785175862838144_hiquhd5.m3u8?expire=1793587942&sign=6365f54af4d7913d7530ced09d5e5459&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-202610261052215B766AF1638C4E5980C3-hG1myv
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_eeb9dd49fb69cb9891cc156a95e6ff20.jpeg?from=3067671334" group-title="抖音直播",Gus - 规矩先立住，玩暮蝶不烧心
+http://pull-hls-q26.douyincdn.com/thirdgame/stream-696785239146234686_hiquhd5.m3u8?expire=6ae7fae6&sign=303e25b629832456095d95e284b42b4e&s_anchor=1&arch_hrchy=s2&exp_hrchy=s1&major_anchor_level=vip&t_id=037-202610261052215B766AF1638C4E5980C3-LdH2x7
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_e49036f574753d720dc39fdebce409ef.jpeg?from=3067671334" group-title="抖音直播",金铲铲小李 - 暂居国一 今日目标18700
+http://pull-hls-l1.douyincdn.com/game/stream-120322888980758581/playlist.m3u8?keeptime=00093a80&wsSecret=0ccb0e86c1a2789abdbc5f825ee4c458&wsTime=6adec066&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-Qp4s8K
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_aab94e732eb35a5ba50f8656e90f96fd.jpeg?from=3067671334" group-title="抖音直播",CF顾辰（巅峰赛前百🏆） - 阜南第一狙/排位小魔王
+http://pull-cold-f5.douyincdn.com/thirdgame/stream-696785440674939753/index.m3u8?expire=1793587942&sign=fdde338ed4c02d0504cac305bea17aae&volcSecret=fdde338ed4c02d0504cac305bea17aae&volcTime=1793587942&major_anchor_level=common&exp_hrchy=c1&arch_hrchy=c1&t_id=037-202610261052215B766AF1638C4E5980C3-xHGGpS
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_owAAAYYIVI0IfCXAyABBcECtChPei7igAQBAX6.jpeg?from=3067671334" group-title="抖音直播",狗哥（三角洲行动） - 绝航摸卡摸红第一人 绝航最丝滑之人 5小时4心 24天26非心
+http://pull-hls-t11.douyincdn.com/thirdgame/stream-120324618244850491_hiquhd5.m3u8?expire=1793587942&sign=f479a8f50cb57afe0783b3aa34998480&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-99nUTP
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_79a580282b3cd58d690ef5fe135e1071.jpeg?from=3067671334" group-title="抖音直播",雨墓 - 三角洲欧美炼金王，藏品第一人，疯狂欧美炼金
+http://pull-hls-q95.douyincdn.com/thirdgame/stream-408555225659999038_hiquhd5.m3u8?expire=1793587942&sign=5410467d345f3caabe826ccf6ffb6318&arch_hrchy=h1&major_anchor_level=common&exp_hrchy=h1&t_id=037-202610261052215B766AF1638C4E5980C3-o4LFjm
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_oUv91HEATAQJsdNpAsablFgEDfA6FAAfuCAqZI.jpeg?from=3067671334" group-title="抖音直播",清（国一狄仁杰） - 新赛季狄仁杰出装铭文
+http://pull-hls-q13.douyincdn.com/thirdgame/stream-408555045200331582_hiquhd5.m3u8?expire=1793587942&sign=69658cbaca7b7f8c385c390af5b855bc&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-M6jQA5
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_aea049cbc22b32f46c4a9f5b23f8f1c3.jpeg?from=3067671334" group-title="抖音直播",举世（苏尔南1v4） - 苏尔南1v12/苏尔南井盖管理员/扫号扶贫/打造七钻手枪
+http://pull-hls-q6.douyincdn.com/thirdgame/stream-696785595095581502_hiquhd5/index.m3u8?k=dd42e1023412d69a&t=1793587942&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-jKwA2x
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_1a90266846c8ea5d884ad2d253cc2b1d.jpeg?from=3067671334" group-title="抖音直播",金铲铲Gg电竞（国服第一） - 俱乐部国服在榜第一，前十4个号在榜、可上号
+http://pull-hls-t26.douyincdn.com/thirdgame/stream-696783873282147131_uiquhd5.m3u8?expire=6ae7fae6&sign=ff94d8abe6511b543808da8c1448ab78&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-JGx7h5
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_27af5c062ada716a58347cd23ace5d07.jpeg?from=3067671334" group-title="抖音直播",音帝(三角洲行动) - 全网首发核电站站顶惩罚所有人
+http://pull-hls-t26.douyincdn.com/thirdgame/stream-120324562813977403_hiquhd5.m3u8?expire=6ae7fae6&sign=3ea0236be07f7f82b0f3dd0806e8ef44&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202610261052215B766AF1638C4E5980C3-4CJk3f
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_o4MicACGEveNDBAeIPx8RIJ3zPAIdBhw6AigAA.jpeg?from=3067671334" group-title="抖音直播",惊喜 广听歌（墨墨） - 游戏进行中.大家一起交流 爬*楼
+http://pull-hls-q11.douyincdn.com/third/stream-696784179430425405_uhd5.m3u8?expire=1793587943&sign=14d7dc6989ddea264be815854c242094&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261052226A7F587B17F8721FB4D8-A9r0py
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_3be6f2e1f3b7b5e19b345cc06e55345f.jpeg?from=3067671334" group-title="抖音直播",pp7（早10：30晚21小号） - 前EDG职业AD韩服千分，接单日记
+http://pull-hls-q1.douyincdn.com/thirdgame/stream-696785730991031102_hiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=4e318d2fc6e653d3506f4df5bce3a67d&wsTime=6adec067&exp_hrchy=h2&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261052226A7F587B17F8721FB4D8-RZCLcO
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_oUkz3rPRAAAIAeQmgEf1GRNzutvEG9ChAACAwI.jpeg?from=3067671334" group-title="抖音直播",法神（三角洲行动） - S11命运契约任务 失去信号 失去联系 长弓溪谷雷达站 买命卖命 金枪
+http://pull-hls-l11.douyincdn.com/thirdgame/stream-408539360311378764.m3u8?expire=1793587943&sign=af0c164f2d8ee1635b517cba829d649a&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-202610261052226A7F587B17F8721FB4D8-xkb5Xv
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_osebGAe7vEAtRHQJHx52BEAx6fTAtkIa7APrB2.jpeg?from=3067671334" group-title="抖音直播",歾璃殇 - 听雨入眠
+http://pull-hls-l11.douyincdn.com/thirdgame/stream-120321384744223564.m3u8?expire=1793587943&sign=89bd3ba7b87954cf3abdf0d189bf9f50&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-202610261052226A7F587B17F8721FB4D8-FWrWOI
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_952b76786b061a49ea433a126a3397a9.jpeg?from=3067671334" group-title="抖音直播",坏天气 - 航天杀人士
+http://pull-hls-q11.douyincdn.com/thirdgame/stream-408555147335303998_hiquhd5.m3u8?expire=1793587943&sign=ce9996e49eadfcba7e7e62410d5bb365&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-202610261052226A7F587B17F8721FB4D8-CaxKA7
+#EXTINF:-1 tvg-logo="https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_07fe3c57cc29167541d0b1a3505b049d.jpeg?from=3067671334" group-title="抖音直播",金铲铲泽神（阵容教学天花板） - S18巨大加强800层魔女九五、大师局把把三星五费！
+http://pull-hls-q1.douyincdn.com/thirdgame/stream-120324555898356542_uiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=d53b516d6dfb49e9c5b211647707c873&wsTime=6adec067&exp_hrchy=h2&arch_hrchy=h1&major_anchor_level=common&t_id=037-202610261052226A7F587B17F8721FB4D8-Q8EEic
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_465c00401dc43ef25825712b5d659a5d.jpeg?from=3067671334" group-title="抖音直播",万一 （只玩伞海月） - 阿狸伞海月 冲5000分，新手学会轻松王者千分！
+http://pull-hls-q26.douyincdn.com/thirdgame/stream-408553831733396286.m3u8?expire=6ae7fae7&sign=061ef5e86ff7d847a634baabc7d36b18&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-202610261052226A7F587B17F8721FB4D8-mL2JMR
+#EXTINF:-1 tvg-logo="https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_o89C4AyGENAplEInCuFfACgm1TKAweEh9ADkAq.jpeg?from=3067671334" group-title="抖音直播",九权（和平精英） - 宁夏淘汰榜一/9000淘汰分选手/纯经典海岛/高端局/国服雷神
+http://pull-hls-t13.douyincdn.com/thirdgame/stream-696783338491085627_hiquhd5.m3u8?expire=1793587943&sign=81d2abfd71cc5a2ddb4e531864615bc0&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202610261052226A7F587B17F8721FB4D8-Vpi57U
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_oYUBfBLueEGXLTAAZhAgeGINSdIV7NKJQAyiEF.jpeg?from=3067671334" group-title="抖音直播",左卫门PUBG - 单人四排最自信的男人
+http://pull-q5.douyincdn.com/thirdgame/stream-696785695220171582_hiquhd5/index.m3u8?expire=1793587943&sign=51bada0d19d00050846517009ad699e8&volcSecret=51bada0d19d00050846517009ad699e8&volcTime=1793587943&arch_hrchy=h1&major_anchor_level=common&exp_hrchy=h1&t_id=037-202610261052226A7F587B17F8721FB4D8-vh3Ac9
+#EXTINF:-1 tvg-logo="https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_9a3fdffc2ad29ab6951f056faa82a4b2.jpeg?from=3067671334" group-title="抖音直播",星野（国一小乔） - 国一小乔单排教学，没顶级发1000
+http://pull-hls-q1.douyincdn.com/thirdgame/stream-120324369133601598/playlist.m3u8?keeptime=00093a80&wsSecret=a5223325b5f4e57edbb53a53aa3ffbe4&wsTime=6adec067&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202610261052226A7F587B17F8721FB4D8-cgRszT
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/09/22/15/BMjAyNTA5MjIxNTU1MzlfMTUyNDc1ODAxN18xX2hkMTIwXzQ1OQ==_s.jpg" group-title="快手直播",七二 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/W-9tmG0k2mU_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=0811c496004cd11324ba02b0394ed5e8&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/W-9tmG0k2mU_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=6bd3d1fa4c6b7694247bfc733b6f70c8&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/05/31/14/BMjAyNjA1MzExNDUwMzhfMzc2ODg3MzczMF8yX2hkNzg2XzU=_s.jpg" group-title="快手直播",小四月 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/P8fHAVisk1k_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=2ba811862865f791090929a88c46d154&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/P8fHAVisk1k_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=15015b2346c47f64f33d635083cb0c23&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/04/26/16/BMjAyNjA0MjYxNjE5NTlfMjA5Mzg2NDYxOF8yX2hkMjcwXzkyOA==_s.jpg" group-title="快手直播",汐宁 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/Zv-b4Rq3kQk_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=d23d28d274c727a704483aabaf689950&tsc=origin&oidc=watchmen&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/Zv-b4Rq3kQk_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=35fa906046ac35586c2694067eb5a394&tsc=origin&oidc=watchmen&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/09/17/03/BMjAyNjA5MTcwMzQ5MTZfMzc4MTEwMTEwOV8yX2hkNjY0XzYyOA==_s.jpg" group-title="快手直播",燕子😘 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/4MyPbUXK65A_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=31c24a75692c8afbc1afa60ce137d441&tsc=origin&oidc=edgeWm&sidc=2959&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/02/28/16/BMjAyNjAyMjgxNjMwNDRfNjc2NDM0MjA5XzJfaGQ1MjhfNDIw_s.jpg" group-title="快手直播",岁能 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/MtDeYF_fKY8_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=84098dc5517a4ad04953fbabaf1e2ab1&tsc=origin&oidc=edgeWm&sidc=206577&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/4MyPbUXK65A_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=51a7d5451bc03d98754a6196f5a868cd&tsc=origin&oidc=edgeWm&sidc=2959&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/19/12/BMjAyNjEwMTkxMjA3MzFfMjI2ODA0OTQxOV8xX2hkNzcwXzYwMw==_s.jpg" group-title="快手直播",快手用户1782097722142 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/Q4_eSN3bGJc_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=4b299d4420ead04303946d1fe5d3c0af&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/20/23/BMjAyNjEwMjAyMzUzMzFfNjIyMzA1MDMyXzFfaGQ1OThfODYy_s.jpg" group-title="快手直播",🌸肥宅小梦a-🌸 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/kMseE6oitXw_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=2cbf30c69f8dd14ece6843e6801c5441&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/11/04/16/BMjAyNTExMDQxNjI4MzdfNDg1NTE3MDc3Nl8xX2hkMTk0XzYx_s.jpg" group-title="快手直播",柠檬🍋 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/dDgJMf-vkrA_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=5be3d013388edd50a2834592cb8e74da&tsc=origin&oidc=edgeWm&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/09/04/09/BMjAyNTA5MDQwOTQ1MDdfMTk1NTE2MDAyOF8yX2hkMzAzXzI5OA==_s.jpg" group-title="快手直播",丢失的金渐层（冲2000粉） - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/EE58V04KDRc_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=3fc3836841d66d9e3da22fd13a36fe0b&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2020/09/29/21/BMjAyMDA5MjkyMTM4MTZfMjUyNTg5XzFfaGQ5NDNfMzA1_s.jpg" group-title="快手直播",ㅤ杨小妖 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/s-cYEEm8SzQ_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=53e017d82b7df6f0fc7650fa86b16fcb&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2022/10/29/03/BMjAyMjEwMjkwMzQzMzlfMTAxNTAyNDNfMV9oZDkxM18zNjg=_s.jpg" group-title="快手直播",玖玉儿✨ - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/rX4-4MV2r3s_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=c47f35f62a5644a5a05bb91cc067d8be&tsc=origin&oidc=edgeWm&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/Q4_eSN3bGJc_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=5878e436a096829c33859eae2d0f3179&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/11/13/13/BMjAyNTExMTMxMzUxMDJfNTEwMzg4NDczNl8xX2hkNzA1XzkxOA==_s.jpg" group-title="快手直播",美美一个人 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/y7I1yDuRmhk_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=bf31ebb4a627ad18d0d14da8d460ce3a&tsc=origin&oidc=edgeWm&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/08/19/23/BMjAyNjA4MTkyMzE0NDRfNTY5NjAyNTE0NF8xX2hkNjI2XzM5Mg==_s.jpg" group-title="快手直播",心跳 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/1dgcyxWOsf4_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=62b14ca30acb89516cd0a034d53ac9ec&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/y7I1yDuRmhk_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=45f7e6e27ca4f470434d2ca75ea06a04&tsc=origin&oidc=edgeWm&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/02/09/21/BMjAyNTAyMDkyMTQ1MjZfMjU4OTA3MzI2NV8yX2hkMzg1XzczNg==_s.jpg" group-title="快手直播",飞児 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/RTQXfoKWSE4_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=8623410a38c620c6e062f6ad8f493080&tsc=origin&oidc=edgeWm&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/04/03/19/BMjAyNjA0MDMxOTIzNThfMjcyNjQyNDY4MV8yX2hkNDkxXzc2MA==_s.jpg" group-title="快手直播",快手用户1643170826228 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/pHajO4A53hU_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=da4cb1a2764b835a9132c5db86d2a183&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/01/03/15/BMjAyNjAxMDMxNTQ5MzlfNDk0MjYyMjM0OF8xX2hkMTA4XzM1NA==_s.jpg" group-title="快手直播",誃瓇鎝 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/c8PPU2GEFfQ_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=a91f3334c98b07bc65e3a5e23356b3f7&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/05/15/BMjAyNjEwMDUxNTI3NDZfNTUxODk3NjcxOF8yX2hkODA3Xzk3MA==_s.jpg" group-title="快手直播",奋斗姐。 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/teJqVH6Ut1c_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=3d0a2a8a925392ec483847457aeb207c&tsc=origin&oidc=edgeWm&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/02/08/13/BMjAyNjAyMDgxMzA0NTFfMTMzNzUzNTM4NV8xX2hkNzIwXzIzNg==_s.jpg" group-title="快手直播",柳腰老师. - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/9wOypV6jj8M_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=aa6046cc06000ed8d61907a82759906d&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/26/10/BMjAyNjEwMjYxMDA3MjdfOTMxMDEyMTVfMV9oZDU5NV82Nzg=_s.jpg" group-title="快手直播",简宁 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/DFujMEqV-2o_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=4d5425dc28d84a4789fa02b029b03761&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2024/10/05/11/BMjAyNDEwMDUxMTAxMjRfMzY5OTYxNDAwOV8xX2hkMjhfNjUy_s.jpg" group-title="快手直播",大龙说唱 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/wqVrnSGZBxg_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=a449d449bc4376268442e971159e7a97&tsc=origin&oidc=watchmen&sidc=205492&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/09/24/19/BMjAyNTA5MjQxOTUxNDhfMzY0NDY4ODI2XzFfaGQ0MzlfNDA5_s.jpg" group-title="快手直播",阿洛💫 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/KwyES3nI_eI_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=986673ed5c4a1a8e50b731bfb6c9f6b3&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/12/11/23/BMjAyNTEyMTEyMzExMjJfNTg3ODIzOTg4XzFfaGQ4MjlfNTg0_s.jpg" group-title="快手直播",小琪～ - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/VVcHfiKt684_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=717e4cb5d084d40fdf56cedebbb80c23&tsc=origin&oidc=edgeWm&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/22/17/BMjAyNjA3MjIxNzEwNTlfMjQ2MzMxMDQwMl8xX2hkNTA1XzU1Mw==_s.jpg" group-title="快手直播",小可爱 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/ILn9Gqu0IaY_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=ce638d9ea14bbfe5ab1cd6836620f355&tsc=origin&oidc=watchmen&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/06/23/10/BMjAyNjA2MjMxMDU0NTdfNDY1OTkwNjc0N18yX2hkNDE1XzgyMQ==_s.jpg" group-title="快手直播",丫头 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/nE-3EIv6ivs_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=ae21b036866d2aa3afb93b7856b4a9af&tsc=origin&oidc=edgeWm&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/RTQXfoKWSE4_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=ac007a8fdd1afb9ed9d115e642175b44&tsc=origin&oidc=edgeWm&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/20/23/BMjAyNjEwMjAyMzUzMzFfNjIyMzA1MDMyXzFfaGQ1OThfODYy_s.jpg" group-title="快手直播",🌸肥宅小梦a-🌸 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/kMseE6oitXw_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=0de086e9a3aa6738210e9962fdee3063&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/11/04/16/BMjAyNTExMDQxNjI4MzdfNDg1NTE3MDc3Nl8xX2hkMTk0XzYx_s.jpg" group-title="快手直播",柠檬🍋 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/dDgJMf-vkrA_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=b1146c18281ae235108e905cf1c62665&tsc=origin&oidc=edgeWm&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/09/04/09/BMjAyNTA5MDQwOTQ1MDdfMTk1NTE2MDAyOF8yX2hkMzAzXzI5OA==_s.jpg" group-title="快手直播",丢失的金渐层（冲2000粉） - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/EE58V04KDRc_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=3459f190ca52926a9d68b3afc7c05cd8&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/07/21/16/BMjAyNTA3MjExNjUxMzhfNDY5NDIzMTcxXzFfaGQzMzNfMjU3_s.jpg" group-title="快手直播",肉肉 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/ChyDZIrKgcI_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=da2b0dc116cc66cabbffcfe6fd60b02e&tsc=origin&oidc=edgeWm&sidc=205816&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/01/01/18/BMjAyNTAxMDExODU0NDZfNDU0OTE3MzAzNl8xX2hkNTg5XzUyNw==_s.jpg" group-title="快手直播",花儿舞团 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/RaWLCb-JBd0_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=e727b0e0244ec01081c4a1d780307a66&tsc=origin&oidc=edgeWm&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2023/07/11/22/BMjAyMzA3MTEyMjQyMDJfNjA1NjY1OTAwXzJfaGQ0ODBfMTg0_s.jpg" group-title="快手直播",金魚儿 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/Xx8TP9gCupY_ShowAvcHdL0-AuditAvcOriginL3.flv?hwTime=6ae011a0&hwSecret=e211aba8b2350277ad31c08f18ae49ba&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&srcStrm=Xx8TP9gCupY&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/13/23/BMjAyNjA3MTMyMzU4MTlfNDYwNjI5ODA0M18xX2hkMjg4XzY1Mw==_s.jpg" group-title="快手直播",九尾ゞღ猫🐱 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/AUK7A4L_AQ0_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=2523d7fbee022e3b52064d8e919671e4&tsc=origin&oidc=watchmen&sidc=205492&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/04/10/20/BMjAyNjA0MTAyMDM1NDVfNTI0NTUzMzc2Ml8yX2hkMTkxXzEyOA==_s.jpg" group-title="快手直播",新势力《绘梦》星恋 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/-xc_rasA6So_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=02facf6fd7807955578079fd7603ad18&tsc=origin&oidc=edgeWm&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2022/07/23/18/BMjAyMjA3MjMxODQyMDVfOTMyNDMyNTNfMV9oZDM3Ml85Mzc=_s.jpg" group-title="快手直播",燕燕ss - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/UV0onjxOGkE_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=05047fd0f46599a3019149e5b3b2f9f7&tsc=origin&oidc=edgeWm&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/08/25/00/BMjAyNjA4MjUwMDMyNThfMzUzNzMzNzM2Ml8xX2hkNTAwXzg2_s.jpg" group-title="快手直播",子眞姐姐。 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/rkBSsx1q49U_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=5413345a5d30671aaa4417498a1c0a88&tsc=origin&oidc=watchmen&sidc=2959&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/02/07/BMjAyNjEwMDIwNzQ2MTFfNDQzODcxNDU2N18yX2hkOTJfMzU5_s.jpg" group-title="快手直播",XY-红浪漫008 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/vJVNx9lfTKQ_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=49baab12b0cfc238c8b647ddf1924fc6&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/09/17/21/BMjAyNTA5MTcyMTUxNTdfMjE3OTMyMjY4XzFfaGQ2MjVfMjUz_s.jpg" group-title="快手直播",艳子❤️瑜伽 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/c0xUJvHGdkQ_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=80885373a4cc9f267fca205d9283097f&tsc=origin&oidc=edgeWm&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/24/11/BMjAyNjEwMjQxMTAzMzdfMzQ4MzAxMTQ4Nl8xX2hkNjI3XzU3MA==_s.jpg" group-title="快手直播",˗ˋˏ❤︎ˎˊ美羊羊 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/dNa7OwSnnIw_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=8ddaa72a6c28f2012fdff9c08762f75d&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/05/23/19/BMjAyNjA1MjMxOTIyNTFfOTE5NDQ1ODAxXzJfaGQ0NzVfNDcw_s.jpg" group-title="快手直播",单身，板文 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/NwhCwqugC0c_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=86e6f333573bdd7a5cdb8674c675d0e1&tsc=origin&oidc=watchmen&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/03/08/BMjAyNjEwMDMwODU2MjVfNDg3OTE2MDMwOV8xX2hkNDdfNTA1_s.jpg" group-title="快手直播",YJ·小佳人 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/SZ0QIAI-yh4_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=b348b7e54f3bd32d11eda4011984ac08&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/08/12/20/BMjAyNjA4MTIyMDQ1NTFfMTE4MzExMzIxOF8yX2hkMzE0XzcwOA==_s.jpg" group-title="快手直播",小桃桃 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/LOYGkQ-bbeM_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=40365d5e04e444742a7f562b05b36d4f&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/05/08/12/BMjAyNjA1MDgxMjQ4MzNfNDQ4NzQ5OTQ4OF8yX2hkMTAzXzc4MA==_s.jpg" group-title="快手直播",纯情高高 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/HPV425Ejonw_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=d3e6779a92fd9f5ba41d2e0debdfcc14&tsc=origin&oidc=edgeWm&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/07/07/BMjAyNjA3MDcwNzA0MThfNTEyMzcxNzY5OV8yX2hkNTk5Xzk1Mg==_s.jpg" group-title="快手直播",书盛夏 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/fOHwmgQN9vw_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=b092dab02483ea65a1f796369800effb&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/ChyDZIrKgcI_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=596f3294070ac0e150debcbf0843e176&tsc=origin&oidc=edgeWm&sidc=205816&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/08/19/23/BMjAyNjA4MTkyMzE0NDRfNTY5NjAyNTE0NF8xX2hkNjI2XzM5Mg==_s.jpg" group-title="快手直播",心跳 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/1dgcyxWOsf4_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=701286c3900e24957e05412d8815d329&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/02/28/16/BMjAyNjAyMjgxNjMwNDRfNjc2NDM0MjA5XzJfaGQ1MjhfNDIw_s.jpg" group-title="快手直播",岁能 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/MtDeYF_fKY8_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=b53a6d2eb6021cb5cb480b9d683db9b6&tsc=origin&oidc=edgeWm&sidc=206577&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2020/09/29/21/BMjAyMDA5MjkyMTM4MTZfMjUyNTg5XzFfaGQ5NDNfMzA1_s.jpg" group-title="快手直播",ㅤ杨小妖 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/s-cYEEm8SzQ_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=02b55e8167a84be2c1596d98d535748b&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/12/09/10/BMjAyNTEyMDkxMDUzNTFfNTE2Mzg4NjgxM18xX2hkNDUxXzU1MQ==_s.jpg" group-title="快手直播",单身瑶宝 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/FJAoQJsdu08_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=a0b34ff12adfd72ea6a5d9b61962576c&tsc=origin&oidc=edgeWm&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/16/09/BMjAyNjA3MTYwOTEzNTFfMjQ0NjUwMzk5XzFfaGQ1MDNfMg==_s.jpg" group-title="快手直播",🍒樱桃依依🍒 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/joZY54CK-M0_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=44cfb536fa9ccf8795786eac68178d60&tsc=origin&oidc=edgeWm&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/FJAoQJsdu08_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=e8a91d2ae5f0d60993f086ba87570398&tsc=origin&oidc=edgeWm&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/04/03/19/BMjAyNjA0MDMxOTIzNThfMjcyNjQyNDY4MV8yX2hkNDkxXzc2MA==_s.jpg" group-title="快手直播",快手用户1643170826228 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/pHajO4A53hU_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=ac55fd6c038a65b5b6e039633c985551&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/05/15/BMjAyNjEwMDUxNTI3NDZfNTUxODk3NjcxOF8yX2hkODA3Xzk3MA==_s.jpg" group-title="快手直播",奋斗姐。 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/teJqVH6Ut1c_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=9f42e15e57ad9a89b5dc1217cc24434a&tsc=origin&oidc=edgeWm&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2022/10/29/03/BMjAyMjEwMjkwMzQzMzlfMTAxNTAyNDNfMV9oZDkxM18zNjg=_s.jpg" group-title="快手直播",玖玉儿✨ - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/rX4-4MV2r3s_ShowAvcHdL0.flv?hwTime=6ae011e5&hwSecret=e079b4e5b4f7925599e3184d60dd600b&tsc=origin&oidc=edgeWm&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/07/07/BMjAyNjA3MDcwNzA0MThfNTEyMzcxNzY5OV8yX2hkNTk5Xzk1Mg==_s.jpg" group-title="快手直播",书盛夏 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/fOHwmgQN9vw_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=75e4cf8f07bb590621d8e6d72779a8bf&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/06/23/10/BMjAyNjA2MjMxMDU0NTdfNDY1OTkwNjc0N18yX2hkNDE1XzgyMQ==_s.jpg" group-title="快手直播",丫头 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/nE-3EIv6ivs_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=2f15aa629c3c1966d4295c0d7a564e2e&tsc=origin&oidc=edgeWm&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/05/23/19/BMjAyNjA1MjMxOTIyNTFfOTE5NDQ1ODAxXzJfaGQ0NzVfNDcw_s.jpg" group-title="快手直播",单身，板文 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/NwhCwqugC0c_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=7dfae2ffcc72060be875b1663d05e11e&tsc=origin&oidc=watchmen&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/09/17/21/BMjAyNTA5MTcyMTUxNTdfMjE3OTMyMjY4XzFfaGQ2MjVfMjUz_s.jpg" group-title="快手直播",艳子❤️瑜伽 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/c0xUJvHGdkQ_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=116f3e0bb80f2ca3a6ddceec799966ab&tsc=origin&oidc=edgeWm&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/08/12/20/BMjAyNjA4MTIyMDQ1NTFfMTE4MzExMzIxOF8yX2hkMzE0XzcwOA==_s.jpg" group-title="快手直播",小桃桃 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/LOYGkQ-bbeM_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=1eab499c685484b6966ebadb297c7e73&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/03/08/BMjAyNjEwMDMwODU2MjVfNDg3OTE2MDMwOV8xX2hkNDdfNTA1_s.jpg" group-title="快手直播",YJ·小佳人 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/SZ0QIAI-yh4_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=cd10ce0c3b2f9a3460041c2253a327df&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/01/03/15/BMjAyNjAxMDMxNTQ5MzlfNDk0MjYyMjM0OF8xX2hkMTA4XzM1NA==_s.jpg" group-title="快手直播",誃瓇鎝 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/c8PPU2GEFfQ_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=83828956078ca5cf30b07f1fc687ab6c&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2024/10/05/11/BMjAyNDEwMDUxMTAxMjRfMzY5OTYxNDAwOV8xX2hkMjhfNjUy_s.jpg" group-title="快手直播",大龙说唱 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/wqVrnSGZBxg_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=85366c6d82ed90b1f3a73c9795502941&tsc=origin&oidc=watchmen&sidc=205492&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/09/24/19/BMjAyNTA5MjQxOTUxNDhfMzY0NDY4ODI2XzFfaGQ0MzlfNDA5_s.jpg" group-title="快手直播",阿洛💫 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/KwyES3nI_eI_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=93dc1737316e26a0628e478452184f67&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/22/17/BMjAyNjA3MjIxNzEwNTlfMjQ2MzMxMDQwMl8xX2hkNTA1XzU1Mw==_s.jpg" group-title="快手直播",小可爱 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/ILn9Gqu0IaY_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=1e49760662bcc4523e8886bfc3ec6d8f&tsc=origin&oidc=watchmen&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/01/01/18/BMjAyNTAxMDExODU0NDZfNDU0OTE3MzAzNl8xX2hkNTg5XzUyNw==_s.jpg" group-title="快手直播",花儿舞团 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/RaWLCb-JBd0_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=c38fc2f6ed627061fc74e30d5448024d&tsc=origin&oidc=edgeWm&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2023/07/11/22/BMjAyMzA3MTEyMjQyMDJfNjA1NjY1OTAwXzJfaGQ0ODBfMTg0_s.jpg" group-title="快手直播",金魚儿 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/Xx8TP9gCupY_ShowAvcHdL0-AuditAvcOriginL3.flv?hwTime=6ae011e6&hwSecret=4abeda62b59d81c335cbf48205d66eec&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&srcStrm=Xx8TP9gCupY&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/08/26/19/BMjAyNjA4MjYxOTU1MDlfNTY3ODE5ODM5Nl8yX2hkNjM0XzEy_s.jpg" group-title="快手直播",希希（腼腆小女孩） - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/lpc1HjyhpM0_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=0a754b17b5ddb6ccbb6f109428714ac9&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2022/03/30/21/BMjAyMjAzMzAyMTE3MThfMTQwNDc5MDQxNF8yX2hkNjQyXzk5NA==_b.jpg" group-title="快手直播",＠农村霞儿💞🎊 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/I9ZMPZuDFaM_ma1500-AuditAvcOriginL3.flv?hwTime=6ae011a0&hwSecret=c4004422db2a9bda198e6670822834c6&tsc=origin&oidc=edgeWm&sidc=206577&no_script=1&srcStrm=I9ZMPZuDFaM&ss=s23&tfc_buyer=1
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/09/15/18/BMjAyNTA5MTUxODIxNDhfMzY1MTMzNzAxOV8yX2hkMTg3XzI0OQ==_s.jpg" group-title="快手直播",💃六妹爱跳舞💃 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/vISZMM2n-do_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=0abfd963b399278cd673516092a200fa&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/02/11/BMjAyNjA3MDIxMTI0MTNfMTQxNjY4MTY4N18yX2hkODgyXzcyOA==_s.jpg" group-title="快手直播",折腾呀姐 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/JTHZsdisOg8_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=f825196ed671329f05ee8b98d08d39ac&tsc=origin&oidc=edgeWm&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/03/23/11/BMjAyNjAzMjMxMTE0NDlfNDM1MjkyMDg4OF8xX2hkMTdfMjIx_s.jpg" group-title="快手直播",比荷花还花的女人 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/xV4YVdC-AMU_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=7966d5d55c4ec7e2fff1bbfd66ee88c5&tsc=origin&oidc=edgeWm&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/lpc1HjyhpM0_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=44babe126d973b17e69aebe1ac8e781e&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/04/10/20/BMjAyNjA0MTAyMDM1NDVfNTI0NTUzMzc2Ml8yX2hkMTkxXzEyOA==_s.jpg" group-title="快手直播",新势力《绘梦》星恋 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/-xc_rasA6So_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=cb26d6b65cc0990d46fedfdeb9ad12c6&tsc=origin&oidc=edgeWm&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/26/10/BMjAyNjEwMjYxMDA3MjdfOTMxMDEyMTVfMV9oZDU5NV82Nzg=_s.jpg" group-title="快手直播",简宁 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/DFujMEqV-2o_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=f5969d8968ad0e1a63c662c7d518f5b8&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/12/11/23/BMjAyNTEyMTEyMzExMjJfNTg3ODIzOTg4XzFfaGQ4MjlfNTg0_s.jpg" group-title="快手直播",小琪～ - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/VVcHfiKt684_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=3f1ff588756159acbdf656fa325e6ed9&tsc=origin&oidc=edgeWm&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/04/24/09/BMjAyNjA0MjQwOTI2MjBfNTE0OTEwOTYxM18yX2hkODk2Xzk5MQ==_s.jpg" group-title="快手直播",梦梦 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/TDKk4IKXNTM_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=063a94a2d5cf70a8632390cde551b94c&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/09/26/14/BMjAyNjA5MjYxNDAwMDZfNTc4NDQ4MTM2MV8yX2hkNjUyXzE0NA==_s.jpg" group-title="快手直播",大屯屯妞🍎 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/h8Wyf8cUlCs_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=504d1bb32b92d19f9fd876edc18778ab&tsc=origin&oidc=edgeWm&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/TDKk4IKXNTM_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=2d68a1357f17cecbe87f79bbab665519&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/03/23/11/BMjAyNjAzMjMxMTE0NDlfNDM1MjkyMDg4OF8xX2hkMTdfMjIx_s.jpg" group-title="快手直播",比荷花还花的女人 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/xV4YVdC-AMU_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=0b9c633adde3b7e06903c9ec946c2724&tsc=origin&oidc=edgeWm&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/16/09/BMjAyNjA3MTYwOTEzNTFfMjQ0NjUwMzk5XzFfaGQ1MDNfMg==_s.jpg" group-title="快手直播",🍒樱桃依依🍒 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/joZY54CK-M0_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=93fed7fad2bf7e73d00eb995e0b9c961&tsc=origin&oidc=edgeWm&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/13/23/BMjAyNjA3MTMyMzU4MTlfNDYwNjI5ODA0M18xX2hkMjg4XzY1Mw==_s.jpg" group-title="快手直播",九尾ゞღ猫🐱 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/AUK7A4L_AQ0_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=e9123e058d0fb257c773ce2a6f6d4c73&tsc=origin&oidc=watchmen&sidc=205492&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/08/25/00/BMjAyNjA4MjUwMDMyNThfMzUzNzMzNzM2Ml8xX2hkNTAwXzg2_s.jpg" group-title="快手直播",子眞姐姐。 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/rkBSsx1q49U_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=a6b891c64bbe4001906acc639d74b716&tsc=origin&oidc=watchmen&sidc=2959&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/09/15/18/BMjAyNTA5MTUxODIxNDhfMzY1MTMzNzAxOV8yX2hkMTg3XzI0OQ==_s.jpg" group-title="快手直播",💃六妹爱跳舞💃 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/vISZMM2n-do_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=047a56c831a6b6c068bb47e6780f6374&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/01/14/BMjAyNjA3MDExNDA3MDdfMzI0NTY2MDg5XzFfaGQ2ODJfMzU2_s.jpg" group-title="快手直播",七零唱迷糊 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/C_2zEaFsdXE_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=b29399c67054144006a73aa96d1934b2&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
-#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/07/27/17/BMjAyNjA3MjcxNzQzMTZfNTA1ODIxNjM5Ml8xX2hkNjdfNzM0_s.jpg" group-title="快手直播",蜜桃🍑 - 快手直播
-https://hw-origin.pull.yximgs.com/gifshow/_fWDU0m8aSw_ShowAvcHdL0.flv?hwTime=6ae011a0&hwSecret=ed7f1529e6d67cb5a36100f7e817a16a&tsc=origin&oidc=watchmen&sidc=2959&no_script=1&ss=s23&tfc_buyer=0
+https://hw-origin.pull.yximgs.com/gifshow/C_2zEaFsdXE_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=ec69cec5254891037ed3f29f832bfbbe&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/24/11/BMjAyNjEwMjQxMTAzMzdfMzQ4MzAxMTQ4Nl8xX2hkNjI3XzU3MA==_s.jpg" group-title="快手直播",˗ˋˏ❤︎ˎˊ美羊羊 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/dNa7OwSnnIw_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=31021d27ee2933d4285ca08893e374e1&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2025/11/23/20/BMjAyNTExMjMyMDI0NTZfMzY5NjEzNjU1OV8yX2hkMTdfMzc3_s.jpg" group-title="快手直播",小仪大王✨ - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/4j5KnTt2Yis_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=1275d5e5727f201a215126a3fd1495b3&tsc=origin&oidc=edgeWm&sidc=205492&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2022/03/30/21/BMjAyMjAzMzAyMTE3MThfMTQwNDc5MDQxNF8yX2hkNjQyXzk5NA==_b.jpg" group-title="快手直播",＠农村霞儿💞🎊 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/I9ZMPZuDFaM_ma1500-AuditAvcOriginL3.flv?hwTime=6ae011e6&hwSecret=396296eea01d9196f6a28281ab74ce30&tsc=origin&oidc=edgeWm&sidc=206577&no_script=1&srcStrm=I9ZMPZuDFaM&ss=s23&tfc_buyer=1
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/01/08/14/BMjAyNjAxMDgxNDQzMTRfNDgwMTk2NzI3OF8xX2hkNTI0XzQyMA==_s.jpg" group-title="快手直播",简婉儿 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/JqvsdouEE7E_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=1fc28d718a519aaf7fa6283a2cba386a&tsc=origin&oidc=edgeWm&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/05/04/13/BMjAyNjA1MDQxMzM1NTZfMjkwMDE5NjYzNV8xX2hkNzE0XzI2MQ==_s.jpg" group-title="快手直播",雪儿baby❄️ - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/f04iRGsb4Ms_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=585489cbd9082138e0656df457c80804&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2023/12/19/10/BMjAyMzEyMTkxMDIzMTVfNzAyMDA5NTMyXzFfaGQ5MDFfOTA4_s.jpg" group-title="快手直播",4864女团 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/WOp-8A7H7Eg_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=8e27b5a9f2a1a29cfa2a12641d3f32bc&tsc=origin&oidc=edgeWm&sidc=205816&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2024/07/23/14/BMjAyNDA3MjMxNDM4MDdfMzg4ODU1MzY3M18xX2hkNTlfNDM5_s.jpg" group-title="快手直播",二丫🌸 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/qKfUAjz4ND8_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=6800b775adfe9f12353739be46433cb7&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/02/08/13/BMjAyNjAyMDgxMzA0NTFfMTMzNzUzNTM4NV8xX2hkNzIwXzIzNg==_s.jpg" group-title="快手直播",柳腰老师. - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/9wOypV6jj8M_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=807392d95573003d4a82ff1458fe54f9&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
+#EXTINF:-1 tvg-logo="https://p22.a.yximgs.com/uhead/AB/2026/10/22/08/BMjAyNjEwMjIwODI0MTVfNTQzNDI2NTg4NF8yX2hkNzI4Xzg5MQ==_s.jpg" group-title="快手直播",慧子姐姐 - 快手直播
+https://hw-origin.pull.yximgs.com/gifshow/HtgajvmQrZw_ShowAvcHdL0.flv?hwTime=6ae011e6&hwSecret=8215f478045cfeaa9b8484de25e1496e&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1042/6f/3626ef611e990cbbcefab8e1bbc561_1_1792971092.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:660000", 虎牙英雄联盟赛事 - 【预告】17点  德玛西亚杯小组赛第四轮
 https://baheyi.pages.dev/huya/660000
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1549724959-1549724959-6656018016699940864-3099573374-10057-A-0-1/20261026104955.jpg?sign=IZHyoVHok5fnBWDOwaJsIZ9DNAZhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNDk5NSZ0PTE3OTI5ODI5OTUmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xNTQ5NzI0OTU5LTE1NDk3MjQ5NTktNjY1NjAxODAxNjY5OTk0MDg2NC0zMDk5NTczMzc0LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA0OTU1LmpwZw==" group-title="虎牙直播",船长798-张远 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1549724959-1549724959-6656018016699940864-3099573374-10057-A-0-1/20261026105055.jpg?sign=F2Am3LB5Z494Ip69JZdv66uQP85hPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA1NiZ0PTE3OTI5ODMwNTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xNTQ5NzI0OTU5LTE1NDk3MjQ5NTktNjY1NjAxODAxNjY5OTk0MDg2NC0zMDk5NTczMzc0LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDU1LmpwZw==" group-title="虎牙直播",船长798-张远 - 虎牙直播
 https://baheyi.pages.dev/huya/89798
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1567578875-1567578875-6732700002025472000-3135281206-10057-A-0-1-imgplus/20261026105014.jpg" group-title="虎牙直播",狂魔哥解说 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1567578875-1567578875-6732700002025472000-3135281206-10057-A-0-1-imgplus/20261026105115.jpg" group-title="虎牙直播",狂魔哥解说 - 虎牙直播
 https://baheyi.pages.dev/huya/919191
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1039/b2/f7a27be6dec5ca5c36fc1f5a71eec5_4079_1783395392.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:6952", 盛世-仙女湖 - 虎牙直播
 https://baheyi.pages.dev/huya/6952
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/500066171-500066171-2147767850280943616-1000255798-10057-A-0-1-imgplus/20261026104958.jpg" group-title="虎牙直播",小飒电竞丶董小飒 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/500066171-500066171-2147767850280943616-1000255798-10057-A-0-1-imgplus/20261026105058.jpg" group-title="虎牙直播",小飒电竞丶董小飒 - 虎牙直播
 https://baheyi.pages.dev/huya/13579
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199577418728-1199577418728-5504185891893018624-2399154960912-10057-A-0-1-imgplus/20261026105007.jpg" group-title="虎牙直播",一斤-798 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199577418728-1199577418728-5504185891893018624-2399154960912-10057-A-0-1-imgplus/20261026105107.jpg" group-title="虎牙直播",一斤-798 - 虎牙直播
 https://baheyi.pages.dev/huya/31374487
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/17363578-17363578-74575999651545088-34850612-10057-A-0-1-imgplus/20261026105014.jpg" group-title="虎牙直播",胖炸 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/17363578-17363578-74575999651545088-34850612-10057-A-0-1-imgplus/20261026105055.jpg" group-title="虎牙直播",胖炸 - 虎牙直播
 https://baheyi.pages.dev/huya/441195
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199604038422-1199604038422-5618516607052546048-2399208200300-10057-A-0-1/20261026105007.jpg" group-title="虎牙直播",拾光、是点妹 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199604038422-1199604038422-5618516607052546048-2399208200300-10057-A-0-1/20261026105102.jpg" group-title="虎牙直播",拾光、是点妹 - 虎牙直播
 https://baheyi.pages.dev/huya/152746
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1075/7f/67efb30ad4cd946897991ab4f97535_3_9449_1780026380.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:148527", 天众丶223 - 虎牙直播
 https://baheyi.pages.dev/huya/148527
@@ -377,220 +379,220 @@ https://baheyi.pages.dev/huya/233110
 https://baheyi.pages.dev/huya/713651
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1004/c2/dd02cfde911e20b7959b3a526bc1d0_4079_1785722127.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:168212", 星晴-全是美女 - 虎牙直播
 https://baheyi.pages.dev/huya/168212
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2368274334-2368274334-10171660812486180864-4736672124-10057-A-0-1-imgplus/20261026105008.jpg" group-title="虎牙直播",小超梦ovo - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2368274334-2368274334-10171660812486180864-4736672124-10057-A-0-1-imgplus/20261026105108.jpg" group-title="虎牙直播",小超梦ovo - 虎牙直播
 https://baheyi.pages.dev/huya/257085
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1017/8a/230a90b4fa7b1946e253534c86fe14_2336_1792460928.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31403166", 紫浩【山东第一射】 - 虎牙直播
 https://baheyi.pages.dev/huya/31403166
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1043/f7/97ad749791a0a80389d8d830aea885_1663_1723211223.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:153265", 颜颜【吉利】 - 虎牙直播
 https://baheyi.pages.dev/huya/153265
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199528918213-1199528918213-5295877766128861184-2399057959882-10057-A-0-1/20261026105004.jpg" group-title="虎牙直播",强有力【16028】 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199528918213-1199528918213-5295877766128861184-2399057959882-10057-A-0-1/20261026105103.jpg" group-title="虎牙直播",强有力【16028】 - 虎牙直播
 https://baheyi.pages.dev/huya/153698
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1856469203-1856469203-7973474512916185088-3713061862-10057-A-0-1/20261026105002.jpg" group-title="虎牙直播",AzZ-李婷 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1856469203-1856469203-7973474512916185088-3713061862-10057-A-0-1/20261026105101.jpg" group-title="虎牙直播",AzZ-李婷 - 虎牙直播
 https://baheyi.pages.dev/huya/612572
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1032/07/52e2c776a28406363b193caec9bac3_4079_1778740020.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:52647", Dae-感觉至上 - 虎牙直播
 https://baheyi.pages.dev/huya/52647
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1724691-1724691-7407491440705536-3572838-10057-A-0-1-imgplus/20261026105001.jpg" group-title="虎牙直播",霸哥 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1724691-1724691-7407491440705536-3572838-10057-A-0-1-imgplus/20261026105102.jpg" group-title="虎牙直播",霸哥 - 虎牙直播
 https://baheyi.pages.dev/huya/189201
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199667420241-1199667420241-5890739446818537472-2399334963938-10057-A-0-1/20261026105006.jpg?sign=KVaTNWGwURrYzVXmOHz6b3szQBthPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAwNyZ0PTE3OTI5ODMwMDcmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY3NDIwMjQxLTExOTk2Njc0MjAyNDEtNTg5MDczOTQ0NjgxODUzNzQ3Mi0yMzk5MzM0OTYzOTM4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDA2LmpwZw==" group-title="虎牙直播",听歌【喜上眉梢】 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199667420241-1199667420241-5890739446818537472-2399334963938-10057-A-0-1/20261026105106.jpg?sign=y8wNIpiDLbTiC+cCwVCwQsNA6tBhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA2NyZ0PTE3OTI5ODMwNjcmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY3NDIwMjQxLTExOTk2Njc0MjAyNDEtNTg5MDczOTQ0NjgxODUzNzQ3Mi0yMzk5MzM0OTYzOTM4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTA2LmpwZw==" group-title="虎牙直播",听歌【喜上眉梢】 - 虎牙直播
 https://baheyi.pages.dev/huya/158946
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1030/b9/41d0278337e55dc74c75495323b11e_1663_1780630562.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:51888", 小豹子【豹豹黄】 - 虎牙直播
 https://baheyi.pages.dev/huya/51888
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199666136547-1199666136547-5885226023070466048-2399332396550-10057-A-0-1-imgplus/20261026105002.jpg" group-title="虎牙直播",果子【能心】【榕心】【U】 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199666136547-1199666136547-5885226023070466048-2399332396550-10057-A-0-1-imgplus/20261026105102.jpg" group-title="虎牙直播",果子【能心】【榕心】【U】 - 虎牙直播
 https://baheyi.pages.dev/huya/158924
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1565553985-1565553985-6724003165697474560-3131231426-10057-A-0-1/20261026105011.jpg?sign=6/VtEMfxA5fxh9xJ9H2iZuTlt4xhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxMSZ0PTE3OTI5ODMwMTEmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xNTY1NTUzOTg1LTE1NjU1NTM5ODUtNjcyNDAwMzE2NTY5NzQ3NDU2MC0zMTMxMjMxNDI2LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDExLmpwZw==" group-title="虎牙直播",从零开始-MG - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1565553985-1565553985-6724003165697474560-3131231426-10057-A-0-1/20261026105111.jpg?sign=++j1bmlm8UpMVsBITFTG2aBWmeFhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA3MSZ0PTE3OTI5ODMwNzEmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xNTY1NTUzOTg1LTE1NjU1NTM5ODUtNjcyNDAwMzE2NTY5NzQ3NDU2MC0zMTMxMjMxNDI2LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTExLmpwZw==" group-title="虎牙直播",从零开始-MG - 虎牙直播
 https://baheyi.pages.dev/huya/18697108
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1049/4d/ec3add7d2b61dd7d5cf4fdbab8c4fe_2356_1792958555.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:880214", 虎牙斯诺克 - 威尔逊9-2成功夺得冠军  2026斯诺克北爱尔兰公开赛
 https://baheyi.pages.dev/huya/880214
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2205342170-2205342170-9471872496639672320-4410807796-10057-A-0-1-imgplus/20261026105004.jpg" group-title="虎牙直播",baicaiovo - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2205342170-2205342170-9471872496639672320-4410807796-10057-A-0-1-imgplus/20261026105103.jpg" group-title="虎牙直播",baicaiovo - 虎牙直播
 https://baheyi.pages.dev/huya/691406
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199626022895-1199626022895-5712939199607341056-2399252169246-10057-A-0-1/20261026105012.jpg?sign=Y/YJ6OGIHFFqgyKElBkvNh0ICcNhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxMiZ0PTE3OTI5ODMwMTImcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjI2MDIyODk1LTExOTk2MjYwMjI4OTUtNTcxMjkzOTE5OTYwNzM0MTA1Ni0yMzk5MjUyMTY5MjQ2LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDEyLmpwZw==" group-title="虎牙直播",云翔-嘟嘟 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199626022895-1199626022895-5712939199607341056-2399252169246-10057-A-0-1/20261026105112.jpg?sign=KAmEuSVMhDUspy46QL2Avum7KUZhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA3MyZ0PTE3OTI5ODMwNzMmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjI2MDIyODk1LTExOTk2MjYwMjI4OTUtNTcxMjkzOTE5OTYwNzM0MTA1Ni0yMzk5MjUyMTY5MjQ2LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTEyLmpwZw==" group-title="虎牙直播",云翔-嘟嘟 - 虎牙直播
 https://baheyi.pages.dev/huya/31374136
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199630216934-1199630216934-5730952459950489600-2399260557324-10057-A-0-1/20261026105007.jpg" group-title="虎牙直播",大京【大网猴】 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199630216934-1199630216934-5730952459950489600-2399260557324-10057-A-0-1/20261026105107.jpg" group-title="虎牙直播",大京【大网猴】 - 虎牙直播
 https://baheyi.pages.dev/huya/30843362
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1039/a7/f0b5b16800f80be05299c2840c438d_1663_1791210182.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:52035", 迷醉1995 - 虎牙直播
-https://baheyi.pages.dev/huya/52035
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1047/bc/bc06fb8973906c9c1292df49a49a18_3_393_1769150499.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:528300", 安德罗妮丶 - 虎牙直播
-https://baheyi.pages.dev/huya/528300
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199599175963-1199599175963-5597632504669405184-2399198475382-10057-A-0-1/20261026105006.jpg" group-title="虎牙直播",老唐-斯诺克 - 虎牙直播
-https://baheyi.pages.dev/huya/27599671
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199666912838-1199666912838-5888560167527645184-2399333949132-10057-A-0-1/20261026105002.jpg?sign=szj1t62GF8J/jwaj40gZCNasZexhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAwMiZ0PTE3OTI5ODMwMDImcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY2OTEyODM4LTExOTk2NjY5MTI4MzgtNTg4ODU2MDE2NzUyNzY0NTE4NC0yMzk5MzMzOTQ5MTMyLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDAyLmpwZw==" group-title="虎牙直播",玖笙-77 - 虎牙直播
-https://baheyi.pages.dev/huya/31371543
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199538803826-1199538803826-5338336150664773632-2399077731108-10057-A-0-1/20261026105015.jpg?sign=Lz/DYrFLdTM7AYnfoiZ918ef3JRhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxNiZ0PTE3OTI5ODMwMTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTM4ODAzODI2LTExOTk1Mzg4MDM4MjYtNTMzODMzNjE1MDY2NDc3MzYzMi0yMzk5MDc3NzMxMTA4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDE1LmpwZw==" group-title="虎牙直播",小豪死歌 - 虎牙直播
-https://baheyi.pages.dev/huya/124952
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1018/68/9d926f69b5843042285dd83b819c59_1663_1786948622.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31315192", 铭创-桐韵 - 虎牙直播
 https://baheyi.pages.dev/huya/31315192
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199665916976-1199665916976-5884282972806316032-2399331957408-10057-A-0-1/20261026105001.jpg" group-title="虎牙直播",小宝-798 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1047/bc/bc06fb8973906c9c1292df49a49a18_3_393_1769150499.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:528300", 安德罗妮丶 - 虎牙直播
+https://baheyi.pages.dev/huya/528300
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199599175963-1199599175963-5597632504669405184-2399198475382-10057-A-0-1/20261026105106.jpg" group-title="虎牙直播",老唐-斯诺克 - 虎牙直播
+https://baheyi.pages.dev/huya/27599671
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199666912838-1199666912838-5888560167527645184-2399333949132-10057-A-0-1/20261026105102.jpg?sign=B05cQgvM6mFDRgTJn4IEZ6mgAsZhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA2MyZ0PTE3OTI5ODMwNjMmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY2OTEyODM4LTExOTk2NjY5MTI4MzgtNTg4ODU2MDE2NzUyNzY0NTE4NC0yMzk5MzMzOTQ5MTMyLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTAyLmpwZw==" group-title="虎牙直播",玖笙-77 - 虎牙直播
+https://baheyi.pages.dev/huya/31371543
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199538803826-1199538803826-5338336150664773632-2399077731108-10057-A-0-1/20261026105058.jpg?sign=uKKMNP6mMPkAgPPhfktC4JP+0MphPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA1OCZ0PTE3OTI5ODMwNTgmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTM4ODAzODI2LTExOTk1Mzg4MDM4MjYtNTMzODMzNjE1MDY2NDc3MzYzMi0yMzk5MDc3NzMxMTA4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDU4LmpwZw==" group-title="虎牙直播",小豪死歌 - 虎牙直播
+https://baheyi.pages.dev/huya/124952
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1039/a7/f0b5b16800f80be05299c2840c438d_1663_1791210182.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:52035", 迷醉1995 - 虎牙直播
+https://baheyi.pages.dev/huya/52035
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199665916976-1199665916976-5884282972806316032-2399331957408-10057-A-0-1/20261026105101.jpg" group-title="虎牙直播",小宝-798 - 虎牙直播
 https://baheyi.pages.dev/huya/158691
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199664775691-1199664775691-5879381191055900672-2399329674838-10057-A-0-1/20261026105004.jpg?sign=pGv2lwqBinMnI9Dh/awivuV6pUphPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAwNCZ0PTE3OTI5ODMwMDQmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY0Nzc1NjkxLTExOTk2NjQ3NzU2OTEtNTg3OTM4MTE5MTA1NTkwMDY3Mi0yMzk5MzI5Njc0ODM4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDA0LmpwZw==" group-title="虎牙直播",TG-小圆 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199664775691-1199664775691-5879381191055900672-2399329674838-10057-A-0-1/20261026105104.jpg?sign=Q9W7fdcaCpB3KmgRCGN7mBvokRZhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA2NCZ0PTE3OTI5ODMwNjQmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY0Nzc1NjkxLTExOTk2NjQ3NzU2OTEtNTg3OTM4MTE5MTA1NTkwMDY3Mi0yMzk5MzI5Njc0ODM4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTA0LmpwZw==" group-title="虎牙直播",TG-小圆 - 虎牙直播
 https://baheyi.pages.dev/huya/158639
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199635189337-1199635189337-5752308768218021888-2399270502130-10057-A-0-1/20261026104959.jpg" group-title="虎牙直播",传奇台球 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199635189337-1199635189337-5752308768218021888-2399270502130-10057-A-0-1/20261026105100.jpg" group-title="虎牙直播",传奇台球 - 虎牙直播
 https://baheyi.pages.dev/huya/31368404
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1076/4d/56a085770512c4b2d4dd3810acde8e_2336_1788416186.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31365774", 予神【世界第一马超】 - 虎牙直播
 https://baheyi.pages.dev/huya/31365774
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199514996788-1199514996788-5236085701040144384-2399030117032-10057-A-0-1/20261026105010.jpg" group-title="虎牙直播",WY-隐藏款【小鱼拽拽】 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199514996788-1199514996788-5236085701040144384-2399030117032-10057-A-0-1/20261026105109.jpg" group-title="虎牙直播",WY-隐藏款【小鱼拽拽】 - 虎牙直播
 https://baheyi.pages.dev/huya/578652
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1058/16/42992221fc3d1e9d14f8de882c332e_1663_1791430322.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31398624", 仙女-布偶 - 虎牙直播
 https://baheyi.pages.dev/huya/31398624
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/79299770-79299770-340589918730321920-158722996-10057-A-0-1-imgplus/20261026105010.jpg" group-title="虎牙直播",保镖-大镖客DBKiLL - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/79299770-79299770-340589918730321920-158722996-10057-A-0-1-imgplus/20261026105110.jpg" group-title="虎牙直播",保镖-大镖客DBKiLL - 虎牙直播
 https://baheyi.pages.dev/huya/816515
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1031/df/b85ef528d4480e4d2fdb2578943fba_2633_1781002828.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:30319056", 肸xi - 虎牙直播
 https://baheyi.pages.dev/huya/30319056
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1279519027167-1279519027167-16809386400263700480-2559038177790-10057-A-0-1/20261026104956.jpg?sign=9GBS70xK5nGWUgo7bqiMF8MGnLFhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNDk5NyZ0PTE3OTI5ODI5OTcmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMjc5NTE5MDI3MTY3LTEyNzk1MTkwMjcxNjctMTY4MDkzODY0MDAyNjM3MDA0ODAtMjU1OTAzODE3Nzc5MC0xMDA1Ny1BLTAtMS8yMDI2MTAyNjEwNDk1Ni5qcGc=" group-title="虎牙直播",墨子玄 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1279519027167-1279519027167-16809386400263700480-2559038177790-10057-A-0-1/20261026105057.jpg?sign=gyVETpG7xYepto1FJt7L3uD2vKdhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA1NyZ0PTE3OTI5ODMwNTcmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMjc5NTE5MDI3MTY3LTEyNzk1MTkwMjcxNjctMTY4MDkzODY0MDAyNjM3MDA0ODAtMjU1OTAzODE3Nzc5MC0xMDA1Ny1BLTAtMS8yMDI2MTAyNjEwNTA1Ny5qcGc=" group-title="虎牙直播",墨子玄 - 虎牙直播
 https://baheyi.pages.dev/huya/30036896
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199666924355-1199666924355-5888609632665993216-2399333972166-10057-A-0-1/20261026105006.jpg" group-title="虎牙直播",萱玥【快乐玥】 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199666924355-1199666924355-5888609632665993216-2399333972166-10057-A-0-1/20261026105105.jpg" group-title="虎牙直播",萱玥【快乐玥】 - 虎牙直播
 https://baheyi.pages.dev/huya/31350516
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1065/e7/59681a22db7c1ec711a3d6cf892519_1663_1646750763.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:124168", 蕊蕊有点懵 - 虎牙直播
-https://baheyi.pages.dev/huya/124168
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199642692403-1199642692403-5784534191307751424-2399285508262-10057-A-0-1/20261026105007.jpg" group-title="虎牙直播",飞驰-甜星橙 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1023/cd/35933aac2c1735d1d3ac249f17d66c_1663_1791684963.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:158973", 蔚璃-陈可瑶 - 虎牙直播
+https://baheyi.pages.dev/huya/158973
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199642692403-1199642692403-5784534191307751424-2399285508262-10057-A-0-1/20261026105107.jpg" group-title="虎牙直播",飞驰-甜星橙 - 虎牙直播
 https://baheyi.pages.dev/huya/142938
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/355095016-355095016-1525121480692596736-710313488-10057-A-0-1/20261026105014.jpg" group-title="虎牙直播",柚子游戏世界 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/355095016-355095016-1525121480692596736-710313488-10057-A-0-1/20261026105114.jpg" group-title="虎牙直播",柚子游戏世界 - 虎牙直播
 https://baheyi.pages.dev/huya/273385
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1023/f4/2edeb8e31abf544b454c62a259f3b4_2633_1781704728.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:128467", 琼明-李酷鸭 - 虎牙直播
 https://baheyi.pages.dev/huya/128467
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1753825805-1753825805-7532624475355873280-3507775066-10057-A-0-1-imgplus/20261026105008.jpg" group-title="虎牙直播",阿星体育 - 虎牙直播
-https://baheyi.pages.dev/huya/30819774
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199660762435-1199660762435-5862144387785424896-2399321648326-10057-A-0-1-imgplus/20261026105056.jpg" group-title="虎牙直播",云端体育 - 虎牙直播
+https://baheyi.pages.dev/huya/31189969
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1077/65/27935ab3282f15e4fcb6be669de700_2336_1791971492.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31394921", 蔚璃-梨墨 - 虎牙直播
 https://baheyi.pages.dev/huya/31394921
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1023/cd/35933aac2c1735d1d3ac249f17d66c_1663_1791684963.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:158973", 蔚璃-陈可瑶 - 虎牙直播
-https://baheyi.pages.dev/huya/158973
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199628838642-1199628838642-5725032740886151168-2399257800740-10057-A-0-1/20261026105012.jpg?sign=wx0mjJ993oWMNbSC1gwlkVLu0HhhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxMiZ0PTE3OTI5ODMwMTImcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjI4ODM4NjQyLTExOTk2Mjg4Mzg2NDItNTcyNTAzMjc0MDg4NjE1MTE2OC0yMzk5MjU3ODAwNzQwLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDEyLmpwZw==" group-title="虎牙直播",QG-小六六 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1065/e7/59681a22db7c1ec711a3d6cf892519_1663_1646750763.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:124168", 蕊蕊有点懵 - 虎牙直播
+https://baheyi.pages.dev/huya/124168
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199628838642-1199628838642-5725032740886151168-2399257800740-10057-A-0-1/20261026105112.jpg?sign=VyqcuUp2zNDbm0hRCb7TWcqvVPhhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA3MiZ0PTE3OTI5ODMwNzImcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjI4ODM4NjQyLTExOTk2Mjg4Mzg2NDItNTcyNTAzMjc0MDg4NjE1MTE2OC0yMzk5MjU3ODAwNzQwLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTEyLmpwZw==" group-title="虎牙直播",QG-小六六 - 虎牙直播
 https://baheyi.pages.dev/huya/29179155
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199512913311-1199512913311-5227137235463176192-2399025950078-10057-A-0-1/20261026105004.jpg" group-title="虎牙直播",盛世-狂浪 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199512913311-1199512913311-5227137235463176192-2399025950078-10057-A-0-1/20261026105103.jpg" group-title="虎牙直播",盛世-狂浪 - 虎牙直播
 https://baheyi.pages.dev/huya/423876
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199528900723-1199528900723-5295802647150854144-2399057924902-10057-A-0-1/20261026105011.jpg" group-title="虎牙直播",丫头【16028】 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199528900723-1199528900723-5295802647150854144-2399057924902-10057-A-0-1/20261026105112.jpg" group-title="虎牙直播",丫头【16028】 - 虎牙直播
 https://baheyi.pages.dev/huya/16028
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199660762435-1199660762435-5862144387785424896-2399321648326-10057-A-0-1-imgplus/20261026105014.jpg" group-title="虎牙直播",云端体育 - 虎牙直播
-https://baheyi.pages.dev/huya/31189969
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199607267799-1199607267799-5632386675654000640-2399214659054-10057-A-0-1/20261026105008.jpg" group-title="虎牙直播",镜时【国一镜】 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1753825805-1753825805-7532624475355873280-3507775066-10057-A-0-1-imgplus/20261026105108.jpg" group-title="虎牙直播",阿星体育 - 虎牙直播
+https://baheyi.pages.dev/huya/30819774
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199607267799-1199607267799-5632386675654000640-2399214659054-10057-A-0-1/20261026105108.jpg" group-title="虎牙直播",镜时【国一镜】 - 虎牙直播
 https://baheyi.pages.dev/huya/31336751
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1040/12/a5aac25dd9707e12e64aeae68f5d79_1663_1681901822.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:32233", 集美三儿【ZKL】糖徒 - 虎牙直播
 https://baheyi.pages.dev/huya/32233
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199655911086-1199655911086-5841308002488942592-2399311945628-10057-A-0-1/20261026105016.jpg?sign=9GJ7dLvHO1rAcZWWqa8t42lZ/2dhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxNiZ0PTE3OTI5ODMwMTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjU1OTExMDg2LTExOTk2NTU5MTEwODYtNTg0MTMwODAwMjQ4ODk0MjU5Mi0yMzk5MzExOTQ1NjI4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDE2LmpwZw==" group-title="虎牙直播",QG-鱼兜兜 - 虎牙直播
-https://baheyi.pages.dev/huya/31087001
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1521785002-1521785002-6536016815133294592-3043693460-10057-A-0-1-imgplus/20261026105014.jpg" group-title="虎牙直播",Wsy、3胖 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1069/94/05d71a082f1249186592f46ea1dee9_3_5485_1768292838.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:273202", 凌乐l - 虎牙直播
+https://baheyi.pages.dev/huya/273202
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1521785002-1521785002-6536016815133294592-3043693460-10057-A-0-1-imgplus/20261026105108.jpg" group-title="虎牙直播",Wsy、3胖 - 虎牙直播
 https://baheyi.pages.dev/huya/33147
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1388474069-1388474069-5963450717699047424-2777071594-10057-A-0-1/20261026104959.jpg" group-title="虎牙直播",武林萌主唐小姐 - 大家好 我曾小咸又回来啦
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1388474069-1388474069-5963450717699047424-2777071594-10057-A-0-1/20261026105100.jpg" group-title="虎牙直播",武林萌主唐小姐 - 大家好 我曾小咸又回来啦
 https://baheyi.pages.dev/huya/11336726
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199655538124-1199655538124-5839706142896291840-2399311199704-10057-A-0-1/20261026105012.jpg" group-title="虎牙直播",陪看斯洛克小昊 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199655538124-1199655538124-5839706142896291840-2399311199704-10057-A-0-1/20261026105112.jpg" group-title="虎牙直播",陪看斯洛克小昊 - 虎牙直播
 https://baheyi.pages.dev/huya/30832492
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1078/bb/02d2eb3dee6e2dacd60b6a0df09197_2336_1789462255.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:159126", 梦境-清苏 - 虎牙直播
 https://baheyi.pages.dev/huya/159126
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1030/41/39fb2e647f3be3e7b28e56871abca3_0_1788488287.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:880351", 虎牙精舞门 - 全天热舞 每日营业！
 https://baheyi.pages.dev/huya/880351
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199538224698-1199538224698-5335848814844575744-2399076572852-10057-A-0-1/20261026105010.jpg?sign=uFKdiQsUlVZmNs3taGnpSwBzaZ1hPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxMSZ0PTE3OTI5ODMwMTEmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTM4MjI0Njk4LTExOTk1MzgyMjQ2OTgtNTMzNTg0ODgxNDg0NDU3NTc0NC0yMzk5MDc2NTcyODUyLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDEwLmpwZw==" group-title="虎牙直播",Gc-网瘾小姐姐 - 虎牙直播
-https://baheyi.pages.dev/huya/21981133
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1069/94/05d71a082f1249186592f46ea1dee9_3_5485_1768292838.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:273202", 凌乐l - 虎牙直播
-https://baheyi.pages.dev/huya/273202
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199657925151-1199657925151-5849958345795960832-2399315973758-10057-A-0-1/20261026104959.jpg?sign=0/IK7UNtSkfq3Fr47rUppVir/KJhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNDk5OSZ0PTE3OTI5ODI5OTkmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjU3OTI1MTUxLTExOTk2NTc5MjUxNTEtNTg0OTk1ODM0NTc5NTk2MDgzMi0yMzk5MzE1OTczNzU4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA0OTU5LmpwZw==" group-title="虎牙直播",DK-万万 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199655911086-1199655911086-5841308002488942592-2399311945628-10057-A-0-1/20261026105116.jpg?sign=bn6Lm2iLALJOegwsiazwf7AOCwZhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA3NiZ0PTE3OTI5ODMwNzYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjU1OTExMDg2LTExOTk2NTU5MTEwODYtNTg0MTMwODAwMjQ4ODk0MjU5Mi0yMzk5MzExOTQ1NjI4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTE2LmpwZw==" group-title="虎牙直播",QG-鱼兜兜 - 虎牙直播
+https://baheyi.pages.dev/huya/31087001
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1279526640093-1279526640093-16842083668460568576-2559053403642-10057-A-0-1/20261026105116.jpg?sign=CQITzOPw3KSu8aVn3fwfCsTU5lBhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA3NiZ0PTE3OTI5ODMwNzYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMjc5NTI2NjQwMDkzLTEyNzk1MjY2NDAwOTMtMTY4NDIwODM2Njg0NjA1Njg1NzYtMjU1OTA1MzQwMzY0Mi0xMDA1Ny1BLTAtMS8yMDI2MTAyNjEwNTExNi5qcGc=" group-title="虎牙直播",MAX-温柔 - 虎牙直播
+https://baheyi.pages.dev/huya/834297
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199657925151-1199657925151-5849958345795960832-2399315973758-10057-A-0-1/20261026105059.jpg?sign=sBWLl7medOLsNZNtebuRSTFJUoVhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA2MCZ0PTE3OTI5ODMwNjAmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjU3OTI1MTUxLTExOTk2NTc5MjUxNTEtNTg0OTk1ODM0NTc5NTk2MDgzMi0yMzk5MzE1OTczNzU4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDU5LmpwZw==" group-title="虎牙直播",DK-万万 - 虎牙直播
 https://baheyi.pages.dev/huya/156317
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199661697962-1199661697962-5866162445654949888-2399323519380-10057-A-0-1-imgplus/20261026105014.jpg" group-title="虎牙直播",斯洛克阿皓 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199661697962-1199661697962-5866162445654949888-2399323519380-10057-A-0-1-imgplus/20261026105114.jpg" group-title="虎牙直播",斯洛克阿皓 - 虎牙直播
 https://baheyi.pages.dev/huya/31163062
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199568524554-1199568524554-5465985705438085120-2399137172564-10057-A-0-1/20261026104957.jpg?sign=jcrEENBvG8e2kCxJs7j1MrjkyTVhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNDk5NyZ0PTE3OTI5ODI5OTcmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTY4NTI0NTU0LTExOTk1Njg1MjQ1NTQtNTQ2NTk4NTcwNTQzODA4NTEyMC0yMzk5MTM3MTcyNTY0LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA0OTU3LmpwZw==" group-title="虎牙直播",玖笙-楽【国服镜露娜】 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199568524554-1199568524554-5465985705438085120-2399137172564-10057-A-0-1/20261026105057.jpg?sign=B9G5/cFEhVc+X0lfjMqyE3DOGVJhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA1NyZ0PTE3OTI5ODMwNTcmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTY4NTI0NTU0LTExOTk1Njg1MjQ1NTQtNTQ2NTk4NTcwNTQzODA4NTEyMC0yMzk5MTM3MTcyNTY0LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDU3LmpwZw==" group-title="虎牙直播",玖笙-楽【国服镜露娜】 - 虎牙直播
 https://baheyi.pages.dev/huya/158947
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1095/9f/a7d97c37e9e906c0bbe7ed7417fb48_1663_1790918763.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:426753", 鲤娱-冉染 - 虎牙直播
-https://baheyi.pages.dev/huya/426753
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1743211126-1743211126-7487034776193335296-3486545708-10057-A-0-1/20261026105014.jpg" group-title="虎牙直播",万星-甜心小梦梦 - 虎牙直播
-https://baheyi.pages.dev/huya/17829198
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1279514457169-1279514457169-16789758408310915072-2559029037794-10057-A-0-1/20261026105000.jpg?sign=eVWmkZ6K7JScPcR7GACNOqz9zDphPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAwMCZ0PTE3OTI5ODMwMDAmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMjc5NTE0NDU3MTY5LTEyNzk1MTQ0NTcxNjktMTY3ODk3NTg0MDgzMTA5MTUwNzItMjU1OTAyOTAzNzc5NC0xMDA1Ny1BLTAtMS8yMDI2MTAyNjEwNTAwMC5qcGc=" group-title="虎牙直播",QQ飞车专业开箱冠军 - 虎牙直播
-https://baheyi.pages.dev/huya/21957353
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199634717794-1199634717794-5750283506454364160-2399269559044-10057-A-0-1/20261026105012.jpg" group-title="虎牙直播",集梦伢伢【116】 - 虎牙直播
-https://baheyi.pages.dev/huya/31005923
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199656288532-1199656288532-5842929120714948608-2399312700520-10057-A-0-1-imgplus/20261026105011.jpg" group-title="虎牙直播",水叔羽球 - 虎牙直播
-https://baheyi.pages.dev/huya/30862527
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1054/03/8930630c63f749bee54dc4c6f2f30f_2336_1756871428.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:28844085", 既然【世一典韦】 - 虎牙直播
-https://baheyi.pages.dev/huya/28844085
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1015/b8/f85f3c1c6442005136e22d16a0dca5_1663_1792548663.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:95088", 汐音yoyo - 虎牙直播
 https://baheyi.pages.dev/huya/95088
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199637644759-1199637644759-5762854725405900800-2399275412974-10057-A-0-1/20261026105000.jpg" group-title="虎牙直播",斧帝-德莱文 - 虎牙直播
-https://baheyi.pages.dev/huya/143613
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1867017497-1867017497-8018779090674778112-3734158450-10057-A-0-1/20261026105014.jpg" group-title="虎牙直播",TG-萤然然【幸运版】 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199538224698-1199538224698-5335848814844575744-2399076572852-10057-A-0-1/20261026105111.jpg?sign=1JGH2EWyec4ccQ9qjXXTYLpE9/9hPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA3MSZ0PTE3OTI5ODMwNzEmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTM4MjI0Njk4LTExOTk1MzgyMjQ2OTgtNTMzNTg0ODgxNDg0NDU3NTc0NC0yMzk5MDc2NTcyODUyLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTExLmpwZw==" group-title="虎牙直播",Gc-网瘾小姐姐 - 虎牙直播
+https://baheyi.pages.dev/huya/21981133
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1867017497-1867017497-8018779090674778112-3734158450-10057-A-0-1/20261026105114.jpg" group-title="虎牙直播",TG-萤然然【幸运版】 - 虎牙直播
 https://baheyi.pages.dev/huya/20382668
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1051/d1/39f9b4ccb903d38feacfebb9fcdb63_2633_1790232493.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31377501", 钧木、念念 - 虎牙直播
-https://baheyi.pages.dev/huya/31377501
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/2328903084-2328903084-10002562581333540864-4657929624-10057-A-0-1/20261026105013.jpg?sign=X8FwjB1fYFgYIGcSv5D65IZ8nx5hPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxMyZ0PTE3OTI5ODMwMTMmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8yMzI4OTAzMDg0LTIzMjg5MDMwODQtMTAwMDI1NjI1ODEzMzM1NDA4NjQtNDY1NzkyOTYyNC0xMDA1Ny1BLTAtMS8yMDI2MTAyNjEwNTAxMy5qcGc=" group-title="虎牙直播",米粒电脑装机 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199634717794-1199634717794-5750283506454364160-2399269559044-10057-A-0-1/20261026105111.jpg" group-title="虎牙直播",集梦伢伢【116】 - 虎牙直播
+https://baheyi.pages.dev/huya/31005923
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/2328903084-2328903084-10002562581333540864-4657929624-10057-A-0-1/20261026105113.jpg?sign=2A0HwHGiXRpOY8Fu8j+ZOKdeK6NhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA3MyZ0PTE3OTI5ODMwNzMmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8yMzI4OTAzMDg0LTIzMjg5MDMwODQtMTAwMDI1NjI1ODEzMzM1NDA4NjQtNDY1NzkyOTYyNC0xMDA1Ny1BLTAtMS8yMDI2MTAyNjEwNTExMy5qcGc=" group-title="虎牙直播",米粒电脑装机 - 虎牙直播
 https://baheyi.pages.dev/huya/16929106
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1054/03/8930630c63f749bee54dc4c6f2f30f_2336_1756871428.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:28844085", 既然【世一典韦】 - 虎牙直播
+https://baheyi.pages.dev/huya/28844085
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1095/9f/a7d97c37e9e906c0bbe7ed7417fb48_1663_1790918763.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:426753", 鲤娱-冉染 - 虎牙直播
+https://baheyi.pages.dev/huya/426753
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1743211126-1743211126-7487034776193335296-3486545708-10057-A-0-1/20261026105114.jpg" group-title="虎牙直播",万星-甜心小梦梦 - 虎牙直播
+https://baheyi.pages.dev/huya/17829198
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1279514457169-1279514457169-16789758408310915072-2559029037794-10057-A-0-1/20261026105100.jpg?sign=XMwHyJuR9RyarpBqOOCIJItIuJdhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA2MCZ0PTE3OTI5ODMwNjAmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMjc5NTE0NDU3MTY5LTEyNzk1MTQ0NTcxNjktMTY3ODk3NTg0MDgzMTA5MTUwNzItMjU1OTAyOTAzNzc5NC0xMDA1Ny1BLTAtMS8yMDI2MTAyNjEwNTEwMC5qcGc=" group-title="虎牙直播",QQ飞车专业开箱冠军 - 虎牙直播
+https://baheyi.pages.dev/huya/21957353
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1030/f6/f82d6cde7979802903c89e62bf2c10_2633_1790567304.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31391122", 琼明-知意 - 虎牙直播
+https://baheyi.pages.dev/huya/31391122
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199656288532-1199656288532-5842929120714948608-2399312700520-10057-A-0-1-imgplus/20261026105112.jpg" group-title="虎牙直播",水叔羽球 - 虎牙直播
+https://baheyi.pages.dev/huya/30862527
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1082/01/0ebf659d7f1ad129ca9069864a0c75_2336_1792460926.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31367780", Ak暗川【世一澜】 - 虎牙直播
 https://baheyi.pages.dev/huya/31367780
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1083/c5/1ffc3e7f687fecf01bef3c2fc6db0e_1663_1791432002.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31396434", 仙女-梦馨 - 虎牙直播
 https://baheyi.pages.dev/huya/31396434
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2380543524-2380543524-10224356582284591104-4761210504-10057-A-0-1/20261026105014.jpg" group-title="虎牙直播",林林剑圣-king - 虎牙直播
-https://baheyi.pages.dev/huya/132762
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1279526640093-1279526640093-16842083668460568576-2559053403642-10057-A-0-1/20261026105016.jpg?sign=ao6ZwIxdTkLjiBybQ7q9UoT+b9FhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxNiZ0PTE3OTI5ODMwMTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMjc5NTI2NjQwMDkzLTEyNzk1MjY2NDAwOTMtMTY4NDIwODM2Njg0NjA1Njg1NzYtMjU1OTA1MzQwMzY0Mi0xMDA1Ny1BLTAtMS8yMDI2MTAyNjEwNTAxNi5qcGc=" group-title="虎牙直播",MAX-温柔 - 虎牙直播
-https://baheyi.pages.dev/huya/834297
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1030/f6/f82d6cde7979802903c89e62bf2c10_2633_1790567304.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31391122", 琼明-知意 - 虎牙直播
-https://baheyi.pages.dev/huya/31391122
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199662988616-1199662988616-5871705762375401472-2399326100688-10057-A-0-1/20261026105003.jpg" group-title="虎牙直播",迷谷斯诺克 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199637644759-1199637644759-5762854725405900800-2399275412974-10057-A-0-1/20261026105100.jpg" group-title="虎牙直播",斧帝-德莱文 - 虎牙直播
+https://baheyi.pages.dev/huya/143613
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/64512117-64512117-277077432710725632-129147690-10057-A-0-1/20261026105058.jpg" group-title="虎牙直播",Team-王昭玥 - 虎牙直播
+https://baheyi.pages.dev/huya/376195
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1051/d1/39f9b4ccb903d38feacfebb9fcdb63_2633_1790232493.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31377501", 钧木、念念 - 虎牙直播
+https://baheyi.pages.dev/huya/31377501
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199662988616-1199662988616-5871705762375401472-2399326100688-10057-A-0-1/20261026105104.jpg" group-title="虎牙直播",迷谷斯诺克 - 虎牙直播
 https://baheyi.pages.dev/huya/31196228
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1021/bb/006ad58e1d7b6473013ca570fe7b70_2336_1791971660.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:30728968", 北慕【国一露娜】 - 虎牙直播
 https://baheyi.pages.dev/huya/30728968
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1086/dd/ab68a2d4e7a1b8952f6c43beb0e588_1663_1749779402.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:216357", 大U-【528】 - 虎牙直播
 https://baheyi.pages.dev/huya/216357
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199541231773-1199541231773-5348764103626194944-2399082587002-10057-A-0-1/20261026104956.jpg?sign=p6mvh6fwjsmqP5sRFebgwP9VlXdhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNDk5NiZ0PTE3OTI5ODI5OTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTQxMjMxNzczLTExOTk1NDEyMzE3NzMtNTM0ODc2NDEwMzYyNjE5NDk0NC0yMzk5MDgyNTg3MDAyLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA0OTU2LmpwZw==" group-title="虎牙直播",QG-溪悦【超白】 - 虎牙直播
-https://baheyi.pages.dev/huya/127621
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/64512117-64512117-277077432710725632-129147690-10057-A-0-1/20261026104958.jpg" group-title="虎牙直播",Team-王昭玥 - 虎牙直播
-https://baheyi.pages.dev/huya/376195
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1394575534-1394575534-5989656310331736064-2789274524-10057-A-0-1/20261026104959.jpg" group-title="虎牙直播",周星星 - 【周星星】星爷经典不间断
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2380543524-2380543524-10224356582284591104-4761210504-10057-A-0-1/20261026105114.jpg" group-title="虎牙直播",林林剑圣-king - 虎牙直播
+https://baheyi.pages.dev/huya/132762
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1033/32/bcae1bce4b0509d7757dc682ceb7e9_9449_1788165112.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:29395057", 风起-里香丶 - 虎牙直播
+https://baheyi.pages.dev/huya/29395057
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1394575534-1394575534-5989656310331736064-2789274524-10057-A-0-1/20261026105100.jpg" group-title="虎牙直播",周星星 - 【周星星】星爷经典不间断
 https://baheyi.pages.dev/huya/11342412
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199664340728-1199664340728-5877513039195930624-2399328804912-10057-A-0-1/20261026105001.jpg?sign=mDQz7bi5SwRagpMD67SaATaS2aNhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAwMSZ0PTE3OTI5ODMwMDEmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY0MzQwNzI4LTExOTk2NjQzNDA3MjgtNTg3NzUxMzAzOTE5NTkzMDYyNC0yMzk5MzI4ODA0OTEyLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDAxLmpwZw==" group-title="虎牙直播",视觉丶甜橙子 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199664340728-1199664340728-5877513039195930624-2399328804912-10057-A-0-1/20261026105101.jpg?sign=f8mfD4i3Tb63u7zPsHruwgI7IYBhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA2MiZ0PTE3OTI5ODMwNjImcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY0MzQwNzI4LTExOTk2NjQzNDA3MjgtNTg3NzUxMzAzOTE5NTkzMDYyNC0yMzk5MzI4ODA0OTEyLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTAxLmpwZw==" group-title="虎牙直播",视觉丶甜橙子 - 虎牙直播
 https://baheyi.pages.dev/huya/31254466
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199668358221-1199668358221-5894768040242839552-2399336839898-10057-A-0-1/20261026105007.jpg" group-title="虎牙直播",夕夕睡醒了 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199668358221-1199668358221-5894768040242839552-2399336839898-10057-A-0-1/20261026105107.jpg" group-title="虎牙直播",夕夕睡醒了 - 虎牙直播
 https://baheyi.pages.dev/huya/31399115
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1072/d8/4446883076d4751584a3f36d944984_1663_1792562403.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31380845", HZ-小淮 - 虎牙直播
 https://baheyi.pages.dev/huya/31380845
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1081477440-1081477440-4644910236161802240-2163078336-10057-A-0-1/20261026104956.jpg" group-title="虎牙直播",WY-张大涵 - 虎牙直播
-https://baheyi.pages.dev/huya/127829
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1033/32/bcae1bce4b0509d7757dc682ceb7e9_9449_1788165112.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:29395057", 风起-里香丶 - 虎牙直播
-https://baheyi.pages.dev/huya/29395057
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199612977550-1199612977550-5656909869467303936-2399226078556-10057-A-0-1/20261026105012.jpg" group-title="虎牙直播",小杨【16028】 - 虎牙直播
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199541231773-1199541231773-5348764103626194944-2399082587002-10057-A-0-1/20261026105056.jpg?sign=XCwNJQspvHM4uptFHeWG3bCMtrJhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA1NiZ0PTE3OTI5ODMwNTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NTQxMjMxNzczLTExOTk1NDEyMzE3NzMtNTM0ODc2NDEwMzYyNjE5NDk0NC0yMzk5MDgyNTg3MDAyLTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDU2LmpwZw==" group-title="虎牙直播",QG-溪悦【超白】 - 虎牙直播
+https://baheyi.pages.dev/huya/127621
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1604317586-1604317586-6890491564267667456-3208758628-10057-A-0-1-imgplus/20261026105057.jpg" group-title="虎牙直播",虎牙夕梦【战神梦】 - 虎牙直播
+https://baheyi.pages.dev/huya/383417
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199612977550-1199612977550-5656909869467303936-2399226078556-10057-A-0-1/20261026105112.jpg" group-title="虎牙直播",小杨【16028】 - 虎牙直播
 https://baheyi.pages.dev/huya/671234
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199511935666-1199511935666-5222938282161078272-2399023994788-10057-A-0-1/20261026105003.jpg" group-title="虎牙直播",39为菜 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199511935666-1199511935666-5222938282161078272-2399023994788-10057-A-0-1/20261026105104.jpg" group-title="虎牙直播",39为菜 - 虎牙直播
 https://baheyi.pages.dev/huya/17693860
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199664348524-1199664348524-5877546522760970240-2399328820504-10057-A-0-1/20261026105003.jpg" group-title="虎牙直播",玖笙-纱雪 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199664348524-1199664348524-5877546522760970240-2399328820504-10057-A-0-1/20261026105104.jpg" group-title="虎牙直播",玖笙-纱雪 - 虎牙直播
 https://baheyi.pages.dev/huya/31324998
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1015/c9/8d1939d47cf526b2155b9c1cc50334_1663_1702233123.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:712764", 香江、肉肉【如鱼得水】 - 虎牙直播
 https://baheyi.pages.dev/huya/712764
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1377411946-1377411946-5915939261189718016-2754947348-10057-A-0-1/20261026105012.jpg" group-title="虎牙直播",WY-可露兰 - 虎牙直播
-https://baheyi.pages.dev/huya/426739
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1604317586-1604317586-6890491564267667456-3208758628-10057-A-0-1-imgplus/20261026105003.jpg" group-title="虎牙直播",虎牙夕梦【战神梦】 - 虎牙直播
-https://baheyi.pages.dev/huya/383417
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1259521532487-1259521532487-4707777042567921664-2519043188430-10057-A-0-1/20261026105006.jpg" group-title="虎牙直播",集梦阿涛【18】 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1081477440-1081477440-4644910236161802240-2163078336-10057-A-0-1/20261026105055.jpg" group-title="虎牙直播",WY-张大涵 - 虎牙直播
+https://baheyi.pages.dev/huya/127829
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199525170730-1199525170730-5279782449201545216-2399050464916-10057-A-0-1/20261026105057.jpg" group-title="虎牙直播",QQ飞车端游开箱冠军 - 虎牙直播
+https://baheyi.pages.dev/huya/20218960
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1259521532487-1259521532487-4707777042567921664-2519043188430-10057-A-0-1/20261026105106.jpg" group-title="虎牙直播",集梦阿涛【18】 - 虎牙直播
 https://baheyi.pages.dev/huya/148937
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1011/a4/532a7a569da281024e99d2711b21e7_0_1792958814.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:880625", 虎牙斯诺克副舞台 - K威尔逊vs琼斯  2026斯诺克北爱尔兰公开赛
 https://baheyi.pages.dev/huya/880625
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2355807417-2355807417-10118115811689234432-4711738290-10057-A-0-1/20261026105006.jpg" group-title="虎牙直播",天菜小牛 - 虎牙直播
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2355807417-2355807417-10118115811689234432-4711738290-10057-A-0-1/20261026105106.jpg" group-title="虎牙直播",天菜小牛 - 虎牙直播
 https://baheyi.pages.dev/huya/127682
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1012/e0/f64945172724a3ed5e24020ee7a9b9_2_1663_1790934363.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31397003", 正恒YJ-陈芝芝 - 虎牙直播
 https://baheyi.pages.dev/huya/31397003
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199540784170-1199540784170-5346841663379603456-2399081691796-10057-A-0-1/20261026105012.jpg" group-title="虎牙直播",QG-抱抱熊崽OvO - 虎牙直播
-https://baheyi.pages.dev/huya/157498
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199525170730-1199525170730-5279782449201545216-2399050464916-10057-A-0-1/20261026104958.jpg" group-title="虎牙直播",QQ飞车端游开箱冠军 - 虎牙直播
-https://baheyi.pages.dev/huya/20218960
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2270658683-2270658683-9752404783863431168-4541440822-10057-A-0-1/20261026105110.jpg" group-title="虎牙直播",糕糕子【超白好运】 - 虎牙直播
+https://baheyi.pages.dev/huya/15625613
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199529815638-1199529815638-5299732177154473984-2399059754732-10057-A-0-1-imgplus/20261026105100.jpg" group-title="虎牙直播",驴鸽LvGe - 虎牙直播
+https://baheyi.pages.dev/huya/910323
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1004/d2/96478f3105b234542b7eea2318728c_2633_1788947965.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31364940", 京梦-小甜甜 - 虎牙直播
 https://baheyi.pages.dev/huya/31364940
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1054/a7/c415a6df664ce75c475aa201630beb_2_2356_1792479568.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:880221", 虎牙羽毛球 - 兰基雷迪/谢提vs小波波夫/大波波夫  2026法国羽毛球公开赛
-https://baheyi.pages.dev/huya/880221
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199667528144-1199667528144-5891202886674677760-2399335179744-10057-A-0-1/20261026105011.jpg" group-title="虎牙直播",DT丶枫恋 - 虎牙直播
-https://baheyi.pages.dev/huya/31369935
-#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1045/85/c88bde70b3188a04e7a5a05569e4e1_1663_1792031042.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31405444", 仙女-菲菲 - 虎牙直播
-https://baheyi.pages.dev/huya/31405444
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/2270658683-2270658683-9752404783863431168-4541440822-10057-A-0-1/20261026105009.jpg" group-title="虎牙直播",糕糕子【超白好运】 - 虎牙直播
-https://baheyi.pages.dev/huya/15625613
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/172829956-172829956-742299008789118976-345783368-10057-A-0-1/20261026105000.jpg?sign=5sOL4wlzAro8rhgCVG+sSilJVYlhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAwMCZ0PTE3OTI5ODMwMDAmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xNzI4Mjk5NTYtMTcyODI5OTU2LTc0MjI5OTAwODc4OTExODk3Ni0zNDU3ODMzNjgtMTAwNTctQS0wLTEvMjAyNjEwMjYxMDUwMDAuanBn" group-title="虎牙直播",番薯 - 虎牙直播
-https://baheyi.pages.dev/huya/691432
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199667998171-1199667998171-5893221637267914752-2399336119798-10057-A-0-1/20261026105008.jpg?sign=eoHkNzJrinDBLkw5SGfWwt/vkhhhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAwOCZ0PTE3OTI5ODMwMDgmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY3OTk4MTcxLTExOTk2Njc5OTgxNzEtNTg5MzIyMTYzNzI2NzkxNDc1Mi0yMzk5MzM2MTE5Nzk4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDA4LmpwZw==" group-title="虎牙直播",美娜影视 - 虎牙直播
-https://baheyi.pages.dev/huya/31388739
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1005/ea/39fd1da0fff71b4bcc2fbae36b45af_3793_1566808292.jpg" group-title="虎牙直播",小舞点歌台 - 分享♬好音乐ღ好音质
 https://baheyi.pages.dev/huya/15590571
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1037/da/3ffb5943032b44d3d36112f0e8d24d_2336_1792720136.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:158927", 故氏【国1公孙离-】 - 虎牙直播
 https://baheyi.pages.dev/huya/158927
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1045/85/c88bde70b3188a04e7a5a05569e4e1_1663_1792031042.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31405444", 仙女-菲菲 - 虎牙直播
+https://baheyi.pages.dev/huya/31405444
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199540784170-1199540784170-5346841663379603456-2399081691796-10057-A-0-1/20261026105112.jpg" group-title="虎牙直播",QG-抱抱熊崽OvO - 虎牙直播
+https://baheyi.pages.dev/huya/157498
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/172829956-172829956-742299008789118976-345783368-10057-A-0-1/20261026105100.jpg?sign=9sxuQrql0cMSM7NqqirxdpnSBtZhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA2MCZ0PTE3OTI5ODMwNjAmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xNzI4Mjk5NTYtMTcyODI5OTU2LTc0MjI5OTAwODc4OTExODk3Ni0zNDU3ODMzNjgtMTAwNTctQS0wLTEvMjAyNjEwMjYxMDUxMDAuanBn" group-title="虎牙直播",番薯 - 虎牙直播
+https://baheyi.pages.dev/huya/691432
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1279548290293-1279548290293-16935070569412427776-2559096704042-10057-A-0-1/20261026105106.jpg" group-title="虎牙直播",青青【16028】 - 虎牙直播
+https://baheyi.pages.dev/huya/31315073
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1054/a7/c415a6df664ce75c475aa201630beb_2_2356_1792479568.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:880221", 虎牙羽毛球 - 兰基雷迪/谢提vs小波波夫/大波波夫  2026法国羽毛球公开赛
+https://baheyi.pages.dev/huya/880221
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199667528144-1199667528144-5891202886674677760-2399335179744-10057-A-0-1/20261026105112.jpg" group-title="虎牙直播",DT丶枫恋 - 虎牙直播
+https://baheyi.pages.dev/huya/31369935
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1049/eb/585a14065747d1f623e66536272041_1663_1781440323.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31300105", 书香、麋鹿 - 虎牙直播
 https://baheyi.pages.dev/huya/31300105
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1849465899-1849465899-7943395551272239104-3699055254-10057-A-0-1/20261026105012.jpg?sign=fcbDgClxJGfV33EpoVSUHFbvuUphPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxMiZ0PTE3OTI5ODMwMTImcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xODQ5NDY1ODk5LTE4NDk0NjU4OTktNzk0MzM5NTU1MTI3MjIzOTEwNC0zNjk5MDU1MjU0LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MDEyLmpwZw==" group-title="虎牙直播",优凡-雪可爱 - 虎牙直播
-https://baheyi.pages.dev/huya/139627
-#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/936567876-936567876-4022528397904183296-1873259208-10057-A-0-1/20261026105016.jpg?sign=DgTZVB5qPAReDU1soSfJotxulZ5hPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTAxNiZ0PTE3OTI5ODMwMTYmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS85MzY1Njc4NzYtOTM2NTY3ODc2LTQwMjI1MjgzOTc5MDQxODMyOTYtMTg3MzI1OTIwOC0xMDA1Ny1BLTAtMS8yMDI2MTAyNjEwNTAxNi5qcGc=" group-title="虎牙直播",WH-李一璐 - 虎牙直播
-https://baheyi.pages.dev/huya/147986
-#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1199645866014-1199645866014-5798164746762977280-2399291855484-10057-A-0-1/20261026105012.jpg" group-title="虎牙直播",集美小红【ZKL】 - 虎牙直播
-https://baheyi.pages.dev/huya/147284
+#EXTINF:-1 tvg-logo="http://live-cover.msstatic.com/huyalive/1377411946-1377411946-5915939261189718016-2754947348-10057-A-0-1/20261026105112.jpg" group-title="虎牙直播",WY-可露兰 - 虎牙直播
+https://baheyi.pages.dev/huya/426739
+#EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1040/99/e947817dd6f1e301e17bcb8f989799_9449_1770606001.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:31132492", 天众丶七七酱7udrin - 虎牙直播
+https://baheyi.pages.dev/huya/31132492
+#EXTINF:-1 tvg-logo="https://tx-live-cover.msstatic.com/huyalive/1199667998171-1199667998171-5893221637267914752-2399336119798-10057-A-0-1/20261026105108.jpg?sign=Dqdb2N0ejhg68svSrVH5AX5qdnJhPTEyNTM0OTg3MDEmYj1odXlhLXNjcmVlbnNob3RzLXJldmlldy0xMjUzNDk4NzAxJms9QUtJRFFpcTNSbEJtV0p6ZUxKTVZrMklWdVEybm1pY2RkRWdEJmU9MTgwODUzNTA2OCZ0PTE3OTI5ODMwNjgmcj0xMjM0NTY3OCZmPS9odXlhbGl2ZS8xMTk5NjY3OTk4MTcxLTExOTk2Njc5OTgxNzEtNTg5MzIyMTYzNzI2NzkxNDc1Mi0yMzk5MzM2MTE5Nzk4LTEwMDU3LUEtMC0xLzIwMjYxMDI2MTA1MTA4LmpwZw==" group-title="虎牙直播",美娜影视 - 虎牙直播
+https://baheyi.pages.dev/huya/31388739
 #EXTINF:-1 tvg-logo="https://anchorpost.msstatic.com/cdnimage/anchorpost/1018/47/5008eacbce24e47d9b9fb3b4523c3e_2_2356_1792488348.jpg?spformat=png,webp" group-title="虎牙直播",webp" group-title="虎牙直播" tvg-id="huya:30805958", 羽毛球女单专场 - 羽毛球女单回放专场
 https://baheyi.pages.dev/huya/30805958
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/20/9263298_20261020153820.jpg/dy1" group-title="斗鱼直播",若若跑的贼快 - 和平集市热卖中！！
@@ -611,22 +613,24 @@ https://baheyi.pages.dev/douyu/24422
 https://baheyi.pages.dev/douyu/5720533
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/07/16/10799022_20260716122903.jpg/dy1" group-title="斗鱼直播",卡司一星梦阁1 - 愿好运如春风常驻，轻抚岁月，温柔你每段路
 https://baheyi.pages.dev/douyu/10799022
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2023/01/12/13_20230112012344.jpg/dy1" group-title="斗鱼直播",YH一爱神降临 - 由白哥 随遇哥 5k哥冠/想你的每天！
-https://baheyi.pages.dev/douyu/13
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/08/18/12882060_20260818103807_small.jpg/dy1" group-title="斗鱼直播",团团小熊OVO - 进来吧  想你了~
+https://baheyi.pages.dev/douyu/12882060
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/10040721_src_1047.avif/dy1" group-title="斗鱼直播",鹿小鸣l - 随便玩玩  冲第一！ 10040721
 https://baheyi.pages.dev/douyu/10040721
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2026/03/07/9c17b8f64e93aab272eaee08d71f9427.png/dy1" group-title="斗鱼直播",果小果是个弟弟 - 果小果：来啦
 https://baheyi.pages.dev/douyu/6558897
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2025/08/04/efb77957c6888dce25d9d45c9a6218bd.png/dy1" group-title="斗鱼直播",阿涛皎月Carry - 阿涛皎月Carry的直播间
 https://baheyi.pages.dev/douyu/6560603
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/08/18/12882060_20260818103807_small.jpg/dy1" group-title="斗鱼直播",团团小熊OVO - 进来吧  想你了~
-https://baheyi.pages.dev/douyu/12882060
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2024/08/01/5795964_20240801150700_small.jpg/dy1" group-title="斗鱼直播",Sa叁儿要暴富 - 2026顺风顺水顺财神
-https://baheyi.pages.dev/douyu/5795964
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2023/01/12/13_20230112012344.jpg/dy1" group-title="斗鱼直播",YH一爱神降临 - 由白哥 随遇哥 5k哥冠/想你的每天！
+https://baheyi.pages.dev/douyu/13
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/07/1417930_20260907232039_small.jpg/dy1" group-title="斗鱼直播",冷风yys - 他人自扫门前雪
+https://baheyi.pages.dev/douyu/1417930
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/6f9558d1424eee1fd41f419dc7fc5468.jpg/dy1" group-title="斗鱼直播",王者荣耀官方赛事 - 预告|14日17点待定 vs 待定
 https://baheyi.pages.dev/douyu/1863767
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/26/b951a1c973338ce481ffd192d6a6cc1f.jpg/dy1" group-title="斗鱼直播",梨落秋溪 - 梨落：toc突围赛！
 https://baheyi.pages.dev/douyu/594019
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2024/08/01/5795964_20240801150700_small.jpg/dy1" group-title="斗鱼直播",Sa叁儿要暴富 - 2026顺风顺水顺财神
+https://baheyi.pages.dev/douyu/5795964
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2025/08/05/1898003_20250805214710_small.jpg/dy1" group-title="斗鱼直播",撒个蕉 - 大狗大狗叫叫叫
 https://baheyi.pages.dev/douyu/1898003
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/138243_src_1047.avif/dy1" group-title="斗鱼直播",洞主丨歌神洞庭湖 - 欢乐时光已经开始了！
@@ -637,84 +641,82 @@ https://baheyi.pages.dev/douyu/12899057
 https://baheyi.pages.dev/douyu/1165924
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/04/15/6902584_20260415152406_small.jpg/dy1" group-title="斗鱼直播",爱笑的李梦儿 - 比封面好看~ 6902584
 https://baheyi.pages.dev/douyu/6902584
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2021/03/11/d8947b4cda225b4e48318d4654253def_big.png/dy1" group-title="斗鱼直播",ZA红牛 - 是我啊  小牛啊
-https://baheyi.pages.dev/douyu/184972
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/22/80b4647ab2aaac85e925bc1ed7c84c62.jpg/dy1" group-title="斗鱼直播",异灵术老师 - 异灵术：开心快乐93589
 https://baheyi.pages.dev/douyu/93589
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/2267291_src_1047.avif/dy1" group-title="斗鱼直播",17shou丷 - 【2026PCL】17 战队视角
 https://baheyi.pages.dev/douyu/2267291
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2023/11/23/309763_20231123183233.jpg/dy1" group-title="斗鱼直播",恰饭丶DZZ - 版本答案来啦~~~ 7779
 https://baheyi.pages.dev/douyu/309763
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2021/03/11/d8947b4cda225b4e48318d4654253def_big.png/dy1" group-title="斗鱼直播",ZA红牛 - 是我啊  小牛啊
+https://baheyi.pages.dev/douyu/184972
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/27/12473975_20260927110913_small.jpg/dy1" group-title="斗鱼直播",i苏禾 - 本人比直播间好看！
 https://baheyi.pages.dev/douyu/12473975
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/02/10039515_20260902233953_small.jpg/dy1" group-title="斗鱼直播",郁知晚 - 财富已经自由了 它想来就来 想走就走
-https://baheyi.pages.dev/douyu/10039515
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/01/10607332_20261001010831.jpg/dy1" group-title="斗鱼直播",浣茶茶 - 中午12点粉丝节
 https://baheyi.pages.dev/douyu/10607332
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/07/29/3305122_20260729191732.jpg/dy1" group-title="斗鱼直播",丸子头的文哥哥 - 没牌就怨有牌就乐！
 https://baheyi.pages.dev/douyu/3305122
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/921393_src_1047.avif/dy1" group-title="斗鱼直播",爱吃鱼的石原 - 先打个3000！随意操作！！
 https://baheyi.pages.dev/douyu/921393
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/25/9140931_20260925183840_small.jpg/dy1" group-title="斗鱼直播",沈幼楚ii - 不是我可爱 是你可爱我了
-https://baheyi.pages.dev/douyu/9140931
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/21/7846683_20260921213106_small.jpg/dy1" group-title="斗鱼直播",你的网友sunny - 广东 180 天秤 08
-https://baheyi.pages.dev/douyu/7846683
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/02/10039515_20260902233953_small.jpg/dy1" group-title="斗鱼直播",郁知晚 - 财富已经自由了 它想来就来 想走就走
+https://baheyi.pages.dev/douyu/10039515
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2023/11/03/7c620411b3e9e413bddb65992c700276_big.png/dy1" group-title="斗鱼直播",雨文欣i - 乌云乌云别找我麻烦
+https://baheyi.pages.dev/douyu/9647943
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2024/05/18/8ec12988245fe2da3664adea3f4f2029.png/dy1" group-title="斗鱼直播",Weirdo桃花岛主 - 和至爱亲朋手足兄弟激情排位
 https://baheyi.pages.dev/douyu/11637620
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/11437_src_1047.avif/dy1" group-title="斗鱼直播",丨ABang阿帮丨 - 周末愉快！格斗赛事实况聊起来~
 https://baheyi.pages.dev/douyu/11437
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/12/69fb357ba21dbd76669f9b7d8faf034e.jpg/dy1" group-title="斗鱼直播",斗鱼吃鸡赛事 - 【PGS11】周决赛第二天直播
 https://baheyi.pages.dev/douyu/100
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/06/26/9281737_20260626092456_small.jpg/dy1" group-title="斗鱼直播",小阿晨cici - 这个女主播唱歌真好听
-https://baheyi.pages.dev/douyu/9281737
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/16/12293234_20261016203559.jpg/dy1" group-title="斗鱼直播",145oni - 你的145宝宝～
-https://baheyi.pages.dev/douyu/12293234
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/25/9140931_20260925183840_small.jpg/dy1" group-title="斗鱼直播",沈幼楚ii - 不是我可爱 是你可爱我了
+https://baheyi.pages.dev/douyu/9140931
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/21/7846683_20260921213106_small.jpg/dy1" group-title="斗鱼直播",你的网友sunny - 广东 180 天秤 08
+https://baheyi.pages.dev/douyu/7846683
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/19/11243879_20260919200059.jpg/dy1" group-title="斗鱼直播",拳王月灼 - 【酒仙大师姐】大哥要是砍我我该怎么办
 https://baheyi.pages.dev/douyu/11243879
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2024/10/14/a033182e8ef160701aed0eda264c9125.png/dy1" group-title="斗鱼直播",仙凡哥哥丶 - 今天猛的一批~直播中
 https://baheyi.pages.dev/douyu/787579
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/226037_src_1047.avif/dy1" group-title="斗鱼直播",MQ丶蜘蛛馍 - 蜘蛛馍：野区三分钟一血版本上分黑科技
 https://baheyi.pages.dev/douyu/226037
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/03/19/8811234_20260319181728_small.jpg/dy1" group-title="斗鱼直播",高千惠Missy - 想陪伴你很久很久
-https://baheyi.pages.dev/douyu/8811234
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/06/26/9281737_20260626092456_small.jpg/dy1" group-title="斗鱼直播",小阿晨cici - 这个女主播唱歌真好听
+https://baheyi.pages.dev/douyu/9281737
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/16/12293234_20261016203559.jpg/dy1" group-title="斗鱼直播",145oni - 你的145宝宝～
+https://baheyi.pages.dev/douyu/12293234
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/19/d27786d7e9c0800000b47d0206e22caa.jpg/dy1" group-title="斗鱼直播",可可昕ohh - 【购买入口】一起回看25夏季赛
+https://baheyi.pages.dev/douyu/9252212
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/01/19/6e7fa381246d2b17edeb8f45022824b7.jpg/dy1" group-title="斗鱼直播",八卦象棋大师 - 2026年二代闭关锁☞布局开战。
 https://baheyi.pages.dev/douyu/851040
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/19/d27786d7e9c0800000b47d0206e22caa.jpg/dy1" group-title="斗鱼直播",一萌imu - 手册 积分 购买 教学
 https://baheyi.pages.dev/douyu/6503272
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/19/d27786d7e9c0800000b47d0206e22caa.jpg/dy1" group-title="斗鱼直播",可可昕ohh - 【购买入口】一起回看25夏季赛
-https://baheyi.pages.dev/douyu/9252212
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/07/1417930_20260907232039_small.jpg/dy1" group-title="斗鱼直播",冷风yys - 他人自扫门前雪
-https://baheyi.pages.dev/douyu/1417930
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2022/09/23/1663902011-632d213b48b63.jpeg/dy1" group-title="斗鱼直播",爱约一青花瓷 - 进入领取肤白貌美女友
-https://baheyi.pages.dev/douyu/171
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/03/19/8811234_20260319181728_small.jpg/dy1" group-title="斗鱼直播",高千惠Missy - 想陪伴你很久很久
+https://baheyi.pages.dev/douyu/8811234
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/09/03/ee95d6feec2c87dd0abeda06cd63952c.jpg/dy1" group-title="斗鱼直播",刷白 - 直播：哒哒哒
 https://baheyi.pages.dev/douyu/474669
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/160504_src_1047.avif/dy1" group-title="斗鱼直播",菜刀三国杀 - 又是四个新将！搞起！
 https://baheyi.pages.dev/douyu/160504
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2024/07/01/50f12caa75e1dd46e5d8cc251b07e8cb.png/dy1" group-title="斗鱼直播",狗蛋吖丶 - 国服在榜赢率 进来学技术
 https://baheyi.pages.dev/douyu/4333941
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2022/09/23/1663902011-632d213b48b63.jpeg/dy1" group-title="斗鱼直播",爱约一青花瓷 - 进入领取肤白貌美女友
+https://baheyi.pages.dev/douyu/171
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/14/9246280_20261014101609_small.jpg/dy1" group-title="斗鱼直播",欣悦ii - 翻我牌子翻我牌子~10点来
 https://baheyi.pages.dev/douyu/9246280
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/04/14/7665617_20260414143831_small.jpg/dy1" group-title="斗鱼直播",小雨大人呀 - 要做快乐的自己呀❤️
-https://baheyi.pages.dev/douyu/7665617
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2026/07/27/a784c20808a929753d4ce6624399fc00.png/dy1" group-title="斗鱼直播",九命貓神 - logo号带粉/帮打/扶贫/上分
 https://baheyi.pages.dev/douyu/7246932
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/479079_src_1047.avif/dy1" group-title="斗鱼直播",龙四爷攻略组 - 29号一起影之刃零！
 https://baheyi.pages.dev/douyu/479079
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/7459835_src_1047.avif/dy1" group-title="斗鱼直播",阿乐fps - 余姚金主训！
-https://baheyi.pages.dev/douyu/7459835
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/14/10243568_20260914170239_small.jpg/dy1" group-title="斗鱼直播",十里ins - 我是女生  漂亮的女生
-https://baheyi.pages.dev/douyu/10243568
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/02/2449973_20261002093133_small.jpg/dy1" group-title="斗鱼直播",Wuli伊凡 - 十月对我好一点吧
-https://baheyi.pages.dev/douyu/2449973
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/20/7573365_20261020154707.jpg/dy1" group-title="斗鱼直播",耿枫QUQ - 和平集市购买入口
 https://baheyi.pages.dev/douyu/7573365
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/04/14/7665617_20260414143831_small.jpg/dy1" group-title="斗鱼直播",小雨大人呀 - 要做快乐的自己呀❤️
+https://baheyi.pages.dev/douyu/7665617
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/14/10243568_20260914170239_small.jpg/dy1" group-title="斗鱼直播",十里ins - 我是女生  漂亮的女生
+https://baheyi.pages.dev/douyu/10243568
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/7459835_src_1047.avif/dy1" group-title="斗鱼直播",阿乐fps - 余姚金主训！
+https://baheyi.pages.dev/douyu/7459835
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/22/80b4647ab2aaac85e925bc1ed7c84c62.jpg/dy1" group-title="斗鱼直播",一本正经的稻哥 - 稻：早起全对竞技场✌️
 https://baheyi.pages.dev/douyu/300358
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2025/05/10/cec2872c36f4c1a87fb028f0491300b1.png/dy1" group-title="斗鱼直播",中年人拳师七号 - 东厂厂长 专业招收约德尔人
 https://baheyi.pages.dev/douyu/1476712
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2023/11/03/7c620411b3e9e413bddb65992c700276_big.png/dy1" group-title="斗鱼直播",雨文欣i - 乌云乌云别找我麻烦
-https://baheyi.pages.dev/douyu/9647943
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/02/2449973_20261002093133_small.jpg/dy1" group-title="斗鱼直播",Wuli伊凡 - 十月对我好一点吧
+https://baheyi.pages.dev/douyu/2449973
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2022/07/22/7892580_20220722202048.jpg/dy1" group-title="斗鱼直播",YAQ一再遇佳人 - 初次相见，恰似久别重逢！
 https://baheyi.pages.dev/douyu/7892580
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/22/80b4647ab2aaac85e925bc1ed7c84c62.jpg/dy1" group-title="斗鱼直播",赤小兔 - 【双倍】下午四点转播周年庆
@@ -767,72 +769,72 @@ https://baheyi.pages.dev/douyu/9449886
 https://baheyi.pages.dev/douyu/645851
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2024/04/08/d3512f310407631d16969aede778e855_big.png/dy1" group-title="斗鱼直播",果酱Broly - 祝自己生日快乐 91686
 https://baheyi.pages.dev/douyu/10673032
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261025/5373486_src_1440.avif/dy1" group-title="斗鱼直播",xqc倾城全能对抗路 - 只玩三分的神，冲万分
+https://baheyi.pages.dev/douyu/5373486
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/6499690_src_1047.avif/dy1" group-title="斗鱼直播",国宝佳悦 - 休息一段时间 6499690
 https://baheyi.pages.dev/douyu/6499690
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2026/07/15/09f749dfc0ce3c4e820b6c3f5bda7330.png/dy1" group-title="斗鱼直播",爱吃甜烧饼 - 【钻粉深渊】原神真的太好玩辣~
 https://baheyi.pages.dev/douyu/10200986
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/533175_src_1047.avif/dy1" group-title="斗鱼直播",野马阿发 - 发： 正在直播！
-https://baheyi.pages.dev/douyu/533175
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2021/08/19/7903307_20210819190951.jpg/dy1" group-title="斗鱼直播",点唱Live卿音 - 卿音欢迎你回家，享受音乐盛宴！
 https://baheyi.pages.dev/douyu/7903307
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/209737_src_1047.avif/dy1" group-title="斗鱼直播",炸毛张 - 单挑黄山天都峰！硬核路线
 https://baheyi.pages.dev/douyu/209737
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/533175_src_1047.avif/dy1" group-title="斗鱼直播",野马阿发 - 发： 正在直播！
+https://baheyi.pages.dev/douyu/533175
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/4722447_src_1047.avif/dy1" group-title="斗鱼直播",黑鹰BLACK职业选手 - 更新新版本了
 https://baheyi.pages.dev/douyu/4722447
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/11622905_src_1047.avif/dy1" group-title="斗鱼直播",拌饭ovo - [带粉/控号]
 https://baheyi.pages.dev/douyu/11622905
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/09/07/dc8c50845ad147e696b07606fdfbadfc.jpg/dy1" group-title="斗鱼直播",TAT大白 - 极致的跑刀修脚流。
-https://baheyi.pages.dev/douyu/1910041
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/06/08/12032609_20260608144459_small.jpg/dy1" group-title="斗鱼直播",是陈程晨呐 - 可是你还记得么
 https://baheyi.pages.dev/douyu/12032609
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/13/12885984_20261013165725_small.jpg/dy1" group-title="斗鱼直播",奈奈Ov0 - 武汉172 腿比命长
-https://baheyi.pages.dev/douyu/12885984
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/09/07/dc8c50845ad147e696b07606fdfbadfc.jpg/dy1" group-title="斗鱼直播",TAT大白 - 极致的跑刀修脚流。
+https://baheyi.pages.dev/douyu/1910041
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/2106575_src_1047.avif/dy1" group-title="斗鱼直播",英雄吕布 - 暗黑2  禁点体能 火多重术士 开荒
 https://baheyi.pages.dev/douyu/2106575
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/9616398_src_1047.avif/dy1" group-title="斗鱼直播",你的琳皇无限猖狂 - 加油加油加油啊8527
 https://baheyi.pages.dev/douyu/9616398
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/259676_src_1047.avif/dy1" group-title="斗鱼直播",神机小诸葛 - 《军棋》最牛讲棋.最强点阵！
-https://baheyi.pages.dev/douyu/259676
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/13/12885984_20261013165725_small.jpg/dy1" group-title="斗鱼直播",奈奈Ov0 - 武汉172 腿比命长
+https://baheyi.pages.dev/douyu/12885984
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2025/03/06/5d5c18dd491c931d5d61b0459bedac35_big.png/dy1" group-title="斗鱼直播",杨芷曦 - 你会不会突然的出现~~~7766
 https://baheyi.pages.dev/douyu/11874120
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2021/09/18/7560043_20210918201813.jpg/dy1" group-title="斗鱼直播",爱约一爱约之夏 - 【交友】颜值女神/点唱/游戏/全能厅
-https://baheyi.pages.dev/douyu/7560043
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/19/d27786d7e9c0800000b47d0206e22caa.jpg/dy1" group-title="斗鱼直播",和平皮指导 - 和平集市返场
-https://baheyi.pages.dev/douyu/266609
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/259676_src_1047.avif/dy1" group-title="斗鱼直播",神机小诸葛 - 《军棋》最牛讲棋.最强点阵！
+https://baheyi.pages.dev/douyu/259676
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/8256300_src_1047.avif/dy1" group-title="斗鱼直播",子敬ad - 双倍亲密度！！黄金双倍
 https://baheyi.pages.dev/douyu/8256300
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/10/19/d27786d7e9c0800000b47d0206e22caa.jpg/dy1" group-title="斗鱼直播",和平皮指导 - 和平集市返场
+https://baheyi.pages.dev/douyu/266609
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2021/09/18/7560043_20210918201813.jpg/dy1" group-title="斗鱼直播",爱约一爱约之夏 - 【交友】颜值女神/点唱/游戏/全能厅
+https://baheyi.pages.dev/douyu/7560043
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/coverupdate/2026/08/12/77da6e2006cbfe2bac74c58d92f3008d.jpg/dy1" group-title="斗鱼直播",帽子戏法Chess - 夺命象棋飞刀王，刁钻绝情手段！
 https://baheyi.pages.dev/douyu/4487219
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2024/04/16/11393291_20240416132918_small.jpg/dy1" group-title="斗鱼直播",司南歌i - 新主播第75天
-https://baheyi.pages.dev/douyu/11393291
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/221869_src_1047.avif/dy1" group-title="斗鱼直播",小儿郎丶丶 - 梦幻西游手游！221869~
 https://baheyi.pages.dev/douyu/221869
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2024/04/16/11393291_20240416132918_small.jpg/dy1" group-title="斗鱼直播",司南歌i - 新主播第75天
+https://baheyi.pages.dev/douyu/11393291
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/10566087_src_1047.avif/dy1" group-title="斗鱼直播",wzy258 - 改回老时间3点开播
 https://baheyi.pages.dev/douyu/10566087
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2020/05/21/4514243_20200521213132_small.jpg/dy1" group-title="斗鱼直播",亚洲洲长丶 - 播吧，不播咋整阿
-https://baheyi.pages.dev/douyu/4514243
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/338281_src_1047.avif/dy1" group-title="斗鱼直播",疯狗炼金 - 第一炼金：斗鱼前三上单！
 https://baheyi.pages.dev/douyu/338281
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/08/27/1011239_20260827071138.jpg/dy1" group-title="斗鱼直播",苏破趴窝李86 - 全新版本，全新DK！
 https://baheyi.pages.dev/douyu/1011239
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/7719479_src_1047.avif/dy1" group-title="斗鱼直播",卷耳喵OuO - 【电一】先穿裤子再穿鞋，先当孙子再当爷！
-https://baheyi.pages.dev/douyu/7719479
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2020/05/21/4514243_20200521213132_small.jpg/dy1" group-title="斗鱼直播",亚洲洲长丶 - 播吧，不播咋整阿
+https://baheyi.pages.dev/douyu/4514243
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/15/12897975_20261015152220_small.jpg/dy1" group-title="斗鱼直播",桐桐ove - 新主播第一天开播 12897975
 https://baheyi.pages.dev/douyu/12897975
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2024/07/31/d4e39be2921b1d65b11f3a3d0342dfac_big.png/dy1" group-title="斗鱼直播",Sweet亚亚 - 一定要是理想型吗  我不行吗？
-https://baheyi.pages.dev/douyu/10264681
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/7719479_src_1047.avif/dy1" group-title="斗鱼直播",卷耳喵OuO - 【电一】先穿裤子再穿鞋，先当孙子再当爷！
+https://baheyi.pages.dev/douyu/7719479
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/1222615_src_1047.avif/dy1" group-title="斗鱼直播",Zy丶腰子 - 开心三角洲 快乐摸大红.
 https://baheyi.pages.dev/douyu/1222615
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/1870001_src_1047.avif/dy1" group-title="斗鱼直播",大Mu金仙丶 - 《大Mu的随缘直播间》
 https://baheyi.pages.dev/douyu/1870001
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2023/07/22/10061156_20230722084659.jpg/dy1" group-title="斗鱼直播",深山老湿爱上林正英 - 赛季没几天啦！还没上皇后吗？
-https://baheyi.pages.dev/douyu/10061156
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/roomCover/2024/07/31/d4e39be2921b1d65b11f3a3d0342dfac_big.png/dy1" group-title="斗鱼直播",Sweet亚亚 - 一定要是理想型吗  我不行吗？
+https://baheyi.pages.dev/douyu/10264681
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/10/04/7692379_20261004012543.jpg/dy1" group-title="斗鱼直播",美艳小妈w - 不孝顺，，。。mm
 https://baheyi.pages.dev/douyu/7692379
+#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2023/07/22/10061156_20230722084659.jpg/dy1" group-title="斗鱼直播",深山老湿爱上林正英 - 赛季没几天啦！还没上皇后吗？
+https://baheyi.pages.dev/douyu/10061156
 #EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/asrpic/261026/11235066_src_1047.avif/dy1" group-title="斗鱼直播",贝克丶Becks - 顶级解说ALGS世界赛国际训练赛！虎来
 https://baheyi.pages.dev/douyu/11235066
-#EXTINF:-1 tvg-logo="https://rpic.douyucdn.cn/live-cover/appCovers/2026/09/20/8842543_20260920085035.jpg/dy1" group-title="斗鱼直播",菲小雅鱼 - 一起打游戏吗？ 8842543
-https://baheyi.pages.dev/douyu/8842543
 #EXTINF:-1 tvg-logo="http://p3.fx.kgimg.com/v2/fxroomcover/f73bdf607a896cc0d046c92c96184247.jpg" group-title="酷狗直播",O0兔小酒0O - O0兔小酒0O
 https://baheyi.pages.dev/kugou/1359583
 #EXTINF:-1 tvg-logo="http://p3.fx.kgimg.com/v2/fxroomcover/489f59626b1310e736bd661e498f5a6e.jpg" group-title="酷狗直播",郭温柔i恋心U - 郭温柔i恋心U
@@ -851,8 +853,8 @@ https://baheyi.pages.dev/kugou/50212986
 https://baheyi.pages.dev/kugou/51094526
 #EXTINF:-1 tvg-logo="http://p3.fx.kgimg.com/v2/fxroomcover/18fdbe665f2715c653c333614c87de4f.jpg" group-title="酷狗直播",冯琪琪8888 - 冯琪琪8888
 https://baheyi.pages.dev/kugou/5642145
-#EXTINF:-1 tvg-logo="http://p3.fx.kgimg.com/v2/fxroomcover/9e7c8c8d87f470c12863308936d00f54.jpg" group-title="酷狗直播",予晗oni - 予晗oni
-https://baheyi.pages.dev/kugou/1204147
+#EXTINF:-1 tvg-logo="http://p3.fx.kgimg.com/v2/fxroomcover/2b4bbdb3fa690d74b495e2ffd0044244.jpg" group-title="酷狗直播",声声慢o - 声声慢o
+https://baheyi.pages.dev/kugou/50626593
 #EXTINF:-1 tvg-logo="http://p3.fx.kgimg.com/v2/fxroomcover/8b1779df6b814ee69cc23db19f648fc6.jpg" group-title="酷狗直播",鑫宝oy - 鑫宝oy
 https://baheyi.pages.dev/kugou/51092953
 #EXTINF:-1 tvg-logo="http://p3.fx.kgimg.com/v2/fxroomcover/adbb0055dd48161bc98d3cdbee6f9808.jpg" group-title="酷狗直播",苏谨七7 - 苏谨七7
@@ -987,6 +989,8 @@ https://baheyi.pages.dev/laifeng/8136037
 https://baheyi.pages.dev/laifeng/8173933
 #EXTINF:-1 tvg-logo="https://yimage.laifeng.com/image/305E25845CF647C0B6DAFE7015264E92?x-oss-process=image/resize,m_fill,h_600,w_600/format,png" group-title="来疯直播",m_fill,h_600,w_600/format,png" group-title="来疯直播" tvg-id="laifeng:8148028", 芯儿贺韩哥76~ - 芯儿贺韩哥76~ - 王者荣耀
 https://baheyi.pages.dev/laifeng/8148028
+#EXTINF:-1 tvg-logo="https://image.laifeng.com/0A02000067A31763B27F7D1F14E8DBB6?x-oss-process=null/format,png" group-title="来疯直播",png" group-title="来疯直播" tvg-id="laifeng:8177547", 红豆贺韩哥76级 - 红豆贺韩哥76级 - 你好
+https://baheyi.pages.dev/laifeng/8177547
 #EXTINF:-1 tvg-logo="https://yimage.laifeng.com/image/84C6E658A2A5437BACE041278850BF97?x-oss-process=image/resize,m_fill,h_600,w_600/format,png" group-title="来疯直播",m_fill,h_600,w_600/format,png" group-title="来疯直播" tvg-id="laifeng:726380", 筱筱 、 - 筱筱 、 - 嗯呢是筱筱
 https://baheyi.pages.dev/laifeng/726380
 #EXTINF:-1 tvg-logo="https://yimage.laifeng.com/image/D549316BC39243CE9C424E5144D645EE?x-oss-process=image/resize,m_fill,h_600,w_600/format,png" group-title="来疯直播",m_fill,h_600,w_600/format,png" group-title="来疯直播" tvg-id="laifeng:9415407", 甜心的36度C - 甜心的36度C
@@ -1039,7 +1043,7 @@ http://nas.jqcykj.com:88/yy?id=25456582
 http://nas.jqcykj.com:88/yy?id=1355116779
 #EXTINF:-1 tvg-logo="//emyfs.bs2cdn.yy.com/individuationCover/1CidNe721Kalloy8zqCYfE.jpg?imageview/4/0/w/400/h/500/q/80" group-title="YY直播",燃舞蹈紫涵 - 这个主播没大哥
 http://nas.jqcykj.com:88/yy?id=1459549899
-#EXTINF:-1 tvg-logo="https://mobilelivephoto.bs2dl.yy.com/group16/M00/2cbabf951a344423a6c66b7c155b6bd0.jpg?imageview/4/0/w/400/h/500/q/80" group-title="YY直播",天晓迎迎&rsquo;天刚刚破晓 - 唔瞅唔睬唔应
+#EXTINF:-1 tvg-logo="https://emyfs.bs2cdn.yy.com/individuationCover/5oWMGr7maMxsc936s0F74c.jpg?imageview/4/0/w/400/h/500/q/80" group-title="YY直播",天晓迎迎&rsquo;天刚刚破晓 - 唔瞅唔睬唔应
 http://nas.jqcykj.com:88/yy?id=1354495040
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_caseoh_-320x180.jpg" group-title="Twitch直播",caseoh_ - 🟨SPOOKY TIME🟨
 https://baheyi.pages.dev/twitch/caseoh_
@@ -1053,10 +1057,10 @@ https://baheyi.pages.dev/twitch/yourragegaming
 https://baheyi.pages.dev/twitch/lacy
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_cdawg-320x180.jpg" group-title="Twitch直播",CDawg - HOKKAIDO RV - DAY 1 w/ @Peter @abroadchris @Ludwig I !gamersupps !merch !reviews !submissions
 https://baheyi.pages.dev/twitch/cdawg
-#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_emiru-320x180.jpg" group-title="Twitch直播",Emiru - SUB SUNDAY!!! :D 🤍🎃 2B COSPLAY 🤍🎃 SUB OR GIFT = BADGE 🤍🎃 VARIETY GAMING TRYING NEW STUFF WEE 🤍🎃 HARDCORE TERRARIA TONITE @EMIRU247
-https://baheyi.pages.dev/twitch/emiru
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_summit1g-320x180.jpg" group-title="Twitch直播",summit1g - chillin - !starforge @StarforgeSystems
 https://baheyi.pages.dev/twitch/summit1g
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_emiru-320x180.jpg" group-title="Twitch直播",Emiru - SUB SUNDAY!!! :D 🤍🎃 2B COSPLAY 🤍🎃 SUB OR GIFT = BADGE 🤍🎃 VARIETY GAMING TRYING NEW STUFF WEE 🤍🎃 HARDCORE TERRARIA TONITE @EMIRU247
+https://baheyi.pages.dev/twitch/emiru
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_plaqueboymax-320x180.jpg" group-title="Twitch直播",PlaqueBoyMax - INFILTRATING NMS BOXING
 https://baheyi.pages.dev/twitch/plaqueboymax
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_vinesauce-320x180.jpg" group-title="Twitch直播",Vinesauce - Halloween Commercial Chaos  Frightening Flash Games  Unsettling Animation History (+ maybe Haunted Half-Life 2)
@@ -1101,46 +1105,46 @@ https://baheyi.pages.dev/twitch/zwebackhd
 https://baheyi.pages.dev/twitch/desertbus
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/previews-ttv/live_user_gronkhtv-320x180.jpg" group-title="Twitch直播",GronkhTV - [GTV24/7] ✶ 002 - Herr Lichtmann & die Miedsekadse ✶ #DOSENWURST - Die 24/7 Dauerbeschallung
 https://baheyi.pages.dev/twitch/gronkhtv
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/13dab26d08050650469999d58c6147e4~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=35099aa1&x-expires=1793152800&x-signature=tnEjRCDJcieDULav7KxVU2B78Bw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Roxy ASMR - TikTok直播
-https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579089506136228784_hd.flv?expire=1794192673&sign=518653369586f3d1a371354655e60676
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/b9add586e4d35d8a9d71fea552c3f85e~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=424e0ca1&x-expires=1793149200&x-signature=p9n9%2BO3Hs5tNu41sW1EZO7IhjsA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2f0b330d&idc=no1a" group-title="TikTok直播",SqueezoLayLoww - ProjectBikeLife Bipper
-https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/game/stream-3867317875994002382_hd.flv?expire=1794192673&sign=2956c1913ded7a618ebb6205db805288
-#EXTINF:-1 tvg-logo="https://p19-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/22ebdf5a68736914c47af64252fd0446~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=83bc5c3f&x-expires=1793149200&x-signature=gErPoA%2BPj2vIUx8DQoFsDvuWpOI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Ballixstic - MINECRAFT SPEEDRUNS 1.16.1
-https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/game/stream-3579088636331426748_hd.flv?expire=1794192673&sign=35bf11d8de38c35f7daf8e8fcebbceb6
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-avt-0068/c2bd027fad0093fd1c89a08ac49604a7~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=b4d3d229&x-expires=1793149200&x-signature=s1OYAkWKyxEfG0fjVdGf04hZKBU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",MysticStar - Delicious snacks
-https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1849706967502946373_hd.flv?expire=1794192673&sign=846e3fdbe0a5b57cac0e2431457e57a6
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/9c868c007564abad6e632b377a433dbd~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=4efff56c&x-expires=1793152800&x-signature=DG49jK9%2FFyNbIc4PPjDGGbvIkFo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Truth&Facts - TikTok直播
-https://pull-flv-l77-tt02.tiktokcdn-eu.com/stage/stream-3867319757525222445_hd.flv?expire=1794192673&sign=c1283a9b11ee7f95a8b771092839d054
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-avt-0068/dc53c9908a5c649cbf965245b3a85a1d~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=e85f7a8c&x-expires=1793149200&x-signature=bG6iOAZ0ovoOf8AWmz1%2B%2BZeth2M%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Yitzel Nuñez 💃🏻🪩 - Clases de cumbia principiantes 💃🏻
-https://pull-q5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-2137937409018167339_hd.flv?expire=1794192673&sign=6675d2d36583564d4ca125670d90d95c
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/d80f5a651f168efea0ba2180bfca5376~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=b0d5c856&x-expires=1793149200&x-signature=5KlDSxon7dIhRKlI41f7RkmeAZM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",QuietQuest - come chill
-https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/game/stream-3867319679752340430_hd.flv?expire=1794192673&sign=3380d86e3ee116996020dfa672b6f14e
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/36251f348c7b450cd7bc381bfebacaa0~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=cdaa2cbe&x-expires=1793152800&x-signature=hGBWRX80PYh4hGnCi%2FNfCerWNxc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",TJ.Saragih (Cal-Sel) - Siapa yg sudah siap? 🤔
-https://pull-flv-l77-tt02.tiktokcdn-eu.com/stage/stream-3867319885639975981_hd.flv?expire=1794192673&sign=39c3f8649cb7542834fc8705920660be
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-avt-0068/045fc4257970c19a50f25edea29fcf90~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=57ef2df9&x-expires=1793152800&x-signature=xt%2FaI4BXKxCZCZvUXvmkIkpevQc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",JhormanStiven🦅🪶 - Lets Go LIVE!
-https://pull-w5-sg01.fcdn.eu.tiktokcdn.com/game/stream-2137937434421755996_hd.flv?expire=1794192673&sign=7c5dc16b2d0ddee7f5f085b8237a3b0e
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/2214175b42bb3d33dc44ae19aef97439~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=3fcdb305&x-expires=1793152800&x-signature=F5be93Yu1muLFRtzffH30a4qqRo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",YaGirlCorinne 🦖 - ASMR AND ADHD
-https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/game/stream-3579089523580076988_hd.flv?expire=1794192673&sign=0cf6c79fa78f06d85d82f48a1755f351
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-avt-0068/5c4d7746837f1ce101c7532773bde35d~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=7aafef02&x-expires=1793152800&x-signature=IWbkyCAZSU8K9e62rWwMvkhhqW0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Kamranteam - TikTok直播
-https://pull-q5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1561476890123042859_hd.flv?expire=1794192673&sign=a65809eca28c1d5e80b08199bb9b181d
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/d92b784b018c8b58c74075ac7da626f1~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=6329b44a&x-expires=1793149200&x-signature=QDdFBTHUySeZo2j3v21H2l9XIHo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",[𝐑]𝐎 𝐘⚡️ - TikTok直播
-https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867319373727794114_hd.flv?expire=1794192673&sign=a35292b45a035c28096c789273a679e8
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/0778792cf2027c2c285edd4055667793~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=5a6aa386&x-expires=1793152800&x-signature=WB7fGki6JaJ5kNI%2Fuhluyt468wc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",kinderballerina - TikTok直播
-https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867319852014764994_hd.flv?expire=1794192673&sign=81797d258ec64a46a1c10aa0d2550b09
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/9b9e42e8c7c48640c89df3a2853a2ad6~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=34c8670c&x-expires=1793149200&x-signature=pTXFSDwZQd0uW2SLnxoCGzWhJ8Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Pan-African Affairs - Trump  Ilhan Omar Somali America
-https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867316492948472770_hd.flv?expire=1794192673&sign=55407ea13509a015aa3402a45f122679
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/2081ca5f1db16dfd2ef1ef5576af237f~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=7e06679c&x-expires=1793149200&x-signature=D5JKJNXSOd8U0kphVeX8UETyMKE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Dubs_Fishing - delayed
-https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/game/stream-3867319610691027918_hd.flv?expire=1794192673&sign=62f463a5a3869191821bf52bcfc3f1f2
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/bea4dc80e3a9c9e8e28b178ad8f880a0~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=15e1a94c&x-expires=1793152800&x-signature=0Jx3Zpmd9RA4Q4BzNdnUlRLqcpc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",GUICHO - C13
-https://pull-flv-l77-tt02.tiktokcdn-eu.com/game/stream-3867319821747356711_hd.flv?expire=1794192673&sign=3c537d49603d40106fe292d8f4b0337d
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/8449260c95f82f256335d287fa51d6c2~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=b5683265&x-expires=1793152800&x-signature=PzWW8RFDZeoJ9QGewI2BXamtOtE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Abby🌸 - Hot Cheeto challenge
-https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579089252394468272_hd.flv?expire=1794192673&sign=f2e4c773c4626e7f53b82973fb5e628b
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/2cb171b9a2e2af7beb266664b206268b~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=32d9d4c5&x-expires=1793149200&x-signature=24UAhwV7o%2BaTXikpj0FIyHDK2qM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Zarations - Mentioned You
-https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/game/stream-3867318816457360334_hd.flv?expire=1794192673&sign=3d51aaef7b7d837e5d300b221a1732cd
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/3828fb7d6f66de29fae8acbb9be78475~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=9c55aeff&x-expires=1793152800&x-signature=vMgjw0j23rMzdx3JVwhbszqn5aQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",El Original Martínez🔥 - TikTok直播
-https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579088797659038640_hd.flv?expire=1794192673&sign=309953fdf00bbe172e7fc3935c180e18
-#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/15a976b2a9eed464523e6cae466704d2~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=9ef148f6&x-expires=1793152800&x-signature=Fhv6IF%2BoVDdb%2BFTPBGInhE9EMDI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Mwxicatra❤️‍🔥🐇🐺🪽🧑‍🍳🐈🌵✨ - TikTok直播
-https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579089442919416752_hd.flv?expire=1794192673&sign=4fbc54cdb8ec5502af4532f669bbc8c7
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/b55ae60643092c1c22b10b555e44a6d8~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=32317471&x-expires=1793152800&x-signature=R3oX095fRsgw0UfphB9E2MiIBjQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Akosua T - TikTok直播
+https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579088243277169584_hd.flv?expire=1794192742&sign=399a293a9552fef754b2edcac6ad0daf
+#EXTINF:-1 tvg-logo="https://p19-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/136a436ed9b1cd293bd9e49a9fd579e6~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=59b6a185&x-expires=1793152800&x-signature=wPKWVybnIff2wEx3uPQJwQdtO6o%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Vidente Enovy 🔮🔯 - Tarot ✡️
+https://pull-flv-l77-tt01.tiktokcdn-eu.com/stage/stream-3579089384126284815_hd.flv?expire=1794192742&sign=44c8de821929cef36583d566629ef7d4
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/6cb3ba7307bff66bc70e0e39bf344c25~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=f3ac95ec&x-expires=1793152800&x-signature=mH%2F%2Bh3uPBbpe9V%2B8E11Y9hvVXWY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",HimothyTraps - Just Cruising!
+https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/game/stream-3867319160660034510_hd.flv?expire=1794192742&sign=e17aaf7a57fcd0b36b6a0e99f88d2480
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/73202eb2f43ea89787d91a23da0542e1~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=689e0938&x-expires=1793149200&x-signature=Jc%2B1tWxe1urpRT3BRT5iGLxGwKo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=5be10d83&idc=no1a" group-title="TikTok直播",nexzoutv - 🎙️🔴#1 RANKED PLAYER ON WZ
+https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/game/stream-3867319351047357390_hd.flv?expire=1794192742&sign=524555834dce51ec57b9c0483e817c7f
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/2802bd6d4ba3237f31136624e0ccbf05~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=434b58eb&x-expires=1793152800&x-signature=7YSuBH8fgNjYC%2FL1ojpwjs1FmCI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",wyntr (ASMR) - ASMR GAMING- Mouth Sounds
+https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/game/stream-3867319863088251854_hd.flv?expire=1794192742&sign=0f89e96609db19000b071d997243c53c
+#EXTINF:-1 tvg-logo="https://p19-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/10da918389aaef3ddf6b89766cee80f9~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=c3b8cea7&x-expires=1793149200&x-signature=Ewlrewk1vTy3RlHbYas0DFAyi3U%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",xiao🐈‍⬛🩵😼 - TikTok直播
+https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579089253735072688_hd.flv?expire=1794192742&sign=4d694d13247751ee4564b0ebfba1cae3
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/55a4b47d47f0dd7b98dd07d010cea289~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=45eba3f1&x-expires=1793152800&x-signature=E5rU%2B%2FwlL1ssY%2F1r09GsTX3liG0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",SapoGuapo🐸 - TikTok直播
+https://pull-flv-l77-tt02.tiktokcdn-eu.com/stage/stream-3867319841948959789_hd.flv?expire=1794192742&sign=9440eb8f5858c33e1664972a24886136
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/a0e7fcd771254842fb837c9ff3c0ac84~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=fab5708b&x-expires=1793152800&x-signature=pIyTvDDuuy8X%2BC5%2B7lMgvtiZ8c8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Alondra💎 - Lets Go LIVE!
+https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/game/stream-3579089533846422460_hd.flv?expire=1794192742&sign=49d7f104d42800dec75727fd4dcadac4
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/dad945ac3ec8ee678ba3d100975b4763~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=4a8cb1b3&x-expires=1793152800&x-signature=83JgYAxCEC%2Be1e90DVqzRN4%2Fk%2F0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Tona Solis - TikTok直播
+https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867319797059158978_hd.flv?expire=1794192742&sign=a0389b130ef239255b467aa39dde4716
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/b67105ca5b7188f787b3ae8edf4833f2~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=070b3a28&x-expires=1793152800&x-signature=qPg8lY%2BwkVjvRDiumVHTEfQhnh0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Rafita - TikTok直播
+https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579089466738344880_hd.flv?expire=1794192742&sign=9ec3cea77d4b8e7211ee19f79f3754f7
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-avt-0068/67762bc17b9b17b084a64ecee59fe883~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=5e44b741&x-expires=1793152800&x-signature=2R%2BqR4eKztCP%2BFcQU2ZfcPhbxKo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",bfgz12 - TikTok直播
+https://pull-q5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-7700741900127079186_hd.flv?expire=1794192742&sign=8566383ea876edb66c48a5feaeaa4b33
+#EXTINF:-1 tvg-logo="https://p19-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/43611c5b36374ef9dbeb5da292389247~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=8f1e3184&x-expires=1793152800&x-signature=PblyHvQBCMml5NDhqgasQ%2Bv8F10%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Cherb Fats - no sleep till lion  zues  or uni
+https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/game/stream-3867319545263555534_hd.flv?expire=1794192742&sign=1ec12d14dead53d2c98c370ea38a1aa1
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/39810aefe967a3a9a7c1f427ab3f27ec~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=10cbed4b&x-expires=1793152800&x-signature=rbZ1dXc4uqLA7HNLiOMhasxSTF0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",ABNER BÁMACA🆎💕𝑵💕🍒🫶♥️🤍 - TikTok直播
+https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579089433652364208_hd.flv?expire=1794192742&sign=1a96a21fd5503da101f15c8416dbef1c
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/cf8c5c6896f19648771df81ec08b5eee~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=3e9618be&x-expires=1793149200&x-signature=XH4rzjNSPHohO41a20Cr2smOuLI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=5be10d83&idc=no1a" group-title="TikTok直播",🅓🅐🅡🅞🅞🅓🅚🅐 🅝🅞🅞🅛 🌟 - TikTok直播
+https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3867318847732712386_hd.flv?expire=1794192742&sign=9bde97db1cca8441d91a1814fb182a8d
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/5c36393c8ff114c94895aee596627861~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=968433be&x-expires=1793152800&x-signature=DaoXwZ%2BohOPp1fogiiBjoCNMAug%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",BrycexD_ - SSL TOP 50 2V2
+https://pull-flv-l77-tt01.tiktokcdn-eu.com/game/stream-3579089210521945109_hd.flv?expire=1794192742&sign=7ce21ae6456cef3f585620e665c1babb
+#EXTINF:-1 tvg-logo="https://p19-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/f42dc636634ecb0bca1dcdea9e111be7~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=9f0d1583&x-expires=1793149200&x-signature=5pAuMvifqFxcUEQCSls00yRTcRc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Rabo9D - 〘ASMR〙🌨️Cozy up with me
+https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/game/stream-3579089246552851388_hd.flv?expire=1794192742&sign=34c18ae7dc99f98405074035481e4c05
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/450e45c2d25b1550ebdf39adeb8bb771~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=887ab51e&x-expires=1793152800&x-signature=LETm%2FpeP2EqlaqO%2Fc3%2BDSnetk0g%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Steve MTZ🏈 - Hawks vs. Chiefs
+https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867319880806302658_hd.flv?expire=1794192742&sign=b710ae577b57c2b2931f1f8147154227
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/a1999f741662b49bcc4319c701fba4cc~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=66a49daf&x-expires=1793149200&x-signature=0I0y%2BzWjh1bvc9loc8icnF3fONU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",💛🎧🇪🇨🇺🇲DjWillyWilly🇺🇲 - Baladas cortavenas Música Dj
+https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867319352391893954_hd.flv?expire=1794192742&sign=2af93bd96c44f8ec94b47aa11e4ab481
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/63b1fc2a067fff5f09599305c32c93a4~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=368dad93&x-expires=1793149200&x-signature=FL5bDkD3pCADmICziD6lfOYcOzs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",mrmindpower - TikTok直播
+https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867319671965877186_hd.flv?expire=1794192742&sign=59a970ef6e90d5bd4cdfafe4ba082780
+#EXTINF:-1 tvg-logo="https://p16-common-sign.tiktokcdn-eu.com/tos-maliva-avt-0068/270990d5682d8e1db8eb8518aa6be3b7~tplv-tiktokx-cropcenter:100:100.webp?dr=10399&refresh_token=5aa38691&x-expires=1793152800&x-signature=xj%2FwenqdGamhJVH8jDr53r1sEeY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=fdd36af4&idc=no1a" group-title="TikTok直播",Im_mamag🎤💎 - Cantando y Batallando🎤💎
+https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867319893623571394_hd.flv?expire=1794192742&sign=178f60432cc7053f0a41fab450391889
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/1fc010aba7ac510b5364e5f76ca4f060.png" group-title="NBA",NBA 灰熊 vs 国王 - 直播19
 https://hello.ooo0ooo.top/live/3931560.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/1fc010aba7ac510b5364e5f76ca4f060.png" group-title="NBA",NBA 灰熊 vs 国王 - 原声10
@@ -1210,7 +1214,7 @@ https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/6f86604750018348256550
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/aa97d18606e06696fd770ed04a5d040b.png" group-title="赛事回放",10-26 06:25 乌拉甲 乌拉圭民族 vs 蒙得维的亚 (0-1) - 高清回放1
 https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/7adbc3685001834825689823137/playlist_eof.m3u8?t=6adef9a7&us=7639f27591&sign=a51fc2cc3a339b2cb936ccfcca6a3ad8
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/c7aa5e458bdcad0051f6786ff93c48ed.png" group-title="赛事回放",10-26 06:15 阿甲 河床 vs 竞技 (1-0) - 高清回放1
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/1fc1ce4b5001834825688209944/playlist_eof.m3u8?t=6adef825&us=1075242511&sign=4de4098212071a0e2349515366a09456
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/1fc1ce4b5001834825688209944/playlist_eof.m3u8?t=6adf0681&us=afb0a08a3e&sign=430269e9e113c15578b717059d2085be
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/db7214c002f2e55a27be55c2dfa1b34f.png" group-title="赛事回放",10-26 06:00 多米联 锡瓦奥 vs 莫卡 (2-1) - 高清回放1
 https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/e61a81645001834825653754049/playlist_eof.m3u8?t=6adf020f&us=9680e695c8&sign=89801a5824e00783d816769743ee4eee
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/4150a647c6e381a69980e98bb86582a5.png" group-title="赛事回放",10-26 06:00 NBA 篮网 vs 步行者 (109-136) - 高清回放1
@@ -1256,7 +1260,7 @@ https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/314a789f50018348256781
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/47174721b260fae6e833329c13c9f2ee.png" group-title="赛事回放",10-26 04:00 阿甲 阿根廷独立 vs 博卡青年 (0-1) - 高清回放1
 https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/240d3d0c5001834825545964783/playlist_eof.m3u8?t=6adf0565&us=a7f8004192&sign=dcdd0e1a14c6fdd53a7c7260460b3188
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/3c6389c8d5794ea298c374a572531fa5.png" group-title="赛事回放",10-26 04:00 阿乙 米德兰 vs 迪罗甘拿斯亚 (3-0) - 高清回放1
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/e165718f5001834825687892338/playlist_eof.m3u8?t=6adef83d&us=15f70d7756&sign=271afdb3f41c8c1f9fb2742a0bc4fe97
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/e165718f5001834825687892338/playlist_eof.m3u8?t=6adf0694&us=140e9484c9&sign=95997e123fb3c62372374ef4e48b7638
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/cdee5b2a9f37acff694b399954da8c40.png" group-title="赛事回放",10-26 04:00 阿乙 迈普 vs 圭梅斯竞技 (3-1) - 高清回放1
 https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/de8133105001834825687715579/playlist_eof.m3u8?t=6adf0567&us=93655b4234&sign=09643922a596ca799de27d3caa219524
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/0009f3e2b129f49e77cffd1d5800f5cc.png" group-title="赛事回放",10-26 04:00 阿乙 北索尔塔中央 vs 阿卡苏索 (0-0) - 高清回放1
