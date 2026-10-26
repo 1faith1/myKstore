@@ -315,7 +315,7 @@ upload_migu_to_github(){
   echo "5. 推送到GitHub（覆盖远端）..."
   git remote set-url origin ${REMOTE_ADD}
   git push origin $BRANCH
-
+  if [[ $? -ne 0 ]]; then echo '❌ 代码上传github失败！';exit 4; fi
   echo "完成上传"
 }
 
