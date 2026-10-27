@@ -455,7 +455,7 @@ env_load (){
   #GITHUB_SOURCE_FILE_DIR=/tmp/githubSource
   GITHUB_SOURCE_FILE_DIR=${FILE_DIR_ADD}/githubSource
   # 我的源，下载到本地后进行处理内容
-  MY_SOURCE_ADD='https://gh-proxy.org/https://raw.githubusercontent.com/1faith1/myKstore/refs/heads/main/TV/kl.txt'
+  MY_SOURCE_ADD='https://gh-proxy.com/https://raw.githubusercontent.com/1faith1/myKstore/refs/heads/main/TV/kl.txt'
   # 截断文件名（test.txt）
   MY_SOURCE_FILE_NAME=$( echo ${MY_SOURCE_ADD} |awk -F "/" '{print $NF}')
   # 官方源，下载到本地后处理内容
