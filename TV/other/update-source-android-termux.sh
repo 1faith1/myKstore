@@ -229,6 +229,102 @@ local_chuli_yuan_source(){
   sed -i "s/更新时间.*/更新时间${NEW_DATE}/g" ${MY_SOURCE_FILE_NAME}
 }
 
+# 作用： 重新排序我自定义组中的央卫视节目顺序
+sorting_yw(){
+    # ==================== 重新排序自定义组中央卫节目
+    ys_sorting=( \
+        CCTV1    \
+        CCTV2    \
+        CCTV3    \
+        CCTV4    \
+        CCTV5    \
+        CCTV5+   \
+        CCTV6    \
+        CCTV7    \
+        CCTV8    \
+        CCTV9    \
+        CCTV10   \
+        CCTV11   \
+        CCTV12   \
+        CCTV13   \
+        CCTV14   \
+        CCTV15   \
+        CCTV16   \
+        CCTV17   \
+    ) 
+    ws_sorting=(     \
+        北京卫视     \
+        辽宁卫视     \
+        天津卫视     \
+        东方卫视     \
+        湖南卫视     \
+        吉林卫视     \
+        浙江卫视     \
+        山东卫视     \
+        黑龙江卫视   \
+        四川卫视     \
+        河南卫视     \
+        安徽卫视     \
+        云南卫视     \
+        贵州卫视     \
+        海南卫视     \
+        陕西卫视     \
+        广东卫视     \
+        河北卫视     \
+        重庆卫视     \
+        深圳卫视     \
+        东南卫视     \
+        甘肃卫视     \
+        广西卫视     \
+        海峡卫视     \
+        湖北卫视     \
+        江苏卫视     \
+        江西卫视     \
+        内蒙古卫视   \
+        宁夏卫视     \
+        青海卫视     \
+        兵团卫视     \
+    )
+    echo "检查自定义组中是否有多出来的央卫视台...."
+    YS_IF_MORE=' $(grep -Ei  ",.*cctv"  ${NEWFILE_2}|awk -F "," '{print $NF}'|sort|uniq) '
+    for ys in ${ys_sorting[@]}
+    do
+            YS_IF_MORE=$(echo ${YS_IF_MORE}|sed "s/${ys} //g")
+            echo $YS_IF_MORE
+    done
+    if  [[ ! -z $YS_IF_MORE ]];then
+            echo "本次检查出来自定义组中缺失${YS_IF_MORE}新增频道,请在ys_sorting中添加."
+    fi
+    WS_IF_MORE=' $(grep -Ei  ",.*卫视"  ${NEWFILE_2}|awk -F "," '{print $NF}'|sort|uniq) '
+    for ws in ${ws_sorting[@]}
+    do
+            WS_IF_MORE=$(echo ${WS_IF_MORE}|sed "s/${ws} //g")
+            echo $WS_IF_MORE
+    done
+    if  [[ ! -z $WS_IF_MORE ]];then
+            echo "本次检查出来自定义组中缺失${WS_IF_MORE}新增频道,请在ws_sorting中添加."
+    fi
+    echo '检查自定义组中是否有多出来的央卫视台 - END ....'
+    TMPDIR_YS=$(mktemp)
+    TMPDIR_WS=$(mktemp)
+    for  ys in ${ys_sorting[@]}
+    do
+        if [ ! -z ${ys} ];then
+            grep -Ei  ",.*cctv" -A1 ${NEWFILE_2}|sed "/^--/d"|grep -Ei ",${ys}$" -A1|sed "/^--/d" >>${TMPDIR_YS}
+        fi
+    done
+    for  ws in ${ws_sorting[@]}
+    do
+        if [ ! -z ${ws} ];then
+            grep -Ei  ",.*卫视" -A1 ${NEWFILE_2}|sed "/^--/d"|grep -Ei ",${ws}$" -A1|sed "/^--/d" >>${TMPDIR_WS}
+        fi
+    done
+    cat ${TMPDIR_YS} > ${NEWFILE_2}
+    cat ${TMPDIR_WS} >> ${NEWFILE_2}
+    rm -f ${TMPDIR_YS} ${TMPDIR_WS}
+    
+}
+
 # 作用：单独添加一个我需要的group_title
 custom_yangweishi(){
   ADD_MY_ZIDINGYI_GROUP_TITLE=$1
@@ -271,26 +367,7 @@ custom_yangweishi(){
   # 修改/group-title为自定义的group-title
   sed -i "s/group-title=.*\,/group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"\,/g" ${NEWFILE_2}
   # ==================== 重新排序自定义组中央卫节目
-  CCTV_SORTING=( \
-        CCTV1    \
-        CCTV2    \
-        CCTV3    \
-        CCTV4    \
-        CCTV5    \
-        CCTV5+   \
-        CCTV6    \
-        CCTV7    \
-        CCTV8    \
-        CCTV9	 \	
-        CCTV10   \
-        CCTV11   \
-        CCTV12   \
-        CCTV13   \
-        CCTV14   \
-        CCTV15   \
-        CCTV16   \
-        CCTV17   \
-  )
+  sorting_yw
   # ====================
   # // 添加处理好的文件到kl文本中的第一行
   # 查找文本中"#============="所在行数
