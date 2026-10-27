@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-# 作用：删除一个或多个group_title的所有资源
+# 作用：删除一个或多个group_title的所有资源（需要写全名称，无法使用通配符）
 remove_group_title (){
   REMOVE_GROUP_TITLE=(\
      奥地利直播       \
