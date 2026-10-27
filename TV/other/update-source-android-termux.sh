@@ -286,19 +286,19 @@ sorting_yw(){
         兵团卫视     \
     )
     echo "检查自定义组中是否有多出来的央卫视台...."
-    YS_IF_MORE=' $(grep -Ei  ",.*cctv"  ${NEWFILE_2}|awk -F "," '{print $NF}'|sort|uniq) '
+    YS_IF_MORE=$(grep -Ei  ",.*cctv"  ${NEWFILE_2}|awk -F "," '{print ","$NF}'|sort|uniq)
     for ys in ${ys_sorting[@]}
     do
-            YS_IF_MORE=$(echo ${YS_IF_MORE}|sed "s/${ys} //g")
+            YS_IF_MORE=$(echo ${YS_IF_MORE}|sed "s/,${ys}//g")
             echo $YS_IF_MORE
     done
     if  [[ ! -z $YS_IF_MORE ]];then
             echo "本次检查出来自定义组中缺失${YS_IF_MORE}新增频道,请在ys_sorting中添加."
     fi
-    WS_IF_MORE=' $(grep -Ei  ",.*卫视"  ${NEWFILE_2}|awk -F "," '{print $NF}'|sort|uniq) '
+    WS_IF_MORE=$(grep -Ei  ",.*卫视"  ${NEWFILE_2}|awk -F "," '{print ","$NF}'|sort|uniq)
     for ws in ${ws_sorting[@]}
     do
-            WS_IF_MORE=$(echo ${WS_IF_MORE}|sed "s/${ws} //g")
+            WS_IF_MORE=$(echo ${WS_IF_MORE}|sed "s/,${ws}//g")
             echo $WS_IF_MORE
     done
     if  [[ ! -z $WS_IF_MORE ]];then
