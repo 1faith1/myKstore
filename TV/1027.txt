@@ -1,248 +1,1551 @@
-#EXTM3U x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-#EXT-X-APP APTV
-#EXT-X-APTV-TYPE remote
-#EXT-X-SUB-URL https://gh.aptv.app/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
-
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV1
-http://101.35.240.114:88/live.php?id=CCTV1
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV2
-http://101.35.240.114:88/live.php?id=CCTV2
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV3
-http://101.35.240.114:88/live.php?id=CCTV3
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV4
-http://101.35.240.114:88/live.php?id=CCTV4
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" http-user-agent="iPhone" group-title="央视IPV4",CCTV5
-http://101.35.240.114:88/live.php?id=CCTV5
-#EXTINF:-1 tvg-id="CCTV5PLUS" tvg-name="CCTV5+" http-user-agent="iPhone" group-title="央视IPV4",CCTV5+
-http://101.35.240.114:88/live.php?id=CCTV5p
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV6
-http://101.35.240.114:88/live.php?id=CCTV6
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV7
-http://101.35.240.114:88/live.php?id=CCTV7
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV8
-http://101.35.240.114:88/live.php?id=CCTV8
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV9
-http://101.35.240.114:88/live.php?id=CCTV9
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV10
-http://101.35.240.114:88/live.php?id=CCTV10
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV11
-http://101.35.240.114:88/live.php?id=CCTV11
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV12
-http://101.35.240.114:88/live.php?id=CCTV12
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV13
-http://101.35.240.114:88/live.php?id=CCTV13
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV14
-http://101.35.240.114:88/live.php?id=CCTV14
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV15
-http://101.35.240.114:88/live.php?id=CCTV15
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" http-user-agent="iPhone" http-referer="https:/aptv.app/" group-title="央视IPV4",CCTV16
-http://101.35.240.114:88/live.php?id=CCTV16
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CCTV17
-http://101.35.240.114:88/live.php?id=CCTV17
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" group-title="央视IPV4",CGTN英语
-https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" group-title="央视IPV4",CGTN纪录
-https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
-#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" group-title="央视IPV4",CGTN西语
-https://0472.org/hls/cgtnx.m3u8
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" group-title="央视IPV4",CGTN法语
-https://0472.org/hls/cgtnf.m3u8
-#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" group-title="央视IPV4",CGTN阿语
-https://0472.org/hls/cgtna.m3u8
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" group-title="央视IPV4",CGTN俄语
+#EXTM3U
+#EXTINF:-1 group-title="馃摙 棰戦亾鍏虫敞",鍔犲叆TG棰戦亾@tmxktg
+https://tmxk.pp.ua/tv.mp4
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B04K(%E5%AD%97%E5%B9%95).png" group-title="娓境路mytv",缈＄繝鍙?K(瀛楀箷)
+https://cdn.qd.je/163189/fct4k
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87.png" group-title="娓境路mytv",鍑ゅ嚢涓枃
+https://cdn.qd.je/163189/fhzw
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1%E6%B8%AF%E6%BE%B3%E7%89%88.png" group-title="娓境路mytv",CCTV1娓境鐗?https://cdn.qd.je/163189/rthk33
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="娓境路mytv",CCTV13
+https://cdn.qd.je/163189/cctv13-2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%20Plus(%E5%AD%97%E5%B9%95).png" group-title="娓境路mytv",TVB Plus(瀛楀箷)
+https://cdn.qd.je/163189/tvbp
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HOY%20TV.png" group-title="娓境路mytv",HOY TV
+https://cdn.qd.je/163189/hoy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HOY%20TV.png" group-title="娓境路mytv",HOY TV
+https://cdn.qd.je/163189/hoy2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HOY%E8%B5%84%E8%AE%AF%E5%8F%B0.png" group-title="娓境路mytv",HOY璧勮鍙?https://cdn.qd.je/163189/hoy78
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HOY%E5%9B%BD%E9%99%85%E8%B4%A2%E7%BB%8F%E5%8F%B0.png" group-title="娓境路mytv",HOY鍥介檯璐㈢粡鍙?https://cdn.qd.je/163189/hoy76
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="娓境路mytv",ViuTV
+https://cdn.qd.je/163189/viu
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="娓境路mytv",ViuTVsix
+https://cdn.qd.je/163189/viu6
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NOW%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="娓境路mytv",NOW鏂伴椈鍙?https://cdn.qd.je/163189/now
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/RTHK31.png" group-title="娓境路mytv",RTHK31
+https://cdn.qd.je/163189/rthk31
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/RTHK32.png" group-title="娓境路mytv",RTHK32
+https://cdn.qd.je/163189/rthk32
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E8%A7%86%E6%BE%B3%E9%97%A8.png" group-title="娓境路mytv",婢宠婢抽棬
+https://cdn.qd.je/163189/asam
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E8%A7%86%E5%8D%AB%E6%98%9F.png" group-title="娓境路mytv",婢宠鍗槦
+https://cdn.qd.je/163189/as
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E9%97%A8%E4%BD%93%E8%82%B2.png" group-title="娓境路mytv",婢抽棬浣撹偛
+https://cdn.qd.je/163189/amty
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E9%97%A8%E7%BB%BC%E8%89%BA.png" group-title="娓境路mytv",婢抽棬缁艰壓
+https://cdn.qd.je/163189/amzy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E9%97%A8%E8%8E%B2%E8%8A%B1.png" group-title="娓境路mytv",婢抽棬鑾茶姳
+https://cdn.qd.je/163189/amlh
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png" group-title="娓境路mytv",閲嶆俯缁忓吀
+https://cdn.qd.je/163189/cwjd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png" group-title="娓境路mytv",鍑ゅ嚢璧勮
+https://cdn.qd.je/163189/fhzx
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png" group-title="娓境路mytv",鍑ゅ嚢棣欐腐
+https://cdn.qd.je/163189/fhhk
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB1.png" group-title="娓境路mytv",TVB1
+https://cdn.qd.je/163189/tvb1
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVBJ1.png" group-title="娓境路mytv",TVBJ1
+https://cdn.qd.je/163189/j1
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%89%A7%E9%9B%86%E5%8F%B0.png" group-title="娓境路mytv",缈＄繝鍓ч泦鍙?https://cdn.qd.je/163189/tvbd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="娓境路mytv",缈＄繝鍙?https://cdn.qd.je/163189/fct
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B0(%E5%AD%97%E5%B9%95).png" group-title="娓境路mytv",缈＄繝鍙?瀛楀箷)
+https://cdn.qd.je/163189/fct2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%98%8E%E7%8F%A0%E5%8F%B0(%E5%AD%97%E5%B9%95).png" group-title="娓境路mytv",鏄庣彔鍙?瀛楀箷)
+https://cdn.qd.je/163189/mzt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="娓境路mytv",鏃犵嚎鏂伴椈鍙?https://cdn.qd.je/163189/wxxw
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E4%B8%9C%E7%8F%A0%E6%B1%9F.png" group-title="娓境路mytv",骞夸笢鐝犳睙
+https://cdn.qd.je/163189/gdzj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E4%B8%9C%E4%BD%93%E8%82%B2.png" group-title="娓境路mytv",骞夸笢浣撹偛
+https://cdn.qd.je/163189/gdty
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%85%AB%E5%BA%A6%E7%A9%BA%E9%97%B4.png" group-title="娓境路mytv",鍏害绌洪棿
+https://cdn.qd.je/163189/8tv
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CH5.png" group-title="娓境路mytv",CH5
+https://cdn.qd.je/163189/ch5
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CH8.png" group-title="娓境路mytv",CH8
+https://cdn.qd.je/163189/ch8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CHU.png" group-title="娓境路mytv",CHU
+https://cdn.qd.je/163189/chu
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BE%99%E5%8D%8E%E7%94%B5%E5%BD%B1.png" group-title="娓境路mytv",榫欏崕鐢靛奖
+https://cdn.qd.je/163189/lhdy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BE%99%E5%8D%8E%E7%BB%8F%E5%85%B8.png" group-title="娓境路mytv",榫欏崕缁忓吀
+https://cdn.qd.je/163189/lhjd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BE%99%E5%8D%8E%E5%81%B6%E5%83%8F.png" group-title="娓境路mytv",榫欏崕鍋跺儚
+https://cdn.qd.je/163189/lhox
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BE%99%E5%8D%8E%E6%97%A5%E9%9F%A9.png" group-title="娓境路mytv",榫欏崕鏃ラ煩
+https://cdn.qd.je/163189/lhrh
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BE%99%E5%8D%8E%E6%88%8F%E5%89%A7.png" group-title="娓境路mytv",榫欏崕鎴忓墽
+https://cdn.qd.je/163189/lhxj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BE%99%E5%8D%8E%E6%B4%8B%E7%89%87.png" group-title="娓境路mytv",榫欏崕娲嬬墖
+https://cdn.qd.je/163189/lhyp
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BE%99%E5%8D%8E%E5%8D%A1%E9%80%9A.png" group-title="娓境路mytv",榫欏崕鍗￠€?https://cdn.qd.je/163189/lhkt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%91%E5%85%89%E5%B8%83%E8%A2%8B%E6%88%8F.png" group-title="娓境路mytv",閲戝厜甯冭鎴?https://cdn.qd.je/163189/jgbdx
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E4%B8%BD%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="娓境路mytv",鍗庝附缈＄繝鍙?https://cdn.qd.je/163189/hlfct
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E4%BA%9A%E6%B4%B2%E6%AD%A6%E4%BE%A0.png" group-title="娓境路mytv",TVB浜氭床姝︿緺
+https://cdn.qd.je/163189/yzwx
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E5%A8%B1%E4%B9%90%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="娓境路mytv",TVB濞变箰鏂伴椈鍙?https://cdn.qd.je/163189/ylxw
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="娓境路mytv",鏃犵嚎鏂伴椈鍙?https://cdn.qd.je/163189/wxxwt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E6%98%9F%E6%B2%B3.png" group-title="娓境路mytv",TVB鏄熸渤
+https://cdn.qd.je/163189/tvbxh
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%B7%E5%B3%A1%E5%8D%AB%E8%A7%86.png" group-title="娓境路mytv",娴峰场鍗
+https://cdn.qd.je/163189/hxws
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B5%B7%E5%B3%A1%E5%8D%AB%E8%A7%86.png" group-title="娓境路mytv",娴峰场鍗
+https://cdn.qd.je/163189/hxws2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E6%98%9F%E6%B2%B3.png" group-title="娓境路mytv",TVB鏄熸渤
+https://cdn.qd.je/163189/xinghe
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0%E6%96%B0%E5%8A%A0%E5%9D%A1.png" group-title="娓境路mytv",澶╂槧鏂板姞鍧?https://cdn.qd.je/163189/typd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0%E7%BB%8F%E5%85%B8.png" group-title="娓境路mytv",澶╂槧缁忓吀
+https://cdn.qd.je/163189/ccm
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E4%B8%BD%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="娓境路mytv",鍗庝附缈＄繝鍙?https://cdn.qd.je/163189/hlt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E4%B8%BD%E7%BF%A1%E7%BF%A0%E5%8F%B0(%E7%A1%AC%E5%AD%97%E5%B9%95).png" group-title="娓境路mytv",鍗庝附缈＄繝鍙?纭瓧骞?
+https://cdn.qd.je/163189/jade
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E4%B8%BD%E7%BF%A1%E7%BF%A0%E5%8F%B0(%E6%96%B0%E5%8A%A0%E5%9D%A1).png" group-title="娓境路mytv",鍗庝附缈＄繝鍙?鏂板姞鍧?
+https://cdn.qd.je/163189/jade2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Astro%20AOD.png" group-title="娓境路mytv",Astro AOD
+https://cdn.qd.je/163189/aod
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Astro%20AEC.png" group-title="娓境路mytv",Astro AEC
+https://cdn.qd.je/163189/aec
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Astro%20QJ.png" group-title="娓境路mytv",Astro QJ
+https://cdn.qd.je/163189/qj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Astro%E6%AC%A2%E5%96%9C%E5%8F%B0.png" group-title="娓境路mytv",Astro娆㈠枩鍙?https://cdn.qd.je/163189/hxt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%88%B1%E5%A5%87%E8%89%BA.png" group-title="娓境路mytv",鐖卞鑹?https://cdn.qd.je/163189/iqiyi
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0%E9%A2%91%E9%81%93.png" group-title="娓境路mytv",澶╂槧棰戦亾
+https://cdn.qd.je/163189/typd2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0%E7%BB%8F%E5%85%B8.png" group-title="娓境路mytv",澶╂槧缁忓吀
+https://cdn.qd.je/163189/ccm2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E6%98%9F%E6%B2%B3.png" group-title="娓境路mytv",TVB鏄熸渤
+https://cdn.qd.je/163189/tvbxh2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%83%E7%A6%A7%E7%BB%8F%E5%85%B8%E5%8F%B0.png" group-title="娓境路mytv",鍗冪Η缁忓吀鍙?https://cdn.qd.je/163189/tvbc
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B0(WebVTT%E5%AD%97%E5%B9%95).png" group-title="娓境路mytv",缈＄繝鍙?WebVTT瀛楀箷)
+https://cdn.qd.je/163189/fctvtt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%98%8E%E7%8F%A0%E5%8F%B0(WebVTT%E5%AD%97%E5%B9%95).png" group-title="娓境路mytv",鏄庣彔鍙?WebVTT瀛楀箷)
+https://cdn.qd.je/163189/mztvtt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%20Plus(WebVTT%E5%AD%97%E5%B9%95).png" group-title="娓境路mytv",TVB Plus(WebVTT瀛楀箷)
+https://cdn.qd.je/163189/tvbpvtt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%84%E9%87%91%E5%8D%8E%E5%89%A7%E5%8F%B0(WebVTT%E5%AD%97%E5%B9%95).png" group-title="娓境路mytv",榛勯噾鍗庡墽鍙?WebVTT瀛楀箷)
+https://cdn.qd.je/163189/hjhjt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="娓境路mytv",CCTV1
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv1
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="娓境路mytv",CCTV2
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="娓境路mytv",CCTV3
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="娓境路mytv",CCTV4
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv4
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="娓境路mytv",CCTV5
+https://cdn.qd.je/163189/cctv5
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="娓境路mytv",CCTV5
+https://cdn.qd.je/163189/cctv5-2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5%2B.png" group-title="娓境路mytv",CCTV5+
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV5%2B.png" group-title="娓境路mytv",CCTV5+
+https://cdn.qd.je/163189/cctv5p-2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="娓境路mytv",CCTV6
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv6
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="娓境路mytv",CCTV7
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv7
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="娓境路mytv",CCTV8
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="娓境路mytv",CCTV9
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv9
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="娓境路mytv",CCTV10
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv10
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="娓境路mytv",CCTV11
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv11
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="娓境路mytv",CCTV12
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv12
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="娓境路mytv",CCTV13
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv13
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="娓境路mytv",CCTV14
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv14
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="娓境路mytv",CCTV15
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv15
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="娓境路mytv",CCTV16
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv16
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="娓境路mytv",CCTV16
+https://cdn.qd.je/163189/cctv16-2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="娓境路mytv",CCTV17
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv17
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%8D%E6%B8%A9%E7%BB%8F%E5%85%B8.png" group-title="娓境路mytv",閲嶆俯缁忓吀
+https://cdn.qd.je/163189/cwjd2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E5%B7%9E%E7%BB%BC%E5%90%88.png" group-title="娓境路mytv",骞垮窞缁煎悎
+https://cdn.qd.je/163189/gzzh
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E5%B7%9E%E6%96%B0%E9%97%BB.png" group-title="娓境路mytv",骞垮窞鏂伴椈
+https://cdn.qd.je/163189/gzxw
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B9%BF%E5%B7%9E%E5%8D%97%E5%9B%BD%E9%83%BD%E5%B8%82.png" group-title="娓境路mytv",骞垮窞鍗楀浗閮藉競
+https://cdn.qd.je/163189/ngds
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2.png" group-title="娓境路mytv",浜旀槦浣撹偛
+https://cdn.qd.je/163189/wxty
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B0%91%E8%A7%86%E5%BD%B1%E5%89%A7%E5%8F%B0.png" group-title="娓境路mytv",姘戣褰卞墽鍙?https://cdn.qd.je/163189/msyj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%85%AC%E8%A7%86%E6%88%8F%E5%89%A7.png" group-title="娓境路mytv",鍏鎴忓墽
+https://cdn.qd.je/163189/gsxj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%87%E6%98%8C%E5%BD%B1%E5%89%A7%E5%8F%B0.png" group-title="娓境路mytv",閲囨槍褰卞墽鍙?https://cdn.qd.je/163189/ccyj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%9D%96%E5%A4%A9%E6%98%A0%E7%94%BB.png" group-title="娓境路mytv",闈栧ぉ鏄犵敾
+https://cdn.qd.je/163189/jtyh
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%9D%96%E5%A4%A9%E6%88%8F%E5%89%A7%E5%8F%B0.png" group-title="娓境路mytv",闈栧ぉ鎴忓墽鍙?https://cdn.qd.je/163189/jtxj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%9D%96%E5%A4%A9%E7%94%B5%E5%BD%B1%E5%8F%B0.png" group-title="娓境路mytv",闈栧ぉ鐢靛奖鍙?https://cdn.qd.je/163189/jtdy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%9D%96%E6%B4%8B%E6%88%8F%E5%89%A7%E5%8F%B0.png" group-title="娓境路mytv",闈栨磱鎴忓墽鍙?https://cdn.qd.je/163189/jyxj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%BD%B1%E8%BF%B7%E6%95%B0%E4%BD%8D%E7%94%B5%E5%BD%B1%E5%8F%B0.png" group-title="娓境路mytv",褰辫糠鏁颁綅鐢靛奖鍙?https://cdn.qd.je/163189/ymswdyt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/amc%E7%94%B5%E5%BD%B1%E5%8F%B0.png" group-title="娓境路mytv",amc鐢靛奖鍙?https://cdn.qd.je/163189/amc
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CinemaWorld.png" group-title="娓境路mytv",CinemaWorld
+https://cdn.qd.je/163189/cinemaworld
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/My%20Cinema%20Europe.png" group-title="娓境路mytv",My Cinema Europe
+https://cdn.qd.je/163189/mce
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BB%8F%E5%85%B8%E7%94%B5%E5%BD%B1%E5%8F%B0.png" group-title="娓境路mytv",缁忓吀鐢靛奖鍙?https://cdn.qd.je/163189/jddyt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CMusic.png" group-title="娓境路mytv",CMusic
+https://cdn.qd.je/163189/cmusic
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DreamWorks%E6%A2%A6%E5%B7%A5%E5%8E%82%E5%8A%A8%E7%94%BB.png" group-title="娓境路mytv",DreamWorks姊﹀伐鍘傚姩鐢?https://cdn.qd.je/163189/dreamworks
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%B2%BE%E9%80%89%E5%8A%A8%E6%BC%AB%E5%8F%B0.png" group-title="娓境路mytv",绮鹃€夊姩婕彴
+https://cdn.qd.je/163189/jxdmt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%87%91%E5%85%89%E5%B8%83%E8%A2%8B%E6%88%8F.png" group-title="娓境路mytv",閲戝厜甯冭鎴?https://cdn.qd.je/163189/jgbdx2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%20Plus.png" group-title="娓境路mytv",TVB Plus
+https://cdn.qd.je/163189/tvbp2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BA%AC%E6%9D%A5%E7%94%B5%E5%BD%B1%E5%8F%B0.png" group-title="娓境路mytv",绾潵鐢靛奖鍙?https://cdn.qd.je/163189/wldy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BA%AC%E6%9D%A5%E6%88%8F%E5%89%A7%E5%8F%B0.png" group-title="娓境路mytv",绾潵鎴忓墽鍙?https://cdn.qd.je/163189/wlxj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BA%AC%E6%9D%A5%E4%BD%93%E8%82%B2%E5%8F%B0.png" group-title="娓境路mytv",绾潵浣撹偛鍙?https://cdn.qd.je/163189/wlty
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BE%99%E7%A5%A5%E6%97%B6%E4%BB%A3.png" group-title="娓境路mytv",榫欑ゥ鏃朵唬
+https://cdn.qd.je/163189/lxsd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%A3%AE%E7%94%B5%E5%BD%B1.png" group-title="娓境路mytv",涓滄．鐢靛奖
+https://cdn.qd.je/163189/dsdy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%A3%AE%E6%88%8F%E5%89%A7.png" group-title="娓境路mytv",涓滄．鎴忓墽
+https://cdn.qd.je/163189/dsxj
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%A3%AE%E6%B4%8B%E7%89%87.png" group-title="娓境路mytv",涓滄．娲嬬墖
+https://cdn.qd.je/163189/dsyp
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%92%AA%E5%92%954K(%E9%99%90%E7%A7%BB%E5%8A%A8%E7%BD%91%E7%BB%9C).png" group-title="娓境路mytv",鍜挄4K(闄愮Щ鍔ㄧ綉缁?
+http://r.jdshipin.com/ln4xk
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%92%AA%E5%92%954K-2(%E9%99%90%E7%A7%BB%E5%8A%A8%E7%BD%91%E7%BB%9C).png" group-title="娓境路mytv",鍜挄4K-2(闄愮Щ鍔ㄧ綉缁?
+http://r.jdshipin.com/Lqdwf
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%89%E7%AB%8B%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",涓夌珛鏂伴椈
+http://45.192.97.170:8880/play/691.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E5%A4%A9%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",涓ぉ鏂伴椈
+http://45.192.97.170:8880/play/692.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%A3%AE%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",涓滄．鏂伴椈
+http://45.192.97.170:8880/play/693.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",涓鏂伴椈
+http://45.192.97.170:8880/play/694.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",鍗庤鏂伴椈
+http://45.192.97.170:8880/play/695.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B0%91%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",姘戣鏂伴椈
+http://45.192.97.170:8880/play/696.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVBS%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",TVBS鏂伴椈
+http://45.192.97.170:8880/play/697.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/LIVE%E4%B8%89%E7%AB%8B.png" group-title="鍙版咕路鍥涘鍙版咕",LIVE涓夌珛
+http://45.192.97.170:8880/play/698.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E8%A7%86.png" group-title="鍙版咕路鍥涘鍙版咕",涓
+http://45.192.97.170:8880/play/699.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",涓鏂伴椈
+http://45.192.97.170:8880/play/700.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E8%A7%86%E7%BB%8F%E5%85%B8.png" group-title="鍙版咕路鍥涘鍙版咕",涓缁忓吀
+http://45.192.97.170:8880/play/701.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E8%A7%86%E8%8F%81%E9%87%87.png" group-title="鍙版咕路鍥涘鍙版咕",涓鑿侀噰
+http://45.192.97.170:8880/play/702.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8F%B0%E8%A7%86.png" group-title="鍙版咕路鍥涘鍙版咕",鍙拌
+http://45.192.97.170:8880/play/703.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8F%B0%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",鍙拌鏂伴椈
+http://45.192.97.170:8880/play/704.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8F%B0%E8%A7%86%E7%BB%BC%E5%90%88.png" group-title="鍙版咕路鍥涘鍙版咕",鍙拌缁煎悎
+http://45.192.97.170:8880/play/705.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8F%B0%E8%A7%86%E8%B4%A2%E7%BB%8F.png" group-title="鍙版咕路鍥涘鍙版咕",鍙拌璐㈢粡
+http://45.192.97.170:8880/play/706.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B0%91%E8%A7%86.png" group-title="鍙版咕路鍥涘鍙版咕",姘戣
+http://45.192.97.170:8880/play/707.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B0%91%E8%A7%86%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="鍙版咕路鍥涘鍙版咕",姘戣鏂伴椈鍙?http://45.192.97.170:8880/play/708.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B0%91%E8%A7%86%E5%8F%B0%E6%B9%BE%E5%8F%B0.png" group-title="鍙版咕路鍥涘鍙版咕",姘戣鍙版咕鍙?http://45.192.97.170:8880/play/709.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B0%91%E8%A7%86%E7%AC%AC%E4%B8%80%E5%8F%B0.png" group-title="鍙版咕路鍥涘鍙版咕",姘戣绗竴鍙?http://45.192.97.170:8880/play/710.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E8%A7%86.png" group-title="鍙版咕路鍥涘鍙版咕",鍗庤
+http://45.192.97.170:8880/play/711.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E8%A7%86%E6%96%B0%E9%97%BB%E8%B5%84%E8%AE%AF.png" group-title="鍙版咕路鍥涘鍙版咕",鍗庤鏂伴椈璧勮
+http://45.192.97.170:8880/play/712.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E8%A7%86%E6%95%99%E8%82%B2%E4%BD%93%E8%82%B2%E6%96%87%E5%8C%96.png" group-title="鍙版咕路鍥涘鍙版咕",鍗庤鏁欒偛浣撹偛鏂囧寲
+http://45.192.97.170:8880/play/713.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%85%AC%E8%A7%86.png" group-title="鍙版咕路鍥涘鍙版咕",鍏
+http://45.192.97.170:8880/play/714.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%85%AC%E8%A7%86%E5%8F%B0%E8%AF%AD%E5%8F%B0.png" group-title="鍙版咕路鍥涘鍙版咕",鍏鍙拌鍙?http://45.192.97.170:8880/play/715.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%B0%8F%E5%85%AC%E8%A7%86.png" group-title="鍙版咕路鍥涘鍙版咕",灏忓叕瑙?http://45.192.97.170:8880/play/716.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E5%A4%A9%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",涓ぉ鏂伴椈
+http://45.192.97.170:8880/play/717.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVBS%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="鍙版咕路鍥涘鍙版咕",TVBS鏂伴椈鍙?http://45.192.97.170:8880/play/718.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%A3%AE%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",涓滄．鏂伴椈
+http://45.192.97.170:8880/play/719.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%89%E7%AB%8B%E6%96%B0%E9%97%BB.png" group-title="鍙版咕路鍥涘鍙版咕",涓夌珛鏂伴椈
+http://45.192.97.170:8880/play/720.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BA%AC%E6%9D%A5%E4%BD%93%E8%82%B2.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,绾潵浣撹偛
+https://hlsz.yjjcfw.com/live/vl.m3u8?expire=1786948372&sign=2e4a56b89fe644db147552011f972714
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍑ゅ嚢涓枃
+http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍑ゅ嚢璧勮
+http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E8%80%80%E6%89%8D%E8%B4%A2%E7%BB%8F.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鑰€鎵嶈储缁?https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鏃犵嚎鏂伴椈鍙?http://cdn6.123.rr.kg/163189/wxxw
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A8%B1%E4%B9%90%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,濞变箰鏂伴椈鍙?http://cdn6.123.rr.kg/163189/ylxw
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E9%97%A8%E4%BD%93%E8%82%B2.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,婢抽棬浣撹偛
+http://cdn6.123.rr.kg/163189/amty
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E9%97%A8%E8%8E%B2%E8%8A%B1.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,婢抽棬鑾茶姳
+http://cdn6.123.rr.kg/163189/amlh
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/VIUTV.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,VIUTV
+https://cdn.123.rr.kg/163189/viu
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A5%BD%E6%B6%88%E6%81%AF%E7%BB%BC%E5%90%88%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,濂芥秷鎭患鍚堝彴
+https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Astro%20AEC.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,Astro AEC
+https://cdn3.indevs.in/stream/live/aec/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Astro%E6%AC%A2%E5%96%9C%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,Astro娆㈠枩鍙?https://cdn3.indevs.in/stream/live/hxt/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/iQIYI.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,iQIYI
+https://cdn3.indevs.in/stream/live/iqiyi/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E6%98%9F%E6%B2%B3.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVB鏄熸渤
+https://cdn3.indevs.in/stream/live/tvbxh/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVBPlus.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVBPlus
+https://cdn3.indevs.in/stream/tvb/tvbp/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B04K%E5%AD%97%E5%B9%95.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,缈＄繝鍙?K瀛楀箷
+https://cdn3.indevs.in/stream/tvb/fct4k/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B0%E5%AD%97%E5%B9%95.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,缈＄繝鍙板瓧骞?https://cdn3.indevs.in/stream/tvb/fct/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E4%B8%BD%E7%BF%A1%E7%BF%A0%E5%8F%B0%E6%96%B0%E5%8A%A0%E5%9D%A1.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍗庝附缈＄繝鍙版柊鍔犲潯
+https://cdn3.indevs.in/stream/live/jade/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,澶╂槧
+https://cdn3.indevs.in/stream/live/typd/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0%E7%BB%8F%E5%85%B8.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,澶╂槧缁忓吀
+https://cdn3.indevs.in/stream/live/ccm/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Now%E6%96%B0%E8%81%9E%E8%87%BA.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,Now鏂拌仦鑷?http://173.208.234.146/live/nowxw.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%B3%B3%E5%87%B0%E4%B8%AD%E6%96%87%E8%87%BA.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,槌冲嚢涓枃鑷?http://173.208.234.146/live/fhzw.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%B3%B3%E5%87%B0%E8%B3%87%E8%A8%8A%E8%87%BA.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,槌冲嚢璩囪▕鑷?http://173.208.234.146/live/fhzx.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%B3%B3%E5%87%B0%E9%A6%99%E6%B8%AF%E8%87%BA.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,槌冲嚢棣欐腐鑷?http://173.208.234.146/live/fhxg.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/LIVE%E4%B8%89%E7%AB%8B.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,LIVE涓夌珛
+https://d2jc41c1shgcol.cloudfront.net/live/setnewsrtmp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVBS%E6%96%B0%E9%97%BB.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVBS鏂伴椈
+https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%9C%E6%A3%AE%E6%96%B0%E9%97%BB.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,涓滄．鏂伴椈
+https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍗庤鏂伴椈
+https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%B0%91%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,姘戣鏂伴椈
+https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%89%E7%AB%8B%E6%96%B0%E9%97%BB.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,涓夌珛鏂伴椈
+https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,涓鏂伴椈
+https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%B8%AD%E5%A4%A9%E6%96%B0%E9%97%BB.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,涓ぉ鏂伴椈
+https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E4%BA%BA%E9%97%B4%E5%8D%AB%E8%A7%86.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,浜洪棿鍗
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGN%E4%B8%AD%E6%96%87%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,CGN涓枃鍙?https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Dali%20TV.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,Dali TV
+http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TITV.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TITV
+https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVBS%20Asia.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVBS Asia
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%94%AF%E5%BF%83%E9%9B%BB%E8%A6%96.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍞績闆昏
+https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Pet%20Club%20TV.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,Pet Club TV
+https://petclub-samsungaus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%83%E7%A6%A7%E7%BB%8F%E5%85%B8%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍗冪Η缁忓吀鍙?http://cdn3.123.rr.kg/stream/live/tvbc/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%85%AB%E5%BA%A6%E7%A9%BA%E9%97%B4.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍏害绌洪棿
+http://cdn6.123.rr.kg/163189/8tv
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CH5.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,CH5
+http://cdn6.123.rr.kg/163189/ch5
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CH8.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,CH8
+http://cdn6.123.rr.kg/163189/ch8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CHU.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,CHU
+http://cdn6.123.rr.kg/163189/chu
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E6%98%9F%E6%B2%B31.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVB鏄熸渤1
+http://cdn3.123.rr.kg/stream/live/tvbxh/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E6%98%9F%E6%B2%B32.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVB鏄熸渤2
+http://cdn6.123.rr.kg/163189/tvbxh
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E6%98%9F%E6%B2%B33.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVB鏄熸渤3
+http://cdn10.123.rr.kg/163189/xinghe/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E4%B8%BD%E7%BF%A1%E7%BF%A0%E5%8F%B01.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍗庝附缈＄繝鍙?
+http://cdn6.123.rr.kg/163189/hlfct
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E4%B8%BD%E7%BF%A1%E7%BF%A0%E5%8F%B0(%E7%A1%AC%E5%AD%97%E5%B9%95).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍗庝附缈＄繝鍙?纭瓧骞?
+http://cdn6.123.rr.kg/163189/jade
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8D%8E%E4%B8%BD%E7%BF%A1%E7%BF%A0%E5%8F%B0(%E6%96%B0%E5%8A%A0%E5%9D%A1).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍗庝附缈＄繝鍙?鏂板姞鍧?
+http://cdn3.123.rr.kg/stream/live/jade/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%89%A7%E9%9B%86%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,缈＄繝鍓ч泦鍙?http://cdn6.123.rr.kg/163189/tvbd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,缈＄繝鍙?http://cdn6.123.rr.kg/163189/fct
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B0(%E5%AD%97%E5%B9%95).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,缈＄繝鍙?瀛楀箷)
+http://cdn3.123.rr.kg/stream/tvb/fct/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B04K(%E5%AD%97%E5%B9%95).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,缈＄繝鍙?K(瀛楀箷)
+http://o11.163189.xyz/stream/tvb/fct4k/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0%E9%A2%91%E9%81%93.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,澶╂槧棰戦亾
+http://cdn3.123.rr.kg/stream/live/typd/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0%E6%96%B0%E5%8A%A0%E5%9D%A1.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,澶╂槧鏂板姞鍧?http://cdn10.123.rr.kg/163189/typd/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AOD.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,AOD
+http://cdn3.123.rr.kg/stream/live/aod/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%AC%A2%E5%96%9C%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,娆㈠枩鍙?http://cdn3.123.rr.kg/stream/live/hxt/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%88%B1%E5%A5%87%E8%89%BA.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鐖卞鑹?http://cdn3.123.rr.kg/stream/live/iqiyi/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0%E7%BB%8F%E5%85%B8%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,澶╂槧缁忓吀鍙?http://cdn3.123.rr.kg/stream/live/ccm/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%A4%A9%E6%98%A0%E7%BB%8F%E5%85%B8%E5%8F%B02.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,澶╂槧缁忓吀鍙?
+http://cdn10.123.rr.kg/163189/ccm/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB1.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVB1
+http://cdn6.123.rr.kg/163189/tvb1
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVBJ1.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVBJ1
+http://cdn6.123.rr.kg/163189/j1
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%20Plus(%E5%AD%97%E5%B9%95).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVB Plus(瀛楀箷)
+http://cdn3.123.rr.kg/stream/tvb/tvbp/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B01.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鏃犵嚎鏂伴椈鍙?
+http://cdn6.123.rr.kg/163189/wxxw
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B02.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鏃犵嚎鏂伴椈鍙?
+http://cdn6.123.rr.kg/163189/wxxwt
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%98%8E%E7%8F%A0%E5%8F%B0(%E5%AD%97%E5%B9%95).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鏄庣彔鍙?瀛楀箷)
+http://cdn3.123.rr.kg/stream/tvb/mzt/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E5%A8%B1%E4%B9%90%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVB濞变箰鏂伴椈鍙?http://cdn6.123.rr.kg/163189/ylxw
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NOW%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,NOW鏂伴椈鍙?http://cdn.123.rr.kg/163189/now
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%E4%BA%9A%E6%B4%B2%E6%AD%A6%E4%BE%A0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVB浜氭床姝︿緺
+http://cdn6.123.rr.kg/163189/yzwx
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,ViuTVsix
+http://cdn10.123.rr.kg/163189/viu6/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍑ゅ嚢涓枃
+http://cdn6.123.rr.kg/163189/fhzw
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E8%B5%84%E8%AE%AF.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍑ゅ嚢璧勮
+http://cdn6.123.rr.kg/163189/fhzx
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鍑ゅ嚢棣欐腐
+http://cdn6.123.rr.kg/163189/fhhk
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HOY%20TV.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,HOY TV
+http://cdn6.123.rr.kg/163189/hoy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HOY%20TV.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,HOY TV
+http://cdn.123.rr.kg/163189/hoy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HOY%E8%B5%84%E8%AE%AF%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,HOY璧勮鍙?http://cdn.123.rr.kg/163189/hoy78
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HOY%E5%9B%BD%E9%99%85%E8%B4%A2%E7%BB%8F%E5%8F%B0.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,HOY鍥介檯璐㈢粡鍙?https://cdn11.163189.xyz/163189/hoy76
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/RTHK31.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,RTHK31
+http://cdn.123.rr.kg/163189/rthk31
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/RTHK32.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,RTHK32
+http://cdn.123.rr.kg/163189/rthk32
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E8%A7%86%E6%BE%B3%E9%97%A8.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,婢宠婢抽棬
+http://cdn6.123.rr.kg/163189/asam
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E8%A7%86%E5%8D%AB%E6%98%9F.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,婢宠鍗槦
+http://cdn6.123.rr.kg/163189/as
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E9%97%A8%E4%BD%93%E8%82%B2.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,婢抽棬浣撹偛
+http://cdn6.123.rr.kg/163189/amty
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E9%97%A8%E7%BB%BC%E8%89%BA.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,婢抽棬缁艰壓
+http://cdn6.123.rr.kg/163189/amzy
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%BE%B3%E9%97%A8%E8%8E%B2%E8%8A%B1.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,婢抽棬鑾茶姳
+http://cdn6.123.rr.kg/163189/amlh
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Astro%20AEC.png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,Astro AEC
+http://cdn3.123.rr.kg/stream/live/aec/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B0(WebVTT%E5%AD%97%E5%B9%95).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,缈＄繝鍙?WebVTT瀛楀箷)
+http://cdn10.123.rr.kg/163189/fct/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%98%8E%E7%8F%A0%E5%8F%B0(WebVTT%E5%AD%97%E5%B9%95).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,鏄庣彔鍙?WebVTT瀛楀箷)
+http://cdn10.123.rr.kg/163189/mzt/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVB%20Plus(WebVTT%E5%AD%97%E5%B9%95).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,TVB Plus(WebVTT瀛楀箷)
+http://cdn10.123.rr.kg/163189/tvbp/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%BB%84%E9%87%91%E5%8D%8E%E5%89%A7%E5%8F%B0(WebVTT%E5%AD%97%E5%B9%95).png" group-title="绻佷綋路馃敭娓境鍙扮洿鎾?,榛勯噾鍗庡墽鍙?WebVTT瀛楀箷)
+http://cdn10.123.rr.kg/163189/hjhjt/
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20News.png" group-title="鍗庤路SW-鑿摜TV",Global News
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20News.png" group-title="鍗庤路SW-鑿摜TV",Global News
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20BC.png" group-title="鍗庤路SW-鑿摜TV",Global BC
+https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/master.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Citytv%20News.png" group-title="鍗庤路SW-鑿摜TV",Citytv News
+https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/City%20News%20Toronto.png" group-title="鍗庤路SW-鑿摜TV",City News Toronto
+https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/Video-1Mbps.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TheWeatherNetworkCA.png" group-title="鍗庤路SW-鑿摜TV",TheWeatherNetworkCA
+https://amg01442-pelmorexcorp-theweathernetwork-lgca-f0v2i.amagi.tv/ts-us-e2-n1/playlist/amg01442-pelmorexcorp-theweathernetwork-lgca/cb553d1e7f6c678a93d43e61d4ef41a4da2427fc087a8d6933fb4b926bc10f41f8eda29ab30fb02b04940fa73f4e380d4d1a9a4ace0362d7b66aa9515b7d121b9d81a20a99d94e5cd58d5d5173f7651b52f91016d6354b59f1dd3724c97db9700e16a82e6b553982f449de2e109add5f947e2d8eb3dd7f39635a4ffc0c0bb4e207bcfae25a5bdb6ab3a54a1a9d7e41e6d341d4d61cead2c95a9f15876bf9409b92ed898214d0819635ac50b06051026317f7817d808759b3cc936a3c917023436c3a8ccea8da6b0aaf646663d5dee09a58a550a4e624857379ba10885c903f986ebf1bab933ecac380fe72710697f074530295d78cb7a14a59d067ffb1a7c8606c8bff027944d01fb6484703a5cef424b6ea23b7951ab8ee127753c19556d59ca293e1b1804fee49a0adcfb90d72714d252fa360f8db07b528d96be6cf03314a4856be935acaf4b6345d596eb6b061e236298af2a4ade25449a0071a5efb2ed55a111eab5e0947c900cda7661ce3400b812673f24847e628988305c59a819f6c50b4dad40cfc60fabb1ec0ef70c2075562219cc7026b7775408aad0c62317dd00be0d6dce8740c0de3f3c8f2b22352690233773aa2c1c24fb6a1e40c312b9b234c06751404d811d71bb96a2d3b1be82389ed631a84023263e2a22954596982d1a184f5b9a0298e5bf6f9d41a0a046d5a8d16387c2ab9da8c5dee765f7f685a851b6547cf733030d1a1e8d7bea55aefb85b8b144e3b54e0d42a1b7d381b620e88de6fd34ef0e175d3fdf17be8dfbf2f1ffb56cf00148d9ede79f6e98dc2460be2c43d755cb6e317fa5118e933f80eb5880db2dc54020f72444dd48757fa56bdadf7ad40a10888792a5dcf4792b8dee9ad0c3de695597d3a0f54036642735e60d2b0ee4d265ad3881ed678dbb116c32d55372c09d986104c85e7790f993b6a12d5caa5b08aee3322f54ddb5bfa452d926a575c8bab39ee90fcfafc861d336abc8d826a9a9cd2f9a6bbcb226d45683f95ce4b4672d42a82eb6d84963952dcb4b9e5b016fff449a8d9fed41bd77ecdfeb207ba9599bec863164a5f448eb99d983afaccc7c12619a12003178e9eecb444f6dfae0e7beb2780cf673ce856f63ab8283eff6c6b38c419537fb4ea9c2e600a61aa900711cd36ae233332d2c5886d3ac8cc35422cf180da0056850412e5080b2ffc3cb2aabe6a66efa81c1359b64b2e826381c499715871eebd5565124d5d45368015637bad7e4bb50abee1d5b46a0b8715c55a6ce837fc9417ef8924dadee8bfeee9316ea2b72b13f104e842f900c6cb80f53deb0235ff26c15432e88f9ccdc9eac6a5c6904b094fd817cd7ba71cfee99ad14d746d2b8e306a1f17ab6784616f749bcb52c6a23f09a7ceed0fc67c39660a063fc21cfed155677663b1a41ab9d879697d6320e2a154e1f3d5f0cc38fa11be2c62b4dd46123a594b5558e06e0921/26/1920x1080_8048040/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CP%2024.png" group-title="鍗庤路SW-鑿摜TV",CP 24
+https://tvsen6.aynaott.com/cp24/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CP24.png" group-title="鍗庤路SW-鑿摜TV",CP24
+http://primep2.tv:826/live/SourPatchKid/nlnE4DVQUs/36921.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CTV%20News.png" group-title="鍗庤路SW-鑿摜TV",CTV News
+https://jmp2.uk/stvp-CA1400004AE
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Bloomberg%202K.png" group-title="鍗庤路SW-鑿摜TV",Bloomberg 2K
+https://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Bloomberg%204k.png" group-title="鍗庤路SW-鑿摜TV",Bloomberg 4k
+https://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Bloomberg%204k.png" group-title="鍗庤路SW-鑿摜TV",Bloomberg 4k
+https://bloomberg-bloomberg-2-nz.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CBC%20NEWS.png" group-title="鍗庤路SW-鑿摜TV",CBC NEWS
+https://jmp2.uk/stvp-CABC2300009KD
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CBC%20NEWS.png" group-title="鍗庤路SW-鑿摜TV",CBC NEWS
+https://cbcrclinear-tor.akamaized.net/hls/live/2042765/CBCRCLINEAR_TOR_11/master5.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CBC%20TORONTO.png" group-title="鍗庤路SW-鑿摜TV",CBC TORONTO
+https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CBC%20TORONTO.png" group-title="鍗庤路SW-鑿摜TV",CBC TORONTO
+https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV%20CANADA.png" group-title="鍗庤路SW-鑿摜TV",NTV CANADA
+https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ICI%20MONTR%C3%89AL.png" group-title="鍗庤路SW-鑿摜TV",ICI MONTR脡AL
+https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVA%20CA.png" group-title="鍗庤路SW-鑿摜TV",TVA CA
+https://tvalive-dai01.akamaized.net/Content/HLS/Live/channel(575b93c5-be31-ee34-6285-14620fd14048)/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TVA.png" group-title="鍗庤路SW-鑿摜TV",TVA
+http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/RDI%20CANADA.png" group-title="鍗庤路SW-鑿摜TV",RDI CANADA
+https://rcavlive.akamaized.net/hls/live/696615/xcancbft/master_3000.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNA%E4%BA%9A%E6%B4%B2%E6%96%B0%E9%97%BB.png" group-title="鍗庤路SW-鑿摜TV",CNA浜氭床鏂伴椈
+http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNA%E4%BA%9A%E6%B4%B2%E6%96%B0%E9%97%BB.png" group-title="鍗庤路SW-鑿摜TV",CNA浜氭床鏂伴椈
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CANAL%2024%20(Spain).png" group-title="鍗庤路SW-鑿摜TV",CANAL 24 (Spain)
+http://canal2000.berkano-systems.net/streaming/streams/canal2000-720p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NHK%20WORLD%20JAPAN.png" group-title="鍗庤路SW-鑿摜TV",NHK WORLD JAPAN
+http://125.227.210.55:35802/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/RT%20NEWS(Spain).png" group-title="鍗庤路SW-鑿摜TV",RT NEWS(Spain)
+https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/RT%20NEWS(EN).png" group-title="鍗庤路SW-鑿摜TV",RT NEWS(EN)
+https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FRANCE%2024(FR).png" group-title="鍗庤路SW-鑿摜TV",FRANCE 24(FR)
+https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_500.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FRANCE%20NEWS(EN).png" group-title="鍗庤路SW-鑿摜TV",FRANCE NEWS(EN)
+https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FRANCE%20NEWS(EN).png" group-title="鍗庤路SW-鑿摜TV",FRANCE NEWS(EN)
+https://jmp2.uk/stvp-DEBD1100002II
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/EURONEWS.png" group-title="鍗庤路SW-鑿摜TV",EURONEWS
+https://jmp2.uk/stvp-DE2600003TR
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/EURONEWS%20H.png" group-title="鍗庤路SW-鑿摜TV",EURONEWS H
+https://a-cdn.klowdtv.com/live3/euronews_720p/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AJA%20news.png" group-title="鍗庤路SW-鑿摜TV",AJA news
+http://live-hls-web-aja.getaj.net/AJA/02.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AJE%20news%20English.png" group-title="鍗庤路SW-鑿摜TV",AJE news English
+https://live-hls-apps-aje-fa.getaj.net/AJE/03.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Al%20Jazeera.png" group-title="鍗庤路SW-鑿摜TV",Al Jazeera
+https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/OAN%20NEWS.png" group-title="鍗庤路SW-鑿摜TV",OAN NEWS
+https://a-cdn.klowdtv.com/live1/oan_720p/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Newsmax.png" group-title="鍗庤路SW-鑿摜TV",Newsmax
+http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%20World.png" group-title="鍗庤路SW-鑿摜TV",TRT World
+https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DW%20Tv.png" group-title="鍗庤路SW-鑿摜TV",DW Tv
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/fox-Business.png" group-title="鍗庤路SW-鑿摜TV",fox-Business
+https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary_400.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/fox-Business.png" group-title="鍗庤路SW-鑿摜TV",fox-Business
+http://primep2.tv:826/live/SourPatchKid/nlnE4DVQUs/105893.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FOX%20NEW.png" group-title="鍗庤路SW-鑿摜TV",FOX NEW
+http://d029dcec.kazmazpaz.ru/iptv/FHKC2D3GGKYK3Q/19147/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FOX%20NEWS.png" group-title="鍗庤路SW-鑿摜TV",FOX NEWS
+https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary_400.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FOX%20NEWS%20NOW.png" group-title="鍗庤路SW-鑿摜TV",FOX NEWS NOW
+http://138.121.15.230:9002/FOX-NEWS/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FOX%205.png" group-title="鍗庤路SW-鑿摜TV",FOX 5
+https://amg00488-foxdigital-wnyw-lgus-qxl2g.amagi.tv/ts-us-w2-n2/playlist/amg00488-foxdigital-wnyw-lgus/cb5735176570678684c83d61cef84982847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258a9724cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7fce05d428b6aa2b50148922611fa83439fd501b2d6d0098311d727f31799c1a38cd741d3e4205293768a8ba2c54007fba358d1af7eb7d49b6d38ee0942243074966e17632c46eb694c4eecf78b9e68fa01c78a24fb105f68c9002df659be63a51ba9e947aca1f9ad2ad6a137a62903088e9fc7a5f52132af6ff4e88cb71050cddc463d2fac1c12221f0ad775ee34fdf701d241bc3987c95757e19c408994b182a0848258932bdec8ce555c28414e0b188f51ae9b228e678d38e0f91a2f584253beda7bf0c6880e7e3214c6b757da454fe29b93d58b477beb700b56ed57dc592e65d87b392fb263aacc7c24a20e3ea81971bb543c8b47bc9f29f6acd4ac4618bdccc84ffa20bee15e9ca64cf9236c1931b2f42d4d4c032883b9285e660bb62f8ee4c3ef730617ffb79caeb234163379460242db98a41afda9cf261a1ac42956437c02189b0196249f37400e2ac609c0ee6e5080152a39e9b7353f093a76a94872537aac322f6cad3307d0c75e739231a873983d/36/1920x1080_5701132/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Fox%20Weather.png" group-title="鍗庤路SW-鑿摜TV",Fox Weather
+https://247wlive.foxweather.com/stream/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNBC%20WORLD%20HD.png" group-title="鍗庤路SW-鑿摜TV",CNBC WORLD HD
+https://jmp2.uk/stvp-IT2700002ZN
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNBC%20hd.png" group-title="鍗庤路SW-鑿摜TV",CNBC hd
+https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/CNBC_Tv18_Prime_HD_NW18_MOB-audio_98834_hin=98800-video=658800.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/cnbc.png" group-title="鍗庤路SW-鑿摜TV",cnbc
+https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/cnbc%20asia.png" group-title="鍗庤路SW-鑿摜TV",cnbc asia
+https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/cnbc%20asia.png" group-title="鍗庤路SW-鑿摜TV",cnbc asia
+http://nmk.ioapk.com:5050/4gtv-live130/index.m3u8?proxy=true
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNBC-e.png" group-title="鍗庤路SW-鑿摜TV",CNBC-e
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NBC%20HD.png" group-title="鍗庤路SW-鑿摜TV",NBC HD
+https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master_5.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NBC.png" group-title="鍗庤路SW-鑿摜TV",NBC
+https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master_5.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/MSNBC%20HD.png" group-title="鍗庤路SW-鑿摜TV",MSNBC HD
+http://4.30.180.36:8420/msnbc/index.m3u8?token=test
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/MSNBC.png" group-title="鍗庤路SW-鑿摜TV",MSNBC
+http://primep2.tv:826/live/SourPatchKid/nlnE4DVQUs/102192.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/MSNBC.png" group-title="鍗庤路SW-鑿摜TV",MSNBC
+https://p12.usnlive.com/stream/msnbc.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NBC%20NOW.png" group-title="鍗庤路SW-鑿摜TV",NBC NOW
+https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master_5.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NBC%20NOW.png" group-title="鍗庤路SW-鑿摜TV",NBC NOW
+https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NBC%2026.png" group-title="鍗庤路SW-鑿摜TV",NBC 26
+https://content.uplynk.com/channel/1fbfb28ae5044f619f75ae0adb011989.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBC%20ONE.png" group-title="鍗庤路SW-鑿摜TV",BBC ONE
+http://41.205.93.154/BBCONE/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBC%20TWO.png" group-title="鍗庤路SW-鑿摜TV",BBC TWO
+https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/52449019-c378-4e85-b20e-1f51e0d5bb4a/4.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBC%20TWO.png" group-title="鍗庤路SW-鑿摜TV",BBC TWO
+http://41.205.93.154/BBCTWO/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN.png" group-title="鍗庤路SW-鑿摜TV",CNN
+https://jmp2.uk/stvp-ATBD800001VA
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN.png" group-title="鍗庤路SW-鑿摜TV",CNN
+http://125.227.210.55:3026/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20FAST.png" group-title="鍗庤路SW-鑿摜TV",CNN FAST
+https://jmp2.uk/stvp-GBBD1900008O3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20H.png" group-title="鍗庤路SW-鑿摜TV",CNN H
+https://d3hnx79nr9mhdw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1u2levt4fksmr/CNNFAST_GB.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20H.png" group-title="鍗庤路SW-鑿摜TV",CNN H
+https://d3fzntptkfpmvg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6rc4k0y56fezj/CNNFAST_GB.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20MONEY.png" group-title="鍗庤路SW-鑿摜TV",CNN MONEY
+https://amg01391-sbtinfast-amg01391c11-lg-br-9982.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnmoneyhevc-lgbr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20HD.png" group-title="鍗庤路SW-鑿摜TV",CNN HD
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20HD.png" group-title="鍗庤路SW-鑿摜TV",CNN HD
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20internationl.png" group-title="鍗庤路SW-鑿摜TV",CNN internationl
+https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20EN%20ESPA%C3%91OL.png" group-title="鍗庤路SW-鑿摜TV",CNN EN ESPA脩OL
+https://amg00803-amg00803c3-rakuten-us-5347.playouts.now.amagi.tv/playlist/amg00803-cnnfastinternational-cnnesponal-rakutenus/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20brazil.png" group-title="鍗庤路SW-鑿摜TV",CNN brazil
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBC%20NEWS.png" group-title="鍗庤路SW-鑿摜TV",BBC NEWS
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv8/b=827008/a=pa4/b=128000/main.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBC%20%20NEWS.png" group-title="鍗庤路SW-鑿摜TV",BBC  NEWS
+http://23.237.104.106:8080/USA_BBC_NEWS/mpegts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DW%20English.png" group-title="鍗庤路SW-鑿摜TV",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DW%20ESPA%C3%91OL.png" group-title="鍗庤路SW-鑿摜TV",DW ESPA脩OL
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/RT%20Documentary.png" group-title="鍗庤路SW-鑿摜TV",RT Documentary
+https://rt-rtd.rttv.com/live/rtdoc/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/THE%20WEATHER%20CHANNEL.png" group-title="鍗庤路SW-鑿摜TV",THE WEATHER CHANNEL
+https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/3.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Rai%20News%2024.png" group-title="鍗庤路SW-鑿摜TV",Rai News 24
+https://jmp2.uk/stvp-IT3200004WU
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/canada%20600%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="鍗庤路SW-鑿摜TV",canada 600鏂伴椈鍙?https://live.xinflix.com/Lshape/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AXN.png" group-title="鍗庤路SW-鑿摜TV",AXN
+http://125.227.210.55:4050/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBCNews.png" group-title="鍗庤路SW-鑿摜TV",BBCNews
+http://125.227.210.55:8165/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Bloomberg.png" group-title="鍗庤路SW-鑿摜TV",Bloomberg
+http://125.227.210.55:8161/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CineMax.png" group-title="鍗庤路SW-鑿摜TV",CineMax
+http://125.227.210.55:1001/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CN%E5%8D%A1%E9%80%9A%E9%A2%91%E9%81%93.png" group-title="鍗庤路SW-鑿摜TV",CN鍗￠€氶閬?http://125.227.210.55:3027/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBO%20HD.png" group-title="鍗庤路SW-鑿摜TV",HBO HD
+http://125.227.210.55:1003/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ABC.png" group-title="鍗庤路SW-鑿摜TV",ABC
+https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/abc%20news.png" group-title="鍗庤路SW-鑿摜TV",abc news
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/abc%20news.png" group-title="鍗庤路SW-鑿摜TV",abc news
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index_6.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBC%20EARTH.png" group-title="鍗庤路SW-鑿摜TV",BBC EARTH
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist540p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBC%20Earth.png" group-title="鍗庤路SW-鑿摜TV",BBC Earth
+https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/58366634-aa54-41fa-8923-4938bc769f8a/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%20Documentary.png" group-title="鍗庤路SW-鑿摜TV",CGTN Documentary
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master480p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NationalGeographic.png" group-title="鍗庤路SW-鑿摜TV",NationalGeographic
+http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AnimalPlanet.png" group-title="鍗庤路SW-鑿摜TV",AnimalPlanet
+http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Crime%26Investigation.png" group-title="鍗庤路SW-鑿摜TV",Crime&Investigation
+http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/mpegts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HLN.png" group-title="鍗庤路SW-鑿摜TV",HLN
+http://23.237.104.106:8080/USA_HLN/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NAT_GEO_WILD.png" group-title="鍗庤路SW-鑿摜TV",NAT_GEO_WILD
+http://23.237.104.106:8080/USA_NAT_GEO_WILD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/WE%20TV.png" group-title="鍗庤路SW-鑿摜TV",WE TV
+http://23.237.104.106:8080/USA_WE_TV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Earth.png" group-title="鍗庤路SW-鑿摜TV",Earth
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TLC.png" group-title="鍗庤路SW-鑿摜TV",TLC
+http://125.227.210.55:4047/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TLC%20East.png" group-title="鍗庤路SW-鑿摜TV",TLC East
+http://4.30.180.36:8420/tlc/index.m3u8?token=test
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TLC.png" group-title="鍗庤路SW-鑿摜TV",TLC
+http://79.127.238.228:14433
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/E.png" group-title="鍗庤路SW-鑿摜TV",E
+http://23.237.104.106:8080/USA_E/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HGTV.png" group-title="鍗庤路SW-鑿摜TV",HGTV
+https://mediapackage-sky-hgtv-source.fullscreen.nz/index_5.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FOOD_NETWORK.png" group-title="鍗庤路SW-鑿摜TV",FOOD_NETWORK
+http://23.237.104.106:8080/USA_FOOD_NETWORK/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/outdoor%20channel.png" group-title="鍗庤路SW-鑿摜TV",outdoor channel
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/wild%20tv.png" group-title="鍗庤路SW-鑿摜TV",wild tv
+https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476/variant/22100055.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TNT.png" group-title="鍗庤路SW-鑿摜TV",TNT
+https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/The%20design%20network.png" group-title="鍗庤路SW-鑿摜TV",The design network
+https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlistR240p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HLN.png" group-title="鍗庤路SW-鑿摜TV",HLN
+http://23.237.104.106:8080/USA_HLN/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/The%20design%20network.png" group-title="鍗庤路SW-鑿摜TV",The design network
+https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlistR240p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/American%20Heroes%20Channel.png" group-title="鍗庤路SW-鑿摜TV",American Heroes Channel
+http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Destination%20America.png" group-title="鍗庤路SW-鑿摜TV",Destination America
+http://23.237.104.106:8080/USA_DESTINATION_AMERICA/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Investigation%20Discovery%20East.png" group-title="鍗庤路SW-鑿摜TV",Investigation Discovery East
+http://4.30.180.36:8420/investigationdiscovery/index.m3u8?token=test
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Discovery%20Science.png" group-title="鍗庤路SW-鑿摜TV",Discovery Science
+http://23.237.104.106:8080/USA_SCIENCE/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/National%20Geographic%20Wild%20East.png" group-title="鍗庤路SW-鑿摜TV",National Geographic Wild East
+http://23.237.104.106:8080/USA_NAT_GEO_WILD/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/OWN%20East.png" group-title="鍗庤路SW-鑿摜TV",OWN East
+http://23.237.104.106:8080/USA_OWN/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/LIFETIME.png" group-title="鍗庤路SW-鑿摜TV",LIFETIME
+http://41.205.93.154/LIFETIME/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Womens_Sports_Network.png" group-title="鍗庤路SW-鑿摜TV",Womens_Sports_Network
+https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network480.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/world%20fishing.png" group-title="鍗庤路SW-鑿摜TV",world fishing
+https://fms.premio.link/fishingtv/tracks-v5a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/fishing.png" group-title="鍗庤路SW-鑿摜TV",fishing
+https://streams2.sofast.tv/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/d5e6bad6-9955-4397-b1ad-0fbf0d1eb54b/2.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SHOWTIME_FAMILY.png" group-title="鍗庤路SW-鑿摜TV",SHOWTIME_FAMILY
+http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CineMax.png" group-title="鍗庤路SW-鑿摜TV",CineMax
+http://125.227.210.55:1001/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/hdo%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2.png" group-title="鍗庤路SW-鑿摜TV",hdo瀹跺涵褰遍櫌
+https://play-drm.aliiptv.com/live/HBOfamilyHD.m3u8?verify=1790056355-vU35IFSqkMxqvpHU0KJxCMNj5nAMyF5RqG6f0Vmevz
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/hdo%E5%BC%BA%E6%A1%A3%E5%BD%B1%E9%99%A2.png" group-title="鍗庤路SW-鑿摜TV",hdo寮烘。褰遍櫌
+https://play-drm.aliiptv.com/live/HBOHitsHD.m3u8?verify=1790056376-3h4Cr8Ngj_O6ExW3QRz_qEjYgxMOSj9PVrSZRMaFZz
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/hdo%E5%8E%9F%E5%88%9B%E5%BD%B1%E9%99%A2.png" group-title="鍗庤路SW-鑿摜TV",hdo鍘熷垱褰遍櫌
+https://play-drm.aliiptv.com/live/HBOSignature.m3u8?verify=1790056398-aY7FJgRtwYT7vaYqSY2n72NJLtpKXweF7dZ3yOWnKX4
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBO%20HD.png" group-title="鍗庤路SW-鑿摜TV",HBO HD
+http://125.227.210.55:1003/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FX.png" group-title="鍗庤路SW-鑿摜TV",FX
+http://tvsen7.aynascope.net/fx/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AMC%20Absolute%20Reality.png" group-title="鍗庤路SW-鑿摜TV",AMC Absolute Reality
+https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AWE.png" group-title="鍗庤路SW-鑿摜TV",AWE
+https://a-cdn.klowdtv.com/live1/awe_720p/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AWE%20Encore.png" group-title="鍗庤路SW-鑿摜TV",AWE Encore
+https://a-cdn.herringnetwork.com/affiliate/awee/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN.png" group-title="鍗庤路SW-鑿摜TV",CNN
+http://125.227.210.55:3026/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CN%E5%8D%A1%E9%80%9A%E9%A2%91%E9%81%93.png" group-title="鍗庤路SW-鑿摜TV",CN鍗￠€氶閬?http://125.227.210.55:3027/VideoInput/play.ts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/MovieSphere%20(1080p).png" group-title="鍗庤路SW-鑿摜TV",MovieSphere (1080p)
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Dateline.png" group-title="鍗庤路SW-鑿摜TV",Dateline
+https://dz59iptwz5rxs.cloudfront.net/live/master_6.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/yahoo%20F.png" group-title="鍗庤路SW-鑿摜TV",yahoo F
+https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/QVC%20UK.png" group-title="鍗庤路SW-鑿摜TV",QVC UK
+https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/1/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CinemaxHits.png" group-title="鍗庤路SW-鑿摜TV",CinemaxHits
+http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CinemaxClassics.png" group-title="鍗庤路SW-鑿摜TV",CinemaxClassics
+http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HallmarkChannel.png" group-title="鍗庤路SW-鑿摜TV",HallmarkChannel
+http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HallmarkMystery.png" group-title="鍗庤路SW-鑿摜TV",HallmarkMystery
+http://ad8147ee.cbilant.com/iptv/ZUGHA6ZCCHRXMQB594EQKPDE/1075/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Syfy.png" group-title="鍗庤路SW-鑿摜TV",Syfy
+http://23.237.104.106:8080/USA_SYFY/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Ion.png" group-title="鍗庤路SW-鑿摜TV",Ion
+https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/a5e7ebd8-80a4-49ed-8337-3f63f84673cc/1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ParamountNetwork.png" group-title="鍗庤路SW-鑿摜TV",ParamountNetwork
+http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/UniversalWestern.png" group-title="鍗庤路SW-鑿摜TV",UniversalWestern
+https://d4whmvwm0rdvi.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-linear/a121f0f1-6195-47d3-aaeb-aebe124b0511/4.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AMCThrillers.png" group-title="鍗庤路SW-鑿摜TV",AMCThrillers
+https://18f2fbf906cb473e8adbe37026e7e27f.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vizio_RushByAMC/dbfca017-81b9-4a86-af1e-debe7e1a7666/4.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CWForever.png" group-title="鍗庤路SW-鑿摜TV",CWForever
+https://d1sknsnbkyvie.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sbcl5hxexbihh/38ec3205-dcc5-4c0f-a047-917eb2054891/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CWGold.png" group-title="鍗庤路SW-鑿摜TV",CWGold
+https://d1d726ny1vain2.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-femoe55fvrdvc/3bef8470-bcb1-49b1-a816-0737fa4c27cd/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BritBoxMysteriesUK.png" group-title="鍗庤路SW-鑿摜TV",BritBoxMysteriesUK
+https://1d7f286dfb844497ac68dd9d6eeb6ea6.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-796-BRITBOXMYSTERIES-LG_US/a623a951-0765-40f6-83dd-307e7c64a4f5/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SonyOneActionHITSUK.png" group-title="鍗庤路SW-鑿摜TV",SonyOneActionHITSUK
+https://89514e758f814907be6d14bbc0aa66b7.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-800-UK-SONYONEACTIONHITS-LG_UK/af2459de-b2ca-47eb-8435-5e6998ec22dc/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SonyOneComedyHITSUK.png" group-title="鍗庤路SW-鑿摜TV",SonyOneComedyHITSUK
+https://9f8e2ffcd87f4c469be7194e48f84874.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-802-UK-SONYONECOMEDYHITS-LG_UK/cc1d2891-3e9b-4e4c-a518-383d37092998/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SonyOneComedyTVUK.png" group-title="鍗庤路SW-鑿摜TV",SonyOneComedyTVUK
+https://ec613694ee5049d3b8f30913b619662e.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-804-UK-SONYONECOMEDYTV-LG_UK/09055582-32bf-4ef3-a52d-c2396416feb2/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SonyOneThrillerTVUK.png" group-title="鍗庤路SW-鑿摜TV",SonyOneThrillerTVUK
+https://52aad07d9d4f4d479d9b27e08ddf9e8b.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-808-UK-SONYONETHRILLERTV-LG_UK/02d6917b-e5da-46e2-82d5-c3b3103bfd0e/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SonyOneFAVESUK.png" group-title="鍗庤路SW-鑿摜TV",SonyOneFAVESUK
+https://8a4805800dac428ebbf1d3cde0cdcf87.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-806-UK-SONYONEFAVES-LG_UK/f3dfc4d0-f5ec-4ea8-b4b0-d0db3982bd9c/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CourtTV.png" group-title="鍗庤路SW-鑿摜TV",CourtTV
+https://amg01438-ewscrippscompan-courttv-tablo-nbcc7.amagi.tv/ts-us-w2-n2/playlist/amg01438-ewscrippscompan-courttv-tablo/cb543e1f796c648e9dd43c66cef340a1f9431fde1d6988693eb5518975d10724d4efa89da914ac30578f6680255f314120369809a11f11afce7ba83e357978738388c33b99c5476ee78a74736eac7f1d56e00d13c03d285aedc43644c531bc720053cf0c6d5d3dc4fd2af5340d98d5158a7b2c95adc361277d4a3cce0b0ca7f941a6fce64346de7eb5e4484b962711e3805fc8804dea9dd55ac8429b27a317998ff18dd2178182c432f801e3643b69480ef132919cb33f9ef1d80011937f2f06355ae8a4e191245ea77433977c62a9c501de00c7885fe12a57e945f0c7e3414de3824738c01880d444830ef5c34ef87b2b4981f6a98bb41d3cb361c489e6d3744648977e6d6ac677d12e2739dfa88544c48b3897b52a8ba0660e309bd16c9589b78faf9d8c49dc0af987ccd86c127132513dd114e2bb7dcb25d84fadcc3828480211fecd1b97d099161b4a7babac12941f12b2decba4da0d30c5295b79e072d65600239d603932b563a9d46c2cba270c842734b40d66d70cafee5e9acdbfca357b8daca013af50bee035858c45c30b1b560db4fe292d206d6dc0e263775d5acb57ebdecfa13a492fdfb7f5bca7773d1432035d1c8181b620c86ea1dbeebe6c35ae77d381bec7ce4ef0ae61894f303a0b/103/1920x1080_5058864/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CookingChannel.png" group-title="鍗庤路SW-鑿摜TV",CookingChannel
+http://23.237.104.106:8080/USA_COOKING/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/OutdoorChannel.png" group-title="鍗庤路SW-鑿摜TV",OutdoorChannel
+http://23.237.104.106:8080/USA_OUTDOOR/mpegts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HSN.png" group-title="鍗庤路SW-鑿摜TV",HSN
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1usott/medhigh.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FashionTVFR.png" group-title="鍗庤路SW-鑿摜TV",FashionTVFR
+https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/MTV.png" group-title="鍗庤路SW-鑿摜TV",MTV
+http://23.237.104.106:8080/USA_MTV/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Fuse.png" group-title="鍗庤路SW-鑿摜TV",Fuse
+http://23.237.104.106:8080/USA_FUSE/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/E!.png" group-title="鍗庤路SW-鑿摜TV",E!
+http://23.237.104.106:8080/USA_E/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/WETV.png" group-title="鍗庤路SW-鑿摜TV",WETV
+http://23.237.104.106:8080/USA_WE_TV/mpegts
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ViceTV.png" group-title="鍗庤路SW-鑿摜TV",ViceTV
+http://23.237.104.106:8080/USA_VICETV/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/YES_NETWORK.png" group-title="鍗庤路SW-鑿摜TV",YES_NETWORK
+http://23.237.104.106:8080/USA_YES_NETWORK/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AXSTV.png" group-title="鍗庤路SW-鑿摜TV",AXSTV
+http://23.239.31.26:8989/axstv/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/VH1.png" group-title="鍗庤路SW-鑿摜TV",VH1
+http://23.237.104.106:8080/USA_VH1/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/XITE80sFlashback.png" group-title="鍗庤路SW-鑿摜TV",XITE80sFlashback
+https://d1n314cytqn9r3.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bklagqy82v0pr/546a529d-394a-4513-bb13-af14dbfbefaf/3.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/XITE90sThrowback.png" group-title="鍗庤路SW-鑿摜TV",XITE90sThrowback
+https://d284aawtm5vi48.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fjdfi2br1jtq7/4aa6988f-4506-421c-8687-42c4b2105ad0/3.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/XITEChristianHits.png" group-title="鍗庤路SW-鑿摜TV",XITEChristianHits
+https://jmp2.uk/stvp-US46000072L
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/XITERockxMetal.png" group-title="鍗庤路SW-鑿摜TV",XITERockxMetal
+https://jmp2.uk/stvp-USBB2300004KV
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/XITEReggaeVibes.png" group-title="鍗庤路SW-鑿摜TV",XITEReggaeVibes
+https://jmp2.uk/stvp-US4600008JA
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/XITENuevoLatino.png" group-title="鍗庤路SW-鑿摜TV",XITENuevoLatino
+https://d3bsgqzbpkrvbb.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w288eaw03izg1/075ea560-48b3-46ee-a540-4652a11b6496/3.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/XITEJustChill.png" group-title="鍗庤路SW-鑿摜TV",XITEJustChill
+https://dvnftgdlbnemm.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-dh48uzd9o895t/00fbab90-74cb-4f1f-9dc7-3c6729bc05b6/3.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/XITEHits.png" group-title="鍗庤路SW-鑿摜TV",XITEHits
+https://d726x48n2pd5h.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-skxr1pazhltvp/c70b5479-c97b-407b-9caf-4dc3877797bb/3.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/XITESiempreLatino.png" group-title="鍗庤路SW-鑿摜TV",XITESiempreLatino
+https://jmp2.uk/stvp-USBD3300010L9
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TraceUrbanUK.png" group-title="鍗庤路SW-鑿摜TV",TraceUrbanUK
+https://amg01131-tracetv-traceurbanuk-samsunguk-6r213.amagi.tv/ts-eu-w1-n2/playlist/amg01131-tracetv-traceurbanuk-samsunguk/cb543e1f796c648e9dd43c66cef340a1f9431fde1d6988693eb5518975d10724d4efa89da914ac30578f6680255f314120369809a11f11afce7ba83e357978738388c33b99c5476ee78a74736eac7f1d56e00d13c03d285aedc43644c531bc720053cf0c6d5d3dc4fd2af5340d98d5158a7b2a95adc361277d4a3cce0b0ca7f941a6fce64346de7eb5e41f49c12c17b6d45f9cd449bf9dd55ac8439b7ea41dcb8fa18d861481d39435a957b5365328481498846addca52a6ca9b1b5af610781c6d3f81a297ed00388f4331349299d08f56d637d3d35deb0736bf13d64b8a24f806c062bcd56f928a9eeb6d710db99e1b0b49a1e1b3c4fa25238262f4afe8d47d0ef79c786366f95de7060415b1d4e509debf7ffab72796fa680d28ff9f449698c0ef85da966bac15f5e9d5b5185f141d6e6f8759b1d479d816ce6cbac71d262e202ec68161e7b9ea6a024b61a19d6ce57968d169638ca56c13e1227272e76ede1b2e63c2331e138f4fd8a94ca70dbb68ff511ce85134fa22b6d87eb0cf538277fc3df689ddde39cfccf58ebab65387007948ddd33f56440355dfe061321b76cd42de02ab8b62240ff6fec1f2c11c6d4969571a218ae1ee7e8f81d3214656e85d326578503a97079646ec4071407f992182f93623cc46003df6ab3a6a5f6ebdc1a5ced2859d0ae6299387d6111b16752ffd3f0c2d6b9391885af637023e595592006946f2560e11a4c587b5d7d02efd9d62ab2a6b5b3696a759125f201c096eb4a328ef2c85c24d86ca9f639b95ca7823a233ac061c9ba2b94de8fd8dc23562b3a245166a92936a855c1e872f964cacd763d3a45a16165e141c22efb7388f13b96d9993273b68469d64fb51966929e9fc/44/1920x1080_5288800/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DELUXEMUSICDE.png" group-title="鍗庤路SW-鑿摜TV",DELUXEMUSICDE
+http://f31d0b76.edemist.com/iptv/F5GDYXTUM2QBV3/31307/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DELUXEDEUTSCHPOPDE.png" group-title="鍗庤路SW-鑿摜TV",DELUXEDEUTSCHPOPDE
+https://jmp2.uk/stvp-DEBA150003050
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DELUXELOUNGEDE.png" group-title="鍗庤路SW-鑿摜TV",DELUXELOUNGEDE
+https://jmp2.uk/stvp-DEAH3904006A
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DELUXEWINTERTIMEDE.png" group-title="鍗庤路SW-鑿摜TV",DELUXEWINTERTIMEDE
+https://jmp2.uk/stvp-DE340000678
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DanceTVNL.png" group-title="鍗庤路SW-鑿摜TV",DanceTVNL
+https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DanceTVDeepHouseDistrictNL.png" group-title="鍗庤路SW-鑿摜TV",DanceTVDeepHouseDistrictNL
+https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DanceTVEDMMainstageNL.png" group-title="鍗庤路SW-鑿摜TV",DanceTVEDMMainstageNL
+https://mbit1.worldcast.tv/dancetelevisionseven/multibit.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DanceTVMinimalTechNL.png" group-title="鍗庤路SW-鑿摜TV",DanceTVMinimalTechNL
+https://mbit1.worldcast.tv/dancetelevisionsix/multibit.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FRESHDanceRU.png" group-title="鍗庤路SW-鑿摜TV",FRESHDanceRU
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F65BX3TKGTCBZQ/18087/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/LoveNature4KCA.png" group-title="鍗庤路SW-鑿摜TV",LoveNature4KCA
+https://pb-ehs1glsha1juy.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ehs1glsha1juy/f2141f37-1f48-475b-ba54-b9efb62346db/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TNTSportsUltimate4KUK.png" group-title="鍗庤路SW-鑿摜TV",TNTSportsUltimate4KUK
+http://alal.fit:8080/FatmiriTV/jv8D9RARGJ/293860
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Rai4KIT.png" group-title="鍗庤路SW-鑿摜TV",Rai4KIT
+http://alal.fit:8080/FatmiriTV/jv8D9RARGJ/266559
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NBCNewsNOW.png" group-title="鍗庤路SW-鑿摜TV",NBCNewsNOW
+https://d4whmvwm0rdvi.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-linear/3e088b25-3e79-4f34-bbdf-afbcd40497f3/4.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NEWSMAX.png" group-title="鍗庤路SW-鑿摜TV",NEWSMAX
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/3.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Reuters.png" group-title="鍗庤路SW-鑿摜TV",Reuters
+https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBCNewsInternational.png" group-title="鍗庤路SW-鑿摜TV",BBCNewsInternational
+https://d3pxo1qcgzxtxs.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-linear-amc-hlsv3/5ab832c0-311a-4705-9535-5e54ad64b21e/5.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/France24EnglishFR.png" group-title="鍗庤路SW-鑿摜TV",France24EnglishFR
+https://amg00106-france24-france24-samsunguk-qvpp8.amagi.tv/ts-eu-w1-n2/playlist/amg00106-france24-france24-samsunguk/cb553d1e7f6c678a93d43e61d4ef41a4da2427fc087a8d6933fb4b926bc10f41f8eda29ab30fb02b04940fa73f4e380d4d1a9a4ace0362d7b66aa9515b7d121b9d81a20a99d94e5cd58d5d5173f7651b52f91016d6354b59f1dd3724c97db9700e16a82e6b553982f449de2e109add5f947e2d88b3dd7f39635a4ffc0c0bb4e207bcfae25a5bdb6ab3a54a1ac32640b28210d4804fb9d2c95a9f15866ba0469893ed8c82178b8e9167ab5fe3645c025c17f4817d808749b5e5897d2b957f2f34733f8db8a7dd710fb2756a72dfe291cf0f9612ca9a6b826f27ab01ea2cee51da31d963c0e04ab3e3bfd6463351cea240511489c1bdd0835f54bc62e8ecedd3670ef49c7f6373e85fff071f17a0c9d64ec4a97b97b230cbb5790d07c49e489a94bcf181dae151bd15faf8d0b71063674d1958fa37ce9b69c867dc68b8f11d20514836c1f03fdfa7e96e0f4c6eaba543e61371c1b30a28426c41a85528188555d7521169c8745f68e439fc894e14e34424a445f07fc557fa2fd2b73ee1af9bc40b3ea7d7c443850fa5d558949e8ace1cbf9cf917b2ac7d6535e5e36da3f62441630f8bf2c7e4650003edb8eef6c9503900362d836de1f7ca7f8187cc251c59941d76203c3d16950dd87dd013415b6ee010c7a90534a807226dc9947f651a3dc6f7e0d4b8818304946fc3c3f80e2a39726aa97c5075399de5db19b513634a5771cc4f684ab6021a65ef96c2ead0c04dc68e6ba73d2d453796be470f591c2323399a9669c557adc64eeed5990abe80e7766ab67c9b7377cf80e33dadd2d6bd0865f68d5816609bd655a0523dd71bd151e5f178cabf58035c710067f1ce6cbd389dda89cc3f953ca72c522cbc98da334d437c0085f00e405e43b055085b3498677cda25/126/1920x1080_6046040/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Stories%20by%20AMC.png" group-title="鍗庤路SW-鑿摜TV",Stories by AMC
+https://d3pxo1qcgzxtxs.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-linear-amc-hlsv3/6f61dc83-1db6-47ca-91fa-c7a26dc238fb/5.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Universal%20Action.png" group-title="鍗庤路SW-鑿摜TV",Universal Action
+https://d4whmvwm0rdvi.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-linear/14c3da40-a4a0-4788-bd7d-210fbed221dd/4.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Outdoor%20Channel.png" group-title="鍗庤路SW-鑿摜TV",Outdoor Channel
+http://23.237.104.106:8080/USA_OUTDOOR/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BBC%20Earth.png" group-title="鍗庤路SW-鑿摜TV",BBC Earth
+https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/91f66dd6-f06c-4386-8452-5befcbd4c77f/0.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/GCN%E6%95%99%E4%BC%9A.png" group-title="鍗庤路SW-鑿摜TV",GCN鏁欎細
+http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/gsws%20hd.png" group-title="鍗庤路SW-鑿摜TV",gsws hd
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/hbwshd.png" group-title="鍗庤路SW-鑿摜TV",hbwshd
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hbwshd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/nxss.png" group-title="鍗庤路SW-鑿摜TV",nxss
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nxss
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Pet%20Club%20TV.png" group-title="鍗庤路SW-鑿摜TV",Pet Club TV
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-astro-ssai-sooka/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ABC%20NEWS.png" group-title="鍗庤路SW-鑿摜TV",ABC NEWS
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index_8.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ABC%204%20Charleston.png" group-title="鍗庤路SW-鑿摜TV",ABC 4 Charleston
+https://linear-700.frequency.stream/dist/stirr/700/hls/master/playlist_1920x1080.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CityNews%20Calgary.png" group-title="鍗庤路SW-鑿摜TV",CityNews Calgary
+https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-1Mbps.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CityNews%20Vancouver.png" group-title="鍗庤路SW-鑿摜TV",CityNews Vancouver
+https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/Video-1Mbps.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20Toronto.png" group-title="鍗庤路SW-鑿摜TV",Global Toronto
+https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20British%20Columbia.png" group-title="鍗庤路SW-鑿摜TV",Global British Columbia
+https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/master.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20News%20Calgary.png" group-title="鍗庤路SW-鑿摜TV",Global News Calgary
+https://live.corusdigitaldev.com/groupd/live/8970c668-40cd-4ca9-8c4d-25fd04f619b5/live.isml/.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20News%20Edmonton.png" group-title="鍗庤路SW-鑿摜TV",Global News Edmonton
+https://live.corusdigitaldev.com/groupb/live/215422c9-d1b9-4009-aaca-32e403f22b01/live.isml/.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20News%20Lethbridge.png" group-title="鍗庤路SW-鑿摜TV",Global News Lethbridge
+https://live.corusdigitaldev.com/groupc/live/cea96246-9af2-4373-932f-cdd3f8db2bc0/live.isml/.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20News%20Okanagan.png" group-title="鍗庤路SW-鑿摜TV",Global News Okanagan
+https://live.corusdigitaldev.com/groupc/live/9fd97fb0-baa8-4191-bd2c-59aa5c9a1d48/live.isml/.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20Toronto.png" group-title="鍗庤路SW-鑿摜TV",Global Toronto
+https://live.corusdigitaldev.com/groupd/live/8970c668-40cd-4ca9-8c4d-25fd04f619b5/live.isml/master.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20News.png" group-title="鍗庤路SW-鑿摜TV",Global News
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Global%20Toronto.png" group-title="鍗庤路SW-鑿摜TV",Global Toronto
+https://live.corusdigitaldev.com/groupd/live/8970c668-40cd-4ca9-8c4d-25fd04f619b5/live.isml/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/GTN%20CANADA.png" group-title="鍗庤路SW-鑿摜TV",GTN CANADA
+https://streamer12.vdn.dstreamone.net/carishowtime/showtime/chunks.m3u8?
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TSC.png" group-title="鍗庤路SW-鑿摜TV",TSC
+https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/The%20Shopping%20Channel.png" group-title="鍗庤路SW-鑿摜TV",The Shopping Channel
+http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%20news.png" group-title="鍗庤路SW-鑿摜TV",CGTN news
+https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E8%B3%87%E8%A9%A2.png" group-title="鍗庤路SW-鑿摜TV",鍑ゅ嚢璩囪
+http://r.jdshipin.com/0Rp07
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%B3%B3%E5%87%B0%E4%B8%AD%E6%96%87.png" group-title="鍗庤路SW-鑿摜TV",槌冲嚢涓枃
+http://r.jdshipin.com/cCCzW
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%B3%B3%E5%87%B0%E9%A6%99%E6%B8%AF.png" group-title="鍗庤路SW-鑿摜TV",槌冲嚢棣欐腐
+http://r.jdshipin.com/yDoTN
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E8%8B%B1%E8%AA%9E.png" group-title="鍗庤路SW-鑿摜TV",CGTN鑻辫獮
+https://0472.org/hls/cgtn.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E8%AE%B0%E5%BD%95.png" group-title="鍗庤路SW-鑿摜TV",CGTN璁板綍
+https://0472.org/hls/cgtnd.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E4%BF%84%E8%AF%AD.png" group-title="鍗庤路SW-鑿摜TV",CGTN淇勮
 https://0472.org/hls/cgtne.m3u8
-#EXTINF:-1 tvg-name="CHC家庭影院" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CHC家庭影院
-http://101.35.240.114:88/live.php?id=CHC家庭影院
-#EXTINF:-1 tvg-name="CHC动作电影" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CHC动作电影
-http://101.35.240.114:88/live.php?id=CHC动作电影
-#EXTINF:-1 tvg-name="CHC影迷电影" http-user-agent="AptvPlayer-UA" group-title="央视IPV4",CHC影迷电影
-http://101.35.240.114:88/live.php?id=CHC影迷电影
-
-#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",重温经典
-http://101.35.240.114:88/live.php?id=重温经典
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",翡翠台
-http://101.35.240.114:88/live.php?id=翡翠台
-#EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" http-user-agent="iPhone" http-header="Referer=https://live.kankanews.com/" group-title="卫视IPV4",五星体育
-http://101.35.240.114:88/live.php?id=五星体育
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰资讯
-http://101.35.240.114:88/phenix.php?id=fhzx
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰中文
-http://101.35.240.114:88/phenix.php?id=fhzw
-#EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" http-user-agent="iPhone" group-title="卫视IPV4" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",凤凰香港
-http://101.35.240.114:88/phenix.php?id=fhhk
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" http-user-agent="AptvPlayer-UA" http-referer="https:/aptv.app/" group-title="卫视IPV4",湖南卫视
-http://101.35.240.114:88/live.php?id=湖南卫视
-#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",北京卫视
-http://101.35.240.114:88/live.php?id=北京卫视
-#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",深圳卫视
-http://101.35.240.114:88/live.php?id=深圳卫视
-#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",浙江卫视
-http://101.35.240.114:88/live.php?id=浙江卫视
-#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" http-user-agent="AptvPlayer-UA" http-header="Referer=https://litchi-play-encrypted-site.jstv.com/" group-title="卫视IPV4",江苏卫视
-http://101.35.240.114:88/live.php?id=江苏卫视
-#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",陕西卫视
-http://101.35.240.114:88/live.php?id=陕西卫视
-#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",湖北卫视
-http://101.35.240.114:88/live.php?id=湖北卫视
-#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",内蒙古卫视
-http://101.35.240.114:88/live.php?id=内蒙古卫视
-#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",江西卫视
-http://101.35.240.114:88/live.php?id=江西卫视
-#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",广东卫视
-http://101.35.240.114:88/live.php?id=广东卫视
-#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",东方卫视
-http://101.35.240.114:88/live.php?id=东方卫视
-#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",西藏卫视
-http://101.35.240.114:88/live.php?id=西藏卫视
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",新疆卫视
-http://101.35.240.114:88/live.php?id=新疆卫视
-#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",青海卫视
-http://101.35.240.114:88/live.php?id=青海卫视
-#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",东南卫视
-http://101.35.240.114:88/live.php?id=东南卫视
-#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",吉林卫视
-http://101.35.240.114:88/live.php?id=吉林卫视
-#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",四川卫视
-http://101.35.240.114:88/live.php?id=四川卫视
-#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",天津卫视
-http://101.35.240.114:88/live.php?id=天津卫视
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" http-user-agent="iPhone" http-referer="https://www.ahtv.cn/" group-title="卫视IPV4",安徽卫视
-http://101.35.240.114:88/live.php?id=安徽卫视
-#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",山东卫视
-http://101.35.240.114:88/live.php?id=山东卫视
-#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",山西卫视
-http://101.35.240.114:88/live.php?id=山西卫视
-#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" group-title="卫视IPV4",广西卫视
-rtmp://live.gxrb.com.cn/hls/a23
-#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",河北卫视
-http://101.35.240.114:88/live.php?id=河北卫视
-#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",河南卫视
-http://101.35.240.114:88/live.php?id=河南卫视
-#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",甘肃卫视
-http://101.35.240.114:88/live.php?id=甘肃卫视
-#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",贵州卫视
-http://101.35.240.114:88/live.php?id=贵州卫视
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",辽宁卫视
-http://101.35.240.114:88/live.php?id=辽宁卫视
-#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",重庆卫视
-http://101.35.240.114:88/live.php?id=重庆卫视
-#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",黑龙江卫视
-http://101.35.240.114:88/live.php?id=黑龙江卫视
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",海南卫视
-http://101.35.240.114:88/live.php?id=海南卫视
-#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" http-user-agent="AptvPlayer-UA" group-title="卫视IPV4",大湾区卫视
-http://101.35.240.114:88/live.php?id=大湾区卫视
-
-#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" http-user-agent="iPhone" group-title="央视IPV4",CCTV4K
-http://101.35.240.114:88/live.php?id=CCTV4K
-#EXTINF:-1 tvg-id="北京卫视4K" tvg-name="北京卫视" http-user-agent="AptvPlayer-UA" group-title="4K8K频道",北京卫视4K
-http://101.35.240.114:88/live.php?id=北京卫视
-#EXTINF:-1 tvg-id="深圳卫视4K" tvg-name="深圳卫视" http-user-agent="AptvPlayer-UA" group-title="4K8K频道",深圳卫视4K
-http://101.35.240.114:88/live.php?id=深圳卫视4K
-#EXTINF:-1 tvg-id="江苏卫视4K" tvg-name="江苏卫视" http-user-agent="aliplayer" http-referer="http://live.jstv.com/" group-title="4K8K频道",江苏卫视4K
-http://101.35.240.114:88/live.php?id=江苏卫视4K
-#EXTINF:-1 tvg-id="浙江卫视4K" tvg-name="浙江卫视" http-user-agent="aliplayer" group-title="4K8K频道",浙江卫视4K
-http://101.35.240.114:88/live.php?id=浙江卫视4K
-#EXTINF:-1 tvg-id="湖南卫视4K" tvg-name="湖南卫视" http-user-agent="aliplayer" group-title="4K8K频道",湖南卫视4K
-http://101.35.240.114:88/live.php?id=湖南卫视4K
-#EXTINF:-1 tvg-id="山东卫视4K" tvg-name="山东卫视" http-user-agent="aliplayer" group-title="4K8K频道",山东卫视4K
-http://101.35.240.114:88/live.php?id=山东卫视4K
-#EXTINF:-1 tvg-id="东方卫视4K" tvg-name="东方卫视" http-user-agent="aliplayer" group-title="4K8K频道",东方卫视4K
-http://101.35.240.114:88/live.php?id=东方卫视4K
-#EXTINF:-1 tvg-id="广东卫视4K" tvg-name="广东卫视" http-user-agent="aliplayer" group-title="4K8K频道",广东卫视4K
-http://101.35.240.114:88/live.php?id=广东卫视4K
-#EXTINF:-1 tvg-id="四川卫视4K" tvg-name="四川卫视" http-user-agent="aliplayer" http-referer="https://api.chinaaudiovisual.cn/" group-title="4K8K频道",四川卫视4K
-http://101.35.240.114:88/live.php?id=四川卫视4K
-#EXTINF:-1 tvg-id="苏州4K" tvg-name="苏州4K" group-title="4K8K频道",苏州4K
-https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
-#EXTINF:-1 tvg-id="河北4K" tvg-name="河北4K" group-title="4K8K频道",河北4K
-https://event.pull.hebtv.com:443/live/live101.m3u8
-
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1983
-https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5MTRfNDAzMDAxOTlfNjYyNzMxNjcwMjBfMF8z_b_Beb3bda599f76c60c463c433ca7460153.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1984
-https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5NTRfNDAzMDAxOTlfNjYyNzMyMzg3MTRfMF8z_b_B192356dadbc90d207ba16964d4c2914c.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1985
-https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDFfNDAzMDAxOTlfNjYyNzMyNTAwMzJfMF8z_b_Be73c5abcbc0eeb2ec9fce6842e1362a4.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1986
-https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDRfNDAzMDAxOTlfNjYyNzMyNTU0OTRfMF8z_b_B24f7d19f1132fa5d7f502f8377ad5567.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1987
-https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDhfNDAzMDAxOTlfNjYyNzMyNjMyMDNfMF8z_b_B570493ed8f7200d4013a66b2d21b2de9.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1988
-https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTJfNDAzMDAxOTlfNjYyNzMyNjkxNjBfMF8z_b_B8c835b83a92d25bde81ba22c5cd9521e.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1989
-https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTVfNDAzMDAxOTlfNjYyNzMyNzQ2OTlfMF8z_b_Be477b27b9ce655d2372df56a5a3d96ef.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1990
-https://cdn8.yzzy-online.com/20220704/597_e0d90c37/1000k/hls/index.m3u8
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1991
-https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjI2MTVfNDAzMDAxOTlfNjYyNzYwNjUxNjVfMF8z_b_B8feb7b85888678d71bf37a259c6850f6.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1992
-https://txmov2.a.kwimgs.com/bs3/video-hls/5256826755663896297_hlshd15.m3u8
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1993
-https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYwODJfMF8z_b_B647d10e431b4cc5e48e6c77347d69021.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1994
-https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxMjNfMF8z_b_B3dde97f36273f04403d4dc5eec611a35.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1995
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1996
-https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxNTJfMF8z_b_Bd841eae10ab1c9955ef55fbedfae6c45.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1997
-https://txmov2.a.kwimgs.com/bs3/video-hls/5230649583590411879_hlshd15.m3u8
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1998
-https://txmov2.a.kwimgs.com/bs3/video-hls/5225864507896315430_hlshd15.m3u8
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚1999
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQxNTRfMF8z_b_B0b5e52bc003285ef66ec0cbb2be08556.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2000
-https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxMTNfMF8z_b_Bdddf4e7ef0ff6cfd477857bb40e78419.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2001
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMDFfMF8z_b_B70592cb7c4054e9cabb675e849bbf4bd.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2002
-https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxNDdfMF8z_b_Ba6271d10b7e6cfae83759033a091f257.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2003
-https://alimov2.a.kwimgs.com/upic/2023/01/14/23/BMjAyMzAxMTQyMzQxNDdfNDAzMDAxOTlfOTM2MTU0MTk1NDFfMF8z_b_B182749d2cd2ea9323639254af385f24b.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2004
-https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxOTVfMF8z_b_B86c4430b82ff5a7f4e8132f6ee558536.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2005
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMzhfMF8z_b_B35ad7cc86aec8fc9e5ddfb31fc7bed63.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2006
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyNzlfMF8z_b_Bbc3703fc331dc994c50859c19aad28ff.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2007
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzMjNfMF8z_b_B00b069c7899976459ceeaa99353dfefe.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2008
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzNTNfMF8z_b_Bd7346962e61bd7b84e11a1fa6e4616f9.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2009
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzOTBfMF8z_b_B29a36a85e0277f6c2a1f033ef7c10708.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2010
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ0MjlfMF8z_b_B8818807a00eed329a69fb494f405bd43.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2011
-https://alimov2.a.kwimgs.com/upic/2023/01/16/11/BMjAyMzAxMTYxMTA3MjFfNDAzMDAxOTlfOTM3MjcyMjA3ODhfMF8z_b_B8214200efc869dc6fcf99dad619fa4c1.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2012
-https://cdn8.yzzy-online.com/20220704/591_82b72f82/1000k/hls/index.m3u8
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2013
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ1NjNfMF8z_b_B4fea55408dca4471a68a963ae096be59.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2014
-https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTNfNDAzMDAxOTlfOTI4OTY2ODAzNjlfMF8z_b_Bdee65c77f9e7b2120a185c919dad81d2.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2015
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ2MTZfMF8z_b_B4851f43f5a2bc2871a9b0ec87294a6e7.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2016
-https://cdn8.yzzy-online.com/20220704/577_cda9c8d1/1000k/hls/index.m3u8
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2017
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ2NDhfMF8z_b_B6527b0c2ce3dda1d9b3f34edd4fdb9aa.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2018
-https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTRfNDAzMDAxOTlfOTI4OTY2ODE2MTBfMF8z_b_B11a778e34390a21de42d407e94f45b91.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2019
-https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTRfNDAzMDAxOTlfOTI4OTY2ODE2MTBfMF8z_b_B11a778e34390a21de42d407e94f45b91.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2020
-https://alimov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzA5NDdfNDAzMDAxOTlfNjYxNzQ2MDAyMTFfMF8z_b_B5d51d9564c5670dc66faeba20aa7af3f.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2021
-https://alimov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzE4NTJfNDAzMDAxOTlfNjYxNzUzOTg3NjlfMF8z_b_Be41d9503181d7b0608a839ed401e02c2.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2022
-https://alimov2.a.kwimgs.com/upic/2022/02/01/11/BMjAyMjAyMDExMTEwMjNfNDAzMDAxOTlfNjYzNzA4MTk4NzNfMF8z_b_B898cc7ddd0025bf54ddb18ec1f723c84.mp4
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2023
-https://txmov2.a.kwimgs.com/bs3/video-hls/5251197255879398624_hlshd15.m3u8
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2024
-https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2025
-https://res.cctvnews.cctv.com/video/3005/record/cctv/merge1/133396667284143308839013005/8fbd6180bdef4da19f6155cf6b4652e1-4.m3u8
-#EXTINF:-1 tvg-name="春晚" group-title="历年春晚",春晚2026
-https://v.lzcdn28.com/20260217/8616_1de9f6e5/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E6%B3%95%E8%AF%AD.png" group-title="鍗庤路SW-鑿摜TV",CGTN娉曡
+https://0472.org/hls/cgtnf.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CGTN%E8%A5%BF%E8%AF%AD.png" group-title="鍗庤路SW-鑿摜TV",CGTN瑗胯
+https://0472.org/hls/cgtnx.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/PBS%20TV.png" group-title="鍗庤路SW-鑿摜TV",PBS TV
+https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/PBS%20MPT.png" group-title="鍗庤路SW-鑿摜TV",PBS MPT
+https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CBS%20NEWS.png" group-title="鍗庤路SW-鑿摜TV",CBS NEWS
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CBS%20News%20National.png" group-title="鍗庤路SW-鑿摜TV",CBS News National
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/WionNews.png" group-title="鍗庤路SW-鑿摜TV",WionNews
+https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Travel%20XP.png" group-title="鍗庤路SW-鑿摜TV",Travel XP
+https://travelxp-travelxp-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Young%20Hollywood.png" group-title="鍗庤路SW-鑿摜TV",Young Hollywood
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00143-younghollywoodl-younghollywood-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/News%20max%20TV.png" group-title="鍗庤路SW-鑿摜TV",News max TV
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ITV.png" group-title="鍗庤路SW-鑿摜TV",ITV
+http://cdn10.live-tv.od.ua:8081/itvrv/abr-lq/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BNC%20news.png" group-title="鍗庤路SW-鑿摜TV",BNC news
+https://blacknewschannel-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Estrella%20News.png" group-title="鍗庤路SW-鑿摜TV",Estrella News
+https://estrellanews-plex.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Panama%20City%20food.png" group-title="鍗庤路SW-鑿摜TV",Panama City food
+http://media4.tripsmarter.com:1935/LiveTV/BTVHD/chucklist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/City%20food.png" group-title="鍗庤路SW-鑿摜TV",City food
+http://media4.tripsmarter.com:1935/LiveTV/BTVHD/chucklist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/EWTN%20Asia-Pacific.png" group-title="鍗庤路SW-鑿摜TV",EWTN Asia-Pacific
+https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/EWTN%20Canada.png" group-title="鍗庤路SW-鑿摜TV",EWTN Canada
+https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Grace%20Network.png" group-title="鍗庤路SW-鑿摜TV",Grace Network
+https://livecdn.live247stream.com/grace/tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ITV%20HD.png" group-title="鍗庤路SW-鑿摜TV",ITV HD
+http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/travelxp.png" group-title="鍗庤路SW-鑿摜TV",travelxp
+https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Key%20TV.png" group-title="鍗庤路SW-鑿摜TV",Key TV
+http://media4.tripsmarter.com:1935/LiveTV/KTVHD/chunklist_w363623166.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Atlanta%20Channel.png" group-title="鍗庤路SW-鑿摜TV",Atlanta Channel
+http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/chucklist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/MTV%20news%20HD.png" group-title="鍗庤路SW-鑿摜TV",MTV news HD
+http://media4.tripsmarter.com:1935/LiveTV/MTVHD/chunklist_w225310352.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Beach%20TV30A.png" group-title="鍗庤路SW-鑿摜TV",Beach TV30A
+http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Panama%20City.png" group-title="鍗庤路SW-鑿摜TV",Panama City
+http://media4.tripsmarter.com:1935/LiveTV/BTVHD/chucklist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Pawleys%20Island.png" group-title="鍗庤路SW-鑿摜TV",Pawleys Island
+http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/30A%20TV.png" group-title="鍗庤路SW-鑿摜TV",30A TV
+http://30a-tv.com/my999.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BEACH%20TV.png" group-title="鍗庤路SW-鑿摜TV",BEACH TV
+http://media4.tripsmarter.com:1935/LiveTV/DTVHD/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BEACH%20TV%20(1%2B).png" group-title="鍗庤路SW-鑿摜TV",BEACH TV (1+)
+http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BEACH%20TV%20(2%2B).png" group-title="鍗庤路SW-鑿摜TV",BEACH TV (2+)
+http://media4.tripsmarter.com:1935/LiveTV/BTVHD/chucklist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BETO%20TV%20LIFESTYLE%20ENGLISH.png" group-title="鍗庤路SW-鑿摜TV",BETO TV LIFESTYLE ENGLISH
+http://content.jwplatform.com/manifests/vM7nH0Kl.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DC%20COUNCIL%20CHANNEL.png" group-title="鍗庤路SW-鑿摜TV",DC COUNCIL CHANNEL
+http://video.oct.dc.gov/out/u/15_12.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CNN%20News.png" group-title="鍗庤路US test 2 day",US| CNN News
+http://doubleclicktv.live:80/70376812/52663544/1041
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CNBC%20News.png" group-title="鍗庤路US test 2 day",US| CNBC News
+http://doubleclicktv.live:80/70376812/52663544/1043
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20NBC%20News%20NOW.png" group-title="鍗庤路US test 2 day",US| NBC News NOW
+http://doubleclicktv.live:80/70376812/52663544/992
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Newsmax.png" group-title="鍗庤路US test 2 day",US| Newsmax
+http://doubleclicktv.live:80/70376812/52663544/1024
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20NewsNation.png" group-title="鍗庤路US test 2 day",US| NewsNation
+http://doubleclicktv.live:80/70376812/52663544/995
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20MSNBC.png" group-title="鍗庤路US test 2 day",US| MSNBC
+http://doubleclicktv.live:80/70376812/52663544/1034
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20ABC%20News%20Live.png" group-title="鍗庤路US test 2 day",US| ABC News Live
+http://doubleclicktv.live:80/70376812/52663544/1067
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20BBC%20America.png" group-title="鍗庤路US test 2 day",US| BBC America
+http://doubleclicktv.live:80/70376812/52663544/1066
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20BBC%20World%20News.png" group-title="鍗庤路US test 2 day",US| BBC World News
+http://doubleclicktv.live:80/70376812/52663544/1065
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Fox%20News.png" group-title="鍗庤路US test 2 day",US| Fox News
+http://doubleclicktv.live:80/70376812/52663544/1038
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20The%20Grio.png" group-title="鍗庤路US test 2 day",US| The Grio
+http://doubleclicktv.live:80/70376812/52663544/1063
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20C-SPAN%201.png" group-title="鍗庤路US test 2 day",US| C-SPAN 1
+http://doubleclicktv.live:80/70376812/52663544/1061
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20C-SPAN%202.png" group-title="鍗庤路US test 2 day",US| C-SPAN 2
+http://doubleclicktv.live:80/70376812/52663544/1060
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20C-SPAN%203.png" group-title="鍗庤路US test 2 day",US| C-SPAN 3
+http://doubleclicktv.live:80/70376812/52663544/1059
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBN%20News%20Internationa.png" group-title="鍗庤路US test 2 day",US| CBN News Internationa
+http://doubleclicktv.live:80/70376812/52663544/1058
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBSN%20Bay%20Area.png" group-title="鍗庤路US test 2 day",US| CBSN Bay Area
+http://doubleclicktv.live:80/70376812/52663544/1056
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBSN%20Boston.png" group-title="鍗庤路US test 2 day",US| CBSN Boston
+http://doubleclicktv.live:80/70376812/52663544/1055
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBSN%20Chicago.png" group-title="鍗庤路US test 2 day",US| CBSN Chicago
+http://doubleclicktv.live:80/70376812/52663544/1054
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBSN%20Denver.png" group-title="鍗庤路US test 2 day",US| CBSN Denver
+http://doubleclicktv.live:80/70376812/52663544/1052
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBSN%20Los%20Angeles.png" group-title="鍗庤路US test 2 day",US| CBSN Los Angeles
+http://doubleclicktv.live:80/70376812/52663544/1051
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBSN%20Minnesota.png" group-title="鍗庤路US test 2 day",US| CBSN Minnesota
+http://doubleclicktv.live:80/70376812/52663544/1050
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBSN%20New%20York.png" group-title="鍗庤路US test 2 day",US| CBSN New York
+http://doubleclicktv.live:80/70376812/52663544/1049
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBSN%20Philly.png" group-title="鍗庤路US test 2 day",US| CBSN Philly
+http://doubleclicktv.live:80/70376812/52663544/1048
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBSN%20Pittsburgh.png" group-title="鍗庤路US test 2 day",US| CBSN Pittsburgh
+http://doubleclicktv.live:80/70376812/52663544/1047
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Fox%20Business.png" group-title="鍗庤路US test 2 day",US| Fox Business
+http://doubleclicktv.live:80/70376812/52663544/1039
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20FOX%20Weather.png" group-title="鍗庤路US test 2 day",US| FOX Weather
+http://doubleclicktv.live:80/70376812/52663544/994
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CNN%20INTERNATIONAL.png" group-title="鍗庤路US test 2 day",US| CNN INTERNATIONAL
+http://doubleclicktv.live:80/70376812/52663544/1040
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CNBC%20World.png" group-title="鍗庤路US test 2 day",US| CNBC World
+http://doubleclicktv.live:80/70376812/52663544/1042
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Cheddar%20News.png" group-title="鍗庤路US test 2 day",US| Cheddar News
+http://doubleclicktv.live:80/70376812/52663544/1044
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Cheddar%20Business.png" group-title="鍗庤路US test 2 day",US| Cheddar Business
+http://doubleclicktv.live:80/70376812/52663544/1045
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CGTN%20(English).png" group-title="鍗庤路US test 2 day",US| CGTN (English)
+http://doubleclicktv.live:80/70376812/52663544/1046
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBS%20News%20LHD.png" group-title="鍗庤路US test 2 day",US| CBS News LHD
+http://doubleclicktv.live:80/70376812/52663544/1057
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20France%2024%20(English).png" group-title="鍗庤路US test 2 day",US| France 24 (English)
+http://doubleclicktv.live:80/70376812/52663544/1037
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20RT%20America.png" group-title="鍗庤路US test 2 day",US| RT America
+http://doubleclicktv.live:80/70376812/52663544/1021
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20HLN.png" group-title="鍗庤路US test 2 day",US| HLN
+http://doubleclicktv.live:80/70376812/52663544/1036
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20LiveNOW%20from%20FOX.png" group-title="鍗庤路US test 2 day",US| LiveNOW from FOX
+http://doubleclicktv.live:80/70376812/52663544/993
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20NBCLX.png" group-title="鍗庤路US test 2 day",US| NBCLX
+http://doubleclicktv.live:80/70376812/52663544/991
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20New%20England%20Cable%20New.png" group-title="鍗庤路US test 2 day",US| New England Cable New
+http://doubleclicktv.live:80/70376812/52663544/1033
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20News%2012%20Brooklyn.png" group-title="鍗庤路US test 2 day",US| News 12 Brooklyn
+http://doubleclicktv.live:80/70376812/52663544/1032
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20News%2012%20Connecticut.png" group-title="鍗庤路US test 2 day",US| News 12 Connecticut
+http://doubleclicktv.live:80/70376812/52663544/1031
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20News%2012%20Hudson%20Valley.png" group-title="鍗庤路US test 2 day",US| News 12 Hudson Valley
+http://doubleclicktv.live:80/70376812/52663544/1030
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20News%2012%20Long%20Island.png" group-title="鍗庤路US test 2 day",US| News 12 Long Island
+http://doubleclicktv.live:80/70376812/52663544/1029
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20News%2012%20New%20Jersey.png" group-title="鍗庤路US test 2 day",US| News 12 New Jersey
+http://doubleclicktv.live:80/70376812/52663544/1028
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20News%2012%20The%20Bronx.png" group-title="鍗庤路US test 2 day",US| News 12 The Bronx
+http://doubleclicktv.live:80/70376812/52663544/1026
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20News%2012%20Westchester.png" group-title="鍗庤路US test 2 day",US| News 12 Westchester
+http://doubleclicktv.live:80/70376812/52663544/1025
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Newsy.png" group-title="鍗庤路US test 2 day",US| Newsy
+http://doubleclicktv.live:80/70376812/52663544/1023
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20One%20American%20News.png" group-title="鍗庤路US test 2 day",US| One American News
+http://doubleclicktv.live:80/70376812/52663544/1022
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20TYT%20Network.png" group-title="鍗庤路US test 2 day",US| TYT Network
+http://doubleclicktv.live:80/70376812/52663544/990
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Spectrum%20News%2013%20Cent.png" group-title="鍗庤路US test 2 day",US| Spectrum News 13 Cent
+http://doubleclicktv.live:80/70376812/52663544/1008
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Spectrum%20News%201%20Evans.png" group-title="鍗庤路US test 2 day",US| Spectrum News 1 Evans
+http://doubleclicktv.live:80/70376812/52663544/1011
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Spectrum%20News%20NY1.png" group-title="鍗庤路US test 2 day",US| Spectrum News NY1
+http://doubleclicktv.live:80/70376812/52663544/1006
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Infowars.png" group-title="鍗庤路US test 2 day",US| Infowars
+http://doubleclicktv.live:80/70376812/52663544/1035
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Spectrum%20News%201%20Dalla.png" group-title="鍗庤路US test 2 day",US| Spectrum News 1 Dalla
+http://doubleclicktv.live:80/70376812/52663544/1012
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20BEK%20Sports%20News.png" group-title="鍗庤路US test 2 day",US| BEK Sports News
+http://doubleclicktv.live:80/70376812/52663544/1064
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Bloomberg.png" group-title="鍗庤路US test 2 day",US| Bloomberg
+http://doubleclicktv.live:80/70376812/52663544/1062
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/USA%20Animal%20Planet%20UHD.png" group-title="鍗庤路US test 2 day",USA Animal Planet UHD
+http://doubleclicktv.live:80/70376812/52663544/269009
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20ESPN%201.png" group-title="鍗庤路US test 2 day",US| ESPN 1
+http://doubleclicktv.live:80/70376812/52663544/919
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20ESPN%202.png" group-title="鍗庤路US test 2 day",US| ESPN 2
+http://doubleclicktv.live:80/70376812/52663544/932
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20ESPN%20U.png" group-title="鍗庤路US test 2 day",US| ESPN U
+http://doubleclicktv.live:80/70376812/52663544/920
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20ESPN%20News.png" group-title="鍗庤路US test 2 day",US| ESPN News
+http://doubleclicktv.live:80/70376812/52663544/922
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20NFL%20Network.png" group-title="鍗庤路US test 2 day",US| NFL Network
+http://doubleclicktv.live:80/70376812/52663544/868
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20NBA%20TV.png" group-title="鍗庤路US test 2 day",US| NBA TV
+http://doubleclicktv.live:80/70376812/52663544/885
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20MLB%20Network.png" group-title="鍗庤路US test 2 day",US| MLB Network
+http://doubleclicktv.live:80/70376812/52663544/891
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Fight%20Network.png" group-title="鍗庤路US test 2 day",US| Fight Network
+http://doubleclicktv.live:80/70376812/52663544/918
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Tennis%20Channel.png" group-title="鍗庤路US test 2 day",US| Tennis Channel
+http://doubleclicktv.live:80/70376812/52663544/837
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Tennis%20Channel%20%202.png" group-title="鍗庤路US test 2 day",US| Tennis Channel  2
+http://doubleclicktv.live:80/70376812/52663544/328632
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20UFC%20Channel.png" group-title="鍗庤路US test 2 day",US| UFC Channel
+http://doubleclicktv.live:80/70376812/52663544/833
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20MSGSN.png" group-title="鍗庤路US test 2 day",US| MSGSN
+http://doubleclicktv.live:80/70376812/52663544/286883
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20ESPN.png" group-title="鍗庤路US test 2 day",US| ESPN
+http://doubleclicktv.live:80/70376812/52663544/923
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20FanDuel%20TV.png" group-title="鍗庤路US test 2 day",US| FanDuel TV
+http://doubleclicktv.live:80/70376812/52663544/815
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Ginx%20TV.png" group-title="鍗庤路US test 2 day",US| Ginx TV
+http://doubleclicktv.live:80/70376812/52663544/899
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Tennis%20Channel.png" group-title="鍗庤路US test 2 day",US| Tennis Channel
+http://doubleclicktv.live:80/70376812/52663544/841
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20TVG%20Network.png" group-title="鍗庤路US test 2 day",US| TVG Network
+http://doubleclicktv.live:80/70376812/52663544/836
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Willow%20Cricket%20Extra.png" group-title="鍗庤路US test 2 day",US| Willow Cricket Extra
+http://doubleclicktv.live:80/70376812/52663544/830
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20YES%20Network.png" group-title="鍗庤路US test 2 day",US| YES Network
+http://doubleclicktv.live:80/70376812/52663544/827
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20NFL%20Red%20zone.png" group-title="鍗庤路US test 2 day",US| NFL Red zone
+http://doubleclicktv.live:80/70376812/52663544/867
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Olympic%20Channel.png" group-title="鍗庤路US test 2 day",US| Olympic Channel
+http://doubleclicktv.live:80/70376812/52663544/866
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20MeTV%20Toons.png" group-title="鍗庤路US test 2 day",US| MeTV Toons
+http://doubleclicktv.live:80/70376812/52663544/494103
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20BET%20West.png" group-title="鍗庤路US test 2 day",US| BET West
+http://doubleclicktv.live:80/70376812/52663544/1153
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20BET%20SOUL.png" group-title="鍗庤路US test 2 day",US| BET SOUL
+http://doubleclicktv.live:80/70376812/52663544/1154
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20BET%20Gospel.png" group-title="鍗庤路US test 2 day",US| BET Gospel
+http://doubleclicktv.live:80/70376812/52663544/1156
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20TeenNick.png" group-title="鍗庤路US test 2 day",US| TeenNick
+http://doubleclicktv.live:80/70376812/52663544/1159
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20TeenNick%20West.png" group-title="鍗庤路US test 2 day",US| TeenNick West
+http://doubleclicktv.live:80/70376812/52663544/1158
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20American%20Heroes.png" group-title="鍗庤路US test 2 day",US| American Heroes
+http://doubleclicktv.live:80/70376812/52663544/509
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Animal%20Planet%20East.png" group-title="鍗庤路US test 2 day",US| Animal Planet East
+http://doubleclicktv.live:80/70376812/52663544/508
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Cooking%20Channel.png" group-title="鍗庤路US test 2 day",US| Cooking Channel
+http://doubleclicktv.live:80/70376812/52663544/482
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Crime%20%26%20Investigation.png" group-title="鍗庤路US test 2 day",US| Crime & Investigation
+http://doubleclicktv.live:80/70376812/52663544/479
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Destination%20America.png" group-title="鍗庤路US test 2 day",US| Destination America
+http://doubleclicktv.live:80/70376812/52663544/476
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Discovery%20East.png" group-title="鍗庤路US test 2 day",US| Discovery East
+http://doubleclicktv.live:80/70376812/52663544/475
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Discovery%20Familia.png" group-title="鍗庤路US test 2 day",US| Discovery Familia
+http://doubleclicktv.live:80/70376812/52663544/473
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Discovery%20Family.png" group-title="鍗庤路US test 2 day",US| Discovery Family
+http://doubleclicktv.live:80/70376812/52663544/472
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Discovery%20Life.png" group-title="鍗庤路US test 2 day",US| Discovery Life
+http://doubleclicktv.live:80/70376812/52663544/470
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Discovery%20Science.png" group-title="鍗庤路US test 2 day",US| Discovery Science
+http://doubleclicktv.live:80/70376812/52663544/469
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Discovery%20Velocity.png" group-title="鍗庤路US test 2 day",US| Discovery Velocity
+http://doubleclicktv.live:80/70376812/52663544/468
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Discovery%20West.png" group-title="鍗庤路US test 2 day",US| Discovery West
+http://doubleclicktv.live:80/70376812/52663544/467
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20ID%20East.png" group-title="鍗庤路US test 2 day",US| ID East
+http://doubleclicktv.live:80/70376812/52663544/430
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20ID%20West.png" group-title="鍗庤路US test 2 day",US| ID West
+http://doubleclicktv.live:80/70376812/52663544/429
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Nat%20Geo%20East.png" group-title="鍗庤路US test 2 day",US| Nat Geo East
+http://doubleclicktv.live:80/70376812/52663544/407
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Smithsonian%20Channel.png" group-title="鍗庤路US test 2 day",US| Smithsonian Channel
+http://doubleclicktv.live:80/70376812/52663544/381
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Travel%20Channel.png" group-title="鍗庤路US test 2 day",US| Travel Channel
+http://doubleclicktv.live:80/70376812/52663544/363
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20PBS%20(KQED)%20San%20Franci.png" group-title="鍗庤路US test 2 day",US| PBS (KQED) San Franci
+http://doubleclicktv.live:80/70376812/52663544/2228
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20PBS%20(KRCB)%20CA%20%7C%20Rohne.png" group-title="鍗庤路US test 2 day",US| PBS (KRCB) CA | Rohne
+http://doubleclicktv.live:80/70376812/52663544/2227
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20New%20York%20%7C%20PBS%20WNET.png" group-title="鍗庤路US test 2 day",US| New York | PBS WNET
+http://doubleclicktv.live:80/70376812/52663544/2172
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Comedy%20Central.png" group-title="鍗庤路US test 2 day",US| Comedy Central
+http://doubleclicktv.live:80/70376812/52663544/295936
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20OWN%20West.png" group-title="鍗庤路US test 2 day",US| OWN West
+http://doubleclicktv.live:80/70376812/52663544/295794
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Flix%20east.png" group-title="鍗庤路US test 2 day",US| Flix east
+http://doubleclicktv.live:80/70376812/52663544/295792
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Christian%20Television.png" group-title="鍗庤路US test 2 day",US| Christian Television
+http://doubleclicktv.live:80/70376812/52663544/295791
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Free%20Speech%20TV.png" group-title="鍗庤路US test 2 day",US| Free Speech TV
+http://doubleclicktv.live:80/70376812/52663544/295790
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20AMC%20West.png" group-title="鍗庤路US test 2 day",US| AMC West
+http://doubleclicktv.live:80/70376812/52663544/295775
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Bravo%20West.png" group-title="鍗庤路US test 2 day",US| Bravo West
+http://doubleclicktv.live:80/70376812/52663544/295774
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CMT%20West.png" group-title="鍗庤路US test 2 day",US| CMT West
+http://doubleclicktv.live:80/70376812/52663544/295773
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20FX%20West.png" group-title="鍗庤路US test 2 day",US| FX West
+http://doubleclicktv.live:80/70376812/52663544/295771
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20FYI%20West.png" group-title="鍗庤路US test 2 day",US| FYI West
+http://doubleclicktv.live:80/70376812/52663544/295770
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20GSN%20West.png" group-title="鍗庤路US test 2 day",US| GSN West
+http://doubleclicktv.live:80/70376812/52663544/295769
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20History%20West.png" group-title="鍗庤路US test 2 day",US| History West
+http://doubleclicktv.live:80/70376812/52663544/295768
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Logo%20West.png" group-title="鍗庤路US test 2 day",US| Logo West
+http://doubleclicktv.live:80/70376812/52663544/295767
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Nat%20Geo%20West.png" group-title="鍗庤路US test 2 day",US| Nat Geo West
+http://doubleclicktv.live:80/70376812/52663544/295766
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CuriosityStream.png" group-title="鍗庤路US test 2 day",US| CuriosityStream
+http://doubleclicktv.live:80/70376812/52663544/297870
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Choppertown.png" group-title="鍗庤路US test 2 day",US| Choppertown
+http://doubleclicktv.live:80/70376812/52663544/297869
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20AKC%20TV.png" group-title="鍗庤路US test 2 day",US| AKC TV
+http://doubleclicktv.live:80/70376812/52663544/295360
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Great%20American%20Faith.png" group-title="鍗庤路US test 2 day",US| Great American Faith
+http://doubleclicktv.live:80/70376812/52663544/294920
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20Adult%20Swim.png" group-title="鍗庤路US test 2 day",US| Adult Swim
+http://doubleclicktv.live:80/70376812/52663544/294917
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20ABC.png" group-title="鍗庤路US test 2 day",US| ABC
+http://doubleclicktv.live:80/70376812/52663544/1281
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20CBS.png" group-title="鍗庤路US test 2 day",US| CBS
+http://doubleclicktv.live:80/70376812/52663544/253197
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20FOX.png" group-title="鍗庤路US test 2 day",US| FOX
+http://doubleclicktv.live:80/70376812/52663544/253196
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/US%7C%20NBC.png" group-title="鍗庤路US test 2 day",US| NBC
+http://doubleclicktv.live:80/70376812/52663544/253198
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/beIN%20Sports%201.png" group-title="鍗庤路鍦熻€冲叾",beIN Sports 1
+https://ladyboy.ardastream2.cfd//beintv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/beIN%20Sports%202.png" group-title="鍗庤路鍦熻€冲叾",beIN Sports 2
+https://ladyboy.ardastream2.cfd//bein2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/beIN%20Sports%203.png" group-title="鍗庤路鍦熻€冲叾",beIN Sports 3
+https://ladyboy.ardastream2.cfd//bein3/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/beIN%20Sports%204.png" group-title="鍗庤路鍦熻€冲叾",beIN Sports 4
+https://ladyboy.ardastream2.cfd//bein4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/S%20Sport%201.png" group-title="鍗庤路鍦熻€冲叾",S Sport 1
+https://ladyboy.ardastream2.cfd//s-sport/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/S%20Sport%202.png" group-title="鍗庤路鍦熻€冲叾",S Sport 2
+https://ladyboy.ardastream2.cfd//s-sport2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%20Spor.png" group-title="鍗庤路鍦熻€冲叾",TRT Spor
+https://ladyboy.ardastream2.cfd//trt-spor/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3ATrt%201%20HD.png" group-title="鍗庤路鍦熻€冲叾",TR:Trt 1 HD
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3AShow%20TV%20HD.png" group-title="鍗庤路鍦熻€冲叾",TR:Show TV HD
+https://ciner.daioncdn.net/showtv/showtv.m3u8?app=showtv_web
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3AShow%20TV%20HD%20B.png" group-title="鍗庤路鍦熻€冲叾",TR:Show TV HD B
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3AStar%20%20HD.png" group-title="鍗庤路鍦熻€冲叾",TR:Star  HD
+https://dogus.daioncdn.net/startv/startv.m3u8?app=startv_web
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3AStar%20%20HD%20B.png" group-title="鍗庤路鍦熻€冲叾",TR:Star  HD B
+http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3ATv%208%20HD.png" group-title="鍗庤路鍦熻€冲叾",TR:Tv 8 HD
+https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?app=tv8_web
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3ATV%208%20Bu%20uk%20HD%20B.png" group-title="鍗庤路鍦熻€冲叾",TR:TV 8 Bu uk HD B
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3Aa2%20HD.png" group-title="鍗庤路鍦熻€冲叾",TR:a2 HD
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3ATeve%202%20HD.png" group-title="鍗庤路鍦熻€冲叾",TR:Teve 2 HD
+https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TR%3A360%20HD.png" group-title="鍗庤路鍦熻€冲叾",TR:360 HD
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HALK%20TV.png" group-title="鍗庤路鍦熻€冲叾",HALK TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV.png" group-title="鍗庤路鍦熻€冲叾",NTV
+http://dygvideo.dygdigital.com/live/hls/puhuntvdai?m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20TRK.png" group-title="鍗庤路鍦熻€冲叾",HABER TRK
+https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BLOOMBERG.png" group-title="鍗庤路鍦熻€冲叾",BLOOMBERG
+https://ensonhaber-live.ercdn.net/bloomberght/bloomberght.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/A%20HABER.png" group-title="鍗庤路鍦熻€冲叾",A HABER
+https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8?st=zklpCclpeetu5Mg0Jwb29w&e=1772400366
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%20HABER.png" group-title="鍗庤路鍦熻€冲叾",TRT HABER
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNN%20USA.png" group-title="鍗庤路鍦熻€冲叾",CNN USA
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Al%20Jazeera.png" group-title="鍗庤路鍦熻€冲叾",Al Jazeera
+https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Dw%20Tv.png" group-title="鍗庤路鍦熻€冲叾",Dw Tv
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%20World.png" group-title="鍗庤路鍦熻€冲叾",TRT World
+https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%201a.png" group-title="鍗庤路鍦熻€冲叾",TRT 1a
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%201b.png" group-title="鍗庤路鍦熻€冲叾",TRT 1b
+https://trt.daioncdn.net/trt-1/master.m3u8?app=web
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%201c%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TRT 1c (backup)
+https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%201e%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TRT 1e (backup)
+https://trt.daioncdn.net/trt-1/master.m3u8?app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%201f%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TRT 1f (backup)
+https://trt.daioncdn.net/trt-1/master.m3u8?app=e435840d-2653-45a3-afef-082d4ea998f3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/MELTEM%20TV.png" group-title="鍗庤路鍦熻€冲叾",MELTEM TV
+http://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20GLOBAL.png" group-title="鍗庤路鍦熻€冲叾",HABER GLOBAL
+https://ensonhaber-live.ercdn.net/haberglobal/haberglobal.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/MK%20TV.png" group-title="鍗庤路鍦熻€冲叾",MK TV
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HALK%20TV.png" group-title="鍗庤路鍦熻€冲叾",HALK TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV.png" group-title="鍗庤路鍦熻€冲叾",NTV
+http://dygvideo.dygdigital.com/live/hls/ntv4puhu?m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV%205.png" group-title="鍗庤路鍦熻€冲叾",TV 5
+https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TELE%201.png" group-title="鍗庤路鍦熻€冲叾",TELE 1
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TELE%202%20HABER.png" group-title="鍗庤路鍦熻€冲叾",TELE 2 HABER
+https://video.twimg.com/amplify_video/1988933245791096832/pl/-LYtCesCNPKsSJDS.m3u8?variant_version=1&tag=14
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BLOOMBERG%20HT.png" group-title="鍗庤路鍦熻€冲叾",BLOOMBERG HT
+https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8?app=web&ce=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/EKOL%20TV.png" group-title="鍗庤路鍦熻€冲叾",EKOL TV
+https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/KRT.png" group-title="鍗庤路鍦熻€冲叾",KRT
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Krt_Tv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/24.png" group-title="鍗庤路鍦熻€冲叾",24
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FLASH%20HABER.png" group-title="鍗庤路鍦熻€冲叾",FLASH HABER
+https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/LKE.png" group-title="鍗庤路鍦熻€冲叾",LKE
+https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/LKE.png" group-title="鍗庤路鍦熻€冲叾",LKE
+https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/A%20HABER.png" group-title="鍗庤路鍦熻€冲叾",A HABER
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/A_haber.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/A%20HABER.png" group-title="鍗庤路鍦熻€冲叾",A HABER
+http://65.108.239.207/ahaber/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/YEN%20ATV.png" group-title="鍗庤路鍦熻€冲叾",YEN ATV
+https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRK%20HABER.png" group-title="鍗庤路鍦熻€冲叾",TRK HABER
+https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FNANS%20TRK.png" group-title="鍗庤路鍦熻€冲叾",FNANS TRK
+https://yayin30.haber100.com/live/finansturk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/A%20PARA.png" group-title="鍗庤路鍦熻€冲叾",A PARA
+https://trkvz-live.ercdn.net/aparahd/aparahd.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNBC-E.png" group-title="鍗庤路鍦熻€冲叾",CNBC-E
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/CNBC_E.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TBMM%20TV.png" group-title="鍗庤路鍦熻€冲叾",TBMM TV
+https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DHA%20(feed%202).png" group-title="鍗庤路鍦熻€冲叾",DHA (feed 2)
+https://603c568fccdf5.streamlock.net/live2/dhaweb2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%20HABER.png" group-title="鍗庤路鍦熻€冲叾",TRT HABER
+https://ensonhaber-live.ercdn.net/trthaber/trthaber.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%20HABER%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TRT HABER (backup)
+https://tv.ensonhaber.com/trthaber/trthaber.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/MELTEM%20TV%20(backup).png" group-title="鍗庤路鍦熻€冲叾",MELTEM TV (backup)
+https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20TRK%20(backup).png" group-title="鍗庤路鍦熻€冲叾",HABER TRK (backup)
+https://tv.ensonhaber.com/haberturk/haberturk.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20TRK%20(backup).png" group-title="鍗庤路鍦熻€冲叾",HABER TRK (backup)
+https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20TRK%20(backup).png" group-title="鍗庤路鍦熻€冲叾",HABER TRK (backup)
+https://haberturk.blutv.com/blutv_haberturk_live/live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20TRK%20(backup).png" group-title="鍗庤路鍦熻€冲叾",HABER TRK (backup)
+https://tv.ensonhaber.com/haberturk/haberturk.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20TRK%20(backup).png" group-title="鍗庤路鍦熻€冲叾",HABER TRK (backup)
+https://ensonhaber-live.ercdn.net/haberturk/haberturk.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20TRK%20(backup).png" group-title="鍗庤路鍦熻€冲叾",HABER TRK (backup)
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20GLOBAL%20(backup).png" group-title="鍗庤路鍦熻€冲叾",HABER GLOBAL (backup)
+https://github.com/tecotv2025/tecotv/raw/main/playlist/Haber_Global_TV.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20GLOBAL%20(backup).png" group-title="鍗庤路鍦熻€冲叾",HABER GLOBAL (backup)
+https://raw.githubusercontent.com/UzunMuhalefet/yt-streams/refs/heads/main/TR/haber/haberglobal.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HABER%20GLOBAL%20(backup).png" group-title="鍗庤路鍦熻€冲叾",HABER GLOBAL (backup)
+https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV%20100%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TV 100 (backup)
+https://tlkaycmdoq.turknet.ercdn.net/ckvbdssyig/tv100/tv100.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV%20100%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TV 100 (backup)
+https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV%20100%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TV 100 (backup)
+https://tv100.blutv.com/blutv_tv100_live/live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV%20100%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TV 100 (backup)
+https://tv100.daioncdn.net/tv100/tv100.m3u8?app=web
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV%20100%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TV 100 (backup)
+https://tv.ensonhaber.com/tv100/tv100.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV%20(backup).png" group-title="鍗庤路鍦熻€冲叾",NTV (backup)
+https://dogus-live.daioncdn.net/ntv/ntv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV%20(backup).png" group-title="鍗庤路鍦熻€冲叾",NTV (backup)
+http://dogus.daioncdn.net/ntv/ntv.m3u8?ce=3&&app=7c4bb802-0c41-409e-8cd2-799984995694
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV%20(backup).png" group-title="鍗庤路鍦熻€冲叾",NTV (backup)
+http://dygvideo.dygdigital.com/live/hls/puhuntvdai?m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV%20(backup).png" group-title="鍗庤路鍦熻€冲叾",NTV (backup)
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/ntv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV%20(backup).png" group-title="鍗庤路鍦熻€冲叾",NTV (backup)
+https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV%20(backup).png" group-title="鍗庤路鍦熻€冲叾",NTV (backup)
+https://raw.githack.com/ipstreet312/freeiptv/master/ressources/tur/ntv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NTV%20(backup).png" group-title="鍗庤路鍦熻€冲叾",NTV (backup)
+https://cdn.jsdelivr.net/gh/ipstreet312/freeiptv@master/ressources/tur/ntv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FLASH%20HABER%20(backup).png" group-title="鍗庤路鍦熻€冲叾",FLASH HABER (backup)
+https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FLASH%20HABER%20(backup).png" group-title="鍗庤路鍦熻€冲叾",FLASH HABER (backup)
+https://flashtv.blutv.com/blutv_flashtv/live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FLASH%20HABER%20(backup).png" group-title="鍗庤路鍦熻€冲叾",FLASH HABER (backup)
+https://internettv.guventechnology.com:19360/flashhabertv/flashhabertv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/EKOL%20TV%20(backup).png" group-title="鍗庤路鍦熻€冲叾",EKOL TV (backup)
+https://helga.iptv2022.com/sh/ekol_tv/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TELE%201%20(backup).png" group-title="鍗庤路鍦熻€冲叾",TELE 1 (backup)
+https://tele1.blutv.com/blutv_tele1_live/live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BENG%E8%84%BA%20T%E8%84%BARK%20(backup).png" group-title="鍗庤路鍦熻€冲叾",BENG鑴?T鑴篟K (backup)
+https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/24%20(backup).png" group-title="鍗庤路鍦熻€冲叾",24 (backup)
+https://tv.ensonhaber.com/tv24/tv24.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/24%20(backup).png" group-title="鍗庤路鍦熻€冲叾",24 (backup)
+https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/24%20(backup).png" group-title="鍗庤路鍦熻€冲叾",24 (backup)
+https://ensonhaber-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%201.png" group-title="鍗庤路鍦熻€冲叾",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%201.png" group-title="鍗庤路鍦熻€冲叾",TRT 1
+https://trt.daioncdn.net/trt-1/master.m3u8?app=web
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/KANAL%20D.png" group-title="鍗庤路鍦熻€冲叾",KANAL D
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=da2109ea-5dfe-4107-89ab-23593336ed61
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/KANAL%20D.png" group-title="鍗庤路鍦熻€冲叾",KANAL D
+http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/STAR.png" group-title="鍗庤路鍦熻€冲叾",STAR
+http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/STAR.png" group-title="鍗庤路鍦熻€冲叾",STAR
+https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/tur/star.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SHOW.png" group-title="鍗庤路鍦熻€冲叾",SHOW
+https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SHOW.png" group-title="鍗庤路鍦熻€冲叾",SHOW
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NOW.png" group-title="鍗庤路鍦熻€冲叾",NOW
+https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=o_mCBwkO5vuDZH9yjd4KjA&e=1768754818
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NOW.png" group-title="鍗庤路鍦熻€冲叾",NOW
+https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=o_mCBwkO5vuDZH9yjd4KjA&e=1768754818
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV8.png" group-title="鍗庤路鍦熻€冲叾",TV8
+https://dsmartgo-live.ercdn.net/dsmartgo/tv8/tv8.isml/tv8.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV8.png" group-title="鍗庤路鍦熻€冲叾",TV8
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ATV.png" group-title="鍗庤路鍦熻€冲叾",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ATV.png" group-title="鍗庤路鍦熻€冲叾",ATV
+https://dsmartgo-live.ercdn.net/dsmartgo/atv/atv.isml/atv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/KANAL%207.png" group-title="鍗庤路鍦熻€冲叾",KANAL 7
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/KANAL%207.png" group-title="鍗庤路鍦熻€冲叾",KANAL 7
+https://kanal7.daioncdn.net/kanal7/kanal7.m3u8?app=f99587ad-1637-494d-8255-da35b09d17a1
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BEYAZ%20TV.png" group-title="鍗庤路鍦熻€冲叾",BEYAZ TV
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/BEYAZ%20TV.png" group-title="鍗庤路鍦熻€冲叾",BEYAZ TV
+https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV%204.png" group-title="鍗庤路鍦熻€冲叾",TV 4
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TV%204.png" group-title="鍗庤路鍦熻€冲叾",TV 4
+https://tv4.blutv.com/blutv_tv4/live.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TEVE%202.png" group-title="鍗庤路鍦熻€冲叾",TEVE 2
+http://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TEVE%202.png" group-title="鍗庤路鍦熻€冲叾",TEVE 2
+https://demiroren.daioncdn.net/teve2/teve2.m3u8?app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SHOW%20MAX.png" group-title="鍗庤路鍦熻€冲叾",SHOW MAX
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/shmax.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SHOW%20MAX.png" group-title="鍗庤路鍦熻€冲叾",SHOW MAX
+http://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HT%20SPOR.png" group-title="鍗庤路鍦熻€冲叾",HT SPOR
+https://ciner-live.ercdn.net/htspor/htspor.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HT%20SPOR.png" group-title="鍗庤路鍦熻€冲叾",HT SPOR
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ce=3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/A%20SPOR.png" group-title="鍗庤路鍦熻€冲叾",A SPOR
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/A%20SPOR.png" group-title="鍗庤路鍦熻€冲叾",A SPOR
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/A_Spor.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/DREAM%20TRK.png" group-title="鍗庤路鍦熻€冲叾",DREAM TRK
+http://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/POWER%20TRK.png" group-title="鍗庤路鍦熻€冲叾",POWER TRK
+http://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/POWER%20TRK.png" group-title="鍗庤路鍦熻€冲叾",POWER TRK
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/POWER%20TRK%20TAPTAZE.png" group-title="鍗庤路鍦熻€冲叾",POWER TRK TAPTAZE
+http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/POWER%20TRK%20SLOW.png" group-title="鍗庤路鍦熻€冲叾",POWER TRK SLOW
+http://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/POWER%20TRK%20AKUSTK.png" group-title="鍗庤路鍦熻€冲叾",POWER TRK AKUSTK
+http://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE%20TRK.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE TRK
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE%20TRK.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE TRK
+https://nr1turk.blutv.com/blutv_n1turk/blutv_n1turk/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE%20TRK%20ASK.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE TRK ASK
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE%20TRK%20ASK.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE TRK ASK
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e18f9c54e6.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE%20TRK%20DAMAR.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE TRK DAMAR
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE%20TRK%20DAMAR.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE TRK DAMAR
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE%20TRK%20DANCE.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE TRK DANCE
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE%20TRK%20DANCE.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE TRK DANCE
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2aa89e721.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE.png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE
+https://nr1.blutv.com/blutv_n1/blutv_n1/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FASHION%20ONE.png" group-title="鍗庤路鍦熻€冲叾",FASHION ONE
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/FASHION%20ONE.png" group-title="鍗庤路鍦熻€冲叾",FASHION ONE
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/POWER%20TV.png" group-title="鍗庤路鍦熻€冲叾",POWER TV
+http://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/POWER%20TV.png" group-title="鍗庤路鍦熻€冲叾",POWER TV
+https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/POWER%20DANCE.png" group-title="鍗庤路鍦熻€冲叾",POWER DANCE
+http://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/POWER%20LOVE.png" group-title="鍗庤路鍦熻€冲叾",POWER LOVE
+http://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NUMBER%20ONE%20(backup).png" group-title="鍗庤路鍦熻€冲叾",NUMBER ONE (backup)
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/KRAL%20-%20KRAL%20POP%20(backup).png" group-title="鍗庤路鍦熻€冲叾",KRAL - KRAL POP (backup)
+http://dygvideo.dygdigital.com/live/hls/puhukralpopdai?m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/KRAL%20-%20KRAL%20POP%20(backup).png" group-title="鍗庤路鍦熻€冲叾",KRAL - KRAL POP (backup)
+https://dogus.daioncdn.net/kralpoptv/kralpoptv.m3u8?app=f38a38b4-ce55-4040-8676-9826937d6128
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%20AVAZ.png" group-title="鍗庤路鍦熻€冲叾",TRT AVAZ
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/TRT%20TRK.png" group-title="鍗庤路鍦熻€冲叾",TRT TRK
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/KANAL%207%20AVRUPA.png" group-title="鍗庤路鍦熻€冲叾",KANAL 7 AVRUPA
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/KANAL%207%20AVRUPA.png" group-title="鍗庤路鍦熻€冲叾",KANAL 7 AVRUPA
+https://raw.githubusercontent.com/UzunMuhalefet/yayinlar/main/streams/kanal7avrupa.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SHOW%20TRK.png" group-title="鍗庤路鍦熻€冲叾",SHOW TRK
+https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/shturk.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/SHOW%20TRK.png" group-title="鍗庤路鍦熻€冲叾",SHOW TRK
+https://ythls.armelin.one/video/XnvS-RZa4Qw.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Baraza%20GREEK%20TV.png" group-title="鍗庤路鍦熻€冲叾",Baraza GREEK TV
+https://eco.streams.ovh:8081/barazatv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Ellinikos%20FM%20(720p).png" group-title="鍗庤路鍦熻€冲叾",Ellinikos FM (720p)
+https://til.pp.ua:3093/live/ellinikosfmlive.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/NRG%2091.png" group-title="鍗庤路鍦熻€冲叾",NRG 91
+http://tv.nrg91.gr:1935/onweb/live/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ANT1%20Cyprus%20(1080p).png" group-title="鍗庤路鍦熻€冲叾",ANT1 Cyprus (1080p)
+http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Panik%20TV%20(1080p).png" group-title="鍗庤路鍦熻€冲叾",Panik TV (1080p)
+https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Skai%20TV%20(720p).png" group-title="鍗庤路鍦熻€冲叾",Skai TV (720p)
+https://skai-live.siliconweb.com/media/cambria4/index.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8A%A0%E6%8B%BF%E5%A4%A7AM1430.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鍔犳嬁澶M1430
+https://5b2959fe11444.streamlock.net/radio/am1430.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8A%A0%E6%8B%BF%E5%A4%A7AM1540.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鍔犳嬁澶M1540
+http://s2.voscast.com:9530/;
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0AM1470.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鍔犳嬁澶т腑鏂囩數鍙癆M1470
+https://5b2959fe11444.streamlock.net/radio/am1470.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0AM1470.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鍔犳嬁澶т腑鏂囩數鍙癆M1470
+https://5b2959fe11444.streamlock.net/radio/am1470.stream/chunklist_w987170920.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/AM1320%E8%8F%AF%E5%83%91%E4%B9%8B%E8%81%B2%E9%9B%BB%E5%8F%B0.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",AM1320鑿儜涔嬭伈闆诲彴
+http://stream.radiojar.com/nugqupcv8qzuv.mp3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CHMB%20AM1320%E8%8F%AF%E5%83%91%E4%B9%8B%E8%81%B2%E9%9B%BB%E5%8F%B02.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",CHMB AM1320鑿儜涔嬭伈闆诲彴2
+http://stream.radiojar.com/60sqadqu97zuv.mp3
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0FM%2096.1.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鍔犳嬁澶т腑鏂囩數鍙癋M 96.1
+https://5b2959fe11444.streamlock.net/radio/fm961.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E4%B8%AD%E6%96%87%E7%94%B5%E5%8F%B0FM%2096.1.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鍔犳嬁澶т腑鏂囩數鍙癋M 96.1
+https://5b2959fe11444.streamlock.net/radio/fm961.stream/chunklist_w441033106.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%A6%99%E6%B8%AFD100PBS%E6%96%B0%E8%81%9E%E6%99%82%E4%BA%8B.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",棣欐腐D100PBS鏂拌仦鏅備簨
+http://59.152.232.108:8000/Channel1-128AAC
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%A6%99%E6%B8%AF%E7%94%B5%E5%8F%B0%E7%AC%AC%E4%B8%80%E5%8F%B0.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",棣欐腐鐢靛彴绗竴鍙?http://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%A6%99%E6%B8%AF%E7%94%B5%E5%8F%B0%E7%AC%AC%E4%BA%8C%E5%8F%B0.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",棣欐腐鐢靛彴绗簩鍙?http://rthkaudio2-lh.akamaihd.net/i/radio2_1@355865/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%A6%99%E6%B8%AF%E7%94%B5%E5%8F%B0%E7%AC%AC%E4%B8%89%E5%8F%B0.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",棣欐腐鐢靛彴绗笁鍙?http://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%A6%99%E6%B8%AF%E7%94%B5%E5%8F%B0%E7%AC%AC%E5%9B%9B%E5%8F%B0.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",棣欐腐鐢靛彴绗洓鍙?http://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%A6%99%E6%B8%AF%E7%94%B5%E5%8F%B0%E7%AC%AC%E4%BA%94%E5%8F%B0.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",棣欐腐鐢靛彴绗簲鍙?http://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E9%A6%99%E6%B8%AF%E7%94%B5%E5%8F%B0%E6%99%AE%E9%80%9A%E8%A9%B1%E5%8F%B0.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",棣欐腐鐢靛彴鏅€氳┍鍙?http://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%96%B0%E5%9F%8E%E9%9B%BB%E5%8F%B0%E7%9F%A5%E8%A8%8A997.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鏂板煄闆诲彴鐭ヨ▕997
+http://metroradio-lh.akamaihd.net/i/997_h@349799/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%96%B0%E5%9F%8E%E9%9B%BB%E5%8F%B0%E8%B2%A1%E7%B6%93104.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鏂板煄闆诲彴璨＄稉104
+http://metroradio-lh.akamaihd.net/i/104_h@349798/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E6%96%B0%E5%9F%8E%E9%9B%BB%E5%8F%B0Metro%20Plus%20AM1044.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鏂板煄闆诲彴Metro Plus AM1044
+http://metroradio-lh.akamaihd.net/i/1044_h@349800/master.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E5%8A%A0%E5%B7%9EKRRL-FM%2092.3(Hip%20Hop).png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",鍔犲窞KRRL-FM 92.3(Hip Hop)
+https://c8.prod.playlists.ihrhls.com/181/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BA%BD%E7%BA%A6WABH-AM%201380(Country).png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",绾界害WABH-AM 1380(Country)
+https://ice24.securenetsystems.net/WABH
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BA%BD%E7%BA%A6WNYL-FM%2092.3(%E5%8F%A6%E7%B1%BB%E6%91%87%E6%BB%9A).png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",绾界害WNYL-FM 92.3(鍙︾被鎽囨粴)
+http://18053.live.streamtheworld.com/WNYLFMAAC_SC
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/%E7%BA%BD%E7%BA%A6WCBS-FM%20101.1(Classic%20Hits).png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",绾界害WCBS-FM 101.1(Classic Hits)
+http://20843.live.streamtheworld.com/WCBSFMAAC_SC
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CRI%20%E4%B8%AD%E6%96%87%E7%8E%AF%E7%90%83%E5%B9%BF%E6%92%AD.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",CRI 涓枃鐜悆骞挎挱
+http://live.xmcdn.com/live/1043/64.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CRI%20%E4%B8%AD%E6%96%87%E7%8E%AF%E7%90%83%E5%B9%BF%E6%92%AD.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",CRI 涓枃鐜悆骞挎挱
+http://ls.qingting.fm/live/4995.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CRI%20%E4%B8%AD%E6%96%87%E7%8E%AF%E7%90%83%E5%B9%BF%E6%92%AD.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",CRI 涓枃鐜悆骞挎挱
+http://sk.cri.cn/hyhq.m3u8
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/Fox%20News%20Talk%20Radio.png" group-title="鍗庤路骞挎挱鐢靛彴RADIO",Fox News Talk Radio
+http://fnurtmp-f.akamaihd.net/i/FNRADIO_1@92141/master.m3u8
