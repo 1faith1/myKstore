@@ -232,7 +232,7 @@ local_chuli_yuan_source(){
   echo "删除 ${MY_SOURCE_FILE_NAME}文件中的旧源数据"
   sed -i "${ME_FILE_ONE_NUM},${ME_FILE_TWO_NUM}d" ${MY_SOURCE_FILE_NAME}
   # ==================== 添加新发现的源到kl文件中然后在进行同一处理
-  add_new_source_to_live_m3u
+  #add_new_source_to_live_m3u
   # ==================== 处理${NEW_SOURCE_FILE_NAME}文件数据
   NEW_FILE_NUM=$(grep -En  "TG频道" ${NEW_SOURCE_FILE_NAME}|grep "官网地址"|awk -F ":" '{print $1}')
   echo "处理${NEW_SOURCE_FILE_NAME}文件中数据，删除TG等无关信息"
