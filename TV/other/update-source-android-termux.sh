@@ -232,7 +232,7 @@ local_chuli_yuan_source(){
   echo "删除 ${MY_SOURCE_FILE_NAME}文件中的旧源数据"
   sed -i "${ME_FILE_ONE_NUM},${ME_FILE_TWO_NUM}d" ${MY_SOURCE_FILE_NAME}
   # ==================== 添加新发现的源到kl文件中然后在进行同一处理
-  #add_new_source_to_live_m3u
+  add_new_source_to_live_m3u
   # ==================== 处理${NEW_SOURCE_FILE_NAME}文件数据
   NEW_FILE_NUM=$(grep -En  "TG频道" ${NEW_SOURCE_FILE_NAME}|grep "官网地址"|awk -F ":" '{print $1}')
   echo "处理${NEW_SOURCE_FILE_NAME}文件中数据，删除TG等无关信息"
@@ -283,7 +283,7 @@ custom_yangweishi(){
     sed -i  "s/,${ONLY_CCTV_CHINESE}/,${UP_CCTV_CHINESE}/g" ${NEWFILE_2}
   done
   # # // 处理文件：将根据GET_ALL_YANGWEISHI_GROUPTITLE找到的所有pd，除上面ys/ws外所有pd追加到NEWFILE_2文件
-  sed -e "$(grep -nEi ",.*CCTV|,.*卫视" ${NEWFILE_1} | cut -d: -f1 | awk '{printf "%dd;%dd;",$0,$0+1}')" ${NEWFILE_1}  >> ${NEWFILE_2}
+  #sed -e "$(grep -nEi ",.*CCTV|,.*卫视" ${NEWFILE_1} | cut -d: -f1 | awk '{printf "%dd;%dd;",$0,$0+1}')" ${NEWFILE_1}  >> ${NEWFILE_2}
   # 修改/group-title为自定义的group-title
   sed -i "s/group-title=.*\,/group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"\,/g" ${NEWFILE_2}
 
