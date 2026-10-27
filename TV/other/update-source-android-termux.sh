@@ -260,7 +260,7 @@ custom_yangweishi(){
   fi
   # 获取全部ys/ws的group-title并且去重
   GET_ALL_YANGWEISHI_GROUPTITLE=$(grep -Ei "cctv1|北京卫视|东方卫视|辽宁卫视" ${NEW_SOURCE_FILE_NAME} |\
-                                grep -E -o "group-title=.*,"|sed 's/,//g'|sort|uniq|grep -Ev "体育|内网|ITV")
+                                grep -E -o "group-title=.*,"|sed 's/,//g'|sort|uniq|grep -Ev "体育|内网|ITV"|sort -r)
   echo "本次整合group-title全部节目到我自定义group-title中，整合group-title列表信息如下："
   # // 处理文件：根据上面GET_ALL_YANGWEISHI_GROUPTITLE进行遍历获取需要的ys/ws到NEWFILE_1文件
   for group_title in ${GET_ALL_YANGWEISHI_GROUPTITLE[@]}
