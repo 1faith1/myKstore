@@ -54,6 +54,7 @@ remove_group_title (){
      来疯直播    \
      酷狗直播    \
      Ai直播   \
+     华视·   \
   )
   echo "删除不需要的group-title..."
   SED_COMMAND_ENV=""
