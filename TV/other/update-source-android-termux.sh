@@ -270,7 +270,28 @@ custom_yangweishi(){
   #sed -e "$(grep -nEi ",.*CCTV|,.*卫视" ${NEWFILE_1} | cut -d: -f1 | awk '{printf "%dd;%dd;",$0,$0+1}')" ${NEWFILE_1}  >> ${NEWFILE_2}
   # 修改/group-title为自定义的group-title
   sed -i "s/group-title=.*\,/group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"\,/g" ${NEWFILE_2}
-
+  # ==================== 重新排序自定义组中央卫节目
+  CCTV_SORTING=( \
+        CCTV1    \
+        CCTV2    \
+        CCTV3    \
+        CCTV4    \
+        CCTV5    \
+        CCTV5+   \
+        CCTV6    \
+        CCTV7    \
+        CCTV8    \
+        CCTV9	 \	
+        CCTV10   \
+        CCTV11   \
+        CCTV12   \
+        CCTV13   \
+        CCTV14   \
+        CCTV15   \
+        CCTV16   \
+        CCTV17   \
+  )
+  # ====================
   # // 添加处理好的文件到kl文本中的第一行
   # 查找文本中"#============="所在行数
   FIND_ME_FILE_ONE_NUM=$(grep -En "#=====+" ${MY_SOURCE_FILE_NAME} |head -1|awk -F ":" '{print $1}')
