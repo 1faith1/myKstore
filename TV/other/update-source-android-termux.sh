@@ -179,6 +179,22 @@ add_tv_to_group_title (){
   sed -i "${HANG_NUM_ADD_1}r ${MYLOVETV_1}" ${MY_SOURCE_FILE_NAME}
 }
 
+# 作用：发现了新的其他好用源文件，处理下下文件将其追加到本地kl文件内
+add_new_source_to_live_m3u(){
+    curl https://5gtv.tmxk.kdns.fr/live.m3u?key=TMXK888 -o weifengxiaoyi.txt
+    add_new_sorce_file=(
+       weifengxiaoyi.txt
+    )
+    for file in ${add_new_sorce_file[@]}
+    do
+            NEW_FILE_NUM=$(grep -En "TG频道"  ${file}|awk -F ":" '{print $1}')
+            sed -i -e "1d" -e "${NEW_FILE_NUM},`echo $((${NEW_FILE_NUM} + 1))`d" ${file}
+            echo "处理${file}文件中数据，删除TG等无关信息"
+            cat ${file} >> ${NEW_SOURCE_FILE_NAME}
+     done
+
+}
+
 # 作用：下载需要的文件并处理(合并成我需要的样式)
 local_chuli_yuan_source(){
   #NEW_DATE=$(date +%Y.%m.%d)
@@ -215,7 +231,8 @@ local_chuli_yuan_source(){
   # 删除${MY_SOURCE_FILE_NAME}旧数据
   echo "删除 ${MY_SOURCE_FILE_NAME}文件中的旧源数据"
   sed -i "${ME_FILE_ONE_NUM},${ME_FILE_TWO_NUM}d" ${MY_SOURCE_FILE_NAME}
-
+  # ==================== 添加新发现的源到kl文件中然后在进行同一处理
+  add_new_source_to_live_m3u
   # ==================== 处理${NEW_SOURCE_FILE_NAME}文件数据
   NEW_FILE_NUM=$(grep -En  "TG频道" ${NEW_SOURCE_FILE_NAME}|grep "官网地址"|awk -F ":" '{print $1}')
   echo "处理${NEW_SOURCE_FILE_NAME}文件中数据，删除TG等无关信息"
