@@ -179,7 +179,7 @@ add_tv_to_group_title (){
   sed -i "${HANG_NUM_ADD_1}r ${MYLOVETV_1}" ${MY_SOURCE_FILE_NAME}
 }
 
-# 作用：发现了新的其他好用源文件，处理下下文件将其追加到本地kl文件内
+# 作用：发现了新的其他好用源文件，处理下下文件将其追加到本地live.m3u文件内
 add_new_source_to_live_m3u(){
     curl https://5gtv.tmxk.kdns.fr/live.m3u?key=TMXK888 -o weifengxiaoyi.txt
     add_new_sorce_file=(
