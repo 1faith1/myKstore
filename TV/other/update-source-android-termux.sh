@@ -60,7 +60,7 @@ remove_group_title (){
   SED_COMMAND_ENV=""
   for ONLY_GROUP_TITLE in ${REMOVE_GROUP_TITLE[@]}
   do
-    GET_COMPLETE_GROUP_TITLE_INFO=$(grep -Eo "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME} |sort|uniq)
+    GET_COMPLETE_GROUP_TITLE_INFO=$(grep -Po "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME} |sort|uniq)
     if [[ ! -z ${GET_COMPLETE_GROUP_TITLE_INFO} ]];then
        echo "      删除 ${GET_COMPLETE_GROUP_TITLE_INFO}"
     fi
