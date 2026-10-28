@@ -143,6 +143,8 @@ del_failure_url(){
             curl -f -s -m 1 $CURL_URL -o /dev/null
             if [[ $? -ne 0 ]];then
                     DELTVNUMDEL_1=`echo $((${DEL_FAILURE_URL_HANGNUM} - 1))`
+                    TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
+                    echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
                     SEDDELCOMMANDENV+=" -e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d"
             fi
     done <<< ${CAT_ALL_URL_LIST}
