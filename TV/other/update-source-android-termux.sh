@@ -121,15 +121,23 @@ del_tv_to_group_title (){
   sed  -i ${SED_DEL_COMMAND_ENV} ${MY_SOURCE_FILE_NAME}
 }
 
-# 清理某一个文件中失效的url
+# 清理某一个文件中某个group-title组失效的url 【使用方法：del_failure_url "kl.txt" "组"】
+# 注意：删除直线需要执行一次备份命令
+#      cp -rp "kl.txt" "kl.txt.del_failure.bak
+#      del_failure_url "kl.txt" "组1"
+#      del_failure_url "kl.txt" "组2"
+#      cp -rp "test.txt" "test.txt.del_failure.bak
+#      del_failure_url "test.txt" "组1"
+#      del_failure_url "test.txt" "组2"
 del_failure_url(){
     DEL_FAILURE_URL_FILE=$1
-    CAT_ALL_URL_LIST=$(grep -En ^http ${DEL_FAILURE_URL_FILE})
+    DEL_FAILURE_URL_GROUP=$2
+    CAT_ALL_URL_LIST=$(grep -En ${DEL_FAILURE_URL_GROUP} -A1  ${DEL_FAILURE_URL_FILE} |grep -E "[0-9]+-http")
     SEDDELCOMMANDENV=""
     while read line
     do
-            DEL_FAILURE_URL_HANGNUM=$(echo $line|awk -F ":" '{print $1}')
-            CURL_URL=$(echo $line|awk -F ":http" '{print "http"$NF}')
+            DEL_FAILURE_URL_HANGNUM=$(echo $line|awk -F "-http" '{print $1}')
+            CURL_URL=$(echo $line|awk -F "-http" '{print "http"$NF}')
             curl -f -s -m 1 $CURL_URL -o /dev/null
             if [[ $? -ne 0 ]];then
                     DELTVNUMDEL_1=`echo $((${DEL_FAILURE_URL_HANGNUM} - 1))`
@@ -414,11 +422,6 @@ custom_yangweishi(){
   # ==================== 重新排序自定义组中央卫节目
   sorting_yw
   # ====================
-  \cp -rp ${NEWFILE_2} ${NEWFILE_2}.sort.bak
-  # ==================== 清理文件中失效的url
-  echo "清理${NEWFILE_2}文件中失效的url，过程较长请耐心等待。。。"
-  del_failure_url ${NEWFILE_2}
-  # ==================== 清理文件中失效的url END
   # ====================
   # // 添加处理好的文件到kl文本中的第一行
   # 查找文本中"#============="所在行数
@@ -536,6 +539,12 @@ main (){
   custom_yangweishi     ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   #del_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   add_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
+  
+  # ==================== 清理某个文件中某个组下失效的url
+  echo "清理${MY_SOURCE_FILE_NAME}文件${ADD_MY_ZIDINGYI_GROUP_TITLE_1}组中失效的url，过程较长请耐心等待。。。"
+  \cp -rp ${MY_SOURCE_FILE_NAME} ${MY_SOURCE_FILE_NAME}.del_failure.bak
+  del_failure_url "${MY_SOURCE_FILE_NAME}" "${ADD_MY_ZIDINGYI_GROUP_TITLE_1}"
+  # ==================== 清理文件中失效的url END
   
   cd ${GITHUB_SOURCE_FILE_DIR}
   upload_migu_to_github
