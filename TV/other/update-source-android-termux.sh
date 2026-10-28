@@ -123,9 +123,11 @@ del_tv_to_group_title (){
 
 # 清理某一个文件中某个group-title组失效的url 【使用方法：del_failure_url "kl.txt" "组"】
 # 注意：删除直线需要执行一次备份命令
+#      echo "清理${file}文件${zu}组中失效的url，过程较长请耐心等待。。。。。。"
 #      cp -rp "kl.txt" "kl.txt.del_failure.bak
 #      del_failure_url "kl.txt" "组1"
 #      del_failure_url "kl.txt" "组2"
+#      echo "清理${file}文件${zu}组中失效的url，过程较长请耐心等待。。。。。。"
 #      cp -rp "test.txt" "test.txt.del_failure.bak
 #      del_failure_url "test.txt" "组1"
 #      del_failure_url "test.txt" "组2"
@@ -541,7 +543,7 @@ main (){
   add_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   
   # ==================== 清理某个文件中某个组下失效的url
-  echo "清理${MY_SOURCE_FILE_NAME}文件${ADD_MY_ZIDINGYI_GROUP_TITLE_1}组中失效的url，过程较长请耐心等待。。。"
+  echo "清理${MY_SOURCE_FILE_NAME}文件${ADD_MY_ZIDINGYI_GROUP_TITLE_1}组中失效的url，过程较长请耐心等待。。。。。。"
   \cp -rp ${MY_SOURCE_FILE_NAME} ${MY_SOURCE_FILE_NAME}.del_failure.bak
   del_failure_url "${MY_SOURCE_FILE_NAME}" "${ADD_MY_ZIDINGYI_GROUP_TITLE_1}"
   # ==================== 清理文件中失效的url END
