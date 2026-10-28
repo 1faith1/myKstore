@@ -238,9 +238,9 @@ local_chuli_yuan_source(){
   sed -i "s/更新时间.*/更新时间${NEW_DATE}/g" ${MY_SOURCE_FILE_NAME}
 }
 
-# 作用： 重新排序我自定义组中的央卫视节目顺序
+# 作用： 重新排序我自定义组中的YW节目顺序
 sorting_yw(){
-    # ==================== 重新排序自定义组中央卫节目
+    # ==================== 重新排序自定义组中YW节目
     ys_sorting=( \
         CCTV1    \
         CCTV2    \
