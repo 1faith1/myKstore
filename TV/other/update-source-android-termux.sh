@@ -368,13 +368,13 @@ custom_yangweishi(){
   # // 处理文件：将NEWFILE_1文件中的ys/ws先放在NEWFILE_2文件中
   grep -Ei  ",.*cctv" -A 1 ${NEWFILE_1}|sed "/^--/d" >> ${NEWFILE_2}
   grep -Ei  ",.*卫视" -A 1 ${NEWFILE_1}|sed "/^--/d" >> ${NEWFILE_2}
+  # 将cctv-1这种格式全部转换为cctv1的格式("///I"不区分大小写)
+  sed  -i "s/,cctv-/,cctv/Ig"  ${NEWFILE_2}
   # 在NEWFILE_2文件中转换所有带中文的ys名字为统一的ys名
   # 获取NEWFILE_2中所有ys除带欧美的名字
   GET_CCTV_CHINESE=$(awk -F "," '{print $NF}' ${NEWFILE_2} |grep -Ev "^http"|grep -i "cctv"|grep -Ev "欧|美"|sort|uniq)
   for ONLY_CCTV_CHINESE in ${GET_CCTV_CHINESE[@]}
   do
-    # 将cctv-1这种格式全部转换为cctv1的格式("///I"不区分大小写)
-    sed  -i "s/,cctv-/,cctv/Ig"  ${NEWFILE_2}
     # 将ys的英文名字全部变为大写字母
     UP_CCTV_CHINESE=$(echo ${ONLY_CCTV_CHINESE}|grep -Eio "[a-z]+[0-9]{1,2}|[a-z]+[0-9]{1,2}\+"|tr '[:lower:]' '[:upper:]')
     sed -i  "s/,${ONLY_CCTV_CHINESE}/,${UP_CCTV_CHINESE}/g" ${NEWFILE_2}
