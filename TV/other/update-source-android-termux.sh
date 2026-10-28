@@ -209,7 +209,7 @@ add_new_source_to_live_m3u(){
       # -m 单次请求最大等待 6 秒（超时自动判定失败）
       # -f 4xx、5xx 状态码都会直接让 curl 返回失败
       # -o /dev/null 把响应内容丢弃.本次需要内容，将内容放在了$file中
-      curl -f -s -m 8 $url -o $file
+      curl -f -s -m 15 $url -o $file
       if [[ ! $? == 0 ]];then
           echo "此地址文件无法下载： $url"
           exit 4
