@@ -373,12 +373,14 @@ custom_yangweishi(){
   # 在NEWFILE_2文件中转换所有带中文的ys名字为统一的ys名
   # 获取NEWFILE_2中所有ys除带欧美的名字
   GET_CCTV_CHINESE=$(awk -F "," '{print $NF}' ${NEWFILE_2} |grep -Ev "^http"|grep -i "cctv"|grep -Ev "欧|美"|sort|uniq)
-  for ONLY_CCTV_CHINESE in ${GET_CCTV_CHINESE[@]}
+  #for ONLY_CCTV_CHINESE in ${GET_CCTV_CHINESE[@]}
+  while read line
   do
     # 将ys的英文名字全部变为大写字母
-    UP_CCTV_CHINESE=$(echo ${ONLY_CCTV_CHINESE}|grep -Eio "[a-z]+[0-9]{1,2}|[a-z]+[0-9]{1,2}\+"|tr '[:lower:]' '[:upper:]')
+    #UP_CCTV_CHINESE=$(echo ${ONLY_CCTV_CHINESE}|grep -Eio "[a-z]+[0-9]{1,2}|[a-z]+[0-9]{1,2}\+"|tr '[:lower:]' '[:upper:]')
+    UP_CCTV_CHINESE=$(echo ${line}|grep -Eio "[a-z]+[0-9]{1,2}|[a-z]+[0-9]{1,2}\+"|tr '[:lower:]' '[:upper:]')
     sed -i  "s/,${ONLY_CCTV_CHINESE}/,${UP_CCTV_CHINESE}/g" ${NEWFILE_2}
-  done
+  done <<< ${GET_CCTV_CHINESE}
   # # // 处理文件：将根据GET_ALL_YANGWEISHI_GROUPTITLE找到的所有pd，除上面ys/ws外所有pd追加到NEWFILE_2文件
   #sed -e "$(grep -nEi ",.*CCTV|,.*卫视" ${NEWFILE_1} | cut -d: -f1 | awk '{printf "%dd;%dd;",$0,$0+1}')" ${NEWFILE_1}  >> ${NEWFILE_2}
   # 修改/group-title为自定义的group-title
