@@ -165,22 +165,27 @@ add_tv_to_group_title (){
 
 # 作用：发现了新的其他好用源文件，处理下下文件将其追加到本地live.m3u文件内
 add_new_source_to_live_m3u(){
-    # 海外wfxy
-    curl https://5gtv.tmxk.kdns.fr/live.m3u?key=TMXK888 -o weifengxiaoyi-hw.txt
-    # 国内wfxy
-    curl  https://dotv.tmxk.kdns.fr/live.m3u?key=LEON888 -o weifengxiaoyi-gn.txt
-    add_new_sorce_file=(
-       weifengxiaoyi-hw.txt
-       weifengxiaoyi-gn.txt
-    )
-    for file in ${add_new_sorce_file[@]}
-    do
-            NEW_FILE_NUM=$(grep -En "TG频道"  ${file}|awk -F ":" '{print $1}')
-            sed -i -e "1d" -e "${NEW_FILE_NUM},`echo $((${NEW_FILE_NUM} + 1))`d" ${file}
-            echo "处理${file}文件中数据，删除TG等无关信息"
-            cat ${file} >> ${NEW_SOURCE_FILE_NAME}
-     done
+  NEW_GOOD_SOURCE=( \
+        # 海外wfxy（格式:"网站   下载本地文件名"）
+        "https://5gtv.tmxk.kdns.fr/live.m3u?key=TMXK888   weifengxiaoyi-hw.txt"  \
+        # 国内wfxy（格式:"网站   下载本地文件名"）
+        "https://dotv.tmxk.kdns.fr/live.m3u?key=LEON888   weifengxiaoyi-gn.txt"  \
+  )
 
+  while IFS=' ' read -r url file
+  do
+      # -s 静默输出
+      # -m 单次请求最大等待 3 秒（超时自动判定失败）
+      curl -s -m 3 $url -o $file
+      if [[ ! $? == 0 ]];then
+          echo "此地址文件无法下载： $url"
+          exit 4
+      fi
+      NEW_FILE_NUM=$(grep -En "TG频道"  ${file}|awk -F ":" '{print $1}')
+      sed -i -e "1d" -e "${NEW_FILE_NUM},`echo $((${NEW_FILE_NUM} + 1))`d" ${file}
+      echo "处理${file}文件中数据，删除TG等无关信息"
+      cat ${file} >> ${NEW_SOURCE_FILE_NAME}
+  done < <(printf "%s\n" "${NEW_GOOD_SOURCE[@]}")
 }
 
 # 作用：下载需要的文件并处理(合并成我需要的样式)
