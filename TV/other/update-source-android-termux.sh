@@ -255,8 +255,6 @@ sorting_yw(){
         CCTV15   \
         CCTV16   \
         CCTV17   \
-        CCTV4美洲 \
-        CCTV4欧洲 \
     ) 
     ws_sorting=(     \
         北京卫视     \
