@@ -319,8 +319,10 @@ sorting_yw(){
             echo "      本次检查暂无缺失WS新增频道"
     fi
     echo '检查自定义组中是否有多出来的央卫视台 - END ....'
-    TMPDIR_YS=$(mktemp)
-    TMPDIR_WS=$(mktemp)
+    TMPDIR_YS=tmp_ys
+    TMPDIR_WS=tmp_ws
+    echo '' >${TMPDIR_YS}
+    echo '' >${TMPDIR_WS}
     for  ys in ${ys_sorting[@]}
     do
         if [ ! -z ${ys} ];then
@@ -335,7 +337,6 @@ sorting_yw(){
     done
     cat ${TMPDIR_YS} > ${NEWFILE_2}
     cat ${TMPDIR_WS} >> ${NEWFILE_2}
-    rm -f ${TMPDIR_YS} ${TMPDIR_WS}
     
 }
 
