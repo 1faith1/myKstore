@@ -148,7 +148,9 @@ del_failure_url(){
                     SEDDELCOMMANDENV+=" -e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d"
             fi
     done <<< ${CAT_ALL_URL_LIST}
-    sed -i ${SEDDELCOMMANDENV} ${DEL_FAILURE_URL_FILE}
+    if [[ ! -z ${SEDDELCOMMANDENV} ]];then
+        sed -i ${SEDDELCOMMANDENV} ${DEL_FAILURE_URL_FILE}
+    fi
 }
 
 # 单独添加某一个/多个喜欢的节目到某一个group-title里面(在选定group-title最下面添加)
