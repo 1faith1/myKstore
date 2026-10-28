@@ -175,8 +175,8 @@ add_new_source_to_live_m3u(){
   while IFS=' ' read -r url file
   do
       # -s 静默输出
-      # -m 单次请求最大等待 3 秒（超时自动判定失败）
-      curl -s -m 3 $url -o $file
+      # -m 单次请求最大等待 6 秒（超时自动判定失败）
+      curl -s -m 6 $url -o $file
       if [[ ! $? == 0 ]];then
           echo "此地址文件无法下载： $url"
           exit 4
