@@ -165,9 +165,13 @@ add_tv_to_group_title (){
 
 # 作用：发现了新的其他好用源文件，处理下下文件将其追加到本地live.m3u文件内
 add_new_source_to_live_m3u(){
-    curl https://5gtv.tmxk.kdns.fr/live.m3u?key=TMXK888 -o weifengxiaoyi.txt
+    # 海外wfxy
+    curl https://5gtv.tmxk.kdns.fr/live.m3u?key=TMXK888 -o weifengxiaoyi-hw.txt
+    # 国内wfxy
+    curl  https://dotv.tmxk.kdns.fr/live.m3u?key=LEON888 -o weifengxiaoyi-gn.txt
     add_new_sorce_file=(
-       weifengxiaoyi.txt
+       weifengxiaoyi-hw.txt
+       weifengxiaoyi-gn.txt
     )
     for file in ${add_new_sorce_file[@]}
     do
@@ -175,6 +179,7 @@ add_new_source_to_live_m3u(){
             sed -i -e "1d" -e "${NEW_FILE_NUM},`echo $((${NEW_FILE_NUM} + 1))`d" ${file}
             echo "处理${file}文件中数据，删除TG等无关信息"
             cat ${file} >> ${NEW_SOURCE_FILE_NAME}
+            rm -f ${file}
      done
 
 }
