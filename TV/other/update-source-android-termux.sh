@@ -306,7 +306,7 @@ sorting_yw(){
             YS_IF_MORE=$(echo ${YS_IF_MORE}|sed "s/${ys},//g")
     done
     if  [[ ! -z $YS_IF_MORE ]];then
-            echo "      本次检查出来自定义组中缺失${YS_IF_MORE}新增频道,请在ys_sorting中添加."
+            echo "      本次检查出来自定义组中缺失${YS_IF_MORE}，如需要新增频道请在ys_sorting中添加."
     else
             echo "      本次检查暂无缺失YS新增频道"        
     fi
@@ -316,7 +316,7 @@ sorting_yw(){
             WS_IF_MORE=$(echo ${WS_IF_MORE}|sed "s/${ws},//g")
     done
     if  [[ ! -z $WS_IF_MORE ]];then
-            echo "      本次检查出来自定义组中缺失${WS_IF_MORE}新增频道,请在ws_sorting中添加."
+            echo "      本次检查出来自定义组中缺失${WS_IF_MORE}，如需要新增频道请在ws_sorting中添加."
     else
             echo "      本次检查暂无缺失WS新增频道"
     fi
