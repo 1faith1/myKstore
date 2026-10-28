@@ -83,7 +83,7 @@ remove_group_title (){
   fi
 }
 
-# 单独删除某一个/多个喜欢的节(某一个group-title里面)
+# 单独删除某一个/多个喜欢的节(某一个group-title里面)[目前此功能在脚本中取消了]
 del_tv_to_group_title (){
   DEL_MY_ZIDINGYI_GROUP_TITLE=$1
   if [[ -z $DEL_MY_ZIDINGYI_GROUP_TITLE ]];then
