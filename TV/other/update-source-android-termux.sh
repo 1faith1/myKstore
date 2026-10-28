@@ -416,8 +416,9 @@ custom_yangweishi(){
   # ====================
   \cp -rp ${NEWFILE_2} ${NEWFILE_2}.sort.bak
   # ==================== 清理文件中失效的url
-  #echo "清理${NEWFILE_2}文件中失效的url，过程较长请耐心等待。。。"
-  #del_failure_url ${NEWFILE_2}
+  echo "清理${NEWFILE_2}文件中失效的url，过程较长请耐心等待。。。"
+  del_failure_url ${NEWFILE_2}
+  # ==================== 清理文件中失效的url END
   # ====================
   # // 添加处理好的文件到kl文本中的第一行
   # 查找文本中"#============="所在行数
