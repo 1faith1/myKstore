@@ -121,6 +121,24 @@ del_tv_to_group_title (){
   sed  -i ${SED_DEL_COMMAND_ENV} ${MY_SOURCE_FILE_NAME}
 }
 
+# 清理某一个文件中失效的url
+del_failure_url(){
+    DEL_FAILURE_URL_FILE=$1
+    CAT_ALL_URL_LIST=$(grep -En ^http ${DEL_FAILURE_URL_FILE})
+    SEDDELCOMMANDENV=""
+    while read line
+    do
+            DEL_FAILURE_URL_HANGNUM=$(echo $line|awk -F ":" '{print $1}')
+            CURL_URL=$(echo $line|awk -F ":http" '{print "http"$NF}')
+            curl -f -s -m 1 $CURL_URL -o /dev/null
+            if [[ $? -ne 0 ]];then
+                    DELTVNUMDEL_1=`echo $((${DEL_FAILURE_URL_HANGNUM} - 1))`
+                    SEDDELCOMMANDENV+=" -e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d"
+            fi
+    done <<< ${CAT_ALL_URL_LIST}
+    sed -i ${SEDDELCOMMANDENV} ${DEL_FAILURE_URL_FILE}
+}
+
 # 单独添加某一个/多个喜欢的节目到某一个group-title里面(在选定group-title最下面添加)
 add_tv_to_group_title (){
   ADD_MY_ZIDINGYI_GROUP_TITLE=$1
@@ -171,7 +189,6 @@ add_new_source_to_live_m3u(){
         # 国内wfxy（格式:"网站   下载本地文件名"）
         "https://dotv.tmxk.kdns.fr/live.m3u?key=LEON888   weifengxiaoyi-gn.txt"  \
   )
-
   while IFS=' ' read -r url file
   do
       # -s 静默输出
@@ -396,6 +413,11 @@ custom_yangweishi(){
   \cp -rp ${NEWFILE_2} ${NEWFILE_2}.bak
   # ==================== 重新排序自定义组中央卫节目
   sorting_yw
+  # ====================
+  \cp -rp ${NEWFILE_2} ${NEWFILE_2}.sort.bak
+  # ==================== 清理文件中失效的url
+  echo "清理${NEWFILE_2}文件中失效的url，过程较长请耐心等待。。。"
+  del_failure_url ${NEWFILE_2}
   # ====================
   # // 添加处理好的文件到kl文本中的第一行
   # 查找文本中"#============="所在行数
