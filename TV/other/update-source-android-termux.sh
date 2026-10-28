@@ -177,7 +177,8 @@ add_new_source_to_live_m3u(){
       # -s 静默输出
       # -m 单次请求最大等待 6 秒（超时自动判定失败）
       # -f 4xx、5xx 状态码都会直接让 curl 返回失败
-      curl -f -s -m 6 $url -o $file
+      # -o /dev/null 把响应内容丢弃
+      curl -f -s -m 6 -o /dev/null $url -o $file
       if [[ ! $? == 0 ]];then
           echo "此地址文件无法下载： $url"
           exit 4
