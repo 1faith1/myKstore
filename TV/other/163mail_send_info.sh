@@ -12,7 +12,7 @@ if [ $# -lt 1 ];then
     exit 1
 fi
 
-FROM_NAME="脚本更新情况"       # 主题
+FROM_NAME="我是发件人"       # 发件人信息
 SUBJECT="$1"                   # [邮件标题]
 BODY="${2:-系统通知}"          # 邮件内容       
 # 标题base64编码，解决中文乱码
