@@ -219,7 +219,7 @@ local_chuli_yuan_source(){
   # 删除${MY_SOURCE_FILE_NAME}旧数据
   echo "删除 ${MY_SOURCE_FILE_NAME}文件中的旧源数据"
   sed -i "${ME_FILE_ONE_NUM},${ME_FILE_TWO_NUM}d" ${MY_SOURCE_FILE_NAME}
-  # ==================== 添加新发现的源到kl文件中然后在进行同一处理
+  # ==================== 添加新发现的源到live.m3u文件中然后在进行同一处理
   add_new_source_to_live_m3u
   # ==================== 处理${NEW_SOURCE_FILE_NAME}文件数据
   NEW_FILE_NUM=$(grep -En  "TG频道" ${NEW_SOURCE_FILE_NAME}|grep "官网地址"|awk -F ":" '{print $1}')
@@ -288,6 +288,14 @@ sorting_yw(){
         宁夏卫视     \
         青海卫视     \
         兵团卫视     \
+        大湾区卫视   \
+        三沙卫视     \
+        厦门卫视     \
+        山东教育卫视  \
+        山西卫视     \
+        西藏卫视     \
+        新疆卫视    \
+        中国农林卫视 \
     )
     echo "检查自定义组中是否有多出来的央卫视台...."
     YS_IF_MORE=$(grep -Ei  ",.*cctv"  ${NEWFILE_2}|awk -F "," '{print $NF"," }'|sort|uniq)
