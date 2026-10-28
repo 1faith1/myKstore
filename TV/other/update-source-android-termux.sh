@@ -386,6 +386,7 @@ custom_yangweishi(){
   #sed -e "$(grep -nEi ",.*CCTV|,.*卫视" ${NEWFILE_1} | cut -d: -f1 | awk '{printf "%dd;%dd;",$0,$0+1}')" ${NEWFILE_1}  >> ${NEWFILE_2}
   # 修改/group-title为自定义的group-title
   sed -i "s/group-title=.*\,/group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"\,/g" ${NEWFILE_2}
+  \cp -rp ${NEWFILE_2} ${NEWFILE_2}.bak
   # ==================== 重新排序自定义组中央卫节目
   sorting_yw
   # ====================
