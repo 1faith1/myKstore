@@ -172,7 +172,7 @@ del_failure_url(){
             fi
         ) &
     done <<< "$CAT_ALL_URL_LIST"
-	# ↓ 在这里卡住！等上面所有后台ffmpeg全部跑完【直接写 `wait` 不带参数，等待当前会话所有后台任务结束】
+	# 在这里卡住！等上面所有后台ffmpeg全部跑完【直接写 `wait` 不带参数，等待当前会话所有后台任务结束】
     wait
 	# 上面所有后台进程全部跑完，读取文件全部内容
 	READ_RAW=$(< ${TEST_URL_TMP_RESULT})
