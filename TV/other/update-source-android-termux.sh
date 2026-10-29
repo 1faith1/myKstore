@@ -186,7 +186,7 @@ del_failure_url(){
                    echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
                    echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
                    rm -f ${TEMP_FILE}
-                elif [[ ${FFMPEG_SPEED} -le 1 ]];then
+                elif [[ ${FFMPEG_SPEED} < 1.1 ]];then
                    # 解码速度跟不上，视频也会卡
                    TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
                    echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
