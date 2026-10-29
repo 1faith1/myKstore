@@ -144,7 +144,7 @@ del_failure_url(){
     DEL_FAILURE_URL_GROUP=$2
     TEST_URL_TMP_RESULT='test_url_tmp_result.txt'
     echo '' >${TEST_URL_TMP_RESULT}
-    test=$(grep -En ${DEL_FAILURE_URL_GROUP} -A1  ${DEL_FAILURE_URL_FILE} |grep -E "[0-9]+-http"|head -20)
+    CAT_ALL_URL_LIST=$(grep -En ${DEL_FAILURE_URL_GROUP} -A1  ${DEL_FAILURE_URL_FILE} |grep -E "[0-9]+-http")
     while read line
     do
         # 并发上限等待
@@ -171,9 +171,10 @@ del_failure_url(){
                 echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
             fi
         ) &
-    done <<< "$test"
+    done <<< "$CAT_ALL_URL_LIST"
+	# ↓ 在这里卡住！等上面所有后台ffmpeg全部跑完【直接写 `wait` 不带参数，等待当前会话所有后台任务结束】
     wait
-	# 读取文件全部内容
+	# 上面所有后台进程全部跑完，读取文件全部内容
 	READ_RAW=$(< ${TEST_URL_TMP_RESULT})
 	# 删除上面读取出内容变量所有换行、空格
 	CLEAN_READ_RAW=${READ_RAW//[[:space:]]/}
