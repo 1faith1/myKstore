@@ -147,7 +147,7 @@ del_failure_url(){
             DEL_FAILURE_URL_HANGNUM=$(echo $line|awk -F "-http" '{print $1}')
             CURL_URL=$(echo $line|awk -F "-http" '{print "http"$NF}')
             #curl -f -s -m 1 $CURL_URL -o /dev/null
-            # 下面的ffmpeg命令作用：拉取这个直播地址，**尝试解码 10 秒钟**，只看能不能正常读流、有没有报错，不保存视频文件。
+            # 下面的ffmpeg命令作用：拉取这个直播地址，**尝试解码 3 秒钟**，只看能不能正常读流、有没有报错，不保存视频文件。
             # ✅ 适合批量检测直播源存活、是否花屏、是否断流。
             # -t 3： 限定**读取时长 3 秒**，到时间自动停止。用来短时间压测源是否能正常解码、是否卡顿。
             # 注意： `while read line` 是靠 stdin 读取行；当循环内运行 ffmpeg，ffmpeg 会抢 stdin，把剩下的行数据吞掉，直接导致循环异常、只跑一次或者随机少行。
