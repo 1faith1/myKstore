@@ -150,7 +150,7 @@ del_failure_url(){
         # 并发上限等待
         # jobs -p： 列出当前 shell 后台所有子任务 PID
         while (( $(jobs -p | wc -l) >= MAX_P )); do
-            sleep 4
+            sleep 1
         done
     
         (
@@ -172,12 +172,12 @@ del_failure_url(){
             fi
         ) &
     done <<< "$CAT_ALL_URL_LIST"
-	# 在这里卡住！等上面所有后台ffmpeg全部跑完【直接写 `wait` 不带参数，等待当前会话所有后台任务结束】
+    # 在这里卡住！等上面所有后台ffmpeg全部跑完【直接写 `wait` 不带参数，等待当前会话所有后台任务结束】
     wait
-	# 上面所有后台进程全部跑完，读取文件全部内容
-	READ_RAW=$(< ${TEST_URL_TMP_RESULT})
-	# 删除上面读取出内容变量所有换行、空格
-	CLEAN_READ_RAW=${READ_RAW//[[:space:]]/}
+    # 上面所有后台进程全部跑完，读取文件全部内容
+    READ_RAW=$(< ${TEST_URL_TMP_RESULT})
+    # 删除上面读取出内容变量所有换行、空格
+    CLEAN_READ_RAW=${READ_RAW//[[:space:]]/}
     # 如果有内容则执行sed
     if [[ ! -z "${CLEAN_READ_RAW}" ]];then
         echo "有内容：$raw"
