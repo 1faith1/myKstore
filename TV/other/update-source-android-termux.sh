@@ -125,7 +125,7 @@ del_tv_to_group_title (){
 }
 
 # ---------------------------------------------------------------------------------------------------
-# 作用： 清理某一个文件中某个group-title组 - 失效的url 
+# 作用： 清理某一个文件中某个group-title组 - 失效的url - 支持并行检测
 # ---------------------------------------------------------------------------------------------------
 # 清理某一个文件中某个group-title组失效的url 【使用方法：del_failure_url "kl.txt" "组"】
 # 注意：删除直线需要执行一次备份命令
@@ -138,30 +138,51 @@ del_tv_to_group_title (){
 #      del_failure_url "test.txt" "组1"
 #      del_failure_url "test.txt" "组2"
 del_failure_url(){
+	  # 最大ffmpeg命令 并行检测数量
+    MAX_P=6
     DEL_FAILURE_URL_FILE=$1
     DEL_FAILURE_URL_GROUP=$2
-    CAT_ALL_URL_LIST=$(grep -En ${DEL_FAILURE_URL_GROUP} -A1  ${DEL_FAILURE_URL_FILE} |grep -E "[0-9]+-http")
-    SEDDELCOMMANDENV=""
+    TEST_URL_TMP_RESULT='test_url_tmp_result.txt'
+    echo '' >${TEST_URL_TMP_RESULT}
+    test=$(grep -En ${DEL_FAILURE_URL_GROUP} -A1  ${DEL_FAILURE_URL_FILE} |grep -E "[0-9]+-http"|head -20)
     while read line
     do
-            DEL_FAILURE_URL_HANGNUM=$(echo $line|awk -F "-http" '{print $1}')
-            CURL_URL=$(echo $line|awk -F "-http" '{print "http"$NF}')
+        # 并发上限等待
+        # jobs -p： 列出当前 shell 后台所有子任务 PID
+        while (( $(jobs -p | wc -l) >= MAX_P )); do
+            sleep 4
+        done
+    
+        (
+            DEL_FAILURE_URL_HANGNUM=$(echo "$line"|awk -F "-http" '{print $1}')
+            CURL_URL=$(echo "$line"|awk -F "-http" '{print "http"$NF}')
+            DELTVNUMDEL_1=`echo $((${DEL_FAILURE_URL_HANGNUM} - 1))`
             #curl -f -s -m 1 $CURL_URL -o /dev/null
             # 下面的ffmpeg命令作用：拉取这个直播地址，尝试解码 5 秒钟，只看能不能正常读流、有没有报错，不保存视频文件。
             # ✅ 适合批量检测直播源存活、是否花屏、是否断流。
             # -t 5： 限定读取时长 5 秒，到时间自动停止。用来短时间压测源是否能正常解码、是否卡顿。
             # 注意： `while read line` 是靠 stdin 读取行；当循环内运行 ffmpeg，ffmpeg 会抢 stdin，把剩下的行数据吞掉，直接导致循环异常、只跑一次或者随机少行。
             #       解决方法： 给 ffmpeg 加上 `-nostdin`参数即可
-            timeout 6 ffmpeg -hide_banner -loglevel warning -user_agent "Mozilla/5.0" -nostdin -i $CURL_URL  -t 5 -f null - >/dev/null 2>&1
-            if [[ $? -ne 0 ]];then
-                    DELTVNUMDEL_1=`echo $((${DEL_FAILURE_URL_HANGNUM} - 1))`
-                    TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
-                    echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
-                    SEDDELCOMMANDENV+=" -e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d"
+            timeout 7 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null - >/dev/null 2>&1
+            ret=$?
+            if [[ $ret -ne 0 ]];then
+                TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
+                echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
+                echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
             fi
-    done <<< ${CAT_ALL_URL_LIST}
-    if [[ ! -z ${SEDDELCOMMANDENV} ]];then
+        ) &
+    done <<< "$test"
+    wait
+	# 读取文件全部内容
+	READ_RAW=$(< ${TEST_URL_TMP_RESULT})
+	# 删除上面读取出内容变量所有换行、空格
+	CLEAN_READ_RAW=${READ_RAW//[[:space:]]/}
+    # 如果有内容则执行sed
+    if [[ ! -z "${CLEAN_READ_RAW}" ]];then
+        echo "有内容：$raw"
+        SEDDELCOMMANDENV=$(cat ${TEST_URL_TMP_RESULT}|tr -s '\n' ' ')
         sed -i ${SEDDELCOMMANDENV} ${DEL_FAILURE_URL_FILE}
+        echo "      ====$(date '+%Y%m%d %H:%M:%S') - 全部检测完毕 ===="
     fi
 }
 
