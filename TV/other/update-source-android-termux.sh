@@ -180,7 +180,6 @@ del_failure_url(){
     CLEAN_READ_RAW=${READ_RAW//[[:space:]]/}
     # 如果有内容则执行sed
     if [[ ! -z "${CLEAN_READ_RAW}" ]];then
-        echo "有内容：$raw"
         SEDDELCOMMANDENV=$(cat ${TEST_URL_TMP_RESULT}|tr -s '\n' ' ')
         sed -i ${SEDDELCOMMANDENV} ${DEL_FAILURE_URL_FILE}
         echo "      ====$(date '+%Y%m%d %H:%M:%S') - 全部检测完毕 ===="
