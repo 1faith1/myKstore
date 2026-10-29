@@ -154,10 +154,11 @@ del_failure_url(){
         done
     
         (
-            TEMP_FILE=$(mktemp)
             DEL_FAILURE_URL_HANGNUM=$(echo "$line"|awk -F "-http" '{print $1}')
             CURL_URL=$(echo "$line"|awk -F "-http" '{print "http"$NF}')
             DELTVNUMDEL_1=`echo $((${DEL_FAILURE_URL_HANGNUM} - 1))`
+            TEMP_FILE="${DELTVNUMDEL_1}.tmp"
+            echo "" >${TEMP_FILE}
             #curl -f -s -m 1 $CURL_URL -o /dev/null
             # 下面的ffmpeg命令作用：拉取这个直播地址，尝试解码 5 秒钟，只看能不能正常读流、有没有报错，不保存视频文件。
             # ✅ 适合批量检测直播源存活、是否花屏、是否断流。
