@@ -140,7 +140,11 @@ del_failure_url(){
     do
             DEL_FAILURE_URL_HANGNUM=$(echo $line|awk -F "-http" '{print $1}')
             CURL_URL=$(echo $line|awk -F "-http" '{print "http"$NF}')
-            curl -f -s -m 1 $CURL_URL -o /dev/null
+            #curl -f -s -m 1 $CURL_URL -o /dev/null
+            # 下面的ffmpeg命令作用：拉取这个直播地址，**尝试解码 10 秒钟**，只看能不能正常读流、有没有报错，不保存视频文件。
+            # ✅ 适合批量检测直播源存活、是否花屏、是否断流。
+            # -t 10： 限定**读取时长 10 秒**，到时间自动停止。用来短时间压测源是否能正常解码、是否卡顿。
+            ffmpeg -hide_banner -loglevel warning -user_agent "Mozilla/5.0" -i $CURL_URL  -t 10 -f null -
             if [[ $? -ne 0 ]];then
                     DELTVNUMDEL_1=`echo $((${DEL_FAILURE_URL_HANGNUM} - 1))`
                     TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
