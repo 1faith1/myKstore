@@ -157,46 +157,45 @@ del_failure_url(){
             DEL_FAILURE_URL_HANGNUM=$(echo "$line"|awk -F "-http" '{print $1}')
             CURL_URL=$(echo "$line"|awk -F "-http" '{print "http"$NF}')
             DELTVNUMDEL_1=`echo $((${DEL_FAILURE_URL_HANGNUM} - 1))`
-            TEMP_FILE="${DELTVNUMDEL_1}.tmp"
-            echo "" >${TEMP_FILE}
+            #TEMP_FILE="${DELTVNUMDEL_1}.tmp"
+            #echo "" >${TEMP_FILE}
             #curl -f -s -m 1 $CURL_URL -o /dev/null
             # 下面的ffmpeg命令作用：拉取这个直播地址，尝试解码 5 秒钟，只看能不能正常读流、有没有报错，不保存视频文件。
             # ✅ 适合批量检测直播源存活、是否花屏、是否断流。
             # -t 5： 限定读取时长 5 秒，到时间自动停止。用来短时间压测源是否能正常解码、是否卡顿。
             # 注意： `while read line` 是靠 stdin 读取行；当循环内运行 ffmpeg，ffmpeg 会抢 stdin，把剩下的行数据吞掉，直接导致循环异常、只跑一次或者随机少行。
             #       解决方法： 给 ffmpeg 加上 `-nostdin`参数即可
-            timeout 8 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null - -progress ${TEMP_FILE} >/dev/null 2>&1
+            #timeout 8 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null - -progress ${TEMP_FILE} >/dev/null 2>&1
+            timeout 8 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null -  >/dev/null 2>&1
             ret=$?
             # 返回值不为0，地址无法访问
             if [[ $ret -ne 0 ]];then
                 TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
                 echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
                 echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
-                rm -f ${TEMP_FILE}
-            else
-                # 获取解码速度
-                # =1.0x：刚好持平，解码速度 = 播放速度
-                # >1.0x：处理比播放快，有富余缓冲，不容易卡
-                # <1.0x：处理跟不上播放节奏，持续小于 1，缓冲区会慢慢耗尽 → 播放器转圈卡顿
-                FFMPEG_SPEED=$(grep "^speed=" ${TEMP_FILE} | tail -n1 | cut -d= -f2 | sed 's/x//')
-                # 获取信息判断是否丢帧：=0没有丢帧，画面连续。只要>0丢帧一定会卡
-                DROP_FRAMES=$(grep "^drop_frames=" ${TEMP_FILE} | tail -n1 | cut -d= -f2)
-                if [[ ${DROP_FRAMES} > 0 ]];then
-                   # 丢帧，一定卡
-                   TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
-                   echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
-                   echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
-                   rm -f ${TEMP_FILE}
-                elif [[ ${FFMPEG_SPEED} < 1.1 ]];then
-                   # 解码速度跟不上，视频也会卡
-                   TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
-                   echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
-                   echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
-                   rm -f ${TEMP_FILE}
-                fi
-                
+            #    rm -f ${TEMP_FILE}
+            #else
+            #    # 获取解码速度
+            #    # =1.0x：刚好持平，解码速度 = 播放速度
+            #    # >1.0x：处理比播放快，有富余缓冲，不容易卡
+            #    # <1.0x：处理跟不上播放节奏，持续小于 1，缓冲区会慢慢耗尽 → 播放器转圈卡顿
+            #    FFMPEG_SPEED=$(grep "^speed=" ${TEMP_FILE} | tail -n1 | cut -d= -f2 | sed 's/x//')
+            #    # 获取信息判断是否丢帧：=0没有丢帧，画面连续。只要>0丢帧一定会卡
+            #    DROP_FRAMES=$(grep "^drop_frames=" ${TEMP_FILE} | tail -n1 | cut -d= -f2)
+            #    if [[ ${DROP_FRAMES} > 0 ]];then
+            #       # 丢帧，一定卡
+            #       TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
+            #       echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
+            #       echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
+            #       rm -f ${TEMP_FILE}
+            #    elif [[ ${FFMPEG_SPEED} < 1.1 ]];then
+            #       # 解码速度跟不上，视频也会卡
+            #       TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
+            #       echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
+            #       echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
+            #       rm -f ${TEMP_FILE}
+            #    fi
             fi
-            
         ) &
     done <<< "$CAT_ALL_URL_LIST"
     # 在这里卡住！等上面所有后台ffmpeg全部跑完【直接写 `wait` 不带参数，等待当前会话所有后台任务结束】
