@@ -163,7 +163,7 @@ del_failure_url(){
             # -t 5： 限定读取时长 5 秒，到时间自动停止。用来短时间压测源是否能正常解码、是否卡顿。
             # 注意： `while read line` 是靠 stdin 读取行；当循环内运行 ffmpeg，ffmpeg 会抢 stdin，把剩下的行数据吞掉，直接导致循环异常、只跑一次或者随机少行。
             #       解决方法： 给 ffmpeg 加上 `-nostdin`参数即可
-            timeout 7 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null - >/dev/null 2>&1
+            timeout 6 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null - >/dev/null 2>&1
             ret=$?
             if [[ $ret -ne 0 ]];then
                 TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
