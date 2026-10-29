@@ -139,7 +139,7 @@ del_tv_to_group_title (){
 #      del_failure_url "test.txt" "组2"
 del_failure_url(){
     # 最大ffmpeg命令 并行检测数量
-    MAX_P=6
+    MAX_P='10'
     DEL_FAILURE_URL_FILE=$1
     DEL_FAILURE_URL_GROUP=$2
     TEST_URL_TMP_RESULT='test_url_tmp_result.txt'
