@@ -159,8 +159,7 @@ del_failure_url(){
             DEL_FAILURE_URL_HANGNUM=$(echo "$line"|awk -F "-http" '{print $1}')
             CURL_URL=$(echo "$line"|awk -F "-http" '{print "http"$NF}')
             DELTVNUMDEL_1=`echo $((${DEL_FAILURE_URL_HANGNUM} - 1))`
-            #TEMP_FILE="${DELTVNUMDEL_1}.tmp"
-            #echo "" >${TEMP_FILE}
+            TEMP_FILE="${FFMPED_INFODIR}/${DELTVNUMDEL_1}.tmp"
             #curl -f -s -m 1 $CURL_URL -o /dev/null
             # 下面的ffmpeg命令作用：拉取这个直播地址，尝试解码 5 秒钟，只看能不能正常读流、有没有报错，不保存视频文件。
             # ✅ 适合批量检测直播源存活、是否花屏、是否断流。
@@ -168,7 +167,7 @@ del_failure_url(){
             # 注意： `while read line` 是靠 stdin 读取行；当循环内运行 ffmpeg，ffmpeg 会抢 stdin，把剩下的行数据吞掉，直接导致循环异常、只跑一次或者随机少行。
             #       解决方法： 给 ffmpeg 加上 `-nostdin`参数即可
             #timeout 8 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null -  >/dev/null 2>&1
-            timeout 8 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null - -progress ${FFMPED_INFODIR}/${TEMP_FILE} >/dev/null 2>&1
+            timeout 8 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null - -progress ${TEMP_FILE} >/dev/null 2>&1
             
             ret=$?
             # 返回值不为0，地址无法访问
@@ -196,7 +195,7 @@ del_failure_url(){
                    echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
                    echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
                 fi
-            rm -f ${FFMPED_INFODIR}/${TEMP_FILE}
+            rm -f ${TEMP_FILE}
             fi
         ) &
     done <<< "$CAT_ALL_URL_LIST"
