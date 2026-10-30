@@ -189,19 +189,19 @@ del_failure_url(){
                    TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
                    echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
                    echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
-                   rm -f ${TEMP_FILE}
                 elif [[ ${FFMPEG_SPEED} < 1.1 ]];then
                    # 解码速度跟不上，视频也会卡
                    TV_INFO=$(sed -n "${DELTVNUMDEL_1}p" ${DEL_FAILURE_URL_FILE}|awk -F "," '{print $NF}')
                    echo "      删除${DEL_FAILURE_URL_GROUP}组：${TV_INFO}，${CURL_URL}"
                    echo "-e ${DELTVNUMDEL_1},${DEL_FAILURE_URL_HANGNUM}d" >> "$TEST_URL_TMP_RESULT"
                 fi
-            rm -f ${TEMP_FILE}
             fi
+            rm -f ${TEMP_FILE}
         ) &
     done <<< "$CAT_ALL_URL_LIST"
     # 在这里卡住！等上面所有后台ffmpeg全部跑完【直接写 `wait` 不带参数，等待当前会话所有后台任务结束】
     wait
+    #[[ $(ls ${FFMPED_INFODIR}) ]] && rm -f ${FFMPED_INFODIR}/*
     # 上面所有后台进程全部跑完，读取文件全部内容
     READ_RAW=$(< ${TEST_URL_TMP_RESULT})
     # 删除上面读取出内容变量所有换行、空格
