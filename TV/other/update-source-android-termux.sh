@@ -142,10 +142,10 @@ del_failure_url(){
     MAX_P='10'
     DEL_FAILURE_URL_FILE=$1
     DEL_FAILURE_URL_GROUP=$2
-    TEST_URL_TMP_RESULT='test_url_tmp_result.txt'
+    TEST_URL_TMP_RESULT='testUrlTmpResult.txt'
     FFMPED_INFODIR="ffmped-info"
-    mkdir -p ${FFMPED_INFODIR}
-    rm -f ${FFMPED_INFODIR}/*
+    [[ $(ls -d ${FFMPED_INFODIR} >/dev/null 2>&1) ]] || mkdir -p ${FFMPED_INFODIR}
+    [[ $(ls ${FFMPED_INFODIR}) ]] && rm -f ${FFMPED_INFODIR}/*
     echo '' >${TEST_URL_TMP_RESULT}
     CAT_ALL_URL_LIST=$(grep -En ${DEL_FAILURE_URL_GROUP} -A1  ${DEL_FAILURE_URL_FILE} |grep -E "[0-9]+-http")
     while read line
