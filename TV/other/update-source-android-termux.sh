@@ -624,7 +624,7 @@ main (){
   #del_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   add_tv_to_group_title ${ADD_MY_ZIDINGYI_GROUP_TITLE_1}
   
-  # ==================== 清理某个文件中某个组下失效的url
+  # ==================== 清理"某个文件" 中 "某个组"下失效的url
   echo "清理${MY_SOURCE_FILE_NAME}文件${ADD_MY_ZIDINGYI_GROUP_TITLE_1}组中失效的url，过程较长请耐心等待。。。。。。"
   \cp -rp ${MY_SOURCE_FILE_NAME} ${MY_SOURCE_FILE_NAME}.del_failure.bak
   del_failure_url "${MY_SOURCE_FILE_NAME}" "${ADD_MY_ZIDINGYI_GROUP_TITLE_1}"
