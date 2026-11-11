@@ -70,6 +70,13 @@ const PROXY_GROUPS = [
     url: "http://www.gstatic.com/generate_204",
   },  
   {
+    name: "AAA - [加拿大-自动更新]",
+    match: /(加拿大)/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  }, 
+  {
     name: "AAA - [全部-自动更新]",
     match: /.*/,
     interval: 3600,
