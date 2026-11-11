@@ -184,7 +184,7 @@ del_failure_url(){
             # 注意： `while read line` 是靠 stdin 读取行；当循环内运行 ffmpeg，ffmpeg 会抢 stdin，把剩下的行数据吞掉，直接导致循环异常、只跑一次或者随机少行。
             #       解决方法： 给 ffmpeg 加上 `-nostdin`参数即可
             #timeout 8 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null -  >/dev/null 2>&1
-            timeout 8 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 5 -f null - -progress ${TEMP_FILE} >/dev/null 2>&1
+            timeout 12 ffmpeg -hide_banner -loglevel warning -user_agent Mozilla/5.0 -nostdin -i "${CURL_URL}" -t 10 -f null - -progress ${TEMP_FILE} >/dev/null 2>&1
             
             ret=$?
             # 返回值不为0，地址无法访问
