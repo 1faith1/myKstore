@@ -77,10 +77,14 @@ remove_group_title (){
   do
     GET_COMPLETE_GROUP_TITLE_INFO=$(grep -Po "group-title=\".*?${ONLY_GROUP_TITLE}.*?\"" ${MY_SOURCE_FILE_NAME} |sort|uniq)
     if [[ ! -z ${GET_COMPLETE_GROUP_TITLE_INFO} ]];then
-       for ONLY_GET_COMPLETE_GROUP_TITLE_INFO in ${GET_COMPLETE_GROUP_TITLE_INFO[@]}
+       #for ONLY_GET_COMPLETE_GROUP_TITLE_INFO in ${GET_COMPLETE_GROUP_TITLE_INFO[@]}
+       #do
+       #    echo "      删除 ${ONLY_GET_COMPLETE_GROUP_TITLE_INFO}"
+       #done
+       while read ONLY_GET_COMPLETE_GROUP_TITLE_INFO
        do
-           echo "      删除 ${ONLY_GET_COMPLETE_GROUP_TITLE_INFO}"
-       done
+               echo "      删除 ${ONLY_GET_COMPLETE_GROUP_TITLE_INFO}"
+       done <<< ${GET_COMPLETE_GROUP_TITLE_INFO[@]}
     fi
     ALL_DEL_GROUP_TITLE_NUM=$(grep -En "group-title=\".*${ONLY_GROUP_TITLE}.*\"" ${MY_SOURCE_FILE_NAME}|awk -F ":" '{print $1}')
     for ONLY_DEL_GROUP_TITLE_NUM in ${ALL_DEL_GROUP_TITLE_NUM[@]}
