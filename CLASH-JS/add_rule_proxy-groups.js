@@ -7,6 +7,7 @@ const NEW_RULES = [
   "DOMAIN-SUFFIX,steamstatic.com,DIRECT",
   "DOMAIN-SUFFIX,store.cdn.queniuqe.com,DIRECT",
   "DOMAIN-SUFFIX,steamserver.net,DIRECT",
+  "DOMAIN-SUFFIX,www.sina,DIRECT",
   "IP-CIDR,154.44.20.0/24,DIRECT",
 ];
 
