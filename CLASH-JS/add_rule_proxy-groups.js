@@ -14,6 +14,27 @@ const PROXY_GROUPS = [
   // === 单/多区域组合 - 分组创建 示例 - 自动进行延迟测试
   // 使用此模式match对应地址进行模糊搜索，即使没有也不影响使用
   {
+    name: "AAA - [全部-自动更新]",
+    match: /.*/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  }, 
+  {
+    name: "AAA - [香港-自动更新]",
+    match: /(香港)/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },
+  {
+    name: "AAA - [台湾-自动更新]",
+    match: /(台湾)/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },  
+  {
     name: "AAA - [日本-自动更新]",
     match: /(日本)/,
     interval: 3600, // 1小时测速一次
@@ -26,21 +47,7 @@ const PROXY_GROUPS = [
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  },
-  {
-    name: "AAA - [香港-自动更新]",
-    match: /(香港)/,
-    interval: 3600,
-    type: "url-test",
-    url: "http://www.gstatic.com/generate_204",
   },   
-  {
-    name: "AAA - [台湾-自动更新]",
-    match: /(台湾)/,
-    interval: 3600,
-    type: "url-test",
-    url: "http://www.gstatic.com/generate_204",
-  },  
   {
     name: "AAA - [泰国-自动更新]",
     match: /(泰国)/,
@@ -72,13 +79,6 @@ const PROXY_GROUPS = [
   {
     name: "AAA - [加拿大-自动更新]",
     match: /(加拿大)/,
-    interval: 3600,
-    type: "url-test",
-    url: "http://www.gstatic.com/generate_204",
-  }, 
-  {
-    name: "AAA - [全部-自动更新]",
-    match: /.*/,
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
