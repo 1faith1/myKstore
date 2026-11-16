@@ -34,13 +34,6 @@ const PROXY_GROUPS = [
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  },  
-  {
-    name: "AAA - [日本-自动更新]",
-    match: /(日本)/,
-    interval: 3600, // 1小时测速一次
-    type: "url-test",
-    url: "http://www.gstatic.com/generate_204",
   },
   {
     name: "AAA - [新加坡-自动更新]",
@@ -48,17 +41,31 @@ const PROXY_GROUPS = [
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  },   
+  }, 
   {
-    name: "AAA - [泰国-自动更新]",
-    match: /(泰国)/,
+    name: "AAA - [加拿大-自动更新]",
+    match: /(加拿大)/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  }, 
+  {
+    name: "AAA - [美国-自动更新]",
+    match: /(美国)/,
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
   },
   {
-    name: "AAA - [美国-自动更新]",
-    match: /(美国)/,
+    name: "AAA - [日本-自动更新]",
+    match: /(日本)/,
+    interval: 3600, // 1小时测速一次
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },  
+  {
+    name: "AAA - [泰国-自动更新]",
+    match: /(泰国)/,
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
@@ -76,14 +83,7 @@ const PROXY_GROUPS = [
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  },  
-  {
-    name: "AAA - [加拿大-自动更新]",
-    match: /(加拿大)/,
-    interval: 3600,
-    type: "url-test",
-    url: "http://www.gstatic.com/generate_204",
-  },  
+  },   
 ];
 // ======= 用户配置区 END =======
 
