@@ -17,7 +17,7 @@ const PROXY_GROUPS = [
   {
     name: "AAA - [全部-自动更新]",
     match: /.*/,
-    interval: 3600,
+    interval: 3600,  // 1小时测速一次
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
   }, 
@@ -59,7 +59,7 @@ const PROXY_GROUPS = [
   {
     name: "AAA - [日本-自动更新]",
     match: /(日本)/,
-    interval: 3600, // 1小时测速一次
+    interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
   },  
