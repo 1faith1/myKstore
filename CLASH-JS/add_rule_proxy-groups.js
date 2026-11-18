@@ -20,7 +20,7 @@ const PROXY_GROUPS = [
     interval: 3600,  // 1小时测速一次
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  }, 
+  },
   {
     name: "AAA - [香港-自动更新]",
     match: /(香港)/,
@@ -41,14 +41,14 @@ const PROXY_GROUPS = [
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  }, 
+  },
   {
     name: "AAA - [加拿大-自动更新]",
     match: /(加拿大)/,
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  }, 
+  },
   {
     name: "AAA - [美国-自动更新]",
     match: /(美国)/,
@@ -62,7 +62,7 @@ const PROXY_GROUPS = [
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  },  
+  },
   {
     name: "AAA - [泰国-自动更新]",
     match: /(泰国)/,
@@ -83,12 +83,9 @@ const PROXY_GROUPS = [
     interval: 3600,
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
-  },   
+  },
 ];
 // ======= 用户配置区 END =======
-
-
-
 
 
 // ============== 核心逻辑 ==============
@@ -102,7 +99,7 @@ const main = (config) => {
 
   const allProxyNames = config.proxies.map(p => p.name);
   const groups = config["proxy-groups"];
-  
+
   // ============ 处理规则 ============
   const rules = config.rules;
   const upperRules = rules.map(r => r.toUpperCase().trim());
@@ -116,7 +113,7 @@ const main = (config) => {
   
   // 插入点：在rules:下的第一行进行插入
   let insertIndex = 0
-  
+
   let addedCount = 0;
   for (const rule of NEW_RULES) {
     const upper = rule.toUpperCase().trim();
@@ -146,20 +143,21 @@ const main = (config) => {
   // 循环创建自定义分组
   for (const groupDef of PROXY_GROUPS) {
     let proxies = [];
-
+    
     if (groupDef.proxies && Array.isArray(groupDef.proxies)) {
       proxies = groupDef.proxies;
     } else if (groupDef.match instanceof RegExp) {
       proxies = allProxyNames.filter(name => groupDef.match.test(name));
     }
-
+    
     if (proxies.length === 0) {
       console.log(`⚠️ 代理组 [${groupDef.name}] 未匹配到任何节点`);
       continue;
     }
     // 组装分组基础结构
+    let newName = `${groupDef.name}|[${proxies.length}节点]`;
     const newGroup = {
-      name: groupDef.name,
+      name: newName,
       type: groupDef.type || "select",
       proxies,
     };
@@ -176,10 +174,10 @@ const main = (config) => {
     const exists = groups.some(g => g.name === newGroup.name);
     if (!exists) {
       groups.push(newGroup);
-      newGroupNames.push(newGroup.name);
-      console.log(`✅ 添加代理组：${newGroup.name}（${proxies.length} 节点）type:${newGroup.type}`);
+      newGroupNames.push(newName);
+      console.log(`✅ 添加代理组：${newName}（${proxies.length} 节点）type:${newGroup.type}`);
     } else {
-      console.log(`⚠️ 已存在代理组：${newGroup.name}`);
+      console.log(`⚠️ 已存在代理组：${newName}`);
     }
   }
   // 将本次新建分组名追加到【第一个分组】内部proxies，自动去重
@@ -189,7 +187,7 @@ const main = (config) => {
         firstGroup.proxies.push(gName);
       }
     }
-    console.log(`✅ 已将新增分组添加至proxy-groups第一个分组「${firstGroup.name}」列表末尾`);
+    console.log(`✅ 已将新增分组添加至proxy-groups第一个分组列表末尾`);
   } else if (!firstGroup) {
     console.log("⚠️ proxy-groups 暂无任何分组，跳过追加操作");
   }
