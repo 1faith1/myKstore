@@ -155,7 +155,7 @@ const main = (config) => {
       continue;
     }
     // 组装分组基础结构
-    let newName = `${groupDef.name}|[${proxies.length}节点]`;
+    let newName = `${groupDef.name} - [${proxies.length}节点]`;
     const newGroup = {
       name: newName,
       type: groupDef.type || "select",
