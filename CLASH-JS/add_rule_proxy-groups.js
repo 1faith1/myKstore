@@ -71,6 +71,13 @@ const PROXY_GROUPS = [
     url: "http://www.gstatic.com/generate_204",
   },
   {
+    name: "AAA - [越南-自动更新]",
+    match: /(越南)/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },
+  {
     name: "AAA - [德国-自动更新]",
     match: /(德国)/,
     interval: 3600,
