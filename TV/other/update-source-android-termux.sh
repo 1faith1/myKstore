@@ -368,7 +368,7 @@ add_new_source_to_live_m3u(){
   )
   while IFS=' ' read -r url file
   do
-      downLoadUrlFile "${url}" "${file}" "10"
+      downLoadUrlFile "${url}" "${file}" "20"
       NEW_FILE_NUM=$(grep -En "TG频道"  ${file}|awk -F ":" '{print $1}')
       sed -i -e "1d" -e "${NEW_FILE_NUM},`echo $((${NEW_FILE_NUM} + 1))`d" ${file}
       echo "处理${file}文件中数据，删除TG等无关信息"
@@ -394,8 +394,8 @@ local_chuli_yuan_source(){
   fi
 
   # 下载我得源文件和更新源文件
-  downLoadUrlFile "${MY_SOURCE_ADD}" "${MY_SOURCE_FILE_NAME}" "10"
-  downLoadUrlFile "${NEW_SOURCE_ADD}" "${NEW_SOURCE_FILE_NAME}" "10"
+  downLoadUrlFile "${MY_SOURCE_ADD}" "${MY_SOURCE_FILE_NAME}" "20"
+  downLoadUrlFile "${NEW_SOURCE_ADD}" "${NEW_SOURCE_FILE_NAME}" "20"
   # 查找文本中"#============="所在行数
   FIND_ME_FILE_ONE_NUM=$(grep -En "#=====+" ${MY_SOURCE_FILE_NAME} |head -1|awk -F ":" '{print $1}')
   FIND_ME_FILE_TWO_NUM=$(grep -En "#=====+" ${MY_SOURCE_FILE_NAME} |tail -1|awk -F ":" '{print $1}')
