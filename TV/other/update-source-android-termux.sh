@@ -330,6 +330,7 @@ downLoadUrlFile(){
   do
           START_TRY_DOWNLOAD_NUM=$((START_TRY_DOWNLOAD_NUM + 1))
           echo "第${START_TRY_DOWNLOAD_NUM}次：下载${DOWNLOAD_URL_FILENAME}文件"
+          # 下面wget和curl打开一种方法使用即可，两种都可以正常下载。切勿两个同时打开使用
           # === wget 方式下载文件
           # --tries=1 表示让 wget 只尝试下载 1 次，失败后不再重试.
           # 即下载时若遇到网络问题或服务器无响应，wget 不会自动重新连接，直接报错退出。
