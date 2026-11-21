@@ -328,10 +328,10 @@ downLoadUrlFile(){
   DOWNLOAD_URL_FILENAME=$2
   TRY_DOWNLOAD_NUM=$3
   START_TRY_DOWNLOAD_NUM=0
+  echo "====== START: 开始下载${DOWNLOAD_URL_FILENAME}文件 ======"
   while [ ${START_TRY_DOWNLOAD_NUM} -lt ${TRY_DOWNLOAD_NUM} ]
   do
           START_TRY_DOWNLOAD_NUM=$((START_TRY_DOWNLOAD_NUM + 1))
-          echo "====== START: 开始下载${DOWNLOAD_URL_FILENAME}文件 ======"
           echo "      第${START_TRY_DOWNLOAD_NUM}次下载"
           # 下面wget和curl打开一种方法使用即可，两种都可以正常下载。切勿两个同时打开使用
           # === wget 方式下载文件
