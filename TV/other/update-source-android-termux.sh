@@ -331,12 +331,13 @@ downLoadUrlFile(){
   while [ ${START_TRY_DOWNLOAD_NUM} -lt ${TRY_DOWNLOAD_NUM} ]
   do
           START_TRY_DOWNLOAD_NUM=$((START_TRY_DOWNLOAD_NUM + 1))
-          echo "第${START_TRY_DOWNLOAD_NUM}次：下载${DOWNLOAD_URL_FILENAME}文件"
+          echo "====== START: 开始下载${DOWNLOAD_URL_FILENAME}文件 ======"
+          echo "      第${START_TRY_DOWNLOAD_NUM}次下载"
           # 下面wget和curl打开一种方法使用即可，两种都可以正常下载。切勿两个同时打开使用
           # === wget 方式下载文件
-          # --tries=1 表示让 wget 只尝试下载 1 次，失败后不再重试.
-          # 即下载时若遇到网络问题或服务器无响应，wget 不会自动重新连接，直接报错退出。
-          # wget  -O ${DOWNLOAD_URL_FILENAME} --tries=1 ${DOWNLOAD_URL_ADD}
+          # --tries=1 表示让 wget 只尝试下载 1 次，失败后不再重试.即下载时若遇到网络问题或服务器无响应，wget 不会自动重新连接，直接报错退出。
+          # -q / --quiet：静默模式，完全不输出任何信息
+          # wget -q  -O ${DOWNLOAD_URL_FILENAME} --tries=1 ${DOWNLOAD_URL_ADD}
 
           ## === curl 方式下载文件
           ## -s 静默输出
@@ -345,9 +346,10 @@ downLoadUrlFile(){
           ## -o /dev/null 把响应内容丢弃.本次需要内容，将内容放在了$file中
           curl -f -s -m 1 ${DOWNLOAD_URL_ADD} -o ${DOWNLOAD_URL_FILENAME}
           if [ $? -eq 0 ];then
+                  echo "====== END: 成功下载${DOWNLOAD_URL_FILENAME}文件 ======"
                   break
           elif [[ ${START_TRY_DOWNLOAD_NUM} -eq ${TRY_DOWNLOAD_NUM} ]];then
-                  echo "下载${DOWNLOAD_URL_FILENAME}文件失败"
+                  echo "====== ERROR: 下载${DOWNLOAD_URL_FILENAME}文件失败 ====== "
                   exit 4
           fi
           sleep 3
