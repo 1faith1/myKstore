@@ -328,7 +328,7 @@ downLoadUrlFile(){
   DOWNLOAD_URL_FILENAME=$2
   TRY_DOWNLOAD_NUM=$3
   START_TRY_DOWNLOAD_NUM=0
-  echo "====== START: 开始下载${DOWNLOAD_URL_FILENAME}文件 ======"
+  echo "START: 开始下载${DOWNLOAD_URL_FILENAME}文件"
   while [ ${START_TRY_DOWNLOAD_NUM} -lt ${TRY_DOWNLOAD_NUM} ]
   do
           START_TRY_DOWNLOAD_NUM=$((START_TRY_DOWNLOAD_NUM + 1))
@@ -346,10 +346,10 @@ downLoadUrlFile(){
           ## -o /dev/null 把响应内容丢弃.本次需要内容，将内容放在了$file中
           #curl -f -s -m 5 ${DOWNLOAD_URL_ADD} -o ${DOWNLOAD_URL_FILENAME}
           if [ $? -eq 0 ];then
-                  echo "====== END: 成功下载${DOWNLOAD_URL_FILENAME}文件 ======"
+                  echo "END: 成功下载${DOWNLOAD_URL_FILENAME}文件"
                   break
           elif [[ ${START_TRY_DOWNLOAD_NUM} -eq ${TRY_DOWNLOAD_NUM} ]];then
-                  echo "====== ERROR: 下载${DOWNLOAD_URL_FILENAME}文件失败 ====== "
+                  echo "ERROR: 下载${DOWNLOAD_URL_FILENAME}文件失败"
                   exit 4
           fi
           sleep 3
