@@ -337,7 +337,8 @@ downLoadUrlFile(){
           # === wget 方式下载文件
           # --tries=1 表示让 wget 只尝试下载 1 次，失败后不再重试.即下载时若遇到网络问题或服务器无响应，wget 不会自动重新连接，直接报错退出。
           # -q / --quiet：静默模式，完全不输出任何信息
-          wget -q  -O ${DOWNLOAD_URL_FILENAME} --tries=1 ${DOWNLOAD_URL_ADD}
+          # --no-cache作用：禁止代理 / 服务器缓存**，自动带上请求头 `Cache-Control: no-cache, Pragma: no-cache`，强制拉取最新源文件
+          wget -q --no-cache -O ${DOWNLOAD_URL_FILENAME} --tries=1 ${DOWNLOAD_URL_ADD}
 
           ## === curl 方式下载文件
           ## -s 静默输出
