@@ -318,6 +318,38 @@ add_tv_to_group_title (){
 }
 
 # ---------------------------------------------------------------------------------------------------
+# 作用： 下载某个url对应的文件
+# ---------------------------------------------------------------------------------------------------
+# 【使用方法：downLoadUrlFile "${下载文件url地址}" "${url对应的文件名字-可以自定义}" "${尝试下载几次,失败后就报错不在尝试下载}"】
+downLoadUrlFile(){
+  DOWNLOAD_URL_ADD=$1
+  DOWNLOAD_URL_FILENAME=$2
+  TRY_DOWNLOAD_NUM=$3
+  START_TRY_DOWNLOAD_NUM=0
+  while [ ${START_TRY_DOWNLOAD_NUM} -lt ${TRY_DOWNLOAD_NUM} ]
+  do
+          START_TRY_DOWNLOAD_NUM=$((START_TRY_DOWNLOAD_NUM + 1))
+          # === wget 方式下载文件
+          # --tries=1 表示让 wget 只尝试下载 1 次，失败后不再重试.
+          # 即下载时若遇到网络问题或服务器无响应，wget 不会自动重新连接，直接报错退出。
+          #wget  -O ${DOWNLOAD_URL_FILENAME} --tries=1 ${DOWNLOAD_URL_ADD}
+
+          ## === curl 方式下载文件
+          ## -s 静默输出
+          ## -m 单次请求最大等待 6 秒（超时自动判定失败）
+          ## -f 4xx、5xx 状态码都会直接让 curl 返回失败
+          ## -o /dev/null 把响应内容丢弃.本次需要内容，将内容放在了$file中
+          curl -f -s -m 15 ${DOWNLOAD_URL_ADD} -o ${DOWNLOAD_URL_FILENAME}
+          if [ $? -eq 0 ];then
+                  break
+          elif [[ ${START_TRY_DOWNLOAD_NUM} -eq ${TRY_DOWNLOAD_NUM} ]];then
+                  echo "下载${DOWNLOAD_URL_FILENAME}文件失败"
+                  exit 4
+          fi
+  done
+}
+
+# ---------------------------------------------------------------------------------------------------
 # 作用：发现了新的其他好用源文件，处理下下文件将其追加到本地live.m3u文件内
 # ---------------------------------------------------------------------------------------------------
 add_new_source_to_live_m3u(){
@@ -329,15 +361,7 @@ add_new_source_to_live_m3u(){
   )
   while IFS=' ' read -r url file
   do
-      # -s 静默输出
-      # -m 单次请求最大等待 6 秒（超时自动判定失败）
-      # -f 4xx、5xx 状态码都会直接让 curl 返回失败
-      # -o /dev/null 把响应内容丢弃.本次需要内容，将内容放在了$file中
-      curl -f -s -m 15 $url -o $file
-      if [[ ! $? == 0 ]];then
-          echo "此地址文件无法下载： $url"
-          exit 4
-      fi
+      downLoadUrlFile "${url}" "${file}" "3"
       NEW_FILE_NUM=$(grep -En "TG频道"  ${file}|awk -F ":" '{print $1}')
       sed -i -e "1d" -e "${NEW_FILE_NUM},`echo $((${NEW_FILE_NUM} + 1))`d" ${file}
       echo "处理${file}文件中数据，删除TG等无关信息"
@@ -363,16 +387,8 @@ local_chuli_yuan_source(){
   fi
 
   # 下载我得源文件和更新源文件
-  wget  --tries=1 ${MY_SOURCE_ADD}
-  if [ $? -ne 0 ];then
-    echo "下载${MY_SOURCE_FILE_NAME}文件失败"
-    exit 4
-  fi
-  wget  --tries=1 ${NEW_SOURCE_ADD}
-  if [ $? -ne 0 ];then
-    echo "下载${NEW_SOURCE_FILE_NAME}文件失败"
-    exit 4
-  fi
+  downLoadUrlFile "${MY_SOURCE_ADD}" "${MY_SOURCE_FILE_NAME}" "3"
+  downLoadUrlFile "${NEW_SOURCE_ADD}" "${NEW_SOURCE_FILE_NAME}" "3"
   # 查找文本中"#============="所在行数
   FIND_ME_FILE_ONE_NUM=$(grep -En "#=====+" ${MY_SOURCE_FILE_NAME} |head -1|awk -F ":" '{print $1}')
   FIND_ME_FILE_TWO_NUM=$(grep -En "#=====+" ${MY_SOURCE_FILE_NAME} |tail -1|awk -F ":" '{print $1}')
