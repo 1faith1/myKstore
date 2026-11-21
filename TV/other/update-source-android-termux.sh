@@ -106,6 +106,7 @@ remove_group_title (){
      '央卫·卫视频道' \
      '国内·央视频道' \
      '国内·卫视频道' \
+     '央视频自建'   \
      '咪咕·央视'    \
      '咪咕·卫视'    \
      '稳定源·阿里云.*' \
@@ -335,14 +336,14 @@ downLoadUrlFile(){
           # === wget 方式下载文件
           # --tries=1 表示让 wget 只尝试下载 1 次，失败后不再重试.
           # 即下载时若遇到网络问题或服务器无响应，wget 不会自动重新连接，直接报错退出。
-          #wget  -O ${DOWNLOAD_URL_FILENAME} --tries=1 ${DOWNLOAD_URL_ADD}
+          wget  -O ${DOWNLOAD_URL_FILENAME} --tries=1 ${DOWNLOAD_URL_ADD}
 
           ## === curl 方式下载文件
           ## -s 静默输出
           ## -m 单次请求最大等待 6 秒（超时自动判定失败）
           ## -f 4xx、5xx 状态码都会直接让 curl 返回失败
           ## -o /dev/null 把响应内容丢弃.本次需要内容，将内容放在了$file中
-          curl -f -s -m 15 ${DOWNLOAD_URL_ADD} -o ${DOWNLOAD_URL_FILENAME}
+          # curl -f -s -m 15 ${DOWNLOAD_URL_ADD} -o ${DOWNLOAD_URL_FILENAME}
           if [ $? -eq 0 ];then
                   break
           elif [[ ${START_TRY_DOWNLOAD_NUM} -eq ${TRY_DOWNLOAD_NUM} ]];then
@@ -365,7 +366,7 @@ add_new_source_to_live_m3u(){
   )
   while IFS=' ' read -r url file
   do
-      downLoadUrlFile "${url}" "${file}" "3"
+      downLoadUrlFile "${url}" "${file}" "10"
       NEW_FILE_NUM=$(grep -En "TG频道"  ${file}|awk -F ":" '{print $1}')
       sed -i -e "1d" -e "${NEW_FILE_NUM},`echo $((${NEW_FILE_NUM} + 1))`d" ${file}
       echo "处理${file}文件中数据，删除TG等无关信息"
@@ -391,8 +392,8 @@ local_chuli_yuan_source(){
   fi
 
   # 下载我得源文件和更新源文件
-  downLoadUrlFile "${MY_SOURCE_ADD}" "${MY_SOURCE_FILE_NAME}" "3"
-  downLoadUrlFile "${NEW_SOURCE_ADD}" "${NEW_SOURCE_FILE_NAME}" "3"
+  downLoadUrlFile "${MY_SOURCE_ADD}" "${MY_SOURCE_FILE_NAME}" "10"
+  downLoadUrlFile "${NEW_SOURCE_ADD}" "${NEW_SOURCE_FILE_NAME}" "10"
   # 查找文本中"#============="所在行数
   FIND_ME_FILE_ONE_NUM=$(grep -En "#=====+" ${MY_SOURCE_FILE_NAME} |head -1|awk -F ":" '{print $1}')
   FIND_ME_FILE_TWO_NUM=$(grep -En "#=====+" ${MY_SOURCE_FILE_NAME} |tail -1|awk -F ":" '{print $1}')
