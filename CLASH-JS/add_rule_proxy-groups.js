@@ -91,6 +91,13 @@ const PROXY_GROUPS = [
     type: "url-test",
     url: "http://www.gstatic.com/generate_204",
   },
+  {
+    name: "AAA - [巴西-自动更新]",
+    match: /(巴西)/,
+    interval: 3600,
+    type: "url-test",
+    url: "http://www.gstatic.com/generate_204",
+  },
 ];
 // ======= 用户配置区 END =======
 
