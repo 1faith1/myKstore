@@ -114,6 +114,7 @@ remove_group_title (){
      '.*联通·组播' \
      '.*电信·组播' \
      '华视·.*'    \
+     '央卫视·.*'    \
   )
   echo "删除不需要的group-title..."
   SED_COMMAND_ENV=""
