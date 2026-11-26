@@ -523,7 +523,7 @@ sorting_yw(){
     for  ws in ${ws_sorting[@]}
     do
         if [ ! -z ${ws} ];then
-            grep -Ei  ",.*卫视" -A1 ${NEWFILE_2}|sed "/^--/d"|grep -Ei ",${ws}$" -A1|sed "/^--/d" >>${TMPDIR_WS}
+            grep -Ei  ",.*卫视" -A1 ${NEWFILE_2}|sed "/^--/d"|grep -i ",${ws}$" -A1|sed "/^--/d" >>${TMPDIR_WS}
         fi
     done
     cat ${TMPDIR_YS} > ${NEWFILE_2}
