@@ -517,7 +517,7 @@ sorting_yw(){
     for  ys in ${ys_sorting[@]}
     do
         if [ ! -z ${ys} ];then
-            grep -Ei  ",.*cctv" -A1 ${NEWFILE_2}|sed "/^--/d"|grep -Ei ",${ys}$" -A1|sed "/^--/d" >>${TMPDIR_YS}
+            grep -Ei  ",.*cctv" -A1 ${NEWFILE_2}|sed "/^--/d"|grep -i ",${ys}$" -A1|sed "/^--/d" >>${TMPDIR_YS}
         fi
     done
     for  ws in ${ws_sorting[@]}
