@@ -565,15 +565,33 @@ custom_yangweishi(){
   sed  -i "s/,cctv-/,cctv/Ig"  ${NEWFILE_2}
   # 在NEWFILE_2文件中转换所有带中文的ys名字为统一的ys名
   # 获取NEWFILE_2中所有ys除带欧美的名字
-  GET_CCTV_CHINESE=$(awk -F "," '{print $NF}' ${NEWFILE_2} |grep -Ev "^http"|grep -i "cctv"|grep -Ev "欧|美"|sort|uniq)
+  GET_CCTV_CHINESE=$(awk -F "," '{print $NF}' ${NEWFILE_2} |grep -Ev "^http"|grep -Ei "cctv(1[0-7]|[1-9])"|sort|uniq)
   #for ONLY_CCTV_CHINESE in ${GET_CCTV_CHINESE[@]}
   while read line
   do
     # 将ys的英文名字全部变为大写字母
     #UP_CCTV_CHINESE=$(echo ${ONLY_CCTV_CHINESE}|grep -Eio "[a-z]+[0-9]{1,2}|[a-z]+[0-9]{1,2}\+"|tr '[:lower:]' '[:upper:]')
     #sed -i  "s/,${ONLY_CCTV_CHINESE}/,${UP_CCTV_CHINESE}/g" ${NEWFILE_2}
-    UP_CCTV_CHINESE=$(echo ${line}|sed -E 's/cctv/CCTV/Ig; s/ //g' | tr -d '\200-\377')
-    sed -i  "s/,${line}/,${UP_CCTV_CHINESE}/g" ${NEWFILE_2}
+    UP_CCTV_CHINESE=$(echo ${line}|sed -E 's/cctv/CCTV/Ig; s/ //g ; s/2K//Ig; s/4K//Ig; s/8K//Ig')
+    for cctv_num in {17..1}
+    do
+       # 判断echo ${line}是否包含CCTV{17..1},倒序查不会查重复将cctv17误grep成cctv1
+       if [[  $(echo ${UP_CCTV_CHINESE}|grep "CCTV${cctv_num}") ]];then
+          # 单独判断cctv5，因为有cctv5+。
+          if [[ ${cctv_num} == 5 ]];then
+               if [[ $(echo ${UP_CCTV_CHINESE}|grep 'CCTV5+') ]];then
+                    sed -i  "s/,${line}/,CCTV5+/g" ${NEWFILE_2}
+                    break
+               elif [[ $(echo ${UP_CCTV_CHINESE}|grep 'CCTV5') ]];then
+                    sed -i  "s/,${line}/,CCTV5/g" ${NEWFILE_2}
+                    break
+               fi
+          else
+               sed -i  "s/,${line}/,CCTV${cctv_num}/g" ${NEWFILE_2}
+               break
+          fi
+       fi
+    done
   done <<< ${GET_CCTV_CHINESE}
   # # // 处理文件：将根据GET_ALL_YANGWEISHI_GROUPTITLE找到的所有pd，除上面ys/ws外所有pd追加到NEWFILE_2文件
   #sed -e "$(grep -nEi ",.*CCTV|,.*卫视" ${NEWFILE_1} | cut -d: -f1 | awk '{printf "%dd;%dd;",$0,$0+1}')" ${NEWFILE_1}  >> ${NEWFILE_2}
