@@ -563,14 +563,16 @@ custom_yangweishi(){
   grep -Ei  ",.*卫视" -A 1 ${NEWFILE_1}|sed "/^--/d" >> ${NEWFILE_2}
   # 将cctv-1这种格式全部转换为cctv1的格式("///I"不区分大小写)
   sed  -i "s/,cctv-/,cctv/Ig"  ${NEWFILE_2}
-  # 将,.*卫视HD或者后面有其他字符的这种格式全部转换为,.*卫视的格式
+  # 将(,.*卫视HD)/(,.*卫视后面有其他字符)的这种格式全部转换为(,.*卫视)的格式
   #     (.*卫视) 捕获到 卫视 为止
   #     ().* 匹配卫视后面所有字符，直接替换成捕获组 '\1'
   #     () 就是捕获组：把括号里匹配到的内容存起来，后面用 `\1` 调取。
   #        '\1' = 第 1 个'()' 捕获到的内容
   #        '\2' = 第 2 个'()'，以此类推
   sed -i -E 's/(group-title=".*",.*卫视).*/\1/'   ${NEWFILE_2}
-  # 在NEWFILE_2文件中转换所有带中文的ys名字为统一的ys名
+  # ============================================================== 在NEWFILE_2文件中转换所有带中文的ys名字为统一的ys名 - START
+  # ==============================================================
+  # ==============================================================
   # 获取NEWFILE_2中所有ys的名字
   GET_CCTV_CHINESE=$(awk -F "," '{print $NF}' ${NEWFILE_2} |grep -Ev "^http"|grep -Ei "cctv(1[0-7]|[1-9])"|sort|uniq)
   #for ONLY_CCTV_CHINESE in ${GET_CCTV_CHINESE[@]}
@@ -600,8 +602,9 @@ custom_yangweishi(){
        fi
     done
   done <<< ${GET_CCTV_CHINESE}
-  # # // 处理文件：将根据GET_ALL_YANGWEISHI_GROUPTITLE找到的所有pd，除上面ys/ws外所有pd追加到NEWFILE_2文件
-  #sed -e "$(grep -nEi ",.*CCTV|,.*卫视" ${NEWFILE_1} | cut -d: -f1 | awk '{printf "%dd;%dd;",$0,$0+1}')" ${NEWFILE_1}  >> ${NEWFILE_2}
+  # ==============================================================
+  # ==============================================================
+  # ============================================================== 在NEWFILE_2文件中转换所有带中文的ys名字为统一的ys名 - END
   # 修改/group-title为自定义的group-title
   sed -i "s/group-title=.*\,/group-title=\"${ADD_MY_ZIDINGYI_GROUP_TITLE}\"\,/g" ${NEWFILE_2}
   \cp -rp ${NEWFILE_2} ${NEWFILE_2}.bak
