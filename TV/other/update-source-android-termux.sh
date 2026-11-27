@@ -589,14 +589,14 @@ custom_yangweishi(){
           # 单独判断cctv5，因为有cctv5+。
           if [[ ${cctv_num} == 5 ]];then
                if [[ $(echo ${UP_CCTV_CHINESE}|grep 'CCTV5+') ]];then
-                    sed -i  "s/,${line}/,CCTV5+/g" ${NEWFILE_2}
+                    sed -i  "s/,${line}$/,CCTV5+/g" ${NEWFILE_2}
                     break
                elif [[ $(echo ${UP_CCTV_CHINESE}|grep 'CCTV5') ]];then
-                    sed -i  "s/,${line}/,CCTV5/g" ${NEWFILE_2}
+                    sed -i  "s/,${line}$/,CCTV5/g" ${NEWFILE_2}
                     break
                fi
           else
-               sed -i  "s/,${line}/,CCTV${cctv_num}/g" ${NEWFILE_2}
+               sed -i  "s/,${line}$/,CCTV${cctv_num}/g" ${NEWFILE_2}
                break
           fi
        fi
