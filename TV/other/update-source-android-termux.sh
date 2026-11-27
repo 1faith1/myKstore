@@ -564,7 +564,7 @@ custom_yangweishi(){
   # 将cctv-1这种格式全部转换为cctv1的格式("///I"不区分大小写)
   sed  -i "s/,cctv-/,cctv/Ig"  ${NEWFILE_2}
   # 在NEWFILE_2文件中转换所有带中文的ys名字为统一的ys名
-  # 获取NEWFILE_2中所有ys除带欧美的名字
+  # 获取NEWFILE_2中所有ys的名字
   GET_CCTV_CHINESE=$(awk -F "," '{print $NF}' ${NEWFILE_2} |grep -Ev "^http"|grep -Ei "cctv(1[0-7]|[1-9])"|sort|uniq)
   #for ONLY_CCTV_CHINESE in ${GET_CCTV_CHINESE[@]}
   while read line
